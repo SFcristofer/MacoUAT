@@ -1,0 +1,45 @@
+// ==============================================================================
+// SCRIPT 1: PRUEBA DE LECTURA DE PEDIDOS (Para motivos de artículos no surtidos)
+// Objetivo: Demostrar que el usuario de integración no tiene permisos (HTTP 403)
+// para leer el detalle de los pedidos desde Salesforce.
+// ==============================================================================
+
+String token = ZafiroAuthManager.getToken();
+Http http = new Http();
+HttpRequest req = new HttpRequest();
+// Pedido 001-96934 -> AlmacenID 001, PedidoID 96934
+req.setEndpoint('callout:IntegracionZafiro/pedidos/001/96934');
+req.setMethod('GET');
+req.setHeader('Authorization', 'Bearer ' + token);
+req.setHeader('Content-Type', 'application/json');
+
+try {
+    HttpResponse res = http.send(req);
+    System.debug('>>> ESTATUS HTTP: ' + res.getStatusCode());
+    System.debug('>>> RESPUESTA ZAFIRO: ' + res.getBody());
+} catch(Exception e) {
+    System.debug('>>> ERROR: ' + e.getMessage());
+}
+
+// ==============================================================================
+// SCRIPT 2: PRUEBA DE LECTURA DE CRÉDITO DE CLIENTES (Para el Batch Nocturno)
+// Objetivo: Demostrar que el usuario de integración no tiene permisos (HTTP 403)
+// para consultar el límite de crédito y saldo de un cliente.
+// ==============================================================================
+
+String tokenCredito = ZafiroAuthManager.getToken();
+Http httpCredito = new Http();
+HttpRequest reqCredito = new HttpRequest();
+// Cliente con ID 1362 en Zafiro
+reqCredito.setEndpoint('callout:IntegracionZafiro/clientes/InformacionCredito/1362');
+reqCredito.setMethod('GET');
+reqCredito.setHeader('Authorization', 'Bearer ' + tokenCredito);
+reqCredito.setHeader('Content-Type', 'application/json');
+
+try {
+    HttpResponse resCredito = httpCredito.send(reqCredito);
+    System.debug('>>> ESTATUS HTTP: ' + resCredito.getStatusCode());
+    System.debug('>>> RESPUESTA ZAFIRO: ' + resCredito.getBody());
+} catch(Exception e) {
+    System.debug('>>> ERROR: ' + e.getMessage());
+}

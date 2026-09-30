@@ -1,0 +1,332 @@
+[Reporte semanal...] 576072292608Abner Trujillo   21:42De acuerdo, Rodrigo
+[Revisión proces...] De todos los eventos y actividades realizadas, a lo mejor esta parte, honestamente, yo creo que no la estamos explotando correctamente y nos falta tener
+[Revisión proces...] 576072292608Ana Maria Ruiz   53:30O K, de acuerdo, ahí está ahora nuevo
+[Reporte Semanal...] No sé este Abraham, si algo técnico o algo más que se requiera o necesitamos revisar bien el documento
+[Revisión proces...] Esa validación igual y revisarla, si nos funciona, que nos funcione bien o mejor
+[Reporte Semanal...] 576072292608Abner Trujillo   13:12O K, perfecto eso y revisamos también aprovechamos para revisar el que cuando se envíe, pues obviamente no se no haya un desorden ahí en este al momento de que se envía al DRP
+[Reporte Semanal...] 576072292608Abner Trujillo   6:27¿Tendremos que revisarlo, verdad, Cris
+[Reporte semanal...] Pero este mecanismo lo que hace es todavía validar el dispositivo en donde te estás conectando, entonces ya no hay
+[Revisión de la ...] 576072292608Ana Maria Ruiz   21:06De acuerdo, esto lo comento y sí considerarlo, porque si hay cosas nuevas que se tengan que conectar, hacer y por lo tanto desarrollar por el lado de zafiro, sí necesitamos saberlo porque necesitamos ahora sí acudir con ellos
+[Reporte Semanal...] Entonces me parece que sí se puede, pero tendríamos que revisar para verificar qué tanto implica, ¿no
+[Revisión de la ...] 576072292608Ana Maria Ruiz   24:54O K hecho, de acuerdo, gracias
+[Revisión proces...] 576072292608Abner Trujillo   57:06Habría que revisar ese el usuario que está con el que se está haciendo la integración
+[Revisión de la ...] Para este tipo de actividades me da 1 hora y me dice que ya se encuentra planificado y ya de acuerdo a la geolocalización me da el seguimiento de cómo debo llevarlo a cabo
+[Revisión proces...] ¿Están de acuerdo
+[Reporte semanal...] Si hace falta algún campo, pues igual lo podemos agregar todavía, pero nosotros agregamos los que vemos que bueno, los que nos explicaste que son los que más se utilizan, no sobre todo para visualizarlo de primera instancia y ya de ahí entrar directamente a
+[Kick off - MACO...] Las funcionalidades, el único tema sería entrar al ambiente de UIT, que es en donde tendríamos nosotros que hacer una conexión para que de ahí podamos validar todos los procesos que o todas las mejoras que vayamos haciendo antes de poder migrar a producción
+[Reporte Semanal...] Y por ejemplo, en sus caminos, todo lo que ha realizado aún nos hacen falta desarrollar o en este caso configurar las plantillas, dado que es cada vez que se realiza una plantilla se tiene que sincronizar el dispositivo y esto sí recibe un poco de tiempo
+[Revisión de la ...] 576072292608Ana Maria Ruiz   16:27O K, de acuerdo ahora, y si quieres invocar otros productos, lo haces también ahí en la búsqueda de la pantalla anterior
+[Revisión proces...] Tenemos que estar producto por producto
+[Revisión de la ...] O sea, aquí en su día a día, aquí no nuestro vendedor, pues tiene cuántos acuerdos tiene pendientes por revisar
+[Revisión proces...] O puedo revisar la existencia si es que tuviera una existencia menor en esta parte y ver este si lo tienen
+[Revisión proces...] Entonces aquí ya la tenemos pendiente de aprobación, que es la aceptación
+[Revisión proces...] Tengo que revisar, esto está si está bien, lo pedíamos ahí entre el proceso para poder validar el almacén, las fechas, el cliente, el número de cliente
+[Revisión proces...] 576072292608Abner Trujillo   1:20:51Sí, habría que habría que revisar ahí este, habría que revisar ahí este Ana María, porque esto ya es ahora sí que ya es funcionalidad de plataformas
+[Sesión - Revisi...] Entonces todo esto que estamos viendo o que estamos denunciando en estos párrafos es justo lo que el hoy por hoy como ustedes tienen esa programación, de acuerdo, porque entendíamos que pues el proveedor anterior, por alguna razón, no dejó documentado ciento por ciento
+[Revisión proces...] Nos coordinamos de acuerdo, sí, ya está confirmado este Roy, ahorita bueno, me acaba de confirmar y pues bueno, ya sí, ya no te movemos y me dice que mejor mejor a las 5:00, digo mejor para él
+[Reporte semanal...] Okey, de acuerdo, entonces quítate a los 2
+[Revisión de la ...] De hecho, ya Cris ya está empezando a revisar lo que tenemos ahora mismo en producción en estos días, este, pero todavía no tenemos como el detalle completo
+[Revisión proces...] Vuelvo a revisar y me aparece aquí el estatus listo para enviar
+[Reporte Semanal...] 576072292608Ana Maria Ruiz   15:01O K, de acuerdo
+[Kick off - MACO...] Y una vez que ya ellos puedan entrar a o sí, tal vez al final de su recorrido a un punto donde ya haya señal, entonces
+[Sesión - Revisi...] Cuando se puede, hay ocasiones que no se puede y tenemos que darlo de alta
+[Revisión proces...] Este checábamos, no me aparecía esta pantalla, necesito revisarla, pero ponía ahí el tipo de visita porque la visita que vas a hacer incluso está planificada, no planificada, que de hecho
+[Revisión de la ...] Entonces, lo importante de todo esto es que esta aplicación sí va a permitir poder ejecutar de manera offline todo ese proceso sin que se pierda o el que tenga que volver a retrabajar el equipo este o esperarse hasta que encuentren un punto donde hay una, digamos, donde hay cobertura, no o donde haya señal
+[Kick off - MACO...] De acuerdo, no solamente de estos manuales, sino también de los reportes semanales para que ustedes en el momento que tengan que informar hacia arriba, pues también tengan todos estos materiales de nuestra parte
+[Revisión de la ...] 576072292608Ana Maria Ruiz   37:08O K, de acuerdo y ya nada más
+[Sesión - Revisi...] 576072292608Abner Trujillo   33:57Hablo en la parte de las direcciones con los prospectos al momento de que hacen la ya la conversión, todo esto que nos acaban de platicar, si este lo vamos a revisar ya directamente en el UIT, que es en donde tenemos más datos y sobre de eso ya podemos ver este cuál es el flujo o cuál es el o cómo está el proceso por dentro
+[Reporte Semanal...] Y bueno, hace falta solamente sintonizarlo y de esta manera pueden visualizar todo lo que ha hecho, sus notificaciones, sus accesos, todos los sus actividades, por así decirlo
+[Kick off - MACO...] De acuerdo, entonces para esta aplicación forzosamente deben de tener todos la aplicación, deben descargarla, obviamente ya después de tu configuración e indicaciones, y deben de hacer el checking checkout por medio de esa aplicación
+[Revisión de la ...] La idea es que el de acuerdo a lo que habíamos platicado en el alcance era ya porque ya lo también ahí nos dimos a la tarea de revisar un poco, es si es hacer el tema del check-in del checkout y también el tema de levantamiento de pedidos, que esos en su momento también nos había platicado su
+[Revisión proces...] Ahorita me da la existencia, la clasificación, la ubicación y nuevamente aquí puedo, no, acá ya no puedo revisar existencias
+[Revisión de la ...] Entonces esto no solamente se puede generar por los usuarios o por los ejecutivos, también se puede generar masivamente, y eso va muy de acuerdo al orden o a la planificación que ustedes quieran ir realizando
+[Revisión de la ...] 576072292608Abner Trujillo   21:47De acuerdo
+[Revisión de la ...] 576072292608Ana Maria Ruiz   22:17De acuerdo, gracias
+[Revisión de la ...] Aquí también, por ejemplo, tenemos el calendario de nuestras visitas, reportes correspondientes de acuerdo a su ejecución y eso lo vamos ya ir viendo reflejado, actividades que se tienen que realizar y los mapas que hoy en día tenemos y sobre todo hacia el punto o partida de nuestro ejecutivo
+[Revisión proces...] 576072292608Ana Maria   2:01:19O K, de acuerdo, miércoles a las 12:00, ahorita lo anotamos, ¿verdad
+[Revisión proces...] 576072292608Manuel  Gonzalez   27:46Sí, sobre todo aquí lo vemos, son 5 artículos, no, pero si me pide 100 artículos, entonces sí, como cómo lo voy a validar, ¿no
+[Reporte semanal...] 576072292608Marlon Maco   55:41Sí, este veo ya que está el documento de Blueprint, este me permiten este revisarlo bien a detalle y ya este puedo ahí comentarles este con detalle todo lo que ya hay para trabajar con el las APIs
+[Revisión de la ...] De acuerdo, o K, muchas gracias
+[Revisión de la ...] Y con eso ya este sea más fácil poder saber que este si a si haré algo falta para, o sea, complementar ahí la
+[Reporte Semanal...] Te voy avisando, Ana María, conforme vayamos haciendo los ajustes para que nos ayudes ahí a validarlo con el personal con el que estás haciendo las pruebas y este y pues seguimos en contacto entonces
+[Reporte Semanal...] Y eso pues también ya es momento de que también lo empecemos a revisar, ¿no
+[Reporte Semanal...] Pues falta, falta un poco más, pues, pero no podría yo ahora mismo mostrarles el funcionamiento, porque realmente en la aplicación todavía en el front no se ve algo, no todo lo que hemos estado haciendo es preparar el back
+[Revisión proces...] 576072292608Abner Trujillo   2:01:07Perfecto, pues entonces quedamos pendientes ahí de esa información
+[Revisión de la ...] Entonces ahí también vamos a validar cómo a través de la opción offline
+[Revisión de la ...] Entonces aquí ya realizo estas visitas y me dice que se han creado 7 visitas en total, es decir, que este ejecutivo de ventas, Manuel González, para esa semana, de acuerdo a las cuentas que tenía planificadas y el tipo de visita que tiene que realizar
+[Reporte Semanal...] ¿De qué es lo que pudieron revisar con respecto a estos documentos
+[Kick off - MACO...] Eso sí, ya lo pudimos revisar
+[Kick off - MACO...] Y nosotros, pues nuestro compromiso hacia ustedes es que
+[Reporte Semanal...] No lo sé si tuvieron también oportunidad de revisar esa parte
+[Revisión proces...] No hemos visto, no han visto esto, esto, las actividades que han hecho, si tienen check in, check out, si tienen cotizaciones, visitas o algún pendiente
+[Sesión - Revisi...] Okay, de acuerdo, el último punto aquí la verdad no nos quedó claro, este no sé si sea relevante o con lo que hemos platicado, estamos platicando a ti te quede claro, pero dice confirmar si Zafiro puede notificar cambios de estatus de clientes webhook
+[Revisión proces...] 576072292608Abner Trujillo   23:26De acuerdo
+[Reporte Semanal...] 576072292608Abner Trujillo   19:43De acuerdo
+[Kick off - MACO...] 576072292608Abner Trujillo   57:51Si la aplicación móvil es más, este, digamos como ahorita como el punto más importante, si enfocar un poco más los esfuerzos, digo ya cuando lleguemos a la parte de la captura, la gestión, la búsqueda y todo eso al final del día, cuando hagamos los cambios sí o sí tenemos que llegar ya directamente a ver qué información estaría faltando en estas integraciones, si es que así falta, no realmente ahí no
+[Reporte semanal...] 576072292608Ana Maria Ruiz   11:53O K va de acuerdo, entonces este lo vamos a quitar, ya lo vio Ram, este creo que necesitábamos confirmar esto, que es lo que le decía yo en la mañana ya para ver los usuarios que nos falta
+[Kick off - MACO...] Bajo su perspectiva es yo lo que voy a validarte es paso uno, paso 2, paso 3
+[Revisión de la ...] Aparte tenemos lo que son la los agentes de ventas que están separados por regiones, por rutas ye independiente están lo que son los propietarios de las cuentas
+[Revisión de la ...] Entonces eso es lo que nos ayuda a que, por ejemplo, nosotros específicamente para nuestro portafolio y por el tipo de distribuidor o mayorista, aquí nosotros podemos colocarle cuáles son los productos que nosotros tenemos que revisar
+[Revisión proces...] El jueves, a ver, déjame nada más revisar si no tengo nada, dame un segundito
+[Revisión de la ...] Entonces estos nos puede llevar un poco un poco de tiempo para ir teniendo datos, no con los cuales podamos practicar y validar también de este lado
+[Revisión de la ...] El tema de sacar precios de competencia, no, que eso también nos va a ayudar para ver cuando lanzamos una promoción, un seguimiento, ver dónde, dónde, en qué territorio, en qué lugar nos están atacando más y es donde tenemos que ser un poquito más agresivos, ¿no
+[Reporte Semanal...] Gracias, ingeniero Rodrigo, todos este, pues ahí seguimos estando pendientes
+[Reporte Semanal...] Ahí ya logramos ya implementar nuevas funcionalidades, solamente que el último punto que traemos, que es la parte de la construcción del pedido, es la que nos está haciendo ahí falta para pues complementar la funcionalidad
+[Reporte semanal...] Ahí los avances básicamente que tenemos es el ya poder ver no solamente el logo de maco, sino también ya las funciones de levantamiento de pedido y de cotizaciones, aunque todavía falta desarrollar
+[Sesión - Revisi...] 576072292608Abner Trujillo   9:32De acuerdo
+[Reporte Semanal...] 576072292608Abner Trujillo   17:27Perfecto, entiendo de acuerdo
+[Reporte Semanal...] Muy similar, o K, de acuerdo, sí, permíteme revisarlo con el equipo para ver cómo podríamos hacerlo todavía más inspirado a cómo funciona en zafiro
+[Revisión proces...] 576072292608Ana Maria   1:27:06Parte de lo que tenemos ahí entre los pendientes de las direcciones
+[Kick off - MACO...] Este Entonces quedaría pendiente eso, saber si ese va a ser nuestro punto número uno y ya sea eso, pues programar esa sesión para conocer el proceso
+[Kick off - MACO...] para que también conozcan un poco nuestras metodologías y el seguimiento que damos a los proyectos de acuerdo y bueno comenzamos primero un poco atendiendo a los antecedentes digo para estar en sintonía con lo que vaya con lo que vamos a estar haciendo en durante esta esta implementación de estas mejoras sabemos que ustedes actualmente pues están gestionando su operación comercial eny que tienen una integración ya con su rp que se que es Zafiro y justamente pues llevan ahí la administración de sus clientes de sus productos de sus pedidos de sus listas de precios todas estas áreas o hay áreas de oportunidad que han ustedes identificado en sobre todo en la captura de pedidos en la gestión del catálogo que tieneMás de 39000 productos
+[Revisión de la ...] De acuerdo, de hecho, ahí ajá, justo lo que también quería proponerte ahí, si es más, y todo el equipo está de acuerdo, es que ya cuando salgamos con estas funcionalidades en producción podamos hacer ya la actualización de ese de ese sandbox
+[Reporte Semanal...] 576072292608Abner Trujillo   9:48De acuerdo, Ana María, perfecto con otro punto, aparte de esto de las integraciones, también ahí habíamos, no sé si también tuvieron la oportunidad en estos días, por lo que vi tuvieron ahí unos temas de acceso dentro del Sandbox UIT, pues no sé si se dieron ahí la oportunidad de revisar el tema de
+[Kick off - MACO...] Si no está así, pues obviamente no te lo puedo validar
+[Revisión de la ...] Ya este plan, entonces de acuerdo a las visitas que vamos gestionando, entonces ya no más, ya no es solamente generar las visitas, sino que ya están en esa medición y van de acuerdo a este tipo de cuenta
+[Revisión proces...] Ya si de ahí falta algún campo o algo que necesitemos, pues bueno, ya nos lo vamos validando en igual en estos en el transcurso, pues sí
+[Kick off - MACO...] Entonces, pues bueno, como traemos un poco la agenda, lo que les platicaba al inicio de la sesión es revisar justamente en esta pequeña presentación, como es la manera en cómo trabajamos dentro de Technovalue
+[Reporte Semanal...] De acuerdo, y todavía no llegamos a la parte de la implementación o comunicación con Safir, las conexiones y todo ese rollo
+[Kick off - MACO...] 576072292608Abner Trujillo   58:16debería de haber tanto problema, de acuerdo a mi experiencia, lo que he vivido con otros clientes, no creo que sea tanto el problema, no es que lo minimicen y mucho menos, pero la aplicación móvil sí conlleva un poco más de trabajo y más de atención, porque son todos los datos que ustedes hoy por hoy manejan y por supuesto les afecta mucho en la operación
+[Revisión proces...] okay, okay, de acuerdo
+[Reporte semanal...] 576072292608Ana Maria Ruiz   0:17Porque estoy tratando de entrar a ver aquí usuarios de acuerdo a lo que me mostraste y ya le agarré aquí la onda, mira
+[Revisión de la ...] Tiene su sincronizado en su día a día y de acuerdo a la optimización que hicimos en mapas, a la ruta, etcétera, ya les le aparece esa ejecución correspondiente para darle ese seguimiento
+[Revisión proces...] Entonces ya de este lado, pues aparece el valor y me imagino que todavía ustedes pasan por una validación dentro de este sistema para revisarlo
+[Revisión proces...] Entonces ponte a revisar, pues es un caos diferente
+[Kick off - MACO...] Lo que , lo que acabas de mencionar es algo adicional, no está contemplado en el alcance y lo podamos ver de forma independiente
+[Revisión proces...] 6129, creo que era este, sí, con la orden de entrega yo llamo a todos mis pedidos, pongo mi usuario quien lo hizo, me relaciono a mi pedido, que ya no me acuerdo cuál era 115991 si no mal recuerdo, bueno, y acá
+[Reporte Semanal...] 576072292608Ana Maria Ruiz   14:16De acuerdo, pero entonces en el otro sandbox que tenemos, digamos, es donde van a actualizar información y ya pasan todo lo desarrollado aquí
+[Revisión proces...] 576072292608Ana Maria   1:17De acuerdo, adelante, mucho gusto, Manuel, bienvenida
+[Kick off - MACO...] Hacen pruebas de todas las mejoras, simulando como si estuviéramos en producción, por supuesto, y con eso validar que realmente no va a tronar en producción
+[Revisión proces...] Yo acá puedo ver todo, veo que la manguera ya la surtí, las conexiones ya la surtí y me falta por surtir esta conexión
+[Reporte semanal...] Ahí, sobre todo después de esta sesión que tuvimos con Ana María para revisar el tema de cómo es o cómo debiera de ser ya más óptimo el tema de la captura y las perdón, las capturas de pedidos y de cotizaciones, nos dimos a la tarea justamente de desarrollar esos componentes, ahorita les voy a mostrar
+[Revisión proces...] 576072292608Abner Trujillo   1:33:21¿O K o K, de acuerdo, y es digamos que eso es este, ellos lo ven este esta ficha de objetivos y saben exactamente, me imagino que son preguntas o son, le dijiste ahorita encuestas, ¿no
+[Sesión - Revisi...] 576072292608Ana Maria Ruiz   1:04:25productivo pero como él lo mencionó pues que lo ve que lo ponga en uate no para su consulta y lo que te decía hace un rato sí muchas de las cosas que ahí piden es lo que comentaba con el ingeniero Abraham lo tenemos Entonces si lo que tenemos nos funciona y nada más se puede como que redireccionar hacia el offline pues adelante no si no si esDe zafiro, a bueno, pues lo hacemos, pero si lo tenemos y nos funciona, pues ya nada más lo que sea necesario hacer de acuerdo
+[Revisión proces...] Nos da la ubicación y acá podemos revisar si aquí yo tuviera existencia cero, puedo buscar si tengo la existencia en otros almacenes
+[Revisión proces...] La existencia en otros almacenes la puedo revisar solamente en la captura
+[Revisión proces...] 576072292608Abner Trujillo   25:54De acuerdo
+[Reporte Semanal...] Y las actividades que estaríamos realizando la semana siguiente, justamente es la activación de los canales de mensajería y el continuaremos, pues con esta parte de la revisión de las integraciones entre Zafiro y Salesforce para ver qué información es la que nos esté haciendo falta y con eso, pues poder complementar
+[Reporte Semanal...] 576072292608Marlon Maco   7:13De acuerdo
+[Revisión proces...] 576072292608Abner Trujillo   42:34Okay, de acuerdo, sí, perfecto, yo lo creo que entonces con esto ya lo puedo aprovechar también para que le echen un ojo ahí los chicos, ya que estamos haciendo eso, o sea que realmente se basen en el nombre del producto en las búsquedas para que aquí pues obviamente te aparezca este
+[Reporte Semanal...] 576072292608Ana Maria Ruiz   21:29De acuerdo, Abner, sí, estamos pendientes
+[Reporte Semanal...] De acuerdo, sí, en ese caso sí aplicaría de esa forma
+[Revisión proces...] Entonces este es un dato abierto donde se pone el dato cuando es reglamentario, la orden de compra o alguna referencia de quién lo hizo, quién lo está haciendo para que así me llegue a Salesforce
+[Revisión proces...] 576072292608Ana Maria   22:18Ahí depende mucho, no tanto, bueno, sí lo que quiera el cliente, pero precisamente por eso, previo a la cotización para validar con el proveedor, si lo tengo disponible, si no lo tengo disponible, en qué tiempo y toda esa información se la doy al cliente para que considere los tiempos de entrega
+[Revisión de la ...] Hacer la implementación ahí de la aplicación móvil, que ese es como el primer alcance que tenemos, no, pero lo importante es que ahora mismo vean como digamos como todo este estas funciones en general con lo que adquirieron y como en fases posteriores podemos irlas implementando, mejorando de acuerdo a lo que a lo que este ustedes definan como prioridad, ¿no
+[Reporte Semanal...] Nosotros tenemos que realizar toda una preparación por detrás dentro de la organización para que la aplicación pueda sincronizar esa información
+[Revisión proces...] 576072292608Ana Maria   1:12:34Exactamente Exactamente que esto no, pues no debería de hacerlo o de permitirlo ya en este paso, ya en este paso, pero bueno, es lo que tenemos ahorita esta vista y hasta ahí es lo que ventas puede revisar, puede ver de sus pedidos generados
+[Sesión - Revisi...] Bueno, creo que eso lo podemos validar también del lado de en el sandbox de UIT como para hacer primero el flujo, revisar cómo es que está, cómo es que está reaccionando, qué es lo que nos están contando ahora mismo y sobre eso, entonces sí hacer el ajuste en
+[Sesión - Revisi...] 576072292608Abner Trujillo   20:35De acuerdo
+[Revisión proces...] Yo no puedo recotizar sin antes pasar a pendiente de aprobación, como que acepto la cotización
+[Revisión proces...] Se lo consulto ahorita, este lo de las visitas tiene la persona que saca el reporte por Excel, lo saco rapidísimo y se lo subo en el grupo para comentarles cuántas y denme oportunidad de revisar las cotizaciones
+[Revisión proces...] 576072292608Abner Trujillo   58:33Okey, okey, de acuerdo
+[Reporte Semanal...] Siéntanse en confianza y pues vamos a estar ahí pendientes para apoyarlos
+[Revisión de la ...] 576072292608Manuel  Gonzalez   19:37Eso es una muy buena pregunta, Ana, y esto lo tendríamos que validar, porque si bien ya ahorita tienen ustedes un puente, es decir, ya hay un web service o una API que transmite información tanto de Zafiro a Salesforce como de Salesforce a Zafiro, entonces tendríamos que validar cuál es la situación actual, cómo está documentada tu API, cuáles son los campos y cómo es el método en que se realiza esta transmisión
+[Sesión - Revisi...] este porque ahí dice pero precio y catálogo no tienen un mecanismo equivalente confirmado Aunque arriba este no a lo mejor puede ser que esté mal ese puede ser que esté mal a menos de que necesitemos algún flujo adicional o algo pero pues ahorita está funcionando porque sí tenemos como bien dicenen listas de precios y también tenemos el la parte de los productos Entonces si están viajando puedes ayudarnos otras con la pantalla anterior Ana María nada más para revisar viene artículos Salesforce son productos y agregar clientes576072292608Marlon Maco   17:39Sí
+[Reporte semanal...] No es tan técnico, pero es digamos que les vamos a hacer también llegar en este caso a Tiana Marya para que sobre de eso puedas entender un poco más con no tan a detalle de integraciones o de campos, sino más bien de temas de procesos de lo que necesitaríamos para que de ahí podamos validar si necesitamos traer información
+[Revisión proces...] Porque yo tengo un pedido hecho, no podría modificarlo de acuerdo
+[Kick off - MACO...] Primero los tiempos y después yo tendría que ya validar con mi jefa Adriana
+[Revisión proces...] 576072292608Ana Maria   35:41O K, acá están precios, acá están las existencias, que es la parte de lo que mencionaba, que pegue también aquí la existencia de acuerdo a los procesos que se estén elaborando ahorita en el sistema
+[Revisión de la ...] De acuerdo, sí, sin problema, yo les mando la invitación
+[Reporte Semanal...] De acuerdo, pues de momento es todo lo que tenemos equipo
+[Revisión de la ...] Entonces este tener ahí esa separación independiente a las cuentas que son tipo cliente y las cuentas que son tipo prospecto, que es así ya el prospecto, dándole seguimiento, puede pasar a un a una cuenta
+[Reporte semanal...] De acuerdo, lo vamos a borrar en almacén
+[Reporte Semanal...] Vale, no sé si tuvieron la oportunidad en estos días de poder echarle un ojo, revisarlo y bueno, no sé si también pudieron ahí revisarlo con el proveedor de zafiro para poder ver si es necesario que tengamos alguna sesión o si esto nos va, no lo ahora sí que nos va a ayudar el ingeniero
+[Revisión proces...] 576072292608Ana Maria Ruiz   44:40El jueves, de acuerdo que
+[Kick off - MACO...] Ella lo que nos decía es que actualmente en Salesforce, cuando ustedes inician sesión, hay una cinta en donde dice que hay un se van a aplicar, ahí unos mecanismos de seguridad y que el administrador tiene que revisar, ¿no
+[Revisión proces...] 576072292608Ana Maria Ruiz   27:47De acuerdo
+[Kick off - MACO...] Me A mí me tocó, pues revisarlo y ingresarlo desde Salesforce, pero no había como que un una guía de entrega donde nosotros este tengamos claro cuáles fueron las partes y las funcionalidades y las este los objetos donde este se se implementan y cuál es la forma de operarlos, ¿no
+[Revisión proces...] 576072292608Ana Maria   12:19Sí, o K, entonces aquí en las cotizaciones podemos hacer recotizaciones que aquí ya cuando veamos el desarrollo de las cotizaciones, me gustaría hacer énfasis para ver parte de las mejoras que tenemos que hacer de cómo recotizar, porque tanto desde la captura, que es uno de los puntos principales como el cómo recotizar
+[Kick off - MACO...] acuerdo eh el reporte de estatus que es lo que vamos a estar generando en PDF ese va a ser cada semana les voy a estar entregando ese reporte semanal justo para lo que platicamos que ustedes tengan esta visibilidad de cómo vamos con el avance de de estos requerimientos no la programación de las sesiones pues los vamos a estar haciendo en teams yo les voy a compartirLas invitaciones para que pues su calendario ya esté bloqueado
+[Revisión de la ...] 576072292608Ana Maria Ruiz   1:01:50Al contrario, gracias a ustedes estamos al pendiente
+[Revisión proces...] 576072292608Ana Maria   1:12:07Y ahí a la mejor ellos pues ya tienen vista, al menos no comentarios, como bien lo mencionas, de que sí fue surtido, que no fue surtido, que falta por surtir
+[Revisión proces...] Sí, entonces si no llevas un orden y quieres revisar si lo capturaste o no lo capturaste, pues dime, dime alguna sugerencia de cómo revisarlo
+[Sesión - Revisi...] De acuerdo, Abner, muchas gracias, Cristofer, muchísimas gracias
+[Revisión proces...] Nada más déjame validar algo rápido a nivel cliente
+[Revisión de la ...] Entonces eso también es muy importante ahí, Rodrigo, que en las sesiones, por ejemplo, ya previamente a la implementación ya con Apne, con el equipo, en las sesiones nosotros llevamos a cabo unas sesiones que se llaman de Discovery o Workshops, donde de acuerdo a los requerimientos o las mejoras que se han identificado o lo que vamos a llevar a cabo
+[Revisión proces...] 576072292608Abner Trujillo   1:57:35De acuerdo, sí, si tienes noticias de eso mañana o en el transcurso de hoy o mañana, este igual nos nos ayudaría
+[Kick off - MACO...] Esa este estas nuevas funcionalidades y con eso también validar que cuando pasemos a productivo no truene estos nuevos ajustes, no, porque ya hay perfiles, ya hay usuarios con los cuales pues todo esto ya vive en producción
+[Revisión proces...] 576072292608Ana Maria Ruiz   27:50De acuerdo, mira, tengo también aquí, aprovecho rapidísimo, te comento una petición que me dijo Rodrigo, este me dice coméntaselo a Abner y ya lo vemos, no está contemplado, no contemplado, puede hacer alguna pequeña modificación en el desarrollo que puedas hacer ahorita
+[Kick off - MACO...] De acuerdo, nada más rápido, este Abraham, puedes abrir ahí en el chat, poner tu número telefónico y tu correo electrónico para que lo tenga Abner, por favor
+[Reporte semanal...] Y bueno, ahí como podrán ver, hay algunas acciones, perdónenme algunas tareas que todavía no las he cerrado justo porque todavía falta hacer
+[Sesión - Revisi...] De acuerdo, entonces igual y esa parte nos cubra parte
+[Kick off - MACO...] Sí, primero tenemos que trabajar todo lo que hay por detrás para dejarla justamente preparada y para eso, pues obviamente necesitamos tener una sesión para revisar exactamente qué actividades son las que necesitan o qué es lo que hacen hoy por hoy para justamente documentar todo su trabajo, ¿no
+[Revisión proces...] 576072292608Ana Maria   1:42:09Así es, de acuerdo
+[Revisión proces...] 576072292608Ana Maria   38:37O K, de acuerdo, sí, de acuerdo
+[Reporte Semanal...] 576072292608Abner Trujillo   16:32Para que yo de este lado lo pueda validar con los chicos, ver todo el proceso cómo se capturó y ya con eso este también lo puedan corregir ellos y basarnos obviamente en sus en sus pruebas
+[Kick off - MACO...] ¿Cómo quedó ahí la, digamos, ese acuerdo que tuvieron con Salesforce
+[Revisión de la ...] Eso sí, tendríamos que revisarlo, Anam, porque normalmente hay como 2 situaciones con los clientes
+[Kick off - MACO...] 576072292608Ana Maria   50:28De acuerdo
+[Revisión de la ...] Por siguiente, vamos a hacer capturas en donde ahí en simulando una conectividad nula, ya sea en un seguimiento de una revisión de auditoría o de algún equipo, o simplemente el de levantar alguna actividad o compromiso
+[Revisión proces...] 576072292608Abner Trujillo   1:55:14De acuerdo
+[Revisión de la ...] De acuerdo, ahora mi mis siguientes inquietudes en la pantalla siguiente mencionaba sobre este que si facturas, anotaciones, comentarios, fechas de entrega, formas de pago, todo esto
+[Reporte Semanal...] De acuerdo, entonces
+[Revisión proces...] 576072292608Ana Maria   1:02:17Entonces, a lo mejor es un tiempo de entrega, este falta surtirla físicamente
+[Reporte Semanal...] Sí, es correcto, es correcto, tiene la misma lógica de acuerdo a lo que nos platicaste
+[Reporte semanal...] 576072292608Ana Maria Ruiz   12:25De acuerdo
+[Reporte semanal...] Parte de estos pendientes de los que les platico, pues es la entrega de un documento de diseño, es decir, un previo borrador con todo lo que hemos estado
+[Kick off - MACO...] De acuerdo, bueno, entonces si te parece bien, dame oportunidad que responda Claudia y en la tarde definimos bien
+[Revisión proces...] 576072292608Ana Maria Ruiz   10:37Y es que fíjate que aquí en Salesforce, si yo hago la captura, si yo lo hago artículo por artículo a como lo tenemos, lo tenemos que jalar en un carrito y me lo llevo, pero me lo pone no propiamente en el orden que yo lo capturé
+[Reporte semanal...] Entonces nosotros pues también nos dimos a la tarea de primero entender qué es lo que estaba, que fue parte del acuerdo inicial y sobre de eso generar el listado de
+[Reporte semanal...] 576072292608Abner Trujillo   27:44Esta vista la pueden revisar dentro del sandbox UIT, este ustedes tienen acceso, parece que también el ingeniero Abraham tiene acceso, entonces igual nada más es simplemente teclear pedidos y cotizaciones y aquí ya aparece la ficha, entonces los va a llevar justamente a este ambiente
+[Sesión - Revisi...] Solamente hay uno o 2 clientes que sí tienen registrada la fecha de entrega de forma independiente, pero todos los demás pues están así con la dirección fiscal y dirección de envío, es la misma
+[Reporte Semanal...] los voy a poner así para que no se pierda Este es el resumen del plan de trabajo de acuerdo básicamente Pues bueno ahí los pendientes que traemos es el documento de exploración y diseño Ya lo tenemos prácticamente armado solamente lo que faltaría es el tema de la retro de la parte de las integraciones para que podamos yaYo pues se los pueda compartir y ya lo podamos cerrar esa actividad y por supuesto, pues tener justamente esta actividad que es la integración entre Salesforce y el RP Zafiro basada en la documentación, el Blueprint, perdónenme que les compartí que si hay alguna duda o necesitemos reunirnos para darle celeridad a estos puntos, pues lo podamos
+[Sesión - Revisi...] Así es o K de acuerdo
+[Revisión de la ...] Es lo que les decía, no cada una del tipo de visitas, de acuerdo al tipo de cliente, me va a generar una un tipo de plantilla, un seguimiento diferente
+[Reporte semanal...] 576072292608Ana Maria Ruiz   12:27De acuerdo, y lo que hace aquí o k de acuerdo, ya nada más eres
+[Kick off - MACO...] Salesforce lo que hace es revisar cómo está el 100% de la organización en producción y lo que te trae justamente son configuraciones al 100%
+[Revisión de la ...] En la medida que nosotros vamos teniendo un una operación, un registro y un seguimiento, eso es lo que nos ayuda a validar cómo está la efectividad de nuestro plan, cómo se está ejecutando de forma real, pero sobre todo nos va dando información muy valiosa para que posteriormente en un seguimiento o en siguientes pasos, por ejemplo, ya llevarlo a la inteligencia artificial
+[Kick off - MACO...] De acuerdo, nada más la insistencia, el punto que ahorita ya es el cuatro, no se puede llevar ahorita a cabo, aunque proceda o no el la modalidad offline
+[Reporte semanal...] 576072292608Abner Trujillo   12:42De acuerdo, este, pues de una vez comparto pantalla para no quitarles tiempo
+[Sesión - Revisi...] Entonces quedamos pendientes de la info y este y yo la siguiente semana los busco y si tenemos por ahí un espacio, pues coordinamos
+[Sesión - Revisi...] 576072292608Ana Maria Ruiz   1:07:18Perfecto, o k de acuerdo Abner, pues muchísimas gracias, muchas gracias
+[Revisión de la ...] 576072292608Abner Trujillo   51:49Ya cuando ya empecemos ya a validar y migrar las funcionalidades
+[Revisión proces...] 576072292608Ana Maria   10:47De acuerdo, bueno, entonces acá cada uno de los agentes entran a las cuentas de los clientes y desde ahí pueden hacer generarles una cotización o generar un pedido
+[Sesión - Revisi...] 576072292608Ana Maria Ruiz   9:00Sí, de acuerdo, este en ese con ese contexto es justamente parte de lo que estaba comentando ahorita aquí con el ingeniero Abraham y reforzar esa parte contigo
+[Revisión proces...] 576072292608Abner Trujillo   43:54Ya lo estaríamos viendo, pero sí le vamos a pasar como esa documentación de las APIs de lo que hay, y si nos falta algún campo, entonces ya empezarlo a gestionar para que este podamos incluirlo en esa actualización de la información en zafiro, como pudiera ser esta parte del crédito, entonces
+[Revisión proces...] 576072292608Manuel  Gonzalez   48:21No, mientras estén esos 2 plataformas, yo creo que sí podemos revisarlo y el licenciamiento que ustedes tienen es enterprise, ¿cierto
+[Revisión proces...] O K, de acuerdo, Abner
+[Revisión de la ...] Todavía tiene pendientes 3500 USD
+[Revisión proces...] Eso sí, me gustaría que quedara claro, porque el licenciado accedió a las licencias, porque en el entendido y ahí habría que revisarlo con esta chica, este ahí la de Salesforce
+[Revisión de la ...] De este mes al mes de diciembre, en de acuerdo a lo que se se planteó como estrategia en las promociones, entonces eso es lo que nos aparece, sí, adelante
+[Reporte semanal...] 576072292608Ana Maria Ruiz   28:16De acuerdo, me lo revisamos
+[Revisión proces...] Sí, de acuerdo o sí, o sea, vaya, nada más es era el tema para poder visualizarlo de forma predeterminada
+[Reporte semanal...] Ok, ok, de acuerdo
+[Revisión proces...] Nos falta explotarla y nos puede ayudar mucho que están las diferentes casos que se puedan programar, ¿cierto
+[Revisión proces...] 576072292608Ana Maria   1:55:41De acuerdo
+[Revisión proces...] 576072292608Abner Trujillo   36:08Desarrollar, entonces yo lo voy a revisar de este lado con el equipo para que me digan este todo esto que tan viable es, porque tampoco no quiero decirte sí lo hacemos y en la y a la mera hora te te te da información falsa, no, entonces, pero ya entiendo, ya entiendo con esto cómo es que están visualizando justamente esa este
+[Revisión proces...] 576072292608Manuel  Gonzalez   21:29¿Ahí cómo miden esos tiempos o cómo el dan fechas compromiso con los clientes
+[Revisión de la ...] De acuerdo ahí, pues sí, ya lo que ustedes vean consideren mejor, este yo nada más insisto en tener información más actualizada
+[Revisión proces...] O K o K, entonces sería cosa de revisarlo hasta donde lo vi la última vez
+[Sesión - Revisi...] Para revisarlo y en la siguiente sesión ya comentarles qué es lo que encontramos con ese proceso en específico
+[Revisión proces...] 576072292608Abner Trujillo   43:13Sí este Ok de acuerdo muy bien Ahora otra cosa que te iba a comentar es el jueves bueno el equipo también está ayudándome a preparar un documento que también le vamos a hacer llegar al ingeniero Abraham y seguramente el jueves ya lo tendré listo que es justo de lo que vamos a necesitar576072292608Ana Maria Ruiz   43:14Mhm
+[Revisión de la ...] Y aquí también les quería mencionar otro tema y otro potencial que tenemos con el tema de analíticos, y es el tema de los white space o los espacios en blanco, es decir, de acuerdo a mi cliente
+[Revisión proces...] No, pero cuando sí no podemos surtir, sí es importante que pongan ahí algún comentario general o algún detalle de que pues no hubo las piezas no o no se tenían en stock físicamente en el almacén, no, y eso nos ayuda a tener ese seguimiento y también revisar con compras si es posible
+[Kick off - MACO...] 576072292608Ana Maria   1:00:00De acuerdo
+[Reporte semanal...] De acuerdo, si se dan cuenta, aquí viene 1234 y 5
+[Reporte semanal...] 576072292608Abner Trujillo   28:28De acuerdo, nada más aclarar ahí este equipo que no, este sandbox todavía no hacemos ninguna actualización de registros nuevos, solamente es información histórica de lo que tienen algunos de este año
+[Reporte semanal...] De acuerdo, está bien, pues bueno, equipo, pues de momento es todo
+[Revisión de la ...] Para ello es muy importante siempre darle a esas cuentas o a esos clientes su seguimiento correspondiente, pero no solamente es darle visita por visitarlo por visitar, sino que siempre, como lo mencionaba Ana, con un objetivo y con un seguimiento y con un compromiso a esos acuerdos, no, entonces eso es lo que nos ayuda
+[Reporte Semanal...] 576072292608Abner Trujillo   11:05De acuerdo
+[Revisión proces...] 576072292608Ana Maria Ruiz   57:18De acuerdo, al contrario, muchas gracias a ti por tu tiempo
+[Kick off - MACO...] De acuerdo, o k de acuerdo, entonces este pues ya nada más
+[Reporte semanal...] Y platicando con Ana María en el tema de la generación de los pedidos y todo esto nos falta hacer la entrega formal de este de este documento para que ustedes también lo tengan como parte de nuestros entregables y sobre de eso, pues bueno, continuar avanzando con el resto de las tareas que traemos
+[Reporte semanal...] 576072292608Ana Maria Ruiz   49:11De acuerdo
+[Revisión proces...] Nuevamente tengo que asociar cuenta, pasar a pendiente de aprobación, la voy a dejar ahí pendiente de aprobación
+[Reporte semanal...] Y si hay alguna duda, pues con toda confianza nos podemos reunir y revisarlo con calma, no ahorita ya para no quitarles más
+[Kick off - MACO...] perfecto muy bien entonces para para que podamos poner foco cuando lleguemos a ese punto este y con eso validar que realmente sea parte de la funcionalidad de acuerdo y bueno ya por último como les comentaba en cada fase podemos estar entregando un documento formal justamente para que denuncia Exactamente lo los entregables que vamos a estarles haciendo llegar este576072292608Ana Maria   42:41Gracias
+[Revisión proces...] Voy a hacer un nuevo surgimiento donde jalo
+[Revisión proces...] Pero se supone que si es para validar que el cliente esté correcto, esté este debidamente dado de alta y debidamente liberado para poder hacer pedidos, este pues quiero decir que no lo está cumpliendo porque nos ha pasado que hay clientes que
+[Reporte semanal...] Como les explico, ustedes tienen hoy por hoy este tipo de vistas de acuerdo, en donde la problemática es que ustedes tienen que estar agregando filtros para pues saber o para poder ir segmentando la información de cada uno de los pedidos
+[Reporte semanal...] Sí, de nuestro lado es justamente cuando empecemos ya a revisar este tema de integraciones
+[Revisión de la ...] O K, de acuerdo, gracias
+[Revisión de la ...] 576072292608Ana Maria Ruiz   52:15Para que vayamos viendo con hechos, porque igual y ya tienen ustedes todo y pues nos va a hacer falta ahí del lado de zafiro, desarrollo o algo
+[Revisión proces...] No hay realmente una programación como tal, o sea, yo por ejemplo, lo que nos describes ahorita es yo en una capa si veo como las banderitas de esas de esas clientes que tengo que ir a visitar, pero dentro de Salesforce Maps no vemos o bueno, nos alcanzó a ver, sería cosa de revisar si hay una programación que se tenga que hacer
+[Reporte Semanal...] O K, de acuerdo, sí, Abner
+[Revisión proces...] 576072292608Abner Trujillo   38:28¿A ver si ese lo copias nada más para validar, si lo copias en Salesforce en el buscador, qué te parece
+[Revisión proces...] Algo pasa, algo falta, pero mi pedido que ya no me acuerdo cuál es acá
+[Sesión - Revisi...] 576072292608Marlon Maco   1:07:38Pero de acuerdo, muchas gracias, gracias, buenas tardes
+[Revisión proces...] Perfecto, entonces para ir les mando más tarde la sesión para que la tengan ahí en su calendario y de este lado, pues empezamos a revisar este punto que es empezamos, digamos, ya con esta tanda de requerimientos, ¿no
+[Reporte Semanal...] O K o K de acuerdo, entonces eso es para revisarlo yo también de este lado, este igual si las pruebas que vayas haciendo con tus usuarios, ahí te pido un favorzote
+[Kick off - MACO...] 576072292608Ana Maria   53:56O K, de acuerdo hasta ahorita, honestamente, hasta ahorita lo tengo claro cómo va a funcionar este esa parte, pero o K para tenerlo claro y poder hablar con los usuarios, pero ya después de tus indicaciones, gracias
+[Sesión - Revisi...] 576072292608Abner Trujillo   14:19Okey, de acuerdo
+[Reporte semanal...] Estas Esta diferencia solamente radica en unos pendientes que nosotros debemos así ustedes, que es parte de lo que vamos a platicar más adelante y el riesgo, pues ahorita lo estoy poniendo medio, aunque realmente es algo controlado porque simplemente con que entreguemos esta información y con el avance que veamos el día de hoy, pues esto va a ir bajando, no en los siguientes
+[Revisión de la ...] De que efectivamente ya se ya se generó el pedido y que este van a respetar esas condiciones y el acuerdo que se llegó a ese pedido, ¿no
+[Reporte Semanal...] 576072292608Abner Trujillo   17:03Validar existencias con la información que ya existe en Zafiro
+[Revisión proces...] 576072292608Marlon Maco   1:58:15Realidad viene plasmada y yo he tenido oportunidad de revisar este todo el esquema que viene atrás de en lo que es Salesforce y vienen todos todos los componentes, todas las funcionalidades que pudimos ahorita ver ya operando, están ahí atrás
+[Revisión proces...] Tengo que validar el cliente ID
+[Reporte Semanal...] De acuerdo, una pregunta, Abner, revisándolo hoy con este usuario
+[Kick off - MACO...] Si es necesario que lleguemos a ese punto, ahí lo que podemos hacer es revisar qué conlleva hacer ese cambio, documentarlo como un control de cambios de este lado, analizar
+[Revisión de la ...] Muy bien, entonces una vez que yo ya ejecuté este seguimiento, entonces también en conjunto con la parte de Salesforce Maps y de acuerdo a las visitas que yo voy ejecutando y las rutas correspondientes, entonces aquí yo ya voy teniendo cada uno de esos clientes que tengo que ir llevándolos a cabo
+[Reporte Semanal...] Todavía, como digo, es parte de esta de esta adecuación, este digo, lo que falta es mostrar y empezar a que ustedes empiecen a visualizar información
+[Sesión - Revisi...] 576072292608Ana Maria Ruiz   27:50De acuerdo, bueno, acá con este punto, en cuanto a la frecuencia, lo que estaba viendo era este 2 veces al día, inicio, fin de jornada
+[Revisión de la ...] Entonces aquí me da mi white space de cuáles son aquellos productos o de acuerdo a la cantidad
+[Revisión de la ...] ¿Qué es lo que deben de validar dentro del distribuidor
+[Revisión proces...] Bueno, aquí lo que está haciendo es consultar lo únicamente lo que tiene de este cliente, aunque habría que revisar qué tan funcional es o si lo que ustedes necesitan es un tablero completo en donde ahí tú ustedes puedan filtrar y exportar la información
+[Kick off - MACO...] 576072292608Ana Maria   45:43Mira, de acuerdo a las reuniones anteriores, Roy sí puso como punto principal el que está a como está, optimizar la captura y gestión de los periodos y cotizaciones
+[Reporte semanal...] Por lo que les comentaba, digo, a lo mejor ahora mismo tenemos alguna retro de su parte con respecto a estas funciones en la parte web, pero todo esto pues también lo tenemos que ir replicando de alguna manera en la aplicación móvil offline para que
+[Revisión de la ...] 576072292608Ana Maria Ruiz   48:15De acuerdo, y sí, este consideramos
+[Kick off - MACO...] 576072292608Abner Trujillo   30:02Okey, de acuerdo con la parte del correo, platicaba justamente, bueno, brevemente platicaba con Ana María, esa parte de del correo
+[Revisión proces...] Sí, mucho tengo, o sea, la certeza de cuando lo estoy haciendo, pero nunca te falta una llamada, un este atención de algo y demás, y a lo mejor lo interrumpes un poquito y el regresar a ay, como en qué me cree
+[Reporte Semanal...] De los De las integraciones que ya tenemos, pues este traernos la información restante y, por supuesto, ya empezar también a construir tableros y reportes o mejorarlos de acuerdo a su petición, en el cual lo que querían es que si bien a hoy hay reportes que ya ustedes utilizan, lo que les gustaría tener es
+[Revisión proces...] Entonces, todas esas cositas son cosas que nos ha hecho retrabajar, revisar, estarle dando seguimiento más puntual
+[Revisión proces...] O la otra, no, eso podría ser, pero habría que revisarlo
+[Revisión proces...] 576072292608Manuel  Gonzalez   6:51A los agentes para en de acuerdo asus rutas
+[Revisión proces...] 576072292608Abner Trujillo   35:56De acuerdo
+[Revisión de la ...] Muy buena tarde para todos y vamos a continuar de acuerdo a nuestro journey que estábamos revisando en la parte móvil
+[Revisión proces...] 576072292608Abner Trujillo   44:41Ajá, y ya también te doy estatus o bueno de esta parte de las búsquedas y todo lo demás, ya te digo cuándo podríamos tener un avance para que lo pueda mostrar y lo podamos validar contigo
+[Revisión proces...] O K, acá tenemos, por ejemplo, esta está en preparación en pendiente de aprobar que ya la mandaron al cliente, todavía no la aceptan
+[Reporte semanal...] 576072292608Ana Maria Ruiz   37:25No, ahí esta parte como está y yo creo que de acuerdo al flujo que se hace, el capturar pedidos no te disminuye las existencias
+[Revisión proces...] 576072292608Abner Trujillo   55:34Lo que pasa es que como los chicos me piden justo el las credenciales y todo eso para entrar y validar la información que tenemos, ahí es en donde tengo que pues prácticamente ahí anotar todo esto
+[Revisión proces...] 576072292608Abner Trujillo   20:23O K, necesitaría nada más validar, déjame entrar rápidamente, pues entrar y ver si hay un objeto que tenga esa este catálogo, pues o dónde lo podría encontrar almacén, aquí está
+[Sesión - Revisi...] 576072292608Ana Maria Ruiz   8:54De acuerdo
+[Revisión de la ...] De acuerdo, sí, sin problema lo copiamos
+[Kick off - MACO...] Porque si es si hay alguna temporalidad en ese tipo de licenciamiento, sobre todo si va a ser una prueba como para ver si funciona o no funciona, digo, no sé cómo sea, cómo haya sido, como comentas el acuerdo realmente lo que sí, como bien comentas, ya tienes
+[Revisión proces...] Sí, para ir ir abordando este primer punto, ya este vayamos viendo los demás, este vayamos avanzando y yo voy a revisar esa parte de las visitas porque sí tenían tenían que registrar sus visitas
+[Reporte Semanal...] Justamente con estas esta revisión de integraciones, antes de pasar a revisar esta parte del documento de integraciones con esta parte del reporte, ¿tienen alguna duda, equipo
+[Revisión proces...] 576072292608Ana Maria Ruiz   45:47O K, de acuerdo, ahorita ahorita mismo le pregunto y este a ver, espérame, lo tengo en línea, puedes a las 5:00 el jueves
+[Sesión - Revisi...] 576072292608Ana Maria Ruiz   35:21Sí, incluso fíjate 2 cosas, una en eso que van a revisar y mencionas de agregar algunos campos o demás, nada más no perder de vista que está Maps y Maps
+[Revisión de la ...] Les gusta más el tema de cómo se gestiona en Salesforce la flexibilidad y sobre todo el seguimiento, y simplemente al conectarlos con el RP, ya están ahí de acuerdo a al producto, a las promociones que se estén dando en cuenta, a los descuentos correspondientes y ya van cayendo en el RP
+[Revisión de la ...] De acuerdo, sí, eso lo veo acá en la interna con crisis los chicos
+[Revisión de la ...] Estamos comenzando ahorita con justo con el equipo de Anita, el revisar primero las mejoras, ahora sí que todo lo que nos platicó en la sesión anterior y la idea
+[Revisión proces...] Perfecto, okey, me aparece de acuerdo
+[Kick off - MACO...] No, eso es lo que me gustaría partir de ahí para que sobre de eso, pues bueno, ya ponga, nos pongamos a revisar, ¿no
+[Revisión de la ...] 576072292608Ana Maria Ruiz   50:13De acuerdo, nada más este Abner con respecto al acceso a sandbox este u a T, no sé si requieras ahí el acceso de admin
+[Revisión de la ...] 576072292608Rodrigo Fernandez   50:14De acuerdo
+[Revisión de la ...] De acuerdo y este nada más, por último, ahorita en el grupo te mando los datos de aquí del licenciado Rodrigo para que me hagas favor de agregarlo al grupo y también en el envío de las reuniones
+[Revisión proces...] Okey, de acuerdo
+[Reporte Semanal...] 576072292608Ana Maria Ruiz   9:25Viernes, si nos da esta oportunidad, deja revisar bien esto, este lo checo con aquí en corto con Abraham, lo reviso con este agente de Zafiro para complementar la información que hiciera falta
+[Reporte Semanal...] De acuerdo, básicamente, ay, creo que aquí no se actualizó el plan de trabajo
+[Revisión proces...] Sí, lo que comentábamos es este, el periodo es mensual y se van determinando visitas a agentes y a clientes, y ya la parte de acá abajo lo que comentaba este Abraham, pero eso ya es la parte de analítica donde tenemos que hacer este el la comparación entre el objetivo y lo realizar
+[Reporte semanal...] 576072292608Abner Trujillo   45:24de acuerdo este Bueno este es la manera Entonces cómo funciona y antes de digo ahí se nos nos va a faltar un poquito de tiempo pero este también queríamos mostrarle ahí la aplicación móvil del lado de con mi compañero Cris de lo que pudimos avanzar nada más para que loLo pudieran volver a ver si me ayudas a proyectar, Cris
+[Revisión proces...] 576072292608Abner Trujillo   1:42:11O K, de acuerdo, muy bien
+[Revisión proces...] Entonces, ya teniendo la pendiente de aprobación, si me la aceptan, no me la aceptan, yo puedo recotizar y aquí en recotizar yo lo que pedí, solicité en su momento es son 2
+[Revisión proces...] No estamos mandando correos directamente desde Salesforce, que es un tema ahí pendiente y lo comentamos en la sesión anterior
+[Revisión proces...] De acuerdo, una duda más, si nos podemos ir a una cotización, por ejemplo, ahí en Salesforce, si quieres, o no sé, o no sé, acá más bien en sí en Salesforce primero, y ahorita vemos en tu sistema, sí
+[Sesión - Revisi...] Verificar cuáles sí fueron los que pasaron, por así decirlo, o los que estén pendientes por pasar o por enviarse hacia el RP
+[Reporte semanal...] Pues bueno, entre todo lo que traemos pendiente, una de ellas pues fue justamente esta revisión de acceso a usuarios
+[Revisión proces...] 576072292608Manuel  Gonzalez   1:39:42Pregunta, ¿es posible que nos puedas nos puedan compartir ese reporte en Excel para revisar cómo hoy en día tienen esa expectativa de ese reporte
+[Revisión proces...] Bueno, este no es el precio total, ¿estás de acuerdo
+[Reporte Semanal...] Y bueno, la otra que también tenemos que empezar a trabajar, pues es la parte de los canales de mensajería, que básicamente es utilizar el licenciamiento que tienen ustedes de Digital Engagement para hacer la activación dentro de la org
+[Revisión proces...] De acuerdo a lo que yo acá le diga, estamos de acuerdo, es a como se hace
+[Kick off - MACO...] Okey, de acuerdo, sí, estoy de acuerdo, soy ingeniero, adelante
+[Sesión - Revisi...] 576072292608Abner Trujillo   1:06:42Si nos hace falta tener una integración adicional para hacer x acción, entonces sí tendríamos que revisarla para que eso entonces sí se pudiera construir desde la estructura, los tiempos, en cómo se va a realizar y que, por supuesto, toda esa información la podamos ver en Salesforce y, por supuesto, también
+[Kick off - MACO...] Preguntarte porque yo había algunas secciones en C en Salesforce donde esta información estaba ahí presente, pero realmente no tengo es el, digamos, el lugar exacto donde esta información, digamos, está expuesta
+[Revisión proces...] Es como quieren verlo aquí en esto y también nada más ahí para dejarlo sobre la mesa, poder clarificar o al menos a mí me falta esa parte
+[Revisión de la ...] Entonces eso es lo que nosotros vamos a tener a tomar en cuenta para que esas reglas de negocio, esos casos de uso o épicas o historias de usuario, se vean reflejadas durante nuestro diseño, que estemos de acuerdo que, por ejemplo, lo que tú mencionaste, que solamente cuando el pedido esté facturado, sí me cuente como ingresos
+[Kick off - MACO...] Y necesito revisar porque Claudia había dicho que teníamos un mes, 30 días de demostración, digamos gratis
+[Reporte semanal...] Ya posteriormente se revisará
+[Reporte semanal...] Tenemos como pendiente de nuestros entregables y ya empezaremos a trabajar con la parte de las integraciones, justo para revisar esta estos campos o esta información que necesitamos complementar dentro de las integraciones, para que sobre de eso, pues ya tengamos
+[Reporte Semanal...] 576072292608Abner Trujillo   21:48De acuerdo, Ana María, pues bueno, pues les agradezco mucho el tiempo a todos
+[Sesión - Revisi...] De acuerdo, muy bien, no, gracias a ustedes y estamos en contacto
+[Revisión proces...] 576072292608Abner Trujillo   27:31Entonces me parece que así está funcionando, igual podríamos revisarlo y si es un dato que se necesita traer de Zafiro para Salesforce, pues también tomarlo tomarlo en cuenta si es necesario
+[Revisión de la ...] No les había mencionado que teníamos un calendario donde aquí me van a aparecer toda ya el calendario sincronizado de acuerdo a las planificación de visitas que se han realizado
+[Reporte Semanal...] Okey, de acuerdo
+[Revisión de la ...] Ya están ejecutando la planificación de visitas de la siguiente semana para que los ejecutivos ya tengan todo su calendario y todo ese seguimiento para darle de acuerdo al plan de cuentas que ahí revisamos por el tipo y por las siguientes características, como ellos van a tener esa distribución de visitas y sobre todo
+[Revisión de la ...] Equipo, entonces aquí nosotros podemos generarle un caso o cómo nos ha ido con las visitas previas, algunas recomendaciones del portafolio de productos que tenemos que realizar, promociones y, por ejemplo, aquí me aparecen detalles de mi cliente
+[Reporte Semanal...] 576072292608Ana Maria Ruiz   11:10Sí, yo voy cargando por carritos, me los pone en un orden, pero ya cuando hago el proceso de verificar cliente o validar cliente listo para enviar y enviar, ahí me lo desordenan y a Zafiro me llega, no en el orden en que yo lo factúe
+[Reporte semanal...] 576072292608Ana Maria Ruiz   55:13Con respecto al documento, pues lo esperamos de acuerdo a lo que comentaste
+[Revisión proces...] 576072292608Abner Trujillo   26:41A ver, nomás déjame revisar si ese dato lo traemos
+[Revisión proces...] 576072292608Ana Maria   2:34De acuerdo, a ver, les voy a compartir la pantalla de Salesforce y les explico, les comento qué es lo que hacemos actualmente
+[Kick off - MACO...] Validar cuánto tiempo llevaría y, por supuesto, si es algo que está fuera de alcance, pues ver que cuál sería ese impacto, no solamente en tiempo, sino también en lo económico, ¿no
+[Revisión proces...] Colocar esa justificación y revisar el API si nos podemos traer ese detalle y así ya tú lo tendrías en Salesforce para saber, mira, no me surtieron esta de 50 cantidades, solo me surtieron 20, pero ya ahí me pusieron la nota
+[Sesión - Revisi...] 576072292608Abner Trujillo   45:40Digo, nos podemos delimitar solamente a que tenga esta información o este estatus, un simple estatus en donde pues ya si está habilitado perfecto y si está inhabilitado es porque hay que revisar directamente con compras o con el área de contabilidad
+[Revisión de la ...] De acuerdo, gracias
+[Revisión de la ...] 576072292608Rodrigo Fernandez   1:01:50Entonces, gracias a ti, al pendientes y me tienen daño
+[Revisión proces...] 576072292608Ana Maria   53:58Porque tenemos ahí en el RP la diferencia en el tipo de venta contado o crédito, independiente a la situación crediticia, no si le vas a hacer una venta de contado o una venta de crédito
+[Kick off - MACO...] Y también ahí, bueno, esa parte de poder validar el dominio de arroba maco
+[Reporte semanal...] De acuerdo, sí, cuenten con ello, entonces se los hacemos llegar
+[Revisión proces...] De acuerdo, o K, gracias a ustedes por todo este tiempo, estamos en contacto, hasta luego
+[Reporte semanal...] Ahora nos aparece esta pantalla es un poco parecido también a lo que ustedes tienen en Zafiro de acuerdo Entonces por ejemplo en este caso ya me aparece este voy a partir ahorita de un pedido que ya está hecho vale después hacemos uno nuevo también para que vean la diferencia pero este que ya está hecho lo que lo que tiene de información es el pedido el clienteEl vendedor, el tipo de venta donde ustedes pueden seleccionar el tipo de venta, viene la fecha y también el tipo de entrega
+[Revisión de la ...] ¿Cuántas cotizaciones tengo pendientes de pedidos que no se han entregado
+[Revisión proces...] En la parte de acá arriba de objetivos y acá es la parte de analítica que teníamos, que falta ahí desarrollo o realización, porque acá, por ejemplo, lo abrimos y nos da todo el general, pero si queremos consultar o detallar por agente o demás, la verdad poco lo hemos explorado
+[Revisión proces...] 576072292608Abner Trujillo   1:43:16de acuerdo sí la idea justamente era conocer este proceso creo que ya nos adelantamos inclusive para la parte de las cotizaciones ya vimos algunas cosas donde justamente comentabas Ana María todo el el retrabajo que puede ser al momento de consultar al momento de agregar estos productos en la cotización Y por supuesto también la parte de los pedidos creo queya con esto ya a lo mejor ya no Tendremos que hacer tantas sesiones ya nos adelantamos ese capítulo la idea ahorita pues bueno una vez que dicho esto que ya nos comentaron es ahora ver de este lado cómo lo vamos a explotar ahora en la parte de de la aplicación offline entiendo que esto que vamos a complementarjustamente este este mismo proceso que hacen de generar la visita de hacer ese check-in de ese checkout muchas veces por lo justo lo que comentabas de que a veces en muchas plantas no tienen Seguramente se va la señal no tienen como que la manera como de de poder guardar toda esa información o todo esoTodo ese seguimiento que dieron durante la visita
+[Revisión proces...] Ahorita lo que queremos es aprovechar los datos que ya tiene y revisar la parte de la integración, si es que está todavía conectado aquí, no moverle justamente a eso, vale
+[Revisión de la ...] Perfecto, de acuerdo, gracias
+[Kick off - MACO...] Por supuesto, del ambiente de desarrollo que vamos a estar utilizando, tendremos que hacer la migración hacia el ambiente de UIT para que de ahí podamos realmente validar con datos reales que esté funcionando correctamente todo lo que las nuevas funciones que hagamos
+[Sesión - Revisi...] 576072292608Ana Maria Ruiz   19:32De acuerdo, Abner, pues anotamos esa parte este para que se les proporcione ahí base o a T
+[Revisión de la ...] Claro que sí, sí, de acuerdo
+[Revisión proces...] 576072292608Abner Trujillo   1:55:19Muy bien, Ana María, pues sí, necesito hacer teamback acá con los chicos, justo ya teniendo este contexto, revisar y poder este pues regresar contigo para entonces sí, bueno, con ustedes, perdón, darles un contexto de cómo estaría funcionando o qué implicaciones tenemos
+[Revisión proces...] También te digo, no, pero necesito revisar con los chicos para ver si lo si lo tienen y si lo tienen, pues este mostrarte ese avance para que
+[Reporte semanal...] 576072292608Abner Trujillo   38:08De acuerdo
+[Revisión de la ...] Entonces eso nos lo llevamos como tarea Ana para revisarlo con nuestro equipo el interno y empezar a validar lo que actualmente tienen y cómo esto nos nos representa cierta información, ya sea en deltas o si se necesita algún esfuerzo identificado
+[Kick off - MACO...] 576072292608Abner Trujillo   57:31¿Podríamos empezar a revisar las integraciones de forma paralela, o sea, como para ir teniendo conocimientos primero que haya hecho

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credito_Disponible__c</fullName>
+    <description>Crédito disponible sincronizado desde Zafiro.</description>
+    <externalId>false</externalId>
+    <label>Crédito Disponible (Zafiro)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Currency</type>
+</CustomField>

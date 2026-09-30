@@ -1,0 +1,3 @@
+ApexClass.Name,JobType,Status,CreatedDate,NumberOfErrors,ExtendedStatus
+ZafiroAuthManager,Future,Failed,2026-09-22T18:45:09.000+0000,0,First error: Error al persistir el token: Not allowed to install or modify metadata via Apex
+ZafiroAuthManager,Future,Failed,2026-09-22T18:15:02.000+0000,0,First error: Error al persistir el token: Not allowed to install or modify metadata via Apex

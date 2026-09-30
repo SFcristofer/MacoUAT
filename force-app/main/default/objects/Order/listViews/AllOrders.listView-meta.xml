@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllOrders</fullName>
+    <columns>ORDERS.ORDER_NUMBER</columns>
+    <columns>ZF_Pedido_ID__c</columns>
+    <columns>SALES.ACCOUNT.ACCOUNT_NUMBER</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>ORDERS.TOTAL_AMOUNT</columns>
+    <columns>ORDERS.EFFECTIVE_DATE</columns>
+    <columns>ORDERS.STATUS</columns>
+    <columns>Estatus_Facturacion__c</columns>
+    <columns>Estatus_Surtimiento__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Orden_Sin_Cotizacion__c</columns>
+    <columns>QUOTE.NAME</columns>
+    <columns>ORDERS.LAST_UPDATE</columns>
+    <columns>ORDER.ORDER_REFERENCE_NUMBER</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos los pedidos</label>
+</ListView>

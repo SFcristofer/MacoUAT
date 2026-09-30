@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <customErrors>
+        <description>No se pueden eliminar productos cuando la orden está &quot;Lista para Enviar&quot;.</description>
+        <name>Enviar_Error_Personalizado</name>
+        <label>Enviar Error Personalizado</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <customErrorMessages>
+            <errorMessage>No se pueden eliminar productos cuando la orden está &quot;Lista para Enviar&quot;.</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <description>Trigger Flow para Evitar Eliminación de Order Items en Estado &quot;Send To Ready&quot;</description>
+    <environments>Default</environments>
+    <interviewLabel>Evitar Borrar OrderItem Estado Listo Para Enviar {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Evitar Borrar OrderItem Estado Listo Para Enviar</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Enviar_Error_Personalizado</targetReference>
+        </connector>
+        <filterFormula>ISPICKVAL({!$Record.Order.Status}, &quot;Ready_to_Send&quot;)</filterFormula>
+        <object>OrderItem</object>
+        <recordTriggerType>Delete</recordTriggerType>
+        <triggerType>RecordBeforeDelete</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

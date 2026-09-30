@@ -1,0 +1,361 @@
+﻿Sesión - Revisión MACO-20260821_150253-Grabación de la reunión
+21 de agosto de 2026, 9:02p.m.
+1h 8m 21s
+621792274320Abner Trujillo inició la transcripción
+576072292608Abner Trujillo   0:04Listo, adelante.
+576072292608Ana Maria Ruiz   0:06Gracias. Mira, estuvimos ya aquí revisando el documento. Estaba viendo con Abraham, ya lo revisamos. Nos generó varias dudas, algunas inquietudes. Te vamos a mostrar el el mismo documento, pero ahora sí con nuestras anotaciones. que.
+576072292608Marlon Maco   0:07Que mira, estuvimos ya aquí revisando.Ya lo nos generó varias dudas, algunas ideas, te vamos a mostrar el doctor.
+576072292608Abner Trujillo   0:18Mhm.
+576072292608Marlon Maco   0:23Cuento, pero ahora sí, con nuestras anunciaciones que para que no titulen lo que entonces.
+576072292608Ana Maria Ruiz   0:25Para que nos recapitule lo que platicamos hace un rato. Sale, entonces este a ver, te lo comparto, déjame ver si te lo comparto, lo bueno, ya me lo mandó este aquí el link, dame oportunidad, lo abrimos.
+576072292608Abner Trujillo   0:29Vale.
+576072292608Marlon Maco   0:33Hello!
+576072292608Ana Maria Ruiz   0:43Que es más que nada la información técnica.
+576072292608Marlon Maco   0:45Dame.
+576072292608Ana Maria Ruiz   0:48O el documento técnico.
+576072292608Marlon Maco   0:49¿Eso técnico?
+576072292608Abner Trujillo   0:50Mhm.
+576072292608Ana Maria Ruiz   0:52Dame chance, dame chance.I guess.Este lo voy a dejar abierto, compartir pantalla.Ustedes me dicen si ya ven ahí el documento.
+576072292608Abner Trujillo   1:09Ya se ve.
+576072292608Ana Maria Ruiz   1:11Perfecto, bueno, a ver.Les vamos a comentar a cómo nosotros lo estamos visualizando, entendiendo y demás. Lo que tengan ustedes de alguna corrección, a la mejor nos no lo estamos viendo con el la terminología correcta, no los hagan saber.Sale, pero bueno, a ver, lo que estamos entendiendo aquí son los requerimientos de integraciones de API con RP este Zafiro.
+576072292608Abner Trujillo   1:36Tip.Sí.
+576072292608Ana Maria Ruiz   1:45El objeto de este documento o K es requerimientos inmediatos para la tercera etapa, implementación, identificación y solicitar al proveedor de Zafiro las aplicaciones, servicios, desarrollos específicos necesarios para la nueva aplicación móvil. ofrece.O Pérez en fricciones en los datos es distinta. Acá nos surgió la primera duda, si es distinto a la integración que ya existe hoy entre Salesforce y Zafiro, van a ser o son 2 cosas totalmente diferentes o podemos tomar como base lo que.Ya este tenemos actualmente que esa es parte de nuestras dudas, ¿no? Acá nos dice punto de partida, dice referencia a la sección uno para el offline, impone un requisito nuevo, los promotores trabajan en línea. Bueno.
+576072292608Abner Trujillo   2:30Mhm.
+576072292608Ana Maria Ruiz   2:43Es la finalidad de lo que es offline, no que trabajen en línea en campo este y que tengan esta información previamente cargada en una carga inicial de más. o K estado actual de la integración ya existe referencia técnica para el proveedor, esto ya está construido. y.
+576072292608Abner Trujillo   2:47Mhm.Correcto.
+576072292608Ana Maria Ruiz   3:04En uso con la organización de Sales Cloud lo mencionamos porque probablemente se pueda reutilizar o extender para offline una vez que una vez de construir en lugar de en vez de construir desde cero.
+576072292608Abner Trujillo   3:18Mhm.
+576072292608Ana Maria Ruiz   3:20O K, acá entre lo el primer punto que ustedes están mencionando y que ya existe, es la creación de pedidos con toda esta información técnica, el endpoint y demás. Abraham en el momento que quieras agregar, este me apoyas ahí con la información técnica o con lo que se requiera.
+576072292608Abner Trujillo   3:29Sí.
+576072292608Ana Maria Ruiz   3:38Pero bueno, lo que ya tenemos aquí es la creación de pedidos que va desde desde Salesforce a Zafiro, la el crear clientes se envían clientes acá. En cuanto a la creación de clientes, pues bueno, la creación de clientes se inicia en Zafiro. Sin embargo, lo que se está pidiendo es.
+576072292608Abner Trujillo   3:42Sí.Mhm.
+576072292608Ana Maria Ruiz   4:00El tema de los prospectos, va, lo vemos más adelante. La autenticación dice un token de sistema, no por usuario gestionado por una clase de autenticación con refresh de token. Acá teníamos.
+576072292608Abner Trujillo   4:05Sí.
+576072292608Ana Maria Ruiz   4:20¿Alguna?¿Alguna ¿Algún tema este en la autenticación?
+576072292608Marlon Maco   4:26Lo de no por usuario, la autentificación de no por usuario.
+576072292608Ana Maria Ruiz   4:29O K, esto un token de sistema no por usuario. No sé si ahí es diferente a lo que tenemos actualmente o si alguna situación específica. Sí, pero tenemos ahí esa duda, ajá.
+576072292608Marlon Maco   4:35Es.
+576072292608Abner Trujillo   4:41No, sí, a ver si me si me permiten para irnos por partes, vale este documento. Aquí lo que como les explica la otra es el objetivo es nosotros hicimos una revisión a petición de también lo que nos había nos habían comentado ambos.
+576072292608Ana Maria Ruiz   4:46Claro.
+576072292608Abner Trujillo   5:01De saber qué es lo que ya existe en la plataforma. Entonces todo esto que estamos viendo o que estamos denunciando en estos párrafos es justo lo que el hoy por hoy como ustedes tienen esa programación, de acuerdo, porque entendíamos que pues el proveedor anterior, por alguna razón, no dejó documentado ciento por ciento.El sistema y la idea era o el trabajo que le pedí al equipo. Fue justo que me dijeran de lo que existe, cómo está funcionando al día de hoy y qué información es la que estamos trayendo. Entonces esa autenticación de Toker Beer de sistema DY. Cris nos puede ayudar un poco más, pero básicamente es la manera en cómo este.Digamos, la integración toca la puerta a hacia Zafiro o al revés, y donde valida que ese usuario o ese, digamos, ese contacto que está configurado para traerse esa información, pues sea sea válido. No digamos que ese es cuando cuando tú tocas la puerta y pues tienes que firmarte con un usuario y una contraseña. Me imagino que eso también ya está en la aplicación.Entonces, el detalle es que eso ya lo tienen ustedes, solamente es como un poco enunciar el cómo está hoy por hoy la integración. Por eso ponemos ahí, eso ya existe, ya lo tienen ustedes. Ahora, respondiendo a la primer pregunta, Ana María, ¿qué nos hacías es si podemos utilizar lo que ya existe? Por supuesto que sí, la idea es utilizar.
+576072292608Ana Maria Ruiz   6:08Hmm.Okay.
+576072292608Abner Trujillo   6:25Lo que ya tenemos, o sea, si por ejemplo, si tú nos dices de la cuenta, necesitamos, aparte de estos de estos campos que ya tenemos, necesitamos agregar uno más. Como te acuerdas del ejemplo que me decías el crédito disponible, que es un campo que tal vez hizo en Salesforce, pero no se avanzó o no se llegó este en su momento a integrar a la mejor en esta oportunidad.
+576072292608Ana Maria Ruiz   6:27Perfect.
+576072292608Abner Trujillo   6:47Podríamos agregarlo a al, digamos, a la construcción de lo que ya existe y que sea un campo más, ¿no? Al final del día se puede hacer eso. ¿Qué pasa con el tema de los prospectos? Si los prospectos no los tenemos sincronizados o no los tenemos como.
+576072292608Ana Maria Ruiz   6:56Okay.Okay.
+576072292608Abner Trujillo   7:07Digamos como integrados, pues sí habría que hacer algo para integrarlos directamente con el RP Zafiro. Nada más que aquí hay un punto importante, el tema de los prospectos. Generalmente lo que nosotros les recomendaríamos es que ustedes lleven primero el mecanismo de poder darle el seguimiento dentro de Salesforce.Ese sería como la recomendación, salvo lo que ustedes nos digan, pero nosotros lo que podemos hacer ahí es que dentro de Salesforce se lleve ese seguimiento y una vez que ustedes ya lo tengan validado de alguna forma o que ya digamos que ya esté incluido, por ejemplo, un fincado, un pedido o que ya les hayan pedido un pedido, entonces.Hacer la conversión que ya permite hacer Salesforce de un prospecto a cliente y que ese cliente pueda ser enviado hacia el RP Zafiro ya como un cliente formal. Seguramente tendrá que pasar por algún proceso de validación, tal vez de documentos o lo que estipule su RP, pero es un una forma de lo que podemos.
+576072292608Ana Maria Ruiz   7:59Mhm.
+576072292608Abner Trujillo   8:10Hacer no tanto, no les recomendaría llevar prospectos directamente a Zafiro porque al final del día no sabemos si realmente le de registros que no darían seguimiento y aparte perdería Salesforce, perdería como esa, pues esa utilidad que tiene que para la que está hecho. pues.
+576072292608Ana Maria Ruiz   8:14No.Sí, se llenaría de sí.Así es.
+576072292608Abner Trujillo   8:28Entonces digo, eso es aclarando un poco el tema de las integraciones. Entonces este documento lo que te dice ahora mismo, bueno, en los primeros párrafos es lo que ya tenemos, lo que ya existe y que podemos aprovechar, que es un poco también para que el del lado del proveedor este, pues también ellos tengan esta.
+576072292608Ana Maria Ruiz   8:28Ajá.Mhm.
+576072292608Abner Trujillo   8:48Pues digamos esta visibilidad de lo que hay conectado en ambos sistemas.
+576072292608Ana Maria Ruiz   8:54De acuerdo.O K.
+576072292608Abner Trujillo   8:55Ahora, si quieres continuamos, continuamos ya con lo siguiente.
+576072292608Ana Maria Ruiz   9:00Sí, de acuerdo, este en ese con ese contexto es justamente parte de lo que estaba comentando ahorita aquí con el ingeniero Abraham y reforzar esa parte contigo. Aún con eso, revisando los documentos, bueno, tenemos aquí varios comentarios que este es la intención de hacerlo.
+576072292608Abner Trujillo   9:12Mhm.Sí.
+576072292608Ana Maria Ruiz   9:20Y al final te comento ese tema de los prospectos, justamente lo que acabas de comentar, el cómo tratarlos, y tenemos una solicitud específica ahí en prospectos. Sale, bueno, entonces tenemos toda esta parte, si se crea y demás en Zafiro Salesforce, actualizar existencias o k.
+576072292608Abner Trujillo   9:32De acuerdo.
+576072292608Ana Maria Ruiz   9:41Lo que no existe hoy, confirmado por el diagnóstico técnico, me dice que Zafiro no expone el estatus real de cliente habilitado, inhabilitado, crédito, cobranza Salesforce, solo valida si existe el ID. Si bien es cierto, al momento en que hace el envío del pedido antes hace una validación del ID.Esta parte del habilitado inhabilitado está un tanto incierto en el sentido de que sí lo considera Salesforce, pero sí le permite hacer pedido. Lo que ya no permite es la comunicación con Zafiro cuando hace el envío de pedidos y Zafiro, como lo está inhabilitado el cliente, pues no lo acepta.
+576072292608Abner Trujillo   10:00Mhm.
+576072292608Ana Maria Ruiz   10:22Entonces nos regresa un error, pero ese error no nos dice que es. Entonces, si ahí pudiéramos identificar o aclarar esa parte y ver si estábamos también en lo mismo, no, porque esto, si bien sí lo tenemos en Zafiro, sí lo regresa en cierta forma Salesforce.
+576072292608Abner Trujillo   10:27Uh.Mhm.
+576072292608Ana Maria Ruiz   10:43Pero no nos dice qué es, lo descubrimos ya después de un rato, no, entonces este, pero esto lo hace, no manda a Zafiro. ¿Qué usuario de Salesforce generó el pedido? Llega con cuenta de sistema genérico. También es correcto. Acá no sé si estamos hablando de lo mismo, te voy a mostrar, voy a pasar.
+576072292608Abner Trujillo   10:47Okay.
+576072292608Ana Maria Ruiz   11:02Brinca rápido aquí al a la pantalla, que también lo tengo. Eso no sabe ver si estamos en lo mismo. Si bien acá tengo los pedidos, estos vienen desde Salesforce y el usuario que lo genera todos me dicen Salesforce. No sé si eso es a lo que hacemos referencia y si esto se puede identificar el usuario, la licencia de Salesforce o demás y que nos haga llegar aquí el usuario de quien lo hace.
+576072292608Abner Trujillo   11:06Yeah.Ajá.
+576072292608Ana Maria Ruiz   11:27Pues estaría fabuloso y saber si lo estamos, estamos hablando de lo mismo.
+576072292608Abner Trujillo   11:29Okay.sí, justo es eso, es eso.
+576072292608Ana Maria Ruiz   11:34Perfecto, o k, entonces si nos manda eso genérico y pues sí, si nos pone el nombre del usuario de la licencia, pues estaría fabuloso. Aquí el otro no existe el motivo de no surtido de una partida, vive solo en compras desde zafiro. Acá nos generó la duda, ¿cuál es el motivo del no?Partido de una partida. Actualmente sí nos maneja estatus de los pedidos. Sí, yo si este pedido ya está surtido, si está facturado de más, nos regresa un estatus cuando ya manejamos ya después de lo facturado. Hay otro estatus en Zafiro en Salesforce, donde nosotros lo podemos marcar como Vacorder venta perdida.
+576072292608Abner Trujillo   12:01O K, o K.Ah.
+576072292608Ana Maria Ruiz   12:18Pero tanto así como especificar un motivo de lo no surtido, hoy por hoy en Zafiro no lo tenemos y no viaja. Esto lo tengo por acá, no, pero no lo tengo en la vista porque cambié la consulta, pero rápidamente.
+576072292608Abner Trujillo   12:28Okey, okey.Mhm.
+576072292608Ana Maria Ruiz   12:38En un pedido podemos cambiar el estatus, ya lo veremos más adelante, dependiendo el estatus que va de la mano con Zafiro. Acá está un pedido. Bueno, acá ya me dice un pedido que está cerrado.
+576072292608Abner Trujillo   12:54Tim.
+576072292608Ana Maria Ruiz   12:55Acá me dice que está parcial, está facturado y está parcialmente surtido. Sí, entonces estos son los estatus que viaja del pedido, por ejemplo, lo no surtido, pues yo acá solamente visualizo qué es lo que no tengo surtido, que en este caso, por ejemplo, me dice no surtido.
+576072292608Abner Trujillo   13:01Mhm.Sí.
+576072292608Ana Maria Ruiz   13:15Pero surtir realmente 1 m de más. Todo lo demás está surtido correcto, pero me dice parcialmente surtido porque no es exactamente la cantidad de lo que tiene acá, va. Puede haber casos donde sí solicitaron 100 y a la mejor surtieron nada más 90 y acá me quedó 10, pero ahí por ejemplo.
+576072292608Abner Trujillo   13:19Ajá.Okay, sí.
+576072292608Ana Maria Ruiz   13:33Una razón podría ser, el rollo viene de 100 m, la otra porque a la mejor mi existencia era solo de 20, surtivé este mis, mi existencia era solamente de 10, me piden 20 y solamente pude surtir 10, ¿no? Y acá me deja una existencia de 10, pero ya el encontrar la forma.
+576072292608Abner Trujillo   13:38Oh.Mhm.
+576072292608Ana Maria Ruiz   13:54¿Cómo poner esos motivos? Es lo que me generaba o nos generaba aquí esa inquietud, el motivo de cómo poder definirlo o en qué momento se podía definir. Sin embargo, el estatus del pedido sí se genera con esos que les mostré de parcialmente surtido y parcialmente facturado.
+576072292608Abner Trujillo   13:59Yeah.Okay.Porsa.Okay.
+576072292608Ana Maria Ruiz   14:14Y este ya es otro estatus que viene más adelante.
+576072292608Abner Trujillo   14:19Okey, de acuerdo.
+576072292608Ana Maria Ruiz   14:20Luego acá me dice, no hay sincronización de listas de precios ni catálogos de productos como flujo normal. Hoy la existencia se actualiza vía REST, pero precio catálogos, que es lo mismo de aquí arriba, lista de precios catálogos, no tienen un mecanismo equivalente.Mecanismo equivalente confirmado acá la duda es en hoy por hoy, tanto la lista de precios de artículos, las existencias se actualizan este online si yo hago alguna modificación de precios en zafiro.
+576072292608Abner Trujillo   14:39Mhm.
+576072292608Ana Maria Ruiz   15:00De inmediato me lo refleja en Salesforce. Si yo hago un producto nuevo, me lo refleja en Salesforce y aquí es lo que comentaba con Abraham. ¿Cuál es la forma en que se actualiza? En ambos casos me confirmaba que era por esta vía REST. Entonces, tanto la existencia, catálogos, precios.
+576072292608Abner Trujillo   15:16Okay.
+576072292608Ana Maria Ruiz   15:20Clientes, incluso todos se van actualizando en forma, pues sí, automática o este online. sí.
+576072292608Abner Trujillo   15:28Okay, okay.
+576072292608Ana Maria Ruiz   15:30Entonces nada más ahí como que temas aclaratorios y si hay alguna duda de que no se vio dónde está, pues ahí el ingeniero Abraham nos puede ayudar más en ese punto, ¿no?
+576072292608Marlon Maco   15:39Un favor, les podrías mostrar la página donde está el este la publicación de los inpoint que te mostré solamente como una muestra del de cómo está, digamos, lo que se le llama a ver si estamos en lo mismo, lo que es el rest.
+576072292608Abner Trujillo   15:41Mhm.
+576072292608Ana Maria Ruiz   15:42Adelante, bro.Okay.La que tiene esto, este.
+576072292608Marlon Maco   15:57Ajá, ahí mismo.Mire.
+576072292608Ana Maria Ruiz   16:00A ver, Abraham, tú explícanos aquí esto.
+576072292608Abner Trujillo   16:00Ajá.
+576072292608Marlon Maco   16:02Sí, este ahí este es el la sección de la API donde de donde está Salesforce, este que básicamente es igual. Ahí están todos los verbos que se invocan cuando se hacen las solicitudes desde Salesforce, que llegan hasta Zafiro y aquí están los verbos que.Detonan o este entregan cada uno de los este de las peticiones. Quisiera este ver si estamos en igual en el mismo sentido del método REST. Es igualito lo que hace tanto en existencias como en precios. Si se fija, aquí hay uno de obtener existencias, hay otro de actualizar existencias, aquí actualización de artículos precio.
+576072292608Abner Trujillo   16:26Okay.Sí, sí.Mhm.
+576072292608Marlon Maco   16:42Y este está bueno, etcétera, no son cada uno de los este de las secciones, igual como que ustedes nos comenten si es esa parte del rest que se menciona.
+576072292608Abner Trujillo   16:50Sí.Sí, es justo. Eso es lo que se detecta de este lado. O sea, que ya hay una, digamos, una vía construida en donde se está haciendo esa actualización. Yo creo que hay nada más. Lo único que lo que se refiere el documento es no sé si en los tiempos.este porque ahí dice pero precio y catálogo no tienen un mecanismo equivalente confirmado Aunque arriba este no a lo mejor puede ser que esté mal ese puede ser que esté mal a menos de que necesitemos algún flujo adicional o algo pero pues ahorita está funcionando porque sí tenemos como bien dicenen listas de precios y también tenemos el la parte de los productos Entonces si están viajando puedes ayudarnos otras con la pantalla anterior Ana María nada más para revisar viene artículos Salesforce son productos y agregar clientes
+576072292608Marlon Maco   17:39Sí.
+576072292608Abner Trujillo   17:52¿Tener token Crisp, una pregunta, te serviría tener información de estas de estos post?
+576072292608Cristofer Contreras   18:01Sí.
+576072292608Abner Trujillo   18:03¿Habrá alguna manera, perdóname, habrá alguna manera de que nos pudieran compartir estos?
+576072292608Cristofer Contreras   18:03Sí, por.
+576072292608Marlon Maco   18:05Sí.sí, triste.
+576072292608Abner Trujillo   18:10No, ajá, sí, o k.
+576072292608Marlon Maco   18:11Existe incluso este se puede este entregar un postman este en el módulo de u a t para que puedan trabajar con este con este como la API en todos sus verbos, no para que se puedan hacer ahí una algunas consultas, tal vez algunos este algunos post o algunos patch.
+576072292608Cristofer Contreras   18:16Pues.
+576072292608Abner Trujillo   18:24Mhm.
+576072292608Marlon Maco   18:32Sobre los temas que estamos tratando.
+576072292608Abner Trujillo   18:34Okay.Sí, nos ayudan con eso para que de este lado Cris con los chicos pueda ver el pues más bien completar el recorrido y ver que realmente no estemos omitiendo nada con lo que ya existe. A lo mejor esta parte se nos fue y ya es algo que como vemos ya existe.
+576072292608Marlon Maco   18:58Así es y bueno, nada más este. Por último, mencionar que en cada uno de los módulos que se este se se invocan en este en el REST, este incluye tanto las actualizaciones individuales, ya sea por registro o incluso, por ejemplo, lo que trabajamos mucho son cargas masivas de precios.
+576072292608Abner Trujillo   19:02Mhm.Mhm.
+576072292608Marlon Maco   19:16Incluyendo esa parte, también este también se hace no con las reglas correspondientes de las listas de precios, no que tienen su propia este su propio manejo.
+576072292608Abner Trujillo   19:21Okay.Mhm.Okay.
+576072292608Marlon Maco   19:27Listo, dejo el dejo el micrófono.
+576072292608Abner Trujillo   19:29Gracias.
+576072292608Ana Maria Ruiz   19:32De acuerdo, Abner, pues anotamos esa parte este para que se les proporcione ahí base o a T. Este Tengo ahí otras inquietudes sobre esta parte, ay sobre esta parte, pero ya lo mencionaba hasta el final, cosas también que estaba viendo ahí con el ingeniero. De acuerdo, entonces igual y esa parte nos cubra parte.
+576072292608Abner Trujillo   19:48Okay.
+576072292608Ana Maria Ruiz   19:53O mucha parte de este documento es mucha parte parte, pero bueno, o k, entonces aquí seguimos con el los famosos res. Sale, entonces si están para ambos casos y aquí no hay integración de cotizaciones en ningún sentido. Este no se requiere las cotizaciones hoy por hoy o desde inicios de Salesforce se está manejando todo ahí desde Salesforce.
+576072292608Abner Trujillo   19:56Sí, sí.Cancel first.Okay.
+576072292608Ana Maria Ruiz   20:27Recibe los pedidos, entonces esta parte de la cotización, si lo menciona más adelante, pues igual no sería este requerida para Zafir, va.
+576072292608Abner Trujillo   20:35De acuerdo.
+576072292608Ana Maria Ruiz   20:38Acá el requerimiento por dominio para offline, lo que se va a pedir acá nos genera algunas inquietudes con el término dominio, dominio te refieres a o a qué se refieren con dominio, porque dice para cada dominio se requiere dirección del flujo, frecuencia necesaria y que se necesita pedir a Zafir.Entonces aquí el dominio o el término dominio nos nos confundió un poquito si dominio es algún dominio de como el que vimos aquí del donde están todos estos documentos o dominios se referían a clientes, artículos, pedidos y demás.Nada más ahí como aclaratorio para tener estar en el mismo tono.
+576072292608Abner Trujillo   21:19Uh.Okey, déjame nada más darle una repasada para cada dominio, dirección, flujo, para cada dominio, dirección de flujo, frecuencia necesaria y que se necesita preguntar pedida a Zafiro. La frecuencia está pensada para que el promotor pueda sincronizar 2 veces al día al inicio del fin de la jornada tal como pueda con la app actual.Okey.Para cada dominio, lo que pasa, sí, creo que aquí tal vez se pudo.
+576072292608Ana Maria Ruiz   21:53Mhm.
+576072292608Abner Trujillo   22:00No creo que se refiera a un dominio como tal de páginas, o sea, más bien es el como el flujo o definir el flujo al momento de hacer la sincronización. Es decir, qué es lo que pasa con la aplicación móvil de Consumer Woods, como lo vieron en las demostraciones y en lo que les hemos mostrado.
+576072292608Ana Maria Ruiz   22:04Okay.Mhm.
+576072292608Abner Trujillo   22:22Es Sí, es una aplicación un poco diferente. Lo único que hace es que digamos que por detrás está construida muy diferente a la aplicación móvil que conocen de Salesforce que pueden bajar. Y bueno, que les platicamos también al principio. Recuerdan que hay una aplicación móvil de Salesforce que se puede bajar desde la tienda y desde ahí hacer la gestión.
+576072292608Ana Maria Ruiz   22:40Mhm.
+576072292608Abner Trujillo   22:42Cosa que hoy por hoy ustedes no la utilizan porque en sus tablets entran directamente a través del navegador y ajá y entra en la web. En el caso de la aplicación móvil de Consumer Goods, sí se necesita como se van a empezar a generar los pedidos desde ahí o la idea es que se generen los pedidos. Seguramente ahí lo que necesitamos definir es en qué momento cuando ya tenga.
+576072292608Ana Maria Ruiz   22:47I would.Mhm.
+576072292608Abner Trujillo   23:05Digamos conexión la aplicación, se tenga que estar enviando esta información de los pedidos para que caigan directamente en el RP. Eso es a lo que a lo que dice, porque al final del día aquí dice que la frecuencia está pensada para sincronizarse 2 veces al día, uno al inicio, es decir, como para que se pueda traer.
+576072292608Ana Maria Ruiz   23:14Okay.
+576072292608Abner Trujillo   23:25La información antes de que se vayan a visitar y la otra es que puedan este descargar o bueno, enviar la información que haya sido recabada en todo el día. Eso es al menos lo que se piensa. Sigue ingeniero, adelante.
+576072292608Ana Maria Ruiz   23:37Mhm.
+576072292608Marlon Maco   23:38¿Sí, una pregunta, esa configuración que requiere Consumer Goods este se tiene algún este, por ejemplo, un documento guía? Y también preguntar si se puede configurar, por ejemplo, este en qué momento para librar ese paso y decir, oye, con esto sí podemos y como a clarificar, no decir.
+576072292608Ana Maria Ruiz   23:39No.
+576072292608Abner Trujillo   23:52Uh-huh.Yeah.
+576072292608Marlon Maco   23:59Tenemos con que este llegar hasta el hasta el consumidor, dejo el micro.
+576072292608Abner Trujillo   24:03Bien, sí, como tal hay un buen de documentación, sí, de la aplicación móvil. Este aquí nada más. El detalle es que, o bueno, lo que recuerdo de la configuración. Si estoy mal ahí, Cris, me apoyas, pero cuando haces la sincronización, tú sí le puedes decir a la aplicación en qué momento hacerla, ¿no?
+576072292608Cristofer Contreras   24:24Sí.
+576072292608Abner Trujillo   24:25entonces no es que esté limitado no es que esté configurado por detrás sino que la idea era como mantener una una alineación y es lo que hemos visto con otros clientes en donde tratan de no saturar al sistema haciendo todo sincronizacionespares no sino poner como la regla entre lo ideal es que antes de que salgas a visita que tienes red bajes la información después de eso si llegas con el cliente y no tienes red No pasa nada tú sigue haciendo tus tus cargas o tus actividades y cuando ya tengas red La idea es que pues entregues laLa información o se descargue la información de forma automática, sin necesidad de que vuelvas a interactuar con la herramienta, sino simplemente es que ya la aplicación detecte que ya tienes red. entonces.Creo que va en ese sentido ese párrafo en específico, o sea, para cada dominio, más bien creo que ahí se le fue un poco al a nuestro compañero el término de dominio, pero más bien es como sí definir esa frecuencia, este que no es limitativa. Vuelvo a repetir, no es limitativa, más bien el usuario decide.En el momento que se loguea, si se descarga la información y tiene conexión con Internet, pues se va a descargar la información, ¿no? Pero la idea es que cuando estén en offline, pues antes de cerrar la jornada, pues ellos puedan hacer la actualización conectándose en un lugar donde sí haya red más que nada.
+576072292608Ana Maria Ruiz   25:57Ohh.
+576072292608Abner Trujillo   25:58Sí, ingeniero, adelante.
+576072292608Ana Maria Ruiz   25:58Okay.
+576072292608Marlon Maco   26:00Perdón que haga una nota en este punto, pregunta este cuando hace la conexión, cuando ya tiene Internet, este solo por duda valida este, por ejemplo, vamos a suponer que es un cliente valida en que este ahí dice quedó el último y toma el que el que corresponde el siguiente.
+576072292608Abner Trujillo   26:03Mhm.Mhm.
+576072292608Marlon Maco   26:19Hace esa validación, digo, solo se me quedó, es como una duda en el último cliente que nos quedamos a la hora que se conecta.
+576072292608Abner Trujillo   26:23Mm.Sí, o sea, en el momento que no hay, digamos que la aplicación va a seguir registrando las actividades. Vamos a suponer que en la visita estaba levantando, no sé, un pedido y estuvo capturando todos los productos. A lo mejor la aplicación en ese momento dejó de tener Internet.
+576072292608Ana Maria Ruiz   26:57No te escuchamos a subnish.
+576072292608Abner Trujillo   27:00Lola, ¿me escuchan?
+576072292608Cristofer Contreras   27:01Yeah.
+576072292608Ana Maria Ruiz   27:01Bueno, ya te recuperamos, sí.
+576072292608Abner Trujillo   27:04Okay, comentaba que no hay algo en la aplicación que te diga de manera, digamos, en la misma aplicación cuando pierdes la señal, no hay algo que te bloquee para no seguir utilizándola. Simplemente te va a seguir dejando guardar, registrar y todo eso. Y en cuanto ya haya señal, lo único que va a hacer es.Verificar cuáles sí fueron los que pasaron, por así decirlo, o los que estén pendientes por pasar o por enviarse hacia el RP. Hablando de un pedido, la misma aplicación va a decir, hago un recorrido de todos los este los registros, veo cuáles no pasaron y esos son los que empiezo a encolar y enviar una vez que yo tenga.Señal, así es como así es como funciona.
+576072292608Marlon Maco   27:44O.Okay, gracias.
+576072292608Abner Trujillo   27:47Sí, listo, Ana María, si quieres continuamos.
+576072292608Ana Maria Ruiz   27:50De acuerdo, bueno, acá con este punto, en cuanto a la frecuencia, lo que estaba viendo era este 2 veces al día, inicio, fin de jornada. Digo, ahí pues ya lo revisamos o lo definimos al final, pero digo, lo que hagas al final del día va a ser lo mismo que hagas al inicio del siguiente día, ¿no? Entonces igual y definir ahí.
+576072292608Abner Trujillo   28:01Mhm.
+576072292608Ana Maria Ruiz   28:08¿Diferente en qué momento lo que se opera hoy en las en la, pero acá se hacen referencia nada más a la aplicación actual, verdad? Como tal, este, pues bueno, yo tengo entendido que la aplicación también estaba en línea. Honestamente, la aplicación no lo ocupan más que para hacer checking checkout.
+576072292608Abner Trujillo   28:19Sí.
+576072292608Ana Maria Ruiz   28:31Y son creo que uno o 2 usuarios que la utilizan para eso. Todos los demás la utilizan en la tableta este por la web y toda la información la tienen este actualizada online. No, eso es al instante. Sale con respecto a clientes, Zafiro manda Salesforce, el catálogo maestro de Salesforce de de clientes, perdón, y Salesforce manda a Zafira.
+576072292608Abner Trujillo   28:38Hmm.Okay.Sí.Mhm.
+576072292608Ana Maria Ruiz   28:55A Zafiro la alta de prospectos nuevos. Sí, este sí, efectivamente, como lo mencionabas hace un rato, en Salesforce hacen alta de prospectos, los generan, les hacen check in, check out, a lo mejor le cotizan algo y ya cuando este pasa a ser un cliente, lo que hacen es por forma individual le mandan a Zafiro los datos del cliente.Bueno, a crédito y cobranza le mandan los datos del cliente, los dan de alta y ya lo registran entonces como un cliente nuevo y ya lo pasa como la primera parte. Zafiro le manda al cliente el cliente nuevo a Salesforce. Si hay una forma automática de que el prospecto pueda pasar de Salesforce a Zafiro, pues bueno, estaría fabuloso, ¿no?
+576072292608Abner Trujillo   29:19Mhm.Mm.Okay.
+576072292608Ana Maria Ruiz   29:42El tema y lo que te mencionaba hace un rato, lo el problema que tenemos ahorita con prospectos.Es que no nos deja copiar la dirección que le registran a dirección de entrega y esto tiene que ver con el tema de Maps, porque en Maps yo tengo, bueno, están diseñadas las capas para que se visualice. por.
+576072292608Abner Trujillo   30:10Okay.El prospecto.
+576072292608Ana Maria Ruiz   30:30Pueda copiar la dirección a como lo hacen los clientes. Ves que ahí le das este clic en una casilla y te dice copiar la dirección de facturación y te la pone la misma en envío. Eso no lo podemos hacer en prospectos y ya si el prospecto registrado lo puedo mandar a Zafiro para que me lo den de alta y nada más complementan información.
+576072292608Abner Trujillo   30:44Ajá.
+576072292608Ana Maria Ruiz   30:52Pues estaría fabuloso, sí.
+576072292608Abner Trujillo   30:55Okay, okay.
+576072292608Ana Maria Ruiz   30:56Entonces, luego aquí la frecuencia, bueno, ibas a comentar algo, no o k.
+576072292608Abner Trujillo   31:01El ingeniero.
+576072292608Marlon Maco   31:01Sí.Sí, nada más como nota de esa parte de la dirección de envío y la dirección de facturación. Yo estuve revisando en las tablas de Salesforce y es que esta este esta parte donde copian la dirección de facturación y la dirección de envío y que bueno que no es diferente, lo hacen en una misma tabla. Entonces, por ende, cuando se actualiza el cliente en Zafiro.
+576072292608Ana Maria Ruiz   31:04Yeah.
+576072292608Abner Trujillo   31:11Ajá.
+576072292608Marlon Maco   31:24Vuelve a poner los datos de facturación y no los envío solo como nota, no de que lo hacen en una misma tabla. Yo creo que debería ir en otra, pero bueno, es nada más nota. Por eso hace eso este Census, dejo el micrófono.
+576072292608Abner Trujillo   31:35Sí.
+576072292608Ana Maria Ruiz   31:37Que eso es lo que acaba de mencionar el ingeniero, este Abner es lo que nos está pasando con los clientes que ves que te mencionábamos en algún momento que su domicilio fiscal es en Monterrey, pero lo visitan aquí en Puebla. Entonces cambian la dirección de envío de entrega, pero este en cualquier actualización de ahí de clientes me vuelve a regresar la dirección de.
+576072292608Abner Trujillo   31:43Ajá.
+576072292608Ana Maria Ruiz   32:00De fiscal, que esa es la parte que está también ahí entre todo el los hallazgos que encontramos de mejor aquí con la parte de Salesforce. Sí, nada más como dato adicional, ajá.
+576072292608Abner Trujillo   32:05En.Hey.Pregunta en ahorita en Zafiro, por ejemplo, tienes un cliente y ese cliente ahí sí tiene registrado sus direcciones de entrega y, por supuesto, también su dirección fiscal. Quiero creer.
+576072292608Ana Maria Ruiz   32:26No, en Zafiro tenemos la dirección fiscal y es la misma dirección de entrega, solamente tenemos uno o 2 clientes que tienen una dirección de entrega registrada y que les aparece en factura por misma necesidad del cliente.
+576072292608Abner Trujillo   32:27no tiene.
+576072292608Ana Maria Ruiz   32:46Pero todos los demás clientes, y fíjate, nos ha pasado eso, quisimos manejar en alguno la dirección de entrega a como salen las guías y nos las rechazaron, que no, porque por datos fiscales no podía tener diferente fecha. Les hicimos ver, es que no es el dato fiscal, el fiscal es este, pues no, los clientes ya ves que luego se aferran a algo.
+576072292608Abner Trujillo   33:05Sí.
+576072292608Ana Maria Ruiz   33:06Y dices, bueno, lo dejo así, no le muevo y no les genero problemas al cliente para no afectar más fiscalmente, no porque te toman la dirección fiscal, no la dirección de embarque, pero pues para no generar mayor complicación ahí con los clientes y riesgos de cancelaciones, decidimos dejarlo así.Solamente hay uno o 2 clientes que sí tienen registrada la fecha de entrega de forma independiente, pero todos los demás pues están así con la dirección fiscal y dirección de envío, es la misma.
+576072292608Abner Trujillo   33:32Okay.¿Habrá? Bueno, creo que eso lo podemos validar también del lado de en el sandbox de UIT como para hacer primero el flujo, revisar cómo es que está, cómo es que está reaccionando, qué es lo que nos están contando ahora mismo y sobre eso, entonces sí hacer el ajuste en.
+576072292608Ana Maria Ruiz   33:44Mhm.
+576072292608Abner Trujillo   33:57Hablo en la parte de las direcciones con los prospectos al momento de que hacen la ya la conversión, todo esto que nos acaban de platicar, si este lo vamos a revisar ya directamente en el UIT, que es en donde tenemos más datos y sobre de eso ya podemos ver este cuál es el flujo o cuál es el o cómo está el proceso por dentro.
+576072292608Ana Maria Ruiz   34:02Mhm.Okay.
+576072292608Abner Trujillo   34:17Por el cual está haciendo como esa actualización rara o donde ustedes, aunque hayan hecho ya el cambio, pues les vuelve a dejar la este la dirección anterior, ¿no? Entonces también la otra que podríamos hacer es que dentro de la dirección de.
+576072292608Ana Maria Ruiz   34:29Mhm.
+576072292608Abner Trujillo   34:36Digamos, dentro de prospectos se pudiera hacer otro, digamos, como otras casillas o otros campos en donde ahí también se pudiera meter esa dirección. El este creo que también podríamos hacer eso, este, pero si igual nos llevamos de tarea para.Para revisarlo y en la siguiente sesión ya comentarles qué es lo que encontramos con ese proceso en específico. También puede ser que haya un flujo que también ahorita tal vez no lo hayamos detectado, que sea el que esté haciendo del lado de Salesforce, me refiero no tanto en una integración o algo así, sino del lado de Salesforce, que sea el culpable que esté haciendo justo esa.Pues esa actualización, pero lo revisamos.
+576072292608Ana Maria Ruiz   35:21Sí, incluso fíjate 2 cosas, una en eso que van a revisar y mencionas de agregar algunos campos o demás, nada más no perder de vista que está Maps y Maps. Tenemos la capa de shipping para hacer el check-in, entonces ver ahí como para que lo reflejen, ¿no?
+576072292608Abner Trujillo   35:35Mhm.
+576072292608Ana Maria Ruiz   35:38Y la otra es, ay, ya se me fue, la otra es en los prospectos.
+576072292608Abner Trujillo   35:38Sí.
+576072292608Ana Maria Ruiz   35:50No era lo de Maps, los catálogos, no, ya se me fue la otra parte, tenía que decirte primero la otra. Bueno, adelante, este seguimos y ya este ahorita te digo del otro tema de los prospectos, sale, pero bueno, eso se ve entonces lo que se puede hacer en la alta.
+576072292608Abner Trujillo   36:00Sí.Mhm.
+576072292608Ana Maria Ruiz   36:11Es.Las direcciones para ver ya perdón, lo que te iba a comentar, cuando se cambian las direcciones de los clientes, ves que te aparece en la parte de abajo última modificación y quién la generó en muchas de esas modificaciones. Cuando se regresa la dirección de facturación, ahí te pone, te pone como usuario integración Mac.
+576072292608Abner Trujillo   36:26Sí.
+576072292608Ana Maria Ruiz   36:36O algo así está definido, no un usuario, sino que la misma integración yo lo interpreto así o lo entiendo así, que la misma integración o ejecución de sincronización te lo hace y ahí te aparece como usuario de la última modificación, es integración MAC o algo así dice.
+576072292608Abner Trujillo   36:38Okay.Sí.Okay.Ya o K, entonces sí lo está haciendo este ya sea código o flujo y él es el que está haciendo ese regresando esos datos. o K o K, sí.
+576072292608Ana Maria Ruiz   36:56Sí.Así es o K de acuerdo. Bueno, en cuanto a la frecuencia, pues bueno, creo que caemos en el mismo punto de acá arriba, ya sea actualmente lo tenemos online, este cualquier modificación se refleja luego a Zafiro. En cuanto a la aplicación este del offline, entonces sería definir no en qué horario se se hace.
+576072292608Abner Trujillo   37:18Mhm.
+576072292608Ana Maria Ruiz   37:27¿O cuántas veces están?
+576072292608Abner Trujillo   37:28Team, team.
+576072292608Ana Maria Ruiz   37:29¿Qué pedirás? Zafiro, servicio de consulta, extracción masiva, clientes históricos, no solo alta para un cliente, para iniciar y refrescar periódica periódica en Salesforce. Esta parte de la extracción de clientes ya lo tenemos actualmente en Salesforce.
+576072292608Abner Trujillo   37:48Sí.
+576072292608Ana Maria Ruiz   37:48Se pasó toda la información de más este en algún momento o al inicio. Todo eso se hizo por medio de este plantillas, si no mal recuerdo, y toda la información ya por en la comunicación ahí el ingeniero extrae de zafiro, se llenan las plantillas de Salesforce y fue como se hizo la extracción de información.
+576072292608Abner Trujillo   37:58Ok, sí.
+576072292608Ana Maria Ruiz   38:11Como carga inicial para Salesforce, si eso mismo se requiere para la aplicación, pues bueno, creo yo que se puede hacer de la misma forma, nada más para confirmar si estamos en lo mismo, este y pues bueno, eso ya se tiene y se se hace, ¿no?
+576072292608Abner Trujillo   38:24Sí.O K, sí, no, pero esa parte este yo creo que aquí era más bien el diagnóstico que se tenía cuando se hizo en el sandbox que no teníamos acceso a UIT. Este sí, ahí se nos fue ese punto porque es correcto, o sea, ya que nos diste acceso a UIT, digamos que ya nos diste.
+576072292608Ana Maria Ruiz   38:39Ah.Okay.
+576072292608Abner Trujillo   38:49Como que nos abriste el este las puertas del paraíso, porque ajá, porque ahí ya teníamos todos los datos que estaban haciendo falta. Entonces, como nosotros solamente estábamos registrando un par de registros en el sandbox de desarrollo, pues obviamente este pues íbamos a necesitar más datos, pero ya con el de UIT ha sido mucho más sencillo y ahí nada más para cerrar.
+576072292608Ana Maria Ruiz   38:51Más el panorama.Perfect.
+576072292608Abner Trujillo   39:11La idea es la misma integración que alimenta a Salesforce, va a alimentar o digamos que la aplicación de Consumer Goods va a hacer referencia a lo que existe en Salesforce, o sea, no hay que hacer una integración con Consumer Goods ni nada de eso sale.
+576072292608Ana Maria Ruiz   39:23Perfect.Perfecto, eso me resuelve muchas preguntas que te las estaba guardando al final y lo comentaba con el ingeniero. Sí, perfecto. Bueno, a ver, mira acá otro otra situación que encontramos es que nos dice el campo de estatus real del cliente habilitado, inhabilitado, motivo, límite de crédito.
+576072292608Abner Trujillo   39:32T.O K, sí, no.
+576072292608Ana Maria Ruiz   39:47De crédito si aplica para bloquear pedidos a clientes suspendidos. Acá lo que quiero hacer énfasis es si estamos hablando de 2 cosas diferentes integradas en un solo campo. Una cosa es cuando el cliente está habilitado inhabilitado.Y este cliente no le puedes generar pedidos, no le puedes generar cotizaciones. Así aplica en Salesforce, perdón, en Zafiro, que si un cliente está inhabilitado no le puedes ni cotizar, pero si lo bloqueas por límite de crédito o lo que sea, pues sí le puedes cotizar, nada más no le puedes generar o te va a pedir autorización de un pedido si se lo haces a crédito.Entonces, una cosa es el habilitado inhabilitado motivo este, pues bueno, no se ven, pero sabemos el por qué lo hacen los límites de crédito. Hace un rato precisamente lo revisamos, si hay campos de forma en ambos, en ambas plataformas. Sin embargo, cuando Zafiro modifique ese límite de crédito, no nos está llegando a Salesforce, eso habría.Que reforzar y confirmar para que cualquier modificación en el límite de crédito sí llegue a Salesforce.
+576072292608Abner Trujillo   41:00Mhm, correcto.
+576072292608Ana Maria Ruiz   41:01Quien lo debe, quien lo debe mandar siempre, pues va a ser Zafiro, porque crédito es quien define esas situaciones y ellos no cuentan con Salesforce, que eso pues tiene que hacerse en Zafiro y ya lo manda. Y otro tema diferente es autorización de pedidos de crédito que se hace en el Zafiro.
+576072292608Abner Trujillo   41:15Mhm.
+576072292608Ana Maria Ruiz   41:24Sí, acá para.Cuando Salesforce al inicio nos nos dieron la forma o la opción de nada más, Salesforce te decía: si es un pedido de contado, pasa en automático y sigue su flujo. Si es un pedido de crédito, se va, se pasa autorización y ya lo mandaban a crédito, pero todos los pedidos de crédito los mandaban a al área de crédito para autorización.
+576072292608Abner Trujillo   41:52Ajá.
+576072292608Ana Maria Ruiz   41:52Era una locura. Actualmente lo que hacemos en Zafiro tenemos una regla donde todos los pedidos de contado pasan, está igual, pero los pedidos de crédito utilizan 2 conceptos: o la regla es considerar el límite de crédito que no lo hayas excedido. Y si todavía tienes límite disponible, sí puedes hacer un pedido.
+576072292608Abner Trujillo   41:54Sí.
+576072292608Ana Maria Ruiz   42:17Pero juega también con la otra regla, que es documentos vencidos. Si tienes documentos vencidos, no puedes generar un pedido autorizado, tienes que mandarlo a solicitud de autorización. Entonces son esas 2 condicionantes donde te solicita la autorización de pedidos.
+576072292608Abner Trujillo   42:31Yeah.
+576072292608Ana Maria Ruiz   42:37En su momento lo comentamos con Salesforce y nos dijeron, sabes qué, no se puede, nada más. Es como que digo yo, una condicionante lógica, si no y punto, pero operaciones no te puede hacer, mismo que Zafiro nos dijo, sabes qué, no te puede hacer operaciones, porque si yo tengo un límite de crédito de 100.Tienes 80000 pesos en facturas, pero no están vencidos, tienes un límite disponible de 20. Pero si yo te paso un pedido de 50000, pues ya estoy rebasando mi límite de crédito y según la regla, pues no me puede hacer operaciones y me lo pasa como autorizado y ahí pues crédito ya nos nos brincó diciendo sabes que es que no puede ser así, tienen que cambiar esa regla.
+576072292608Abner Trujillo   43:07Mhm.Sí.Sí.
+576072292608Ana Maria Ruiz   43:21Entonces te lo pongo sobre la mesa. Si hay forma de que Salesforce lo pueda hacer, estaría fabuloso. Si no, yo estoy insistiendo con Zafiro de ya lo expuse y me dicen, deja ver si podemos hacer otro tipo de regla. Operaciones matemáticas no las hace. Le digo, pues chécalo porque si esto me está afectando. Entonces, en este punto yo quería diferenciar esas 2 cosas.
+576072292608Abner Trujillo   43:39Mhm.
+576072292608Ana Maria Ruiz   43:44A como está el texto y está ahí, este lo mencionan, este quería separarlo, sí que son 2 temas diferentes.
+576072292608Abner Trujillo   43:47Mhm.Okey.Son 2 diferentes, o k sí, en habitualmente en ese tipo de integraciones o bueno, cuando traemos este en temas de crédito o montos de ese estilo es porque el RP está preparado para exponer esa información. A lo mejor sí la puede exponer como dices, o ese tipo de cálculos matemáticos. este.
+576072292608Ana Maria Ruiz   43:54Así es.Y.Mhm.Mhm.
+576072292608Abner Trujillo   44:15Vaya, siempre se depende del lado de del RP para que se pueda exponer dentro de Salesforce. En Salesforce es un poco complicado, o sea, en Salesforce puedes hacer cálculos matemáticos, sí, pero el detalle es que, como dices tú, puede haber un cruce de regla en el cual pueda este pasar un pedido que esté autorizado o alguna cosa de ese estilo, entonces.
+576072292608Ana Maria Ruiz   44:21Mhm.
+576072292608Abner Trujillo   44:37Yo creo que por eso este en su momento, pues se planteó más bien el utilizar un estatus o algo que te diga si está inhabilitado o si está habilitado o si está congelado o si está con algún otro estatus, pues simplemente, o sea, pues puedes registrar el pedido en Salesforce, pero.Obviamente no lo vas a poder enviar al RP, creo que por eso se fueron más con esa, con esa este, con esa funcionalidad, porque sí dependemos de que el RP sea quien esté actualizando, pues esa parte, no este, porque pues el que es el sistema mandatorio, pues.
+576072292608Ana Maria Ruiz   44:59Mhm.Okay.Mhm.
+576072292608Abner Trujillo   45:15Entonces yo te podría decir de este lado, no, sí te lo creo, y hacen los cálculos matemáticos y todo eso. Y al final del día, a lo mejor en el RP ni siquiera este, o sea, va a llegar un pedido, el cual pues sobrepase ese crédito, sobrepase cualquier otra cosa y pues les va a generar otra vez ese mismo problema. entonces.
+576072292608Ana Maria Ruiz   45:20Ajá.Mhm.Mhm.
+576072292608Abner Trujillo   45:40Digo, nos podemos delimitar solamente a que tenga esta información o este estatus, un simple estatus en donde pues ya si está habilitado perfecto y si está inhabilitado es porque hay que revisar directamente con compras o con el área de contabilidad. ¿Qué pasa con?
+576072292608Ana Maria Ruiz   45:52Mhm.
+576072292608Abner Trujillo   45:57Con ese cliente no, esos sería como lo único, este digamos como para no afectar o no alargar esta parte, no creo que sí puede funcionar y así te evitas también del tema de este de realmente estar contando si tiene un crédito de 32 pesos, por ejemplo 32.50 pesos.
+576072292608Ana Maria Ruiz   45:59Mhm.Okay.Mhm.
+576072292608Abner Trujillo   46:19Y al final del día solamente te está comprando este, no sé, quiera comprar algo de 40, alguna cosa así. No creo que creo que entiendo por qué lo hicieron de esa manera.
+576072292608Ana Maria Ruiz   46:19Mhm.Okay, de acuerdo, el último punto aquí la verdad no nos quedó claro, este no sé si sea relevante o con lo que hemos platicado, estamos platicando a ti te quede claro, pero dice confirmar si Zafiro puede notificar cambios de estatus de clientes webhook.
+576072292608Abner Trujillo   46:30Ok, listo, listo.Ajá.
+576072292608Ana Maria Ruiz   46:48Push o si Salesforce debe consultarlo periódicamente, cambios de estatus de clientes, ahí no me quedó claro.
+576072292608Abner Trujillo   46:49Push.Al final.Al final del día lo que es que ustedes si tienen una integración en línea, o sea de toda la información que se vaya actualizando de los clientes y eso lo comparten pues con Salesforce, no es lo que ya está pasando o lo que ya tienen ustedes. Entonces básicamente si es si es esa parte, o sea, es si estamos hablando, digamos que está relacionado con el punto anterior.
+576072292608Ana Maria Ruiz   47:11Así es.O K.
+576072292608Abner Trujillo   47:19Si hay un Si hay un estatus o algo que esté cambiando con el cliente y que deba de actualizarse o que debemos de tomar en cuenta de este lado para que, por ejemplo, no se generen los pedidos, pues bueno, saber si Zafiro es capaz de poder hacer esa actualización, cosa que ya respondimos desde un principio con lo que nos enseñaban con los.
+576072292608Ana Maria Ruiz   47:19Mhm.Perfect.
+576072292608Abner Trujillo   47:39Con los Con los post, sí, ingeniero, adelante.
+576072292608Ana Maria Ruiz   47:41Okay.
+576072292608Marlon Maco   47:42Sí, solo preguntar ahí este menciona lo de webhook, este ahí me queda duda, no sé cómo cuál es el sentido, nada más este en el en el contexto.
+576072292608Ana Maria Ruiz   47:43O.
+576072292608Abner Trujillo   47:50Mhm.Ya sí, no es básicamente nada más como hacer la publicación de o un o tener un mecanismo como de estar en la escucha de un, digamos, de un evento que va que está esperando el sistema y que de ahí lo pueda cachar y con eso este emitir tal vez una alerta o hacer la actualización en el registro. Digamos que.Aquí del equipo lo maneja mucho con esos términos de webhook, este, pero realmente es parte de lo que se construye dentro de la integración. Ya una vez que se tiene la arquitectura y se programa esa integración con la frecuencia que ustedes definieron, pues la idea es que este.Simplemente se haga y se vea reflejado cada cierto tiempo. Si esto es online, como ya no los explicaron, pues cada que se haga un una actualización en zafiro al los segundos deberíamos ya de verlo en Salesforce, pero más que nada es una especie de mecanismo ahí ingeniero. que.Que planteaban los chicos, en dado caso porque yo les platicaba de zafiro, pero ya después de documentarnos un poquito de las funciones que tiene y todo eso, pues a lo mejor dijeron, pues todo lo que pensaron los chicos es si no se puede por ciertos mecanismos tradicionales, pues a lo mejor a través de un webhook o de un push.O algo que nos haga como tener esta actualización es solamente eso.
+576072292608Marlon Maco   49:17Okay.Gracias, gracias, gracias.
+576072292608Abner Trujillo   49:20Sí.
+576072292608Ana Maria Ruiz   49:22Perfecto, bueno, pues creo que mucho se va aclarando. Ya nada más quisiera aquí mencionar este también no sé el tiempo de ustedes, Abner, si lo tenías contemplado hasta las cuatro.
+576072292608Abner Trujillo   49:31sí, anda María, sí.
+576072292608Ana Maria Ruiz   49:32Sí, o K, a ver, nada más te digo así, este rapidísimo. Por esto también pusimos las anotaciones. Ya si algo se quiere profundizar, este lo vemos con gusto, no, pero a ver acá con respecto a la lista de precios, recomienda según qué tan seguido se hacen los cambios de precio mínimo diario.
+576072292608Abner Trujillo   49:38Mhm.Mhm.
+576072292608Ana Maria Ruiz   49:52Acá hacer énfasis, los cambios de precios se hacen diario. Hay diferentes razones por las que puede haber cambios de precios, que es por indicaciones del proveedor, que esas no son diario, pero son una vez al año, no, pero diferentes veces durante el año. El cambio de precios se puede hacer también por las entradas por compra, principalmente en material especial.
+576072292608Abner Trujillo   50:05Mhm.Mhm.
+576072292608Ana Maria Ruiz   50:13Tengo un producto que lo compré el año pasado, lo estoy comprando ahorita y ya tiene un precio diferente. Al momento en que hago la entrada por compra me modifica el precio, sí, y la otra es cuando yo desde datos maestros ya entro, le hago el cambio del precio al producto y me modifique el precio. Todos estos cambios por la el motivo que venga de inmediato impacto.Están a Salesforce, sale la extracción de listas de precios, cliente canal con vigencia, fecha desde hasta y moneda. Esto no, también no me quedó muy claro, pero bueno, las listas de precios también se hay una extracción. Sí, hay una extracción desde la podemos hacer desde Zafiro.
+576072292608Abner Trujillo   50:48Yeah.Yeah.
+576072292608Ana Maria Ruiz   50:59¿Algún empate para confirmar de que pues todo esté funcionando correctamente o nos reportan que hay una diferencia en precio, verdad?
+576072292608Abner Trujillo   51:05Sí.Okay.
+576072292608Ana Maria Ruiz   51:08Ajá, aquí hacer mención que tanto en precios como en altas y demás, acá el ingeniero tiene más detalle. En sus inicios de Salesforce nos hicieron una instalación a todas las máquinas que ejecutamos procesos y nos afecta.Todos estos campos mencionados, mantenimientos de artículos, de productos, cambios de precios, existencias, todo eso. El ingeniero tendrá más que ahora información técnica de qué es, pero esa máquina si mi máquina no tiene ese archivo que le pasaron y yo hago entradas por compra, no reflejo hacia Salesforce esos cambios que yo esté generando.
+576072292608Abner Trujillo   51:40Mhm.
+576072292608Ana Maria Ruiz   51:52Sí, entonces.Aquí un cliente puede tener más de una lista de precios vigente. No, un solo cliente puede tener una sola lista de precios asignada. El cliente no puede convivir con 2 listas de precios diferentes. Si eso se requiere, lo que estamos haciendo es que al cliente lo damos de alta con otro número de cliente diferente.
+576072292608Abner Trujillo   52:16Ah.
+576072292608Ana Maria Ruiz   52:16Y le damos otra lista de precios diferente, pero ya es un número de cliente diferente.
+576072292608Abner Trujillo   52:19O K.Okay.
+576072292608Ana Maria Ruiz   52:23Sí.
+576072292608Abner Trujillo   52:23Sí.
+576072292608Ana Maria Ruiz   52:24Catálogo de productos, pues viene por lo mismo, este con qué frecuencia o a la semana al menos 1 diario sí se da de alta y lo que más hay son modificaciones. Sí, diario hacemos modificaciones también, no es que sean muchas, pero sí este diario tenemos modificaciones, ya sea por alto o por modificación. ¿Qué es?Si yo tengo un artículo, como les mencionaba, tengo 39000 productos de los 39000, a la mejor 4000 son los que tienen movimientos más frecuentes. Entonces del resto lo que hacemos es buscar un producto que ya existe, modificarlo para ya no ampliar más ese catálogo de productos. Cuando se puede, hay ocasiones que no se puede y tenemos que darlo de alta.Entonces mi producto se llama este producto X, tengo la descripción a Bcy me cuesta 20 pesos, ahora lo modifico y se llama XYZY ahora me cuesta 30 pesos. Entonces este tipo de modificaciones sí las llegamos a hacer, este son quizás más frecuentes que las altas, pero se dan de ambas y de forma diaria.
+576072292608Abner Trujillo   53:26O K.
+576072292608Ana Maria Ruiz   53:27Extracción de catálogo de artículos. También si la tenemos tanto en Salesforce se hace como en zafiro. Activo descontinuado, sí lo hace. Hemos inhabilitado algunos productos y sí impacta en Salesforce. Confirmar si el catálogo se segmenta por almacén y región.
+576072292608Abner Trujillo   53:35Mhm.
+576072292608Ana Maria Ruiz   53:48No, el pedido solamente se hace en un solo almacén. Un pedido no puede combinarse en almacenes. Entonces así es sale. En cuanto a pedidos, la dirección es de que Salesforce le manda a Zafiro es correcto y lo que está en el punto uno y Zafiro le manda a Salesforce.
+576072292608Abner Trujillo   53:54Entre almacenes, sí, sí.
+576072292608Ana Maria Ruiz   54:09El estatus del surtido acá también queríamos hacer una separación porque son 2 tipos de estatus, uno es el pedido, el propio del pedido. Cuando yo lo genero y lo paso a surtir y sigue su proceso, va a tener un cambio de estatus en el surtido y en el factor.Facturado, que puede ser surtido y facturado, parcialmente surtido, parcialmente facturado. Sí, y estos cambios de estatus dependen desde zafiro cuando sigue su proceso. El pedido inicial me aparece por surtir, por facturar, le genero y ese me va a aparecer en.
+576072292608Abner Trujillo   54:33Ajá.
+576072292608Ana Maria Ruiz   54:47Salesforce, cuando yo genero una orden de entrega dentro de los procesos de zafiro, cuando yo le genero una orden de entrega, me cambia o me pone más bien un estatus. Cuando yo lo hago inicial en el Salesforce, sale sin estatus y cuando yo le genero la orden de entrega, cambia. Si yo hago un surtimiento, cambia, si yo hago la facturación del pedido, me cambia estos estatus.Entonces esa es una parte y posteriormente viene la otra. Ya después de facturado, el pedido en Salesforce me cambia el estatus.En Salesforce y me dice donde ahí yo lo puedo, le puedo poner si es un backorder o si es venta perdida o cierro la orden. Sí, entonces son 2 momentos diferentes y este el del backorder y venta perdida, Salesforce se lo manda a Zafiro y este del estatus del pedido por el proceso.
+576072292608Abner Trujillo   55:21Okay.Mhm.Okey.
+576072292608Ana Maria Ruiz   55:44Zafiro se lo manda a Salesforce. Aquí también hace mención sobre que hay inconsistencia según diagnóstico técnico. Acá no sé si eso se refieren a que en algún momento mencionamos que estos pedidos que cerramos en Salesforce.No impactan en Zafiro, sí es correcto, no impactan, pero por un error nuestro, que es algo que hemos estado mencionando justamente por esto, que el pedido tiene un proceso y si el pedido tiene una orden de entrega y yo lo cierro en Salesforce, no me va a impactar en Zafiro porque si es.
+576072292608Abner Trujillo   56:14Impressive.Mhm.
+576072292608Ana Maria Ruiz   56:22Nato de zafiro que para que yo cierre un pedido no debe tener una orden de entrega generada. Entonces en Salesforce yo cierro los pedidos, sí, malos cierro en Salesforce, pero no me impacta en Zafiro y ya cuando reviso en Zafiro es ahí donde entramos con esa discrepancia, no de que es que ya lo cerré, no lo cerré y ha sido un caos.
+576072292608Abner Trujillo   56:34Yeah.A.
+576072292608Ana Maria Ruiz   56:41Y ya se los expliqué y ya lo mencioné, a la mejor aquí sería bueno.Que Salesforce, si puede que detecta que un pedido tenga una orden de entrega, pero esa orden de entrega es propia de zafiro, pues no lo pueda cerrar, no, pero este esa sería una sugerencia si se pudiera, pero acá dependemos esta inconsistencia por la creación de una orden de.
+576072292608Abner Trujillo   57:02Look.
+576072292608Ana Maria Ruiz   57:06Entrega que ya tiene el pedido.
+576072292608Abner Trujillo   57:08Okay.
+576072292608Ana Maria Ruiz   57:09Ma, entonces aquí servicios webhook nuevamente lo mencionamos, actualización de estatus surtido vapor de cuenta perdida con motivo cuando no se surte completo. Llegamos nuevamente aquí al tema de los motivos, no este ya mencionamos cuando surten estos estatus, no tenemos.
+576072292608Abner Trujillo   57:10Okay.Mm.
+576072292608Ana Maria Ruiz   57:28Actualmente poner motivos así precisos del por qué no se surtió algo. Entonces ahí no sé si esa parte se puede incrementar, modificar o a raíz de que pueda pueda hacer esto, no de los motivos.
+576072292608Abner Trujillo   57:34Yeah.
+576072292608Ana Maria Ruiz   57:45Pedidos por almacén, pues nuevamente tenemos un pedido por almacén. Cotizaciones, cotizaciones definitivo en ningún caso, pues no se requieren en Zafiro. Sí lo recibe Zafiro solo cuando este ya se convierte en un pedido.
+576072292608Abner Trujillo   57:45Sí.Mhm.Okay.
+576072292608Ana Maria Ruiz   58:00Y por último, rápidamente las preguntas que se se harían aquí a Zafiro. Bueno, previo a comentarlo ahí con ellos, lo queremos comentar con ustedes y si es necesario buscar más información, lo hacemos. Que si existe algún servicio de extracción masiva así es por medio de sqly por LRP, también por base de datos. Es como se extrae información.
+576072292608Abner Trujillo   58:22No.Uh-huh.
+576072292608Ana Maria Ruiz   58:25Sí, Zafiro puede exponer el estatus de habilitado crédito del cliente como campo resultable o notificarlo por web hub. Sí, este actualmente está el estatus este de habilitado y crédito si llega a Salesforce, sin embargo.Salesforce permite hacer un pedido y ya cuando ese pedido lo pasamos a Zafiro es cuando te dice: sabes qué, no lo puedo recibir porque está inhabilitado. Nos manda un mensaje que, como te lo dije al inicio, lo descubrimos, que era por esa razón. Si esos mensajes de regreso pueden decirnos algo.
+576072292608Abner Trujillo   58:59Mhm.
+576072292608Ana Maria Ruiz   59:04Que sea entendible y la razón del por qué, pues sería fabuloso, ¿no? Pero pues ya ahí son temas de regreso de errores, pero sí se tiene aquí el habilitado, el ajá.
+576072292608Abner Trujillo   59:17El campo, mhm, mhm, okey.
+576072292608Ana Maria Ruiz   59:20Sí, es posible recibir el servicio de crear pedidos, un identificador de usuario vendedor adicional del que ya existe aquí. No sé para qué caso sea, si sea de lo que mencionamos que normalmente llega pedido Salesforce y poder poner aquí el identificador del usuario.
+576072292608Abner Trujillo   59:26Yeah.Es justo.Sí, es justo, es eso, es que exacto, es por el nombre este de que viene de la integración como Salesforce.
+576072292608Ana Maria Ruiz   59:41Mhm.O K, mira, anteriormente en pedidos en Zafiro, como lo manejábamos, el usuario que hacía su pedido nos aparecía ahí en lugar de que diga elaborado por Salesforce o web Salesforce, siempre nos aparecía si lo hacía Rocío, si lo hacía David, si lo hacía Gloria, si nos aparecía, tomaba por default.El nombre del la licencia del usuario de la licencia. Sí, entonces este sí no los ponía Zafiro ya nada más. Ahí es no sé de qué forma se puede integrar, así lo entiendo con las licencias de Salesforce.
+576072292608Abner Trujillo   1:00:12Okay.A lo mejor solamente sería cambiar la referencia de ese campo, porque seguramente lo que está mapeado es el que detona el proceso, más perdón, no el que detona, sino más a ver, sí el que detona el proceso de integración, más no el que detona la generación del pedido.
+576072292608Ana Maria Ruiz   1:00:27Okay.
+576072292608Marlon Maco   1:00:42Te.
+576072292608Abner Trujillo   1:00:43Entonces creo que ahí lo que nada más tendríamos que ver es si se puede cambiar la referencia en dentro de la integración para que aparezca el nombre de quién está ejecutando el ese pedido. Sí, ingeniero.
+576072292608Ana Maria Ruiz   1:00:43Okay.Ándale.Ajá.
+576072292608Marlon Maco   1:01:00Así, solo como comentario, ahí en Zafiro aparece el alias que viene en la licencia de este el usuario, por ejemplo, este si la mía es Abraham, me dice ahí a BR, también esa llega, pero bueno, es nada más afinar ese punto de ver que llega, ¿no?
+576072292608Abner Trujillo   1:01:07Okay.Mhm.O K o K, o sea, sí está llegando ahorita a Zafiro, el alias de Salesforce, eso es lo que quiero entender, o o K.
+576072292608Marlon Maco   1:01:23Así es sí, llega en un campo, sí llega en un campo, pero bueno, habría que ver ahí cómo lo trabajamos.
+576072292608Abner Trujillo   1:01:26okay.Okay, sí.
+576072292608Ana Maria Ruiz   1:01:30Llega a un campo, pero no precisamente al de pedidos, pero sí hay algún regreso, no lo que entiendo, entonces igual y ahí algo se puede hacer para que se traiga al campo de los pedidos.
+576072292608Abner Trujillo   1:01:36O K.Sí.
+576072292608Ana Maria Ruiz   1:01:44Bueno, o K, este rapidísimo, existo, pero no se nota. Ajá, existo. Se puede construir un servicio que notifica Salesforce cuando una partida no se surte completa, incluyendo el motivo, , pues solamente lo que tenemos actualmente es el estatus parcial surtido, parcial facturado por por facturar, lo que les mencionaba hace un momento.
+576072292608Abner Trujillo   1:01:45Ok.
+576072292608Ana Maria Ruiz   1:02:04¿Un pedido de Zafiro puede asociarse a más de un almacén? No es únicamente pedido por almacén, no este se hace. Zafiro necesita visibilidad de las cotizaciones antes de que se convierta en pedido. No, Zafiro solamente lo recibe en el momento en que ya son pedidos. ¿Qué frecuencia de sincronización recomienda Zafiro para catálogos o precios sin saturar su sistema?
+576072292608Abner Trujillo   1:02:04Okay.
+576072292608Ana Maria Ruiz   1:02:28En tiempo real, pues bueno, eso actualmente lo hacemos online. Entonces, pues no creo que haya una saturación o cada que tiempo se hace. Actualmente cualquier modificación llega y se refleja inmediato a Salesforce. Entonces, bueno, es todo lo que tenemos. No sé si haya alguna duda, algo que se quiera ampliar o algo en lo que se tenga que profundizar.Es con gusto la hacemos.
+576072292608Abner Trujillo   1:02:57O K, estoy haciendo aquí en las anotaciones también.
+576072292608Ana Maria Ruiz   1:03:00Dices.
+576072292608Abner Trujillo   1:03:01Y este no, yo creo que nos va a dar mucha luz este documento que tienen del post que nos enseñaron en la página.
+576072292608Ana Maria Ruiz   1:03:09Mhm.
+576072292608Abner Trujillo   1:03:10Este, porque con eso entonces ya tenemos más claro cómo está realmente la estructura y qué se está mandando, cómo se está mandando. Y ya creo que ya creo que sobre eso, si lo que estoy viendo ahorita es simplemente sí hacer ciertos ajustes a algunas cosas de lo que ya existe, entonces tal vez no sea tanto el.El generar cosas nuevas a menos de que se requiera, pero por lo que estoy viendo tal vez no va a ser tan necesario eso. Entonces, si nos comparten esa página y también este documento ahí con sus comentarios, este, pues también yo regreso con el equipo, reviso con Crisis el equipo y este.
+576072292608Ana Maria Ruiz   1:03:40Perfecto.
+576072292608Abner Trujillo   1:03:51Y si necesitamos alguna sesión, los busco el lunes para ver si tenemos disponibilidad o el martes, dependiendo si no tienen tanta carga y nos volvemos a reunir.
+576072292608Marlon Maco   1:04:01Creo que sí, administrar la orden, que nada más consideren los martes. yo.
+576072292608Ana Maria Ruiz   1:04:01Claro que sí, Avnes, a la orden, nada más considera los martes, yo tengo una junta a las 10:00 de la mañana, este de ahí en fuera, pues no hay problema, nos podemos coordinar y lo que sea necesario. Checo ahorita con el ingeniero para que esta parte de donde están todos estos se pueda compartir. Entiendo, esto es ahorita productivo lo que está este en ambiente.
+576072292608Abner Trujillo   1:04:03Sí.Mhm.Mhm.
+576072292608Ana Maria Ruiz   1:04:25productivo pero como él lo mencionó pues que lo ve que lo ponga en uate no para su consulta y lo que te decía hace un rato sí muchas de las cosas que ahí piden es lo que comentaba con el ingeniero Abraham lo tenemos Entonces si lo que tenemos nos funciona y nada más se puede como que redireccionar hacia el offline pues adelante no si no si esDe zafiro, a bueno, pues lo hacemos, pero si lo tenemos y nos funciona, pues ya nada más lo que sea necesario hacer de acuerdo.
+576072292608Abner Trujillo   1:04:57Más bien, Más bien, más bien lo de lo que nos referíamos a al offline. Como les comentaba, no es que ellos tomen o que offline tome otra integración adicional a lo que ya tienen, no es no es, no es el sentido, sino que el tema es con la con las integraciones que ya tenemos o con la información que ya nos arroja.
+576072292608Ana Maria Ruiz   1:05:06Okay.
+576072292608Abner Trujillo   1:05:17Zafiro a Salesforce, eso mismo consume la aplicación móvil. O sea, realmente estamos haciendo un logueo con un licenciamiento de Salesforce, pero que ahora tiene capacidades de utilizar la aplicación de consumers Good Cloud, que es la licencia que la última que adquirieron para todo el equipo de ventas. Entonces no es otra integración, es simplemente complementar lo que necesitaríamos.
+576072292608Ana Maria Ruiz   1:05:32Mhm.
+576072292608Abner Trujillo   1:05:39Para que el proceso pues esté funcionando correctamente. Si, por ejemplo, lo que decíamos en el tema del pedido, vamos a suponer que el cliente está inhabilitado o no tiene crédito disponible, que digo, ya lo platicamos, pues pero nada más es como para cerrar la idea. Si está inhabilitado, pues la idea es que a la mejor ya estando dentro de la aplicación haciendo la visita, a la mejor va a poder.
+576072292608Ana Maria Ruiz   1:05:42Perfect.
+576072292608Abner Trujillo   1:06:02Registrar el pedido, pero al final del día, cuando empiece a ver la sincronización y ahí a Internet, pues a lo mejor no se va a enviar. ¿Por qué? Porque tiene un estatus de que está inhabilitado. No pudiera ser eso y nada más era como pues corroborar pues que todo eso lo tengamos del lado de Salesforce para que se pueda implementar ese mecanismo.Y que obviamente este la información que se está enviando a Zafiro pues cumpla con las reglas que ya existen. Más que nada es ese es el sentido, pero no de ninguna manera son integraciones adicionales ni nada de eso. Es simplemente este complementar lo que ya tenemos y en dado caso de que ustedes dijeran.
+576072292608Ana Maria Ruiz   1:06:33Okay.
+576072292608Abner Trujillo   1:06:42Si nos hace falta tener una integración adicional para hacer x acción, entonces sí tendríamos que revisarla para que eso entonces sí se pudiera construir desde la estructura, los tiempos, en cómo se va a realizar y que, por supuesto, toda esa información la podamos ver en Salesforce y, por supuesto, también.Obtenerla del lado de zafiros, si es que ese fuera el caso, pero creo que hasta el momento no tendríamos porque llegar a eso. Si hay algo que en con lo que revisa el equipo se necesitara, entonces ya les hago saber para que podamos este tal vez incluir un campo adicional.
+576072292608Ana Maria Ruiz   1:07:18Perfecto, o k de acuerdo Abner, pues muchísimas gracias, muchas gracias.
+576072292608Abner Trujillo   1:07:19Mhm.De acuerdo, muy bien, no, gracias a ustedes y estamos en contacto. Entonces quedamos pendientes de la info y este y yo la siguiente semana los busco y si tenemos por ahí un espacio, pues coordinamos.
+576072292608Ana Maria Ruiz   1:07:38Claro, con gusto. De acuerdo, Abner, muchas gracias, Cristofer, muchísimas gracias.
+576072292608Marlon Maco   1:07:38Pero de acuerdo, muchas gracias, gracias, buenas tardes.
+576072292608Abner Trujillo   1:07:43Gracias, buena tarde, hasta luego.
+576072292608Cristofer Contreras   1:07:43Vale, gracias.
+576072292608Ana Maria Ruiz   1:07:45Hasta luego, bye.
+576072292608Marlon Maco   1:07:45Sí, hasta luego.
+576072292608Cristofer Contreras   1:07:46Bye.
+621792274320Abner Trujillo detuvo la transcripción

@@ -1,0 +1,6 @@
+﻿SECCION,REQUERIMIENTO / PROBLEMA,SOLUCION / ACCION REQUERIDA,ESTADO / MOTIVO TECNICO
+Implementado en Salesforce,Integración sobreescribía direcciones de clientes,Modificamos el Flow Actualizar_Direccion_de_Envio para excluir al usuario de integración (Alias != sinte).,Resuelto.
+Implementado en Salesforce,Crear cliente en Zafiro automáticamente al convertir prospecto,Construimos el flujo asíncrono Creacion_Cliente_Zafiro_Prospecto que se dispara al convertir un Lead.,Implementado.
+Implementado en Salesforce,Sincronizar Límite de Crédito y Estatus hacia Salesforce,Creamos campos en Cuentas y desarrollamos un Batch Apex segmentado (SincronizacionCreditoZafiroBatch).,Implementado. Listo para programarse.
+Requerido de Zafiro,Enviar a Zafiro el alias del usuario que creó el pedido,Modificar su API: Habilitar propiedad (Usuario/Alias) en esquema de /api/salesforce/CrearPedido.,Su esquema Swagger (SFCreatePedidoDto) es estricto y no lo recibe.
+Requerido de Zafiro,Falla al sincronizar el crédito de los clientes,Otorgar Permisos: Habilitar al Usuario de Integración permisos para consultar módulos de crédito.,API arroja error: 403 Forbidden - No tienes permiso para acceder a clientes.

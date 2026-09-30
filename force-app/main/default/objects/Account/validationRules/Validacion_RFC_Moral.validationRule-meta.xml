@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_RFC_Moral</fullName>
+    <active>true</active>
+    <description>Validación en el campo RFC__c donde no permita menos de 12 y deba ser alfanumérico</description>
+    <errorConditionFormula>IF(
+    ISPICKVAL(TipodeCuenta__c, &quot;Moral&quot;),
+    OR(
+        ISBLANK(RFC__c),
+        LEN(RFC__c) &lt;&gt; 12,
+        NOT(REGEX(RFC__c, &quot;^[A-ZÑ&amp;]{3}[0-9]{6}[A-Z0-9]{3}$&quot;))
+    ),
+        FALSE
+    )</errorConditionFormula>
+    <errorMessage>&quot;El RFC debe tener exactamente 12 caracteres y los primeros 3 valores deben ser letras.&quot;</errorMessage>
+</ValidationRule>

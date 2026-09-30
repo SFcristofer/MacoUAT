@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventAccountStatusModification</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  OR(
+    ISCHANGED(AccountId),
+    ISCHANGED(Status)
+  ),
+  NOT(
+    OR(
+      ISCHANGED( ByPassValidation__c ),
+      $Permission.ByPassValidationRule
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>La cuenta o el estado no pueden ser modificados.</errorMessage>
+</ValidationRule>

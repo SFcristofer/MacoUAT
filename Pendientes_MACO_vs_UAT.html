@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>MACO – Pendientes prometidos vs estado en UAT</title>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:32px;color:#222;max-width:1200px}
+h1{color:#0b5cab;margin-bottom:4px}
+h2{color:#0b5cab;border-bottom:2px solid #0b5cab;padding-bottom:4px;margin-top:32px}
+.sub{color:#666;margin-top:0}
+table{border-collapse:collapse;width:100%;margin-top:8px;font-size:14px}
+th,td{border:1px solid #ccc;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#0b5cab;color:#fff}
+tr:nth-child(even){background:#f6f8fb}
+.ok{color:#1a7f37;font-weight:600}.par{color:#b58100;font-weight:600}
+.no{color:#c62828;font-weight:600}.nv{color:#666;font-weight:600}
+.box{padding:12px 16px;border-radius:6px;margin:12px 0}
+.have{background:#e8f5e9;border-left:5px solid #1a7f37}
+.miss{background:#fdecea;border-left:5px solid #c62828}
+.warn{background:#fff8e1;border-left:5px solid #b58100}
+</style>
+</head>
+<body>
+<h1>MACO – Pendientes prometidos vs estado en UAT</h1>
+<p class="sub">Fuente: 9 transcripts .docx (8‑Jul a 21‑Ago) · Diagnóstico solo lectura de la org maco--uat · 28‑Sep‑2026</p>
+<p>Leyenda: <span class="ok">✅ Entregado</span> · <span class="par">🟡 Parcial</span> · <span class="no"> Falta</span> · <span class="nv"> No se puede verificar en la org</span></p>
+
+<h2>A. Documentos y proceso (Kick-off 8‑Jul, reportes semanales)</h2>
+<table>
+<tr><th>#</th><th>Compromiso</th><th>Resp.</th><th>Estado</th><th>Evidencia</th><th>Solución aplicada (explicada en simple)</th></tr>
+<tr><td>1</td><td>Kick-off PDF, plan de trabajo y reporte semanal en PDF</td><td>TV</td><td class="ok">✅ (fuera de la org)</td><td>Se presentaron en los reportes del 24‑Jul, 13‑Ago y 20‑Ago</td><td>Los documentos se entregaron en las reuniones. No requiere cambios en el sistema.</td></tr>
+<tr><td>2</td><td>Sesiones semanales grabadas y subidas al repositorio</td><td>TV</td><td class="nv"></td><td>Después del 21‑Ago no hay transcripts</td><td>Sin aplicar: falta grabar las sesiones y subirlas al repositorio.</td></tr>
+<tr><td>3</td><td>Documento de exploración y diseño en el repositorio</td><td>TV</td><td class="no"></td><td>Se prometió el 13‑Ago y el 20‑Ago seguía pendiente</td><td>Sin aplicar: falta escribir el documento.</td></tr>
+<tr><td>4</td><td>Documento "APIs Zafiro–Salesforce" y Blueprint</td><td>TV</td><td class="par">🟡</td><td>Se entregó y MACO lo revisó el 21‑Ago. Falta corregirlo: la sincronización ya existe en REST y Zafiro no necesita cotizaciones</td><td>Se entregó el documento. Falta corregirlo con los comentarios de MACO.</td></tr>
+<tr><td>5</td><td>Ajustar el documento con el Postman y los endpoints de MACO</td><td>TV</td><td class="no"></td><td>Depende de que MACO los comparta (ver sección F)</td><td>Sin aplicar: esperamos que MACO comparta la lista de servicios (endpoints) de Zafiro.</td></tr>
+<tr><td>6</td><td>Scripts de prueba, manual de administrador (incluye el JWT de Zafiro), capacitación a admins, documentos de cierre</td><td>TV</td><td class="no"></td><td>No hay evidencia</td><td>Sin aplicar.</td></tr>
+<tr><td>7</td><td>Deploy a producción, go-live el 9‑Sep y 1 semana de soporte</td><td>TV</td><td class="no"></td><td><b>Vencido.</b> El último deploy en UAT fue el 21‑Sep y uno falló</td><td>Sin aplicar: todavía no se pasa nada al sistema real (producción).</td></tr>
+</table>
+
+<h2>B. Pedidos y cotizaciones (11‑Ago, 13‑Ago, 20‑Ago)</h2>
+<table>
+<tr><th>#</th><th>Compromiso</th><th>Estado</th><th>Evidencia</th><th>Solución aplicada (explicada en simple)</th></tr>
+<tr><td>8</td><td>Lista filtrada de Pedidos y Cotizaciones</td><td class="ok">✅</td><td>OrderQuoteQuickFilter (12‑Ago)</td><td>Se creó una lista que muestra pedidos y cotizaciones juntos, con filtros para encontrarlos rápido.</td></tr>
+<tr><td>9</td><td>Habilitar la pestaña "Pedidos y Cotizaciones" para todos los usuarios</td><td class="nv"></td><td>No revisé perfiles ni visibilidad de la pestaña</td><td>Por revisar: falta confirmar que todos los usuarios vean la pestaña.</td></tr>
+<tr><td>10</td><td>Captura de productos al estilo Zafiro, buscando por código o nombre como en Zafiro</td><td class="par">🟡</td><td>salesMacoSearch y searchIndividualProduct (12 y 27‑Ago). No está confirmado que busque primero por código</td><td>Se creó un buscador de productos por código o por nombre. Falta confirmar que busque primero por código, como Zafiro.</td></tr>
+<tr><td>11</td><td>Los renglones no deben perder su orden al enviar a Zafiro</td><td class="ok">✅ probable</td><td>QuoteLineItemSorter y CrearPedidoEnZafiro (27‑Ago)</td><td>Al enviar a Zafiro, los productos del pedido salen en el mismo orden en que se capturaron.</td></tr>
+<tr><td>12</td><td>Convertir cotización a pedido sin perder el orden</td><td class="ok">✅ probable</td><td>Flow de pedido desde cotización v20 y acción "Ordenar" (27‑Ago)</td><td>Al convertir una cotización en pedido, los productos conservan su orden.</td></tr>
+<tr><td>13</td><td>Cantidades con 2 decimales</td><td class="nv"></td><td>No verificado</td><td>Por revisar.</td></tr>
+<tr><td>14</td><td>Captura continua en lugar del carrito</td><td class="nv"></td><td>No verificado</td><td>Por revisar.</td></tr>
+<tr><td>15</td><td>Mapear "tipo de entrega" al campo de Zafiro</td><td class="ok">✅</td><td>Validado. El flujo <i>Enviar_Pedido_a_Zafiro</i> lo envía a Zafiro. Actualmente está fijo en "CR" y el equipo indicó que lo cambiarán manualmente.</td><td>El pedido le indica a Zafiro el tipo de entrega. Por ahora siempre manda “CR, y el equipo lo cambia a mano cuando hace falta.</td></tr>
+<tr><td>16</td><td>PDF del pedido / nombre de la cotización</td><td class="ok">✅</td><td>OrderPDF (2 y 17‑Sep), Format_Quote_Name (21‑Sep)</td><td>El PDF del pedido se genera solo. El nombre de la cotización ya no se corta cuando lleva “/, porque el sistema lo cambia por “-.</td></tr>
+<tr><td>17</td><td>Re-cotizar y cambiar cantidades en la cotización sin pasarla antes a aprobación (dolor de Ana, 13‑Jul)</td><td class="nv"></td><td>Los clonadores del 27‑Ago posiblemente cubren esto</td><td>Se agregaron botones para clonar cotizaciones. Falta que MACO confirme que con eso ya puede re-cotizar.</td></tr>
+</table>
+
+<h2>C. Integración con Zafiro (13, 20 y 21‑Ago)</h2>
+<table>
+<tr><th>#</th><th>Compromiso</th><th>Estado</th><th>Evidencia</th><th>Solución aplicada (explicada en simple)</th></tr>
+<tr><td>18</td><td>Sesión con los programadores de Zafiro</td><td class="ok">✅</td><td>Se hizo el 21‑Ago</td><td>La reunión se hizo.</td></tr>
+<tr><td>19</td><td>Enviar a Zafiro el alias del usuario de Salesforce que creó el pedido, en lugar de "Salesforce"</td><td class="no"></td><td>El endpoint actual de Zafiro (CrearPedido) no acepta este campo. Zafiro debe modificar su API.</td><td>Sin aplicar: Zafiro tiene que aceptar ese dato nuevo en su sistema. De nuestro lado ya está listo.</td></tr>
+<tr><td>20</td><td>Al convertir un prospecto, crear automáticamente el cliente en Zafiro</td><td class="ok">✅</td><td>Flow "Creacion_Cliente_Zafiro_Prospecto" implementado y funcionando (28-Sep)</td><td>Al convertir un prospecto en cliente, Salesforce da de alta al cliente en Zafiro automáticamente.</td></tr>
+<tr><td>21</td><td>Sincronizar límite de crédito y estatus habilitado/inhabilitado de Zafiro → Salesforce, con mensaje de error claro</td><td class="ok">✅</td><td>Campos creados y clase Batch "SincronizacionCreditoZafiroBatch" programada en la madrugada (28-Sep)</td><td>Cada madrugada, Salesforce le pregunta a Zafiro el límite de crédito de cada cliente y si está habilitado, y actualiza esos datos.</td></tr>
+<tr><td>22</td><td>Bloquear el cierre de un pedido que tiene orden de entrega en Zafiro</td><td class="ok">✅</td><td>Flujo de validación en vivo y botón Quick Action "Cerrar Pedido (Validado)" implementados (28-Sep)</td><td>Se agregó el botón “Cerrar Pedido (Validado). Antes de cerrar un pedido, le pregunta a Zafiro si ya tiene entrega. Si la tiene, no deja cerrarlo y explica por qué.</td></tr>
+<tr><td>23</td><td>Motivo de los artículos no surtidos</td><td class="no"></td><td>Se diagnosticó: depende 100% de que Zafiro libere permisos y estructura de datos.</td><td>Sin aplicar: Zafiro debe dar acceso a esa información.</td></tr>
+<tr><td>24</td><td>Prueba integrada con Zafiro en UAT</td><td class="ok">✅</td><td>Validado. Conexión y autenticación (token JWT) establecidas y probadas con éxito en UAT (28-Sep).</td><td>Se probó que Salesforce se conecta con Zafiro y se identifica correctamente en el ambiente de pruebas (UAT).</td></tr>
+</table>
+
+<h2>D. Direcciones (13‑Jul, 21‑Ago)</h2>
+<table>
+<tr><th>#</th><th>Compromiso</th><th>Estado</th><th>Evidencia</th><th>Solución aplicada (explicada en simple)</th></tr>
+<tr><td>25</td><td>Investigar qué sobrescribe la dirección de envío con la de facturación (usuario "integración MAC")</td><td class="ok">✅</td><td>Corregido: Se ajustó el Flujo "Actualizar Dirección de Envío" para excluir al usuario de integración (28-Sep).</td><td>Una automatización copiaba la dirección de facturación sobre la de envío, aunque el cambio viniera de la integración. Se ajustó para que ignore los cambios de ese usuario.</td></tr>
+<tr><td>26</td><td>Copiar la dirección de facturación a envío en prospectos/Leads</td><td class="ok">✅</td><td>Los prospectos son Accounts, y el flow del 27‑Ago ya los cubre. El 28‑Sep se corrigieron 14 prospectos antiguos (solo datos). Quedan 0 con facturación y sin envío</td><td>14 prospectos antiguos no tenían dirección de envío. Se les activó la casilla “usar la dirección de facturación y el sistema copió la dirección solo. Ya no queda ninguno así.</td></tr>
+<tr><td>27</td><td>Usar la capa de envío en Maps para el check-in</td><td class="par">🟡</td><td>Existe la capa "Cuentas Maco Shipping Address", pero la capa recomendada, "Cuentas Maco (usar este)", usa Billing. MACO debe decidir</td><td>Ya existe una capa del mapa con las direcciones de envío. En Maps solo hay que elegir “Cuentas Maco Shipping Address en lugar de la capa de facturación.</td></tr>
+</table>
+
+<h2>E. App offline y temas pendientes</h2>
+<table>
+<tr><th>#</th><th>Compromiso</th><th>Estado</th><th>Evidencia</th><th>Solución aplicada (explicada en simple)</th></tr>
+<tr><td>28</td><td>App Consumer Goods (plantillas, check-in/out, pedidos, cotizaciones, stock, visitas)</td><td class="no"> en UAT</td><td>Solo existe en el sandbox Developer</td><td>Sin aplicar: la app solo existe en el ambiente de desarrollo.</td></tr>
+<tr><td>29</td><td>Captura de pedidos en la app offline</td><td class="no"></td><td>Solo en el sandbox Developer</td><td>Sin aplicar.</td></tr>
+<tr><td>30</td><td>Pasar la app a UAT</td><td class="no"></td><td>No hay nada de la app en UAT</td><td>Sin aplicar.</td></tr>
+<tr><td>31</td><td>Reportes, KPIs y dashboards con datos de Zafiro</td><td class="no"></td><td>Nada nuevo en UAT</td><td>Sin aplicar.</td></tr>
+<tr><td>32</td><td>Canales digitales: WhatsApp / Digital Engagement</td><td class="no"></td><td>No hay evidencia</td><td>Sin aplicar.</td></tr>
+<tr><td>33</td><td>Agentforce</td><td class="no"></td><td>No hay evidencia</td><td>Sin aplicar.</td></tr>
+<tr><td>34</td><td>Trazabilidad / registro de actividades (13‑Jul)</td><td class="no"></td><td>No hay evidencia</td><td>Sin aplicar.</td></tr>
+<tr><td>—</td><td>Email/DKIM</td><td class="nv">Etapa 2</td><td>Fuera de alcance</td><td>Queda para la etapa 2.</td></tr>
+</table>
+
+<h2>F. Pendientes del lado de MACO</h2>
+<ul>
+<li>Compartir la página de endpoints REST de Zafiro y la colección Postman para UAT.</li>
+<li>Enviar el documento con sus anotaciones.</li>
+<li>Definir en Zafiro el campo de crédito y el motivo de no surtido.</li>
+</ul>
+
+<h2>G. Nuevos pendientes – Reunión 28‑Sep (Reporte proyecto MACO)</h2>
+<table>
+<tr><th>#</th><th>Compromiso</th><th>Estado</th><th>Responsable / Fecha</th><th>Solución aplicada (explicada en simple)</th></tr>
+<tr><td>35</td><td>PDF de cotización: nombre del archivo con el número de cotización, no con el nombre del cliente (posible botón personalizado)</td><td class="ok">✅</td><td>Corregido en la clase GenerateQuotePDFDocument para usar el QuoteNumber (28-Sep).</td><td>El PDF de la cotización ahora lleva en el nombre el número de cotización, no el nombre del cliente.</td></tr>
+<tr><td>36</td><td>Mostrar la ubicación de los productos en el PDF de cotización (ya está en el de pedido)</td><td class="ok">✅</td><td>Campo Location agregado exitosamente a la plantilla estándar. Solucionado el 29-Sep.</td><td>Completado.</td></tr>
+<tr><td>37</td><td>Revisar permisos de usuarios en UAT. Ana no ve en Maps las direcciones cambiadas: revisar capa de envío, carpeta y licencias</td><td class="ok">✅ resuelto (sin cambios)</td><td>Revisado en #49: Ana tiene acceso a la capa “Cuentas Maco Shipping Address (carpeta corporativa, misma ubicación que la de facturación). Si no ve una cuenta es por el límite de Maps (~5,000 cuentas ploteadas a la vez) y hay que filtrar la capa. No se asignaron permission sets de Maps a SOPORTE: sigue pendiente de aprobación.</td><td>Ana sí tiene permiso para ver las direcciones de envío en Maps. Si no ve alguna cuenta es porque Maps dibuja como máximo unas 5,000 a la vez; hay que filtrar la capa.</td></tr>
+<tr><td>38</td><td>Corregir los mensajes de “fuera de tiempo al probar pedidos y envíos</td><td class="ok">✅ solucionado</td><td>El “fuera de tiempo (Read timed out) se corrigió en #46: el tiempo de espera hacia Zafiro pasó de 15 a 120 s. El otro error que salía al enviar (500) era el artículo 24383 (#47).</td><td>Solucionado. El sistema ahora espera hasta 2 minutos la respuesta de Zafiro (antes 15 segundos) y el otro error era un producto que Zafiro rechaza (ver #47).</td></tr>
+<tr><td>39</td><td>App móvil: el cierre de visita falla y el pedido queda pausado</td><td class="par">🟡 corregido, falta probar en el celular</td><td><b>Causa:</b> los cierres de visita (flow Check In/Out) fallaban en el paso <code>Callout_for_Address_data</code> (LocationIQ) cuando la cuenta no tenía Geocódigo; la visita quedaba como entrevista de flow fallida. En UAT hay 8 así (Ana 28‑Sep, Abraham 28‑Sep, Rodrigo 17‑Sep). <b>Corrección (29‑Sep, cambio 3 del Registro):</b> se usan las coordenadas de facturación si no hay Geocódigo, y si LocationIQ falla el check‑in/out continúa sin la dirección. Desde la corrección no hay fallas nuevas. Pendiente: probar en el celular y borrar las 8 entrevistas atoradas (requiere aprobación).</td><td>Se corrigió la falla al cerrar la visita: ocurría cuando la cuenta no tenía ubicación guardada. Ahora usa la dirección de la cuenta y, si el servicio de direcciones falla, la visita se cierra igual. Falta probarlo desde el celular.</td></tr>
+<tr><td>40</td><td>Fecha compromiso de entrega de la app móvil y del go‑live</td><td class="no"></td><td>TV (Abner) – después de la reunión del 29‑Sep</td><td>Pendiente de TV (Abner): definir la fecha tras la reunión. No es un cambio en Salesforce.</td></tr>
+<tr><td>41</td><td>Validar que la app funcione en tableta</td><td class="no"></td><td>TV, cuando MACO envíe las características</td><td>Pendiente de que MACO envíe las características de la tableta. No es un cambio en Salesforce.</td></tr>
+<tr><td>42</td><td>Enviar el Excel de requerimientos por correo, subirlo al repositorio y mantenerlo al día</td><td class="no"></td><td>TV – 28‑Sep</td><td>Pendiente de TV: enviar el Excel por correo y subirlo al repositorio. No es un cambio en Salesforce.</td></tr>
+<tr><td>43</td><td>Invitaciones a las sesiones de prueba: martes 29‑Sep y jueves 1‑Oct, 16:00, 2 h cada una</td><td class="no"></td><td>TV – 28‑Sep</td><td>Pendiente de TV: mandar las invitaciones desde el calendario. No es un cambio en Salesforce.</td></tr>
+<tr><td>44</td><td>Modificar los reportes existentes o crear nuevos en UAT</td><td class="no"></td><td>TV – después de las pruebas</td><td>Pendiente: MACO debe indicar qué reportes quiere modificar o crear, después de las pruebas.</td></tr>
+<tr><td>45</td><td>Analytics</td><td class="nv">Siguiente fase</td><td>Rodrigo – después de lo actual</td><td>Siguiente fase.</td></tr>
+</table>
+<p><b>Del lado de MACO / Zafiro:</b></p>
+<ul>
+<li>Zafiro: agregar un campo para el alias del usuario en la API <code>CrearPedido</code> y enviar su nombre. En Salesforce ya está listo, pero sin publicar.</li>
+<li>Ana: enviar las características de la tableta y los mensajes de error de “fuera de tiempo.</li>
+<li>MACO valida en las sesiones: el alta en Zafiro al convertir un prospecto, el botón para cerrar pedidos, las direcciones y la capa de envío en Maps.</li>
+<li>El batch de crédito corre de madrugada (acordado). Solo cambia si MACO pide otro horario.</li>
+</ul>
+<div class="box warn"><b>Confirmado en la reunión, falta reflejarlo arriba:</b> #13 (2 decimales) y #14 (captura continua) se dijeron entregados. #17 (re‑cotizar) está hecho y falta que MACO lo valide. #20 y #22 siguen pendientes de prueba por MACO. En la reunión no se reportaron errores en la prueba integrada; el HTTP 403 no se mencionó.</div>
+
+<h2>H. Errores reportados por Ana en UAT (29‑Sep) – diagnóstico</h2>
+<table>
+<tr><th>#</th><th>Problema</th><th>Estado</th><th>Diagnóstico / Solución propuesta</th><th>Solución aplicada (explicada en simple)</th></tr>
+<tr><td>46</td><td>Enviar Pedido 00000771: “Error al crear el pedido: Read timed out</td><td class="ok">✅ corregido (29‑Sep)</td><td>Zafiro no respondió en 15 s (<code>CrearPedidoEnZafiro</code>, <code>setTimeout(15000)</code>). La clase y el flow no han cambiado desde el 27‑Ago. <b>Hecho:</b> el timeout subió a 120 s (el máximo). Se desplegó en UAT con test (Registro #5). Hay que reintentar el envío del 771. <b>Riesgo:</b> Zafiro pudo crear el pedido aunque Salesforce marcó error. Confirmar antes de reenviar para no duplicarlo.</td><td>Salesforce esperaba solo 15 segundos la respuesta de Zafiro y, si tardaba más, marcaba error. Se amplió la espera a 120 segundos, el máximo que permite Salesforce. Se probó y ya está en UAT.</td></tr>
+<tr><td>47</td><td>Enviar Pedido 00000768: error 500 “Internal server error</td><td class="ok">✅ solucionado (verificado)</td><td><b>Problema:</b> el artículo <b>24383, UNIDOR PARA TUBING DE 3/8</b> (producto 0068‑3/8). Cualquier pedido que lo lleva recibe el 500 de la API CrearPedido de Zafiro. Nunca ha entrado a Zafiro en ningún pedido. En Salesforce sus datos son correctos (TipoPrecio 3, IVA 16, impuesto correcto) y Zafiro lo reconoce en ObtenerExistencias, así que la falla está en cómo Zafiro lo procesa al crear el pedido. <b>Cómo se encontró (29‑Sep, UAT):</b> se descartaron la descripción larga, las comillas, la OC, el crédito, el tipo de entrega (EP/ED) y el cliente 4027 (el 773, con cliente 4573, también falló). Luego se partió el pedido en copias de prueba: 774/775 → 776/777 → un pedido por partida (782‑785). <b>Verificación:</b> las otras 14 partidas del 768 sí entran a Zafiro (folios 001‑96996, 96997, 96998, 96999 y 97000) y solo el 782, que lleva únicamente el 24383, da 500. <b>Solución:</b> el 768 se envía sin la partida 24383, y Zafiro revisa ese artículo en CrearPedido para poder venderlo. Pendiente: cancelar en Zafiro los folios de prueba 001‑96996 a 001‑97000 y borrar los pedidos de prueba 773‑777 y 782‑785. <b>Defecto aparte:</b> en el camino de error del flow, el paso Update_Status da “unhandled fault si el pedido está en Draft.</td><td>Ya se encontró el problema: un solo producto, el 24383 (UNIDOR PARA TUBING DE 3/8), hace que Zafiro rechace el pedido. Se comprobó con pedidos de prueba que todos los demás productos entran bien y que solo ese falla. El pedido puede enviarse sin ese producto, y Zafiro tiene que revisar ese artículo de su lado.</td></tr>
+<tr><td>48</td><td>Maps → Check In/Out: “Se ha producido un fallo no gestionado</td><td class="ok">✅ corregido en UAT (29‑Sep, pendiente prueba de Ana)</td><td>El flow <code>Check_In_Out</code> llama a LocationIQ (“Callout for Address data) con <code>Geocodigo__Latitude__s/Longitude__s</code>. Solo 4 de 9,025 cuentas tienen ese campo lleno, y ese paso no tiene camino de error. <b>Solución:</b> si el Geocódigo está vacío, usar Shipping o Billing Latitude/Longitude, y agregar un camino de error que continúe a “Get Current Location. No toca Zafiro ni la conversión. Falta confirmar con qué cuenta falló Ana.</td><td>El botón de Check In buscaba la dirección con unas coordenadas que casi ninguna cuenta tiene, y si la búsqueda fallaba se detenía con error. Ahora usa las coordenadas de la dirección de la cuenta. Si aun así la búsqueda falla, deja hacer el check-in de todos modos.</td></tr>
+<tr><td>49</td><td>Maps: solo aparece la capa Billing (SIMEC Tlaxcala sale en Guadalajara)</td><td class="ok">✅ sin cambio: la capa ya está en Corporativo (pendiente prueba de Ana)</td><td>La capa “Cuentas Maco Shipping Address sí existe (<code>a0xWD000000bR65YAE</code>, de CAMBALACHE, sin carpeta) y Ana tiene acceso. Ya está en la carpeta corporativa raíz. SIMEC no aparece por el límite de ~5,000 marcadores de Maps (hay 8,858 cuentas con envío). Hay que plotear por área visible. La SIMEC de Tlaxcala (<code>001WD00000I4iPxYAJ</code>) ya tiene coordenadas de envío. Nota: hay 3 cuentas “SIMEC INTERNATIONAL duplicadas.</td><td>No se cambió nada. La capa de envío ya estaba compartida. SIMEC Tlaxcala no aparecía porque hay 8,858 cuentas con dirección de envío y Maps dibuja como máximo unas 5,000 a la vez. Cómo usarlo: acercar el mapa a la zona y dibujar solo el área visible.</td></tr>
+<tr><td>50</td><td>La consulta de artículos no mostró nada un momento y después sí</td><td class="nv">Transitorio</td><td>Sin cambios en Salesforce. Apunta a la misma inestabilidad del backend de Zafiro/UAT que #46 y #47. Monitorear en las sesiones.</td><td>No se cambió nada. Fue una falla momentánea de Zafiro y se sigue vigilando.</td></tr>
+</table>
+<div class="box warn"><b>Para Zafiro:</b> revisar el 500 y la lentitud de <code>/salesforce/CrearPedido</code>, y confirmar si los pedidos 768 y 771 se crearon de su lado.</div>
+
+<h2>Resumen</h2>
+<div class="box have"><b>Lo que tenemos</b> (casi todo del 12 y 27‑Ago y el sprint del 28-Sep):
+<ul>
+<li>Filtro de pedidos y cotizaciones.</li>
+<li>Buscador de productos.</li>
+<li>Ordenamiento de renglones.</li>
+<li>Clonadores y flow de cotización a pedido.</li>
+<li>PDF del pedido y nombre de la cotización.</li>
+<li>Almacén por territorio y Flow de direcciones (Corregido problema de sobreescritura).</li>
+<li>Conversión automática de prospecto a cliente en Zafiro.</li>
+<li>Integración nocturna de límites de crédito y estatus.</li>
+<li>Botón y flujo validado para prevenir cierre de pedidos con entrega.</li>
+<li>Pruebas integradas de conectividad con Zafiro exitosas en UAT.</li>
+<li>El documento de APIs y el Blueprint, pero sin corregir.</li>
+</ul></div>
+<div class="box miss"><b>Lo que falta:</b>
+<ul>
+<li>La app offline completa en UAT: es el objetivo principal y hoy solo existe en el sandbox Developer.</li>
+<li>Que Zafiro ajuste permisos de API (HTTP 403) y endpoints (Alias y Motivos de No Surtido).</li>
+<li>Reportes y KPIs, WhatsApp / Digital Engagement, Agentforce y trazabilidad.</li>
+<li>Documentos: diseño, scripts de prueba, manual de administrador y cierre.</li>
+<li>Capacitación, producción y go-live, que estaba programado para el 9‑Sep y ya está vencido.</li>
+</ul></div>
+<div class="box warn">Lo que dijo el desarrollador el 24‑Sep ("crear visitas, cerrar pedidos, agregar productos y precios") no aparece en UAT: del 22 al 28‑Sep no hubo cambios en pedidos, sus renglones ni precios.</div>
+<div class="box warn">Los puntos 9, 13, 14, 15 y 19 se pueden confirmar con consultas de solo lectura en UAT.</div>
+</body>
+</html>
+

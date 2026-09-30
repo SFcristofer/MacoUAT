@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_Entrega_Venta__c</fullName>
+    <description>Enum: &quot;CR&quot; &quot;ED&quot; &quot;EP&quot; Clave de dos letras para 
+identificar la forma de entrega al cliente.
+Solo se admiten los valores CR (Mostrador), 
+ED (Domicilio) y EP (Entrega en Paquetería).</description>
+    <label>Tipo Entrega Venta</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CR</fullName>
+                <default>false</default>
+                <label>CR</label>
+            </value>
+            <value>
+                <fullName>ED</fullName>
+                <default>false</default>
+                <label>ED</label>
+            </value>
+            <value>
+                <fullName>EP</fullName>
+                <default>false</default>
+                <label>EP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

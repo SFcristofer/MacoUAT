@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_RFC_Fisica</fullName>
+    <active>true</active>
+    <description>Validación en el campo RFC__c donde no permita menos de 13 y deba ser alfanumérico</description>
+    <errorConditionFormula>IF(
+ISPICKVAL(TipodeCuenta__c, &quot;Física&quot;),
+OR(
+NOT(
+AND(
+LEN(RFC__c) = 13,
+REGEX(RFC__c, &quot;^[A-Za-z]{4}.{9}$&quot;))
+)),
+FALSE)</errorConditionFormula>
+    <errorMessage>El RFC debe tener exactamente 13 caracteres y los primeros 4 caracteres deben ser letras.</errorMessage>
+</ValidationRule>

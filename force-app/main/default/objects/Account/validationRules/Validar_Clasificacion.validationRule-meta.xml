@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Clasificacion</fullName>
+    <active>false</active>
+    <description>Que el valor tenga exactamente 3 caracteres.Que sean todas letras (A-Z) en mayúsculas.</description>
+    <errorConditionFormula>AND(
+LEN(TEXT(ClasificacionCliente__c)) = 3,
+REGEX(TEXT(ClasificacionCliente__c), &quot;^[A-Z]{3}$&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>ClasificacionCliente__c</errorDisplayField>
+    <errorMessage>&quot;El campo Clasificación Cliente debe contener exactamente 3 letras en mayúscula (ejemplo: ABC).&quot;</errorMessage>
+</ValidationRule>

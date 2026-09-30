@@ -1,0 +1,45 @@
+ApiName,Label,ProcessType,IsActive,TriggerObjectOrEventLabel,LastModifiedDate,LastModifiedBy
+Format_Quote_Name,Format Quote Name,AutoLaunchedFlow,true,Quote,2026-09-21T17:15:19.000+0000,SOPORTE TECHNOVALUE
+Actualizar_Direcci_n_de_Envi,MACO_RT_ShippingAddress_Update,AutoLaunchedFlow,true,Account,2026-08-27T05:17:56.000+0000,SOPORTE TECHNOVALUE
+Generar_Pedido_Order_desde_Cotizacion_Aceptada_en_Salesforce,MACO_RT_Order_GenerateFromQuoteAccepted,AutoLaunchedFlow,true,Quote,2026-08-27T04:25:15.000+0000,SOPORTE TECHNOVALUE
+Flujo_Check_Out_Registro_y_Relaci_n_Usuario,MACO_RT_CheckOut_RegisterUserRelation,AutoLaunchedFlow,true,Visit,2025-11-21T17:16:54.000+0000,CAMBALACHE
+Flujo_Check_Out_Registro_y_Relacion,MACO_RT_CheckOut_RegisterRelation,AutoLaunchedFlow,true,Visit,2025-11-21T17:16:27.000+0000,CAMBALACHE
+ST_Maco_ProductCreation,ST_Maco_ProductCreation,AutoLaunchedFlow,true,Product,2025-09-03T20:58:29.000+0000,CAMBALACHE
+MACO_ST_Order_UpdateStatus,MACO_ST_Order_UpdateStatus,Flow,true,,2025-09-01T14:16:02.000+0000,CAMBALACHE
+Recotizar_Proceso,MACO_ST_Quote_RequoteProcess,Flow,true,,2025-08-11T18:20:22.000+0000,CAMBALACHE
+Generar_Cotizacion,MACO_ST_Quote_Generate,Flow,true,,2025-08-08T23:05:30.000+0000,CAMBALACHE
+Registrar_una_Cotizacion_desde_una_Cuenta,MACO_ST_Quote_RegisterFromAccount,Flow,true,,2025-08-08T23:00:25.000+0000,CAMBALACHE
+Generar_Pedido_de_Home,MACO_ST_Order_GenerateForHome,Flow,true,,2025-08-08T18:19:25.000+0000,CAMBALACHE
+Enviar_Pedido_a_Zafiro,MACO_ST_Order_SendToZafiro,Flow,true,,2025-08-07T16:21:23.000+0000,CAMBALACHE
+AssignBypassValidationRulePermissionSet,Assign Bypass Validation Rule Permission Set,AutoLaunchedFlow,true,,2025-08-06T20:37:14.000+0000,CAMBALACHE
+PlatformEventPermissionAssignment,Platform Event Permission Assignment,AutoLaunchedFlow,true,Permission Assignment,2025-08-06T20:24:42.000+0000,CAMBALACHE
+Generar_Pedido_desde_una_Cuenta,MACO_ST_Order_GenerateFromAccount,Flow,true,,2025-08-05T20:01:29.000+0000,CAMBALACHE
+Actualizar_Status_Orden,MACO_ST_Order_Update_ReadyToSend,Flow,true,,2025-07-23T02:43:36.000+0000,CAMBALACHE
+Asociar_Proveedor_a_Pedido,MACO_ST_Order_AssociateSupplier,Flow,true,,2025-07-23T02:29:56.000+0000,CAMBALACHE
+Validar_ClienteID,MACO_ST_ClientID_Validate,Flow,true,,2025-07-23T02:29:15.000+0000,CAMBALACHE
+Actualizar_Orden_Cancelada,MACO_ST_Order_UpdateIfCanceled,Flow,true,,2025-07-11T13:41:07.000+0000,CAMBALACHE
+CreateFiles,CreateFiles,Flow,true,,2025-06-28T13:54:58.000+0000,CAMBALACHE
+MACOSTFollowUpMessage,MACO_ST_FollowUp_Message,Flow,false,,2025-06-27T18:27:02.000+0000,CAMBALACHE
+Actualizar_Cotizacion,MACO_ST_Quote_Update,Flow,true,,2025-06-27T18:13:36.000+0000,CAMBALACHE
+Pasar_a_Pendiente_Aprobacion,MACO_ST_Approval_Pending,Flow,true,,2025-06-27T18:12:49.000+0000,CAMBALACHE
+Asociar_Cuenta,MACO_ST_Account_Associate,Flow,true,,2025-06-27T18:10:24.000+0000,CAMBALACHE
+MACOSTPreventModificationQLI,MACO_ST_Prevent_Modification_QLI,AutoLaunchedFlow,true,Quote Line Item,2025-06-26T18:31:28.000+0000,CAMBALACHE
+MACOSTPreventDeletionQLI,MACO_ST_Prevent_Deletion_QLI,AutoLaunchedFlow,true,Quote Line Item,2025-06-26T18:29:58.000+0000,CAMBALACHE
+MACOSTDuplicateQLIs,MACOSTDuplicateQLIs,AutoLaunchedFlow,true,,2025-06-24T00:16:27.000+0000,CAMBALACHE
+Check_In_Out,Check In/Out,Flow,true,,2025-05-21T02:25:16.000+0000,CAMBALACHE
+Maco_ST_RefreshPage,Maco_ST_RefreshPage,Flow,true,,2025-04-17T20:07:14.000+0000,CAMBALACHE
+Maco_ST_RefreshPage_Order,Maco_ST_RefreshPage_Order,Flow,true,,2025-04-14T21:41:06.000+0000,CAMBALACHE
+Actualizar_Oportunidad_al_Aceptar_Cotizacion,MACO_RT_Opportunity_UpdateOnQuoteAccept,AutoLaunchedFlow,true,Quote,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Actualizar_Pricebook,MACO_RT_Pricebook_UpdateAllObjects,AutoLaunchedFlow,false,Account,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Actualizar_Tipo_de_Visita_Evento,MACO_RT_VisitType_UpdateEvent,AutoLaunchedFlow,true,Event,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Crear_Evento,MACO_ST_Event_Create,Flow,true,,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Crear_Prospecto,MACO_ST_Prospect_Create,Flow,true,,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Crear_Registro_Objetivo_Visita,MACO_ST_ObjectiveVisit_Create,Flow,true,,2025-04-14T21:25:03.000+0000,CAMBALACHE
+CreatePDF,MACO_RT_Document_CreatePDF,AutoLaunchedFlow,true,Quote,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Evitar_Borrar_OrderItem_Estado_Listo_Para_Enviar,MACO_RT_OrderItem_PreventDeleteIfReady,AutoLaunchedFlow,true,Order Product,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Evitar_Borrar_QLI_Estado_Pending_Approval,MACO_RT_QLI_PreventDeleteIfPendingApproval,AutoLaunchedFlow,true,Quote Line Item,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Notificacion_Custom_Cuenta,MACO_RT_Account_CustomNotification,AutoLaunchedFlow,true,Account,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Pricebook_por_default_Cuenta_Prospecto,MACO_RT_Pricebook_DefaultForProspect,AutoLaunchedFlow,true,Account,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Solicitar_Alta_de_Cuenta,MACO_ST_Account_RequestCreation,Flow,true,,2025-04-14T21:25:03.000+0000,CAMBALACHE
+Link_Account_With_Messaging,Link Account With Messaging,AutoLaunchedFlow,true,Messaging User,2025-02-08T16:35:35.000+0000,CAMBALACHE
+Actualizar_Clasificacion_Para_Cuenta_tipo_Cliente,Actualizar Clasificacion Para Cuenta tipo Cliente,AutoLaunchedFlow,false,Account,2025-01-29T17:53:58.000+0000,CAMBALACHE

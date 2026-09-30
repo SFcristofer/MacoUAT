@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>Es un dato que de inicio o al dar de alta al cliente no tendra una clasificación, definida, pues esta depende de su volumen de compra, su formas de pago, y precio de venta que se le asigne, por lo que con el tiempo se le definirá una clasificación, como sugerencia de inicio se le pude poner clasificación  &quot;NUEVO&quot;  o &quot;N/A&quot;, ya posteriormente se le dará una clasificación de acuerdo a su comportamiento.</description>
+    <environments>Default</environments>
+    <interviewLabel>Actualizar Clasificacion Para Cuenta tipo Cliente {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Actualizar Clasificacion Para Cuenta tipo Cliente</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Por default ira el valor &quot;NUEVO&quot;</description>
+        <name>Actualizar_Cuenta_Tipo_Cliente</name>
+        <label>Actualizar Cuenta Tipo Cliente</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <inputAssignments>
+            <field>ClasificacionCliente__c</field>
+            <value>
+                <stringValue>NVO</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Actualizar_Cuenta_Tipo_Cliente</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>RecordTypeName__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Cliente</stringValue>
+            </value>
+        </filters>
+        <object>Account</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

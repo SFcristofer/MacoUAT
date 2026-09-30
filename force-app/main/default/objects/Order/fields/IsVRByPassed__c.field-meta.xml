@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsVRByPassed__c</fullName>
+    <formula>BLANKVALUE(ValidationByPassDateTime__c, $System.OriginDateTime) &gt; NOW() - 0.00005787037 /*Five Seconds*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IsVRByPassed</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

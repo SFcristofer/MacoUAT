@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampoNoVacio__c</fullName>
+    <formula>OR(
+ISBLANK( ZF_Cliente_ID__c ),
+ZF_Cliente_ID__c &lt;&gt; 0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CampoNoVacio</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

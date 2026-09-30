@@ -1,0 +1,61 @@
+Registro de Modificaciones y Nuevos Componentes (Para Migraciones)
+===================================================================
+
+1. Nombre: Format_Quote_Name (Flow - Record-Triggered)
+   Objeto: Quote (Before Save)
+   Descripción: Reemplaza las barras diagonales (/) por guiones (-) en el campo Name de la cotización justo antes de guardar. Esto soluciona un comportamiento nativo de Salesforce donde los archivos PDF generados recortaban su nombre al interpretar la "/" como una ruta de carpeta en la sección de Archivos (Files).
+
+2. Nombre: Corrección de datos - Dirección de envío en prospectos (28-Sep-2026, UAT)
+   Objeto: Account (RecordType Prospecto) - SOLO DATOS, sin cambios de metadata
+   Descripción: 14 prospectos legacy tenían Usar_Direccion_de_Facturacion__c = false y el envío vacío. Se cambió a true, en bloques de 5/5/4. El flow existente Actualizar_Direcci_n_de_Envi (fix del 27-Ago) copió Billing→Shipping. Verificado: 0 prospectos quedan con facturación y sin envío. La conversión y Zafiro no se afectan porque el flow excluye al alias 'sinte'.
+   Respaldo: .diag\backup_prospectos_envio.csv
+   Producción: consultar Account WHERE RecordType.Name='Prospecto' AND Usar_Direccion_de_Facturacion__c=false AND BillingStreet!=null AND ShippingStreet=null, y poner el checkbox en true en bloques pequeños.
+
+3. Nombre: Check_In_Out (Flow - Screen) - Fix "fallo no gestionado" en Check In/Out desde Maps (29-Sep-2026, UAT)
+   Descripción: El callout a LocationIQ (Callout_for_Address_data) usaba Geocodigo__Latitude__s/Longitude__s. Solo 4 de 9,025 cuentas tienen ese campo; si está vacío, el callout falla y no había camino de error.
+   Cambios:
+     a) Se agregan las fórmulas geoLatitudFinal y geoLongitudFinal: BLANKVALUE(Geocodigo, BillingLatitude/Longitude).
+     b) La asignación Asignar_variables_para_Geolocalizacion usa esas fórmulas.
+     c) Se agrega un faultConnector en Callout_for_Address_data hacia Get_Current_Location. Si LocationIQ falla, el check-in sigue sin los datos de dirección.
+   No afecta Zafiro, la conversión ni Actualizar_Direcci_n_de_Envi.
+   Versión activa UAT: 301WD000010AcdTYAS (antes 301WD00000NLJiNYAX)
+   Respaldo: .diag\backup_Check_In_Out_20260929.flow-meta.xml y .diag\org\ci
+   Producción: desplegar force-app\main\default\flows\Check_In_Out.flow-meta.xml con status Active y verificar la versión activa.
+
+4. Nombre: Maps - Capa "Cuentas Maco Shipping Address" (29-Sep-2026, UAT) - SIN CAMBIOS
+   Descripción: Revisado. La capa a0xWD000000bR65YAE está en la misma ubicación que la de Billing (carpeta corporativa raíz, sin usuario ni carpeta) y Ana tiene acceso. Solo hay que plotearla en lugar de la de Billing.
+   Producción: verificar que la capa exista. Si no existe, crearla con un base object que use ShippingLatitude/ShippingLongitude.
+
+5. Nombre: CrearPedidoEnZafiro (Apex) - Timeout de 15 s a 120 s (29-Sep-2026, UAT)
+   Descripción: En la línea 33, request.setTimeout(15000) cambia a setTimeout(120000), el máximo de Salesforce. Esto evita el "Read timed out" (#46) cuando Zafiro tarda en responder. No cambia el payload ni la lógica.
+   Riesgo: si Zafiro crea el pedido pero la respuesta no llega, un reenvío podría duplicarlo. Hay que confirmar con Zafiro si rechaza un SalesforceID repetido.
+   Deploy: RunSpecifiedTests CrearPedidoEnZafiroTest, Succeeded.
+   Respaldo: .diag\org\zaf
+   Producción: desplegar force-app\main\default\classes\CrearPedidoEnZafiro.cls con CrearPedidoEnZafiroTest.
+
+6. Nombre: Diagnóstico #47 - Error 500 al enviar el pedido 00000768 a Zafiro (29-Sep-2026, UAT) - SIN CAMBIOS
+   Descripción: Revisión de solo lectura (Apex anónimo sin callouts) contra los 185 pedidos que Zafiro aceptó.
+     Descartados: descripción larga (13 partidas aceptadas con más de 54 caracteres, 151 en el 501), comillas (el 705 pasó), OC y crédito.
+     EP también descartado: Ana reenvió el 768 con ED y siguió el 500.
+     Consultas GET de solo lectura (.diag\p47f.apex): los 15 artículos devuelven 200 en ObtenerExistencias, así que Zafiro los conoce. /clientes/InformacionCredito devuelve 403 ("No tienes permiso para acceder a clientes"), incluido el cliente de control 4573, por lo que el cliente no se pudo validar.
+     Sospechoso restante: el cliente ZF 4027, que nunca ha tenido un pedido aceptado.
+   Ambiente Zafiro: UAT usa https://click.maco.com.mx:7000/api y DEV2 usa :9000. Los folios de UAT son casi consecutivos: 001-96984 a 96994 entre ene y sep-2026, y del 96988 (15-ene) al 96990 (17-ago) solo hubo un folio intermedio. Por eso el :7000 parece una base de PRUEBAS que solo alimenta Salesforce UAT. Falta que Zafiro lo confirme.
+   Prueba (SOLO DATOS, UAT): se creó el pedido 00000773 (801WD000010B5DjYAK), copia del 768 con sus 15 partidas pero para el cliente ZF 4573 (LORENA CALIXTO SANCHEZ), en Draft, con .diag\p47h.apex. Si pasa, la causa es el cliente 4027. Borrarlo o cancelarlo en Zafiro después. No aplica a producción.
+   Resultado: el 773 también dio 500, así que se descarta el cliente 4027 y la causa está en las partidas. Las 15 partidas del 773 comparadas con las 19 del 769 (aceptado) no muestran diferencias de formato: TipoPrecio 3, IVA 16, impuestos cuadran y la precisión de decimales es igual (.diag\p47i.apex).
+   Bisección (SOLO DATOS, UAT, .diag\p47j.apex), cliente 4573, en Draft: 00000774 (801WD000010BJ0RYAW) con las partidas 1-8 y 00000775 (801WD000010BJ0SYAW) con las partidas 9-15. Hay que borrarlos o cancelarlos en Zafiro después. No aplica a producción.
+   Resultado de la bisección: el 775 (partidas 9-15) pasó con folio 001-96996 y quedó en To Authorize. El 774 (partidas 1-8) dio 500, así que la causa está en las partidas 1-8.
+   Ronda 2 (.diag\p47l.apex): 00000776 (801WD000010B6GKYA0) con 24383, 7718, 25611 y 2771, y 00000777 (801WD000010B6GLYA0) con 24358, 28544, 28543 y 28542. Mismas condiciones: UAT, SOLO DATOS, borrar o cancelar después.
+   Nota: el paso Update_Status del flow Enviar_Pedido_a_Zafiro, en el camino de error, falla con "unhandled fault" cuando el pedido está en Draft porque lo bloquean las validaciones. Es un defecto aparte y no se ha corregido.
+   Resultado ronda 2: el 777 pasó con folio 001-96997 (To Authorize) y el 776 dio 500, así que la causa está en 24383, 7718, 25611 o 2771.
+   Ronda 3 (.diag\p47m.apex), una partida por pedido: 00000782 (801WD000010BMj4YAG) 24383, 00000783 (801WD000010BMj5YAG) 7718, 00000784 (801WD000010BMj6YAG) 25611 y 00000785 (801WD000010BMj7YAG) 2771. Una primera ejecución duplicada creó los 778-781, que se borraron (Draft, sin enviar, .diag\p47n.apex).
+   Resultado ronda 3: pasaron el 783 (7718, folio 001-96998), el 784 (25611, folio 001-96999) y el 785 (2771, folio 001-97000). El 782 (24383) dio 500.
+   CONCLUSIÓN: el artículo culpable es el 24383, UNIDOR PARA TUBING DE 3/8 (Product2 0068-3/8, 01tWD000006LpqMYAS). En Salesforce sus datos son normales: Q 15, P 30.492, TipoPrecio 3, IVA 16, impuesto 73.18. Nunca ha entrado a Zafiro en ningún pedido. Existe en ObtenerExistencias (200), así que la causa está del lado de Zafiro, por ejemplo precio, unidad, alta o configuración del artículo en CrearPedido.
+   Estado: SOLUCIONADO y VERIFICADO (29-Sep-2026). Las otras 14 partidas del 768 entran a Zafiro (folios 001-96996 a 001-97000) y solo el 24383 da 500. En el HTML, la fila 47 queda como ✅.
+   Siguiente paso: Zafiro revisa por qué CrearPedido truena con el artículo 24383. Mientras tanto, el 768 se puede enviar sin esa partida. Limpieza: cancelar en Zafiro los folios 001-96996 a 001-97000 y borrar los pedidos de prueba 773-777 y 782-785. En paralelo, Zafiro revisa su log del 500 para los SalesforceID 801WD00000zKrHxYAK y 801WD000010B5DjYAK.
+
+7. Nombre: Revisión de los puntos #36 a #44 del HTML (29-Sep-2026, UAT) - SIN CAMBIOS EN LA ORG
+   #36 Ubicación en el PDF de cotización: QuoteLineItem.Ubicacion__c la llena el flow ST_Maco_QuoteLineItem_Ubicacion (before save, activo v1 desde el 29-Sep, creado por TV) y Location__c la llena ObtenerExistencias. El PDF usa la plantilla nativa 0EHal0000020Tk0 (Label quoteTemplateId), que no se puede desplegar por Metadata API. Falta agregar el campo Ubicación a la tabla de partidas desde Setup > Plantillas de presupuesto.
+      Producción: desplegar el flow ST_Maco_QuoteLineItem_Ubicacion y el campo QuoteLineItem.Ubicacion__c, y repetir a mano el cambio de la plantilla.
+   #37 Resuelto sin cambios (ver #49 y el punto 4). #38 Resuelto por el punto 5 (timeout) y el punto 6 (#47).
+   #39 Causa: entrevistas de Check In/Out fallidas en Callout_for_Address_data (8 en UAT: 00000261-00000268). Se corrigió en el punto 3. Falta probar en el celular. Borrar esas entrevistas requiere aprobación.
+   #40-#44 son tareas de TV/MACO fuera de Salesforce (fecha, tableta, Excel, invitaciones, reportes por definir). No se enviaron correos ni invitaciones.

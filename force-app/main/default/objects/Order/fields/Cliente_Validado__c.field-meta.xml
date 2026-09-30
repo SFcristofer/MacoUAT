@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cliente_Validado__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Permite saber si el cliente tiene ID en su cuenta validado</description>
+    <label>Cliente Validado</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ZF_Cliente_ID__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ClasificacionCliente__c</columns>
+    <columns>Vendedor__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>TipoVenta__c</columns>
+    <columns>Region__c</columns>
+    <columns>ListadePrecio__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todas las Cuentas</label>
+</ListView>

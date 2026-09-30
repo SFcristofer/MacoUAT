@@ -1,0 +1,1095 @@
+CreatedDate,CreatedBy.Name,Section,Action,Display
+2026-09-25T15:54:40.000+0000,Automated Process,Manage Users,PermSetAssign,Permission set C2CMcpServicePermSet: assigned to user Platform Integration User (UserID: [005al0000037QsG])
+2026-09-23T04:25:28.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.WeatherAJAXResource Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.AdminAJAXResources Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.AdminAJAXResourcesTest Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.AutoAssignmentController Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.AutoAssignmentTest Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.ContentRest Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,createdApexClass,Created maps.ContentRestTest Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctions Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctionsTest Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActions Apex Class code
+2026-09-23T04:25:03.000+0000,,Apex Class,changedApexClass,Changed maps.TPTests Apex Class code
+2026-09-23T04:22:58.000+0000,,Component,changedApexComponent,Changed Component Desktop
+2026-09-23T04:22:56.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-09-23T04:22:56.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-09-23T04:22:56.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-09-23T04:22:56.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-09-23T04:22:56.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-09-23T04:22:56.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-09-23T04:22:56.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-09-23T04:22:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-09-23T04:22:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-09-23T04:22:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-09-23T04:22:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-09-23T04:22:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-09-23T04:22:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-09-23T04:22:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-09-23T04:22:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-09-23T04:22:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-09-23T04:22:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-09-23T04:22:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-09-23T04:22:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-09-23T04:22:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-09-23T04:22:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin
+2026-09-23T04:22:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-09-23T04:22:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-09-23T04:22:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-09-21T17:15:19.000+0000,SOPORTE TECHNOVALUE,Flows,activatedinteractiondefinition,"Activated flow with Name ""Format Quote Name"" and Unique Name ""Format_Quote_Name"""
+2026-09-21T17:15:18.000+0000,SOPORTE TECHNOVALUE,Flows,createdinteractiondefinition,"Created flow with Name ""Format Quote Name"" and Unique Name ""Format_Quote_Name"""
+2026-09-21T16:56:37.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3OTAwMDk2NDYsImV4cCI6MTc5MjYwMTY0Nn0.kj-KPU3J93sMhZaBfF_IC1OoVUpcp7kOG86frMTyBw8 to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3OTAwMDk2NDAsImV4cCI6MTc5MjYwMTY0MH0.TIj2TadgvBvrspKnV0HIux6o44XpY2yDzHAB5Q01n-k
+2026-09-21T16:56:36.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk3NTgzNTQsImV4cCI6MTc5MjM1MDM1NH0.j21xGhpn29UYqd8ZY7llrDaVnTm1jdOo-syV-5-wEDA to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3OTAwMDk2NDYsImV4cCI6MTc5MjYwMTY0Nn0.kj-KPU3J93sMhZaBfF_IC1OoVUpcp7kOG86frMTyBw8
+2026-09-21T16:56:36.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-18 13:08:19 to 2026-09-21 10:56:36
+2026-09-18T19:08:20.000+0000,Rodrigo Fernandez,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-17 14:51:14 to 2026-09-18 13:08:19
+2026-09-18T19:08:20.000+0000,Rodrigo Fernandez,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk2NzgxMzAsImV4cCI6MTc5MjI3MDEzMH0.-x62dIWWs1fFwdXlwr5hHlh-l707iED7yqzxOiYL94A to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk3NTgzNTQsImV4cCI6MTc5MjM1MDM1NH0.j21xGhpn29UYqd8ZY7llrDaVnTm1jdOo-syV-5-wEDA
+2026-09-17T23:12:51.000+0000,Auscencio Salazar Vázquez,,insertTwoFactorWebAuthN,"Autenticador incorporado credential 0moWD0000004SSL with nickname ""Built-In Authenticator #1 2026-09-17T23:12:07Z"" added for ventas.puebla2@maco.com.uat.mx"
+2026-09-17T23:09:31.000+0000,Auscencio Salazar Vázquez,Manage Users,changedpassword,Set new password for user Auscencio Salazar Vázquez (UserID: [005WD00000Aql28])
+2026-09-17T23:09:16.000+0000,Auscencio Salazar Vázquez,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla2@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-09-17T23:08:54.000+0000,Automated Process,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla2@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-09-17T23:08:27.000+0000,Abraham Tanus,Manage Users,resetpassword,Reset password for user Auscencio Salazar Vázquez (UserID: [005WD00000Aql28])
+2026-09-17T22:56:47.000+0000,Rodrigo Fernandez,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Rodrigo Fernandez
+2026-09-17T22:56:19.000+0000,Abraham Tanus,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Rodrigo Fernandez
+2026-09-17T22:55:50.000+0000,Abraham Tanus,Manage Users,PermSetAssign,Permission set Maps User: assigned to user Rodrigo Fernandez (UserID: [005WD000007To3p])
+2026-09-17T22:21:31.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderPDFController Apex Class code
+2026-09-17T20:51:14.000+0000,Rodrigo Fernandez,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-17 13:50:49 to 2026-09-17 14:51:14
+2026-09-17T20:51:14.000+0000,Rodrigo Fernandez,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk2NzQ1MDgsImV4cCI6MTc5MjI2NjUwOH0.z8y4K9yDMAMsG5DRtx6XE_EgxHAZGsbawAGFklJJNzU to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk2NzgxMzAsImV4cCI6MTc5MjI3MDEzMH0.-x62dIWWs1fFwdXlwr5hHlh-l707iED7yqzxOiYL94A
+2026-09-17T20:29:16.000+0000,Rodrigo Fernandez,Manage Users,changedUserEmailVerifiedStatusVerified,"For user rfernandez@maco.com.mx-uat, the User Verified Email status changed to verified"
+2026-09-17T20:29:16.000+0000,Rodrigo Fernandez,Manage Users,changedemail,Changed email for user Rodrigo Fernandez (UserID: [005WD000007To3p]) from amruiz@maco.com.mx to amruizmaco@gmail.com
+2026-09-17T20:29:16.000+0000,Rodrigo Fernandez,Manage Users,changedemail,Changed email for user Rodrigo Fernandez (UserID: [005WD000007To3p]) from amruiz@maco.com.mx to amruizmaco@gmail.com
+2026-09-17T20:29:16.000+0000,Rodrigo Fernandez,Manage Users,changedUserEmailVerifiedStatusUnverified,"For user rfernandez@maco.com.mx-uat, the User Verified Email status changed to unverified"
+2026-09-17T20:27:39.000+0000,Abraham Tanus,Manage Users,useremailchangesent,Email change attempted for user Rodrigo Fernandez (UserID: [005WD000007To3p]) from amruiz@maco.com.mx to amruizmaco@gmail.com
+2026-09-17T20:24:35.000+0000,Rodrigo Fernandez,,insertTwoFactorWebAuthN,"Autenticador incorporado credential 0moWD0000004SFR with nickname ""Built-In Authenticator #1 2026-09-17T20:24:08Z"" added for rfernandez@maco.com.mx-uat"
+2026-09-17T20:24:03.000+0000,Rodrigo Fernandez,Manage Users,changedUserEmailVerifiedStatusVerified,"For user rfernandez@maco.com.mx-uat, the User Verified Email status changed to verified"
+2026-09-17T20:09:51.000+0000,Rodrigo Fernandez,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Rodrigo Fernandez
+2026-09-17T20:09:38.000+0000,Rodrigo Fernandez,Manage Users,changedpassword,Set new password for user Rodrigo Fernandez (UserID: [005WD000007To3p])
+2026-09-17T20:07:16.000+0000,Abraham Tanus,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Rodrigo Fernandez
+2026-09-17T20:06:54.000+0000,Abraham Tanus,Manage Users,useremailchangesent,Email change attempted for user Rodrigo Fernandez (UserID: [005WD000007To3p]) from amruiz@maco.com.mx to amruizmaco@gmail.com
+2026-09-17T19:50:50.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk2NjE1NjMsImV4cCI6MTc5MjI1MzU2M30.aQsUOgavesgEl-ueXRImojFCqhoDSe6eU-GSVz893iw to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk2NzQ1MDgsImV4cCI6MTc5MjI2NjUwOH0.z8y4K9yDMAMsG5DRtx6XE_EgxHAZGsbawAGFklJJNzU
+2026-09-17T19:50:50.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-17 11:08:29 to 2026-09-17 13:50:49
+2026-09-17T19:28:49.000+0000,Daniel Alberto Lara,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Daniel Alberto Lara
+2026-09-17T17:30:38.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Daniel Alberto Lara
+2026-09-17T17:29:54.000+0000,Rodrigo Fernandez,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Rodrigo Fernandez
+2026-09-17T17:27:59.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Rodrigo Fernandez
+2026-09-17T17:27:59.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Rodrigo Fernandez
+2026-09-17T17:26:27.000+0000,Isabel Rosas Cocolotl,Manage Users,suLogout,Logged out using Login-As access for Isabel Rosas Cocolotl
+2026-09-17T17:26:25.000+0000,Isabel Rosas Cocolotl,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Isabel Rosas Cocolotl
+2026-09-17T17:23:18.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Isabel Rosas Cocolotl
+2026-09-17T17:23:18.000+0000,Isabel Rosas Cocolotl,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Isabel Rosas Cocolotl
+2026-09-17T17:22:36.000+0000,Daniel Alberto Lara,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Daniel Alberto Lara
+2026-09-17T17:20:19.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Daniel Alberto Lara
+2026-09-17T17:08:30.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-17 11:07:14 to 2026-09-17 11:08:29
+2026-09-17T17:07:14.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-17 10:55:01 to 2026-09-17 11:07:14
+2026-09-17T17:04:27.000+0000,SOPORTE TECHNOVALUE,Page,changedApexPage,Changed Page OrderPDF
+2026-09-17T17:01:53.000+0000,SOPORTE TECHNOVALUE,Page,changedApexPage,Changed Page OrderPDF
+2026-09-17T16:59:54.000+0000,SOPORTE TECHNOVALUE,Page,changedApexPage,Changed Page OrderPDF
+2026-09-17T16:55:01.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-17 10:16:35 to 2026-09-17 10:55:01
+2026-09-17T16:16:36.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-17 10:15:18 to 2026-09-17 10:16:35
+2026-09-17T16:15:20.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk2NjE1NjQsImV4cCI6MTc5MjI1MzU2NH0.3S1hCiPbSkq8aGPr5WKC-ITGP9ANiipcC83qyargu6Q to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk2NjE1NjMsImV4cCI6MTc5MjI1MzU2M30.aQsUOgavesgEl-ueXRImojFCqhoDSe6eU-GSVz893iw
+2026-09-17T16:15:19.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-04 19:31:48 to 2026-09-17 10:15:18
+2026-09-17T16:15:19.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODg1Njk0ODUsImV4cCI6MTc5MTE2MTQ4NX0.8GWYJ3vAqdNMOJlk4PqOtkJ8Yk9l9ixNyb3sEyG2KU4 to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk2NjE1NjQsImV4cCI6MTc5MjI1MzU2NH0.3S1hCiPbSkq8aGPr5WKC-ITGP9ANiipcC83qyargu6Q
+2026-09-15T19:47:14.000+0000,David Vazquez Jimenez,,insertTwoFactorWebAuthN,"Llave de seguridad credential 0moWD0000004NCX with nickname ""Built-In Authenticator #1 2026-09-15T19:45:49Z"" added for ventas.puebla1.@maco.uat.com.mx"
+2026-09-15T19:45:44.000+0000,David Vazquez Jimenez,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla1.@maco.uat.com.mx, the User Verified Email status changed to verified"
+2026-09-05T01:31:48.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-04 19:31:31 to 2026-09-04 19:31:48
+2026-09-05T01:31:31.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-04 18:57:24 to 2026-09-04 19:31:31
+2026-09-05T01:30:02.000+0000,Daniel Alberto Lara,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Daniel Alberto Lara
+2026-09-05T01:10:59.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Daniel Alberto Lara
+2026-09-05T01:10:14.000+0000,Rodrigo Fernandez,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Rodrigo Fernandez
+2026-09-05T01:09:52.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Rodrigo Fernandez
+2026-09-05T01:09:46.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile System Administrator Maco: field-level security for Account: Account Number was changed from No Access to Read/Write
+2026-09-05T01:08:53.000+0000,Rodrigo Fernandez,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Rodrigo Fernandez
+2026-09-05T01:07:32.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Rodrigo Fernandez
+2026-09-05T01:07:20.000+0000,Daniel Alberto Lara,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Daniel Alberto Lara
+2026-09-05T01:05:29.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Daniel Alberto Lara
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Cliente Prioritario was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Activo was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Account Site was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Account Number was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Maps Assignment Rule was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Número de Cuenta was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Ownership was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Rating was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Segmento was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: SIC Code was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Mail Totales was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Mail de contacto was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Lista de Precio was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Límite de Crédito was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Fax was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Tipo de Cliente was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Tipo de Cuenta was changed from No Access to Read/Write
+2026-09-05T01:05:10.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Executive Sponsor: field-level security for Account: Ticker Symbol was changed from No Access to Read/Write
+2026-09-05T01:02:59.000+0000,Daniel Alberto Lara,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Daniel Alberto Lara
+2026-09-05T01:02:09.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Daniel Alberto Lara
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Billing Address was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Almacen ID was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Activated By was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Activated Date was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Almacen was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: ValidationByPassDateTime was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Tipo Venta was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Tipo Impuesto was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Tipo Entrega Venta was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Ship To Contact was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Shipping Address was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Quote was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Proveedor was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: PO Number was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: PO Date was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Paridad was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Order Type was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Order Reference Number was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Order Name was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Order Amount was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Orden Sin Cotización was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Orden de Compra was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Opportunity was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Moneda was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Method of Payment was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Impuesto was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Id de Pedido Zafiro was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Estatus Surtimiento was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Estatus Facturacion was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Description was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Customer Authorized Date was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Customer Authorized By was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Contract Name was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Contract End Date was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Company Authorized Date was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Company Authorized By was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Cliente Validado was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: ByPassValidation was changed from Read Only to Read/Write
+2026-09-05T01:02:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Bill To Contact was changed from Read Only to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Número de Cuenta was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileOlpChangedCustom,"Changed profile Standard User Maco: Account object permissions were changed from No Access to Read, Create, Edit, Delete, View All Records, Modify All Records, View All Fields"
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Zona was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Website was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Vendedor was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Type was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Tipo de Venta was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Tipo de Cuenta was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Tipo de Cliente was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Ticker Symbol was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Territorio was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: SIC Description was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: SIC Code was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Shipping Address was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Segmento was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Region was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: RecordTypeName was changed from No Access to Read Only
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Rating was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Phone was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Parent Account was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Ownership was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Maps Assignment Rule was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Mail Totales was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Mail de contacto was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Lista de Precio was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Límite de Crédito was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Industry was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Id de Cuenta Zafiro was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Geocódigo was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Fax was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Employees was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Description was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Data.com Key was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Cliente Prioritario was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Clasificacion de cliente was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: CampoNoVacio was changed from No Access to Read Only
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Annual Revenue was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Activo was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Account Source was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Account Site was changed from No Access to Read/Write
+2026-09-05T01:01:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Account: Account Number was changed from No Access to Read/Write
+2026-09-05T01:01:02.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileOlpChangedCustom,"Changed profile Standard User Maco: Order object permissions were changed from No Access to Read, Create, Edit, Delete, View All Records, Modify All Records, View All Fields"
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Company Authorized By was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Cliente Validado was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: ByPassValidation was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Bill To Contact was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Billing Address was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Almacen ID was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Almacen was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Activated Date was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Activated By was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Contract End Date was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Contract Name was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Customer Authorized By was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Description was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Opportunity was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Orden de Compra was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Orden Sin Cotización was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Order Amount was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Order Date Integration was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Order Name was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Order Reference Number was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Order Type was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Paridad was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: PO Date was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: PO Number was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: PricebookName was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Proveedor was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Quote was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Shipping Address was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Ship To Contact was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: SubTotal was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Tipo Entrega Venta was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Tipo Impuesto was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Tipo Venta was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Total Impuesto was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Total Order Amount was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: ValidationByPassDateTime was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Customer Authorized Date was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Company Authorized Date was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Estatus Facturacion was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Estatus Surtimiento was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Id de Pedido Zafiro was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Impuesto was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: IsVRByPassed was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Method of Payment was changed from No Access to Read Only
+2026-09-05T01:01:01.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileFlsChangedCustom,Changed profile Standard User Maco: field-level security for Order: Moneda was changed from No Access to Read Only
+2026-09-05T00:59:46.000+0000,Daniel Alberto Lara,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Daniel Alberto Lara
+2026-09-05T00:59:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Daniel Alberto Lara
+2026-09-05T00:59:25.000+0000,Daniel Alberto Lara,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Daniel Alberto Lara
+2026-09-05T00:57:33.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Daniel Alberto Lara
+2026-09-05T00:57:24.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-04 18:54:06 to 2026-09-04 18:57:24
+2026-09-05T00:54:06.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-04 18:53:49 to 2026-09-04 18:54:06
+2026-09-05T00:53:50.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-02 13:07:05 to 2026-09-04 18:53:49
+2026-09-05T00:53:50.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODgzNzMyNTAsImV4cCI6MTc5MDk2NTI1MH0.5MNpuh7u0COG8snRyaLWGny1LOoU3Vold94HSCrdKvQ to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODg1Njk0ODUsImV4cCI6MTc5MTE2MTQ4NX0.8GWYJ3vAqdNMOJlk4PqOtkJ8Yk9l9ixNyb3sEyG2KU4
+2026-09-05T00:52:09.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileCustAppCustom,Changed profile Executive Sponsor: Sales application is now Visible
+2026-09-05T00:52:09.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileTabsetChangedCustom,Changed profile Executive Sponsor: Pedidos / Cotizaciones tab was changed from Default Off to Default On
+2026-09-05T00:51:48.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileTabsetChangedCustom,Changed profile End User: Pedidos / Cotizaciones tab was changed from Default Off to Default On
+2026-09-05T00:51:48.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileCustAppCustom,Changed profile End User: Sales application is now Visible
+2026-09-05T00:51:14.000+0000,SOPORTE TECHNOVALUE,Manage Users,profileTabsetChangedCustom,Changed profile Standard User Maco: Pedidos / Cotizaciones tab was changed from Default Off to Default On
+2026-09-04T18:31:52.000+0000,David Vazquez Jimenez,Manage Users,changedpassword,Set new password for user David Vazquez Jimenez (UserID: [005WD00000BH53P])
+2026-09-04T18:30:53.000+0000,Automated Process,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla1.@maco.uat.com.mx, the User Verified Email status changed to verified"
+2026-09-04T17:44:16.000+0000,Ana Ruiz,Manage Users,resetpassword,Reset password for user David Vazquez Jimenez (UserID: [005WD00000BH53P])
+2026-09-04T17:36:07.000+0000,Ana Ruiz,Manage Users,insertTwoFactorTempCode,"Temporary verification code ""Salesforce ha generado el código"" added for ventas.puebla1.@maco.uat.com.mx"
+2026-09-03T22:43:40.000+0000,Daniel Alberto Lara,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Daniel Alberto Lara
+2026-09-03T22:37:47.000+0000,SOPORTE TECHNOVALUE,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Daniel Alberto Lara
+2026-09-03T22:36:14.000+0000,SOPORTE TECHNOVALUE,Manage Users,SetupEntityAccessAudit_Profile_ApexClass_EnabledCustom,Changed profile System Administrator Maco: OrderQuoteQuickFilterController Apex class access was enabled
+2026-09-03T22:35:32.000+0000,SOPORTE TECHNOVALUE,Manage Users,SetupEntityAccessAudit_Profile_ApexClass_EnabledCustom,Changed profile Standard User Maco: OrderQuoteQuickFilterController Apex class access was enabled
+2026-09-03T22:34:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,SetupEntityAccessAudit_Profile_ApexClass_EnabledCustom,Changed profile Executive Sponsor: OrderQuoteQuickFilterController Apex class access was enabled
+2026-09-03T22:34:37.000+0000,SOPORTE TECHNOVALUE,Manage Users,SetupEntityAccessAudit_Profile_ApexClass_EnabledCustom,Changed profile Executive Sponsor: SalesMacoSearchController Apex class access was enabled
+2026-09-02T21:25:40.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed QuoteLineItemSorter Apex Class code
+2026-09-02T19:35:43.000+0000,SOPORTE TECHNOVALUE,Page,changedApexPage,Changed Page OrderPDF
+2026-09-02T19:29:11.000+0000,SOPORTE TECHNOVALUE,Page,changedApexPage,Changed Page OrderPDF
+2026-09-02T19:07:06.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-02 12:23:14 to 2026-09-02 13:07:05
+2026-09-02T18:56:40.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderPDFController Apex Class code
+2026-09-02T18:50:46.000+0000,SOPORTE TECHNOVALUE,Page,changedApexPage,Changed Page OrderPDF
+2026-09-02T18:45:55.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderPDFController Apex Class code
+2026-09-02T18:23:15.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODgzNjk0MjgsImV4cCI6MTc5MDk2MTQyOH0.r4fAswI-QekFYu93WwjO2ltM1lGsWiepWtx0un5IliI to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODgzNzMyNTAsImV4cCI6MTc5MDk2NTI1MH0.5MNpuh7u0COG8snRyaLWGny1LOoU3Vold94HSCrdKvQ
+2026-09-02T18:23:15.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-02 11:19:32 to 2026-09-02 12:23:14
+2026-09-02T18:22:18.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderPDFController Apex Class code
+2026-09-02T18:22:18.000+0000,SOPORTE TECHNOVALUE,Page,changedApexPage,Changed Page OrderPDF
+2026-09-02T17:19:33.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-02 09:24:16 to 2026-09-02 11:19:32
+2026-09-02T17:19:33.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODgzNjI0OTYsImV4cCI6MTc5MDk1NDQ5Nn0.fXeVQvSNZArH7helkFcB2m1vd3OY0ASw1mt2SpUM_UY to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODgzNjk0MjgsImV4cCI6MTc5MDk2MTQyOH0.r4fAswI-QekFYu93WwjO2ltM1lGsWiepWtx0un5IliI
+2026-09-02T15:28:21.000+0000,SOPORTE TECHNOVALUE,,insertTwoFactorWebAuthN,"Built-In Authenticator credential 0moWD00000042fx with nickname ""Built-In Authenticator #1 2026-09-02T15:27:52Z"" added for abner.trujillo@technovalue.com.mx"
+2026-09-02T15:27:50.000+0000,SOPORTE TECHNOVALUE,Manage Users,changedUserEmailVerifiedStatusVerified,"For user abner.trujillo@technovalue.com.mx.uat, the User Verified Email status changed to verified"
+2026-09-02T15:26:30.000+0000,SOPORTE TECHNOVALUE,,deleteTwoFactorWebAuthN,"Built-In Authenticator credential 0moWD0000003Jir with nickname ""Built-In Authenticator #1 2026-08-13T22:30:58Z"" removed for abner.trujillo@technovalue.com.mx"
+2026-09-02T15:24:17.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-09-02 09:23:59 to 2026-09-02 09:24:16
+2026-09-02T15:23:59.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-27 17:44:15 to 2026-09-02 09:23:59
+2026-09-02T15:23:59.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODc4NzE0ODksImV4cCI6MTc5MDQ2MzQ4OX0.9dpuQ86f3K6tDqm4tpqmwU9Yj2IObYTFP9BwcOjzkVQ to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODgzNjI0OTYsImV4cCI6MTc5MDk1NDQ5Nn0.fXeVQvSNZArH7helkFcB2m1vd3OY0ASw1mt2SpUM_UY
+2026-09-01T03:44:49.000+0000,,Page,changedApexPage,Changed Page AdvRouteRep
+2026-09-01T03:44:49.000+0000,,Page,changedApexPage,Changed Page AdvRouteVisitWindowShared
+2026-09-01T03:44:49.000+0000,,Page,changedApexPage,Changed Page AdvRouteVisitWindow
+2026-09-01T03:44:49.000+0000,,Page,changedApexPage,Changed Page AdvRouteTemplateBuilder
+2026-09-01T03:43:57.000+0000,,Page,changedApexPage,Changed Page Maps
+2026-09-01T03:43:57.000+0000,,Page,changedApexPage,Changed Page Mobile
+2026-09-01T03:43:49.000+0000,,Page,changedApexPage,Changed Page Mobile
+2026-09-01T03:43:49.000+0000,,Page,changedApexPage,Changed Page Maps
+2026-09-01T03:43:40.000+0000,,Page,changedApexPage,Changed Page CustomComponents
+2026-09-01T03:43:39.000+0000,,Page,changedApexPage,Changed Page BatchAdmin
+2026-09-01T03:43:33.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-09-01T03:43:27.000+0000,,Page,changedApexPage,Changed Page AdvRouteVisitWindowShared
+2026-09-01T03:43:26.000+0000,,Page,changedApexPage,Changed Page AdvRouteTemplateBuilder
+2026-09-01T03:43:26.000+0000,,Page,changedApexPage,Changed Page AdvRouteVisitWindow
+2026-09-01T03:43:26.000+0000,,Page,changedApexPage,Changed Page AdvRouteRep
+2026-09-01T03:43:15.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-09-01T03:42:55.000+0000,,Component,changedApexComponent,Changed Component MapsMobile
+2026-09-01T03:42:51.000+0000,,Component,changedApexComponent,Changed Component AdvRouteUtils
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.Util Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.WaypointAJAXResourcesTest Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.WaypointAJAXResources Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.UtilTest Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.UserAJAXResourcesTest Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.UserAJAXResources Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.TooltipAJAXResourcesTest Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.TooltipAJAXResources Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.TestUtils Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.TPTests Apex Class code
+2026-09-01T03:42:44.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActions Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctionsTest Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.MobileRestAPI Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.MileageAdminController Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.MarkerLayerBuilderController Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.MapsV2 Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.GlobalUtil Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.DataLayers Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.CustomEventConfigControllerTest Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.CustomEventConfigController Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.ComponentConTest Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.ComponentCon Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.CalendarEventsTest Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.CalendarEvents Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.AutoAssignmentTest Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.AutoAssignmentController Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.AdminAJAXResourcesTest Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.AdminAJAXResources Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.OAuthTest Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctions Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.MobileRestAPITest Apex Class code
+2026-09-01T03:42:43.000+0000,,Apex Class,changedApexClass,Changed maps.OAuth Apex Class code
+2026-09-01T03:40:43.000+0000,,Custom Metadata Types,custmdtypelayout,Changed Metadato de Maps page layout Admin View With Values
+2026-09-01T03:40:41.000+0000,,Page,changedApexPage,Changed Page TerritoryPlanning
+2026-09-01T03:40:40.000+0000,,Page,changedApexPage,Changed Page AlignmentBuilder
+2026-09-01T03:40:32.000+0000,,Component,changedApexComponent,Changed Component MapsMobile
+2026-09-01T03:40:32.000+0000,,Component,changedApexComponent,Changed Component AdvRouteUtils
+2026-09-01T03:40:32.000+0000,,Component,changedApexComponent,Changed Component SFMaps
+2026-09-01T03:40:32.000+0000,,Component,changedApexComponent,Changed Component Admin
+2026-09-01T03:40:18.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-09-01T03:40:18.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-09-01T03:40:18.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-09-01T03:40:18.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-09-01T03:40:18.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-09-01T03:40:18.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-09-01T03:40:18.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-09-01T03:40:18.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-09-01T03:40:17.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-09-01T03:40:17.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-09-01T03:40:17.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-09-01T03:40:17.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-09-01T03:40:17.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-09-01T03:40:17.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-09-01T03:40:17.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-09-01T03:40:17.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-09-01T03:40:16.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-09-01T03:40:16.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-09-01T03:40:16.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-09-01T03:40:16.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-09-01T03:40:16.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-09-01T03:40:16.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-09-01T03:40:16.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-09-01T03:40:15.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin
+2026-08-29T03:24:39.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Update   Standard   Flow   Time   Trigger   Data in Update mode for case Id 000000000000000
+2026-08-29T03:24:39.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran sharing Enablement Releasable Action in Update mode for case Id 000000000000000
+2026-08-29T03:24:39.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Update Web Cart List Views in Update mode for case Id 000000000000000
+2026-08-29T03:24:38.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Scrt 2 C 2 C Provision Releasable Action 264 in Update mode for case Id 000000000000000
+2026-08-29T03:24:38.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Auto Activate Release Updates in Update mode for case Id 000000000000000
+2026-08-29T03:24:38.000+0000,,,icorInstApiTrafficBlockedOffOn,Enabled Block API traffic that uses any instanced URL
+2026-08-29T03:24:38.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Backfill the Scale Test App standard Lightning app into existing Performance Assistant orgs in Update mode for case Id 000000000000000
+2026-08-29T03:24:37.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Orchestration Records For Standard Orchestrations Release Task in Create mode for case Id 000000000000000
+2026-08-29T03:24:37.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Messaging Channel Options Update Read Receipts And Typing Indicators Bits Release Action in Update mode for case Id 000000000000000
+2026-08-29T03:24:36.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran MO Tenant Readiness Backfill Releasable Action in Update mode for case Id 000000000000000
+2026-08-29T03:24:36.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Grant ViewSetupAuditTrail to profiles/perm sets with ViewSetup in Update mode for case Id 000000000000000
+2026-08-29T03:24:36.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Flows App Tags Tab Releasable Action in Update mode for case Id 000000000000000
+2026-08-29T03:24:34.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Flow Records For Standard Flows Release Task in Create mode for case Id 000000000000000
+2026-08-29T03:24:33.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Exp Builder New Page Menu Perm Releasable Action in Update mode for case Id 000000000000000
+2026-08-29T03:24:33.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Evidence Mgmt Releasable Action 264 in Update mode for case Id 000000000000000
+2026-08-29T03:24:32.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Enable Graph QL Api Org Prefs Releasable Action in Update mode for case Id 000000000000000
+2026-08-29T03:24:32.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Enable Extl Clnt App Attest Plugin Release Action in Update mode for case Id 000000000000000
+2026-08-29T03:24:32.000+0000,Automated Process,,graphQLApiOrgPrefForGuestUsersOffOn,Organization setup action: graphQLApiOrgPrefForGuestUsersOffOn has changed.
+2026-08-29T03:24:31.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Clear   Deprecated   Extended Index   Settings in Delete mode for case Id 000000000000000
+2026-08-29T03:24:31.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Cart Failure ProcessExceptionEvent Releasable Action in Update mode for case Id 000000000000000
+2026-08-29T03:24:31.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Bots Releasable Action in Update mode for case Id 000000000000000
+2026-08-29T03:24:30.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Advanced Approval Work Item OWD Sharing Releasable Action 264 in Update mode for case Id 000000000000000
+2026-08-27T23:44:16.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-27 17:44:09 to 2026-08-27 17:44:15
+2026-08-27T23:44:09.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-27 17:00:28 to 2026-08-27 17:44:09
+2026-08-27T23:00:30.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-27 12:23:01 to 2026-08-27 17:00:28
+2026-08-27T23:00:30.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODc4NTQ4NDEsImV4cCI6MTc5MDQ0Njg0MX0.F5Ne54izKDGaV1FNyEp-FVjXFZalRfaNFjdmCw9wNwQ to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODc4NzE0ODksImV4cCI6MTc5MDQ2MzQ4OX0.9dpuQ86f3K6tDqm4tpqmwU9Yj2IObYTFP9BwcOjzkVQ
+2026-08-27T18:41:28.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesControllerTest Apex Class code
+2026-08-27T18:41:28.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-27T18:41:28.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-27T18:41:28.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed quotesMacoLines Lightning Web Component
+2026-08-27T18:41:27.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed ordersMacoLines Lightning Web Component
+2026-08-27T18:23:01.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-26 22:58:01 to 2026-08-27 12:23:01
+2026-08-27T18:23:01.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODc4MDU4NDIsImV4cCI6MTc5MDM5Nzg0Mn0.TXkWXe50sZL3HaTS0DjbNPY2QS0_i-a8xX0nPYNzuw0 to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODc4NTQ4NDEsImV4cCI6MTc5MDQ0Njg0MX0.F5Ne54izKDGaV1FNyEp-FVjXFZalRfaNFjdmCw9wNwQ
+2026-08-27T17:57:32.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-27T17:57:32.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed ordersMacoLines Lightning Web Component
+2026-08-27T17:57:32.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed quotesMacoLines Lightning Web Component
+2026-08-27T05:17:56.000+0000,SOPORTE TECHNOVALUE,Flows,activatedinteractiondefversion,"Activated flow version #12 ""Actualizar Dirección de Envió"" for flow with Unique Name ""Actualizar_Direcci_n_de_Envi"""
+2026-08-27T05:17:56.000+0000,SOPORTE TECHNOVALUE,Flows,deactivatedinteractiondefversion,"Deactivated flow version #11 ""Actualizar Dirección de Envió"" for flow with Unique Name ""Actualizar_Direcci_n_de_Envi"""
+2026-08-27T05:17:54.000+0000,SOPORTE TECHNOVALUE,Flows,createdinteractiondefversion,"Created flow version #12 ""Actualizar Dirección de Envió"" for flow with Unique Name ""Actualizar_Direcci_n_de_Envi"""
+2026-08-27T04:58:01.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-26 22:46:22 to 2026-08-26 22:58:01
+2026-08-27T04:57:00.000+0000,SOPORTE TECHNOVALUE,Lightning Pages,changedFlexiPage,Changed Lightning Page: Quote Record Page
+2026-08-27T04:56:03.000+0000,SOPORTE TECHNOVALUE,Customize Quotes,quotelayout,Changed Quote page layout Quote Layout
+2026-08-27T04:46:23.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-17 13:51:53 to 2026-08-26 22:46:22
+2026-08-27T04:46:23.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODY5OTYxNjksImV4cCI6MTc4OTU4ODE2OX0.u0foP83uXWalLh1yr6_fxSkC_NDJFcWvylk7WKbXgJk to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODc4MDU4NDIsImV4cCI6MTc5MDM5Nzg0Mn0.TXkWXe50sZL3HaTS0DjbNPY2QS0_i-a8xX0nPYNzuw0
+2026-08-27T04:42:58.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed SalesMacoSearchController Apex Class code
+2026-08-27T04:40:43.000+0000,SOPORTE TECHNOVALUE,Flows,deactivatedinteractiondefversion,"Deactivated flow version #10 ""Actualizar Dirección de Envió"" for flow with Unique Name ""Actualizar_Direcci_n_de_Envi"""
+2026-08-27T04:40:43.000+0000,SOPORTE TECHNOVALUE,Flows,activatedinteractiondefversion,"Activated flow version #11 ""Actualizar Dirección de Envió"" for flow with Unique Name ""Actualizar_Direcci_n_de_Envi"""
+2026-08-27T04:40:41.000+0000,SOPORTE TECHNOVALUE,Flows,createdinteractiondefversion,"Created flow version #11 ""Actualizar Dirección de Envió"" for flow with Unique Name ""Actualizar_Direcci_n_de_Envi"""
+2026-08-27T04:37:58.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed SalesMacoSearchController Apex Class code
+2026-08-27T04:32:36.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderPDFController Apex Class code
+2026-08-27T04:32:35.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-27T04:32:35.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed searchIndividualProduct Lightning Web Component
+2026-08-27T04:25:15.000+0000,SOPORTE TECHNOVALUE,Flows,activatedinteractiondefversion,"Activated flow version #20 ""Generar Pedido (Order) desde Cotización Aceptada en Salesforce"" for flow with Unique Name ""Generar_Pedido_Order_desde_Cotizacion_Aceptada_en_Salesforce"""
+2026-08-27T04:25:15.000+0000,SOPORTE TECHNOVALUE,Flows,deactivatedinteractiondefversion,"Deactivated flow version #19 ""Generar Pedido (Order) desde Cotización Aceptada en Salesforce"" for flow with Unique Name ""Generar_Pedido_Order_desde_Cotizacion_Aceptada_en_Salesforce"""
+2026-08-27T04:25:12.000+0000,SOPORTE TECHNOVALUE,Flows,createdinteractiondefversion,"Created flow version #20 ""Generar Pedido (Order) desde Cotización Aceptada en Salesforce"" for flow with Unique Name ""Generar_Pedido_Order_desde_Cotizacion_Aceptada_en_Salesforce"""
+2026-08-27T04:21:00.000+0000,SOPORTE TECHNOVALUE,Apex Class,createdApexClass,Created QuoteLineItemSorterTest Apex Class code
+2026-08-27T04:21:00.000+0000,SOPORTE TECHNOVALUE,Apex Class,createdApexClass,Created QuoteLineItemSorter Apex Class code
+2026-08-27T03:17:50.000+0000,SOPORTE TECHNOVALUE,Customize Orders,orderlayout,Changed Order page layout Order Layout
+2026-08-27T03:10:16.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed QuoteMacoLinesController Apex Class code
+2026-08-27T03:10:16.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed QuoteLineItemCloner Apex Class code
+2026-08-27T03:10:16.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-27T03:10:15.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed CrearPedidoEnZafiro Apex Class code
+2026-08-27T03:10:15.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderItemCloner Apex Class code
+2026-08-27T03:10:15.000+0000,SOPORTE TECHNOVALUE,Customize Orders,createdQuickActionCustom,Created Action on Order: Ordenar
+2026-08-27T02:50:27.000+0000,SOPORTE TECHNOVALUE,Track Field History,entity_history_field_tracked,Track History for Account field null on
+2026-08-27T02:50:27.000+0000,SOPORTE TECHNOVALUE,Track Field History,entity_history_field_tracked,Track History for Account field null on
+2026-08-27T02:50:27.000+0000,SOPORTE TECHNOVALUE,Track Field History,entity_history_field_tracked,Track History for Account field Usar Dirección de Facturación on
+2026-08-27T02:50:25.000+0000,SOPORTE TECHNOVALUE,,accountHistoryTrackEnabledOffOn,Organization setup action: accountHistoryTrackEnabledOffOn has changed.
+2026-08-27T02:50:25.000+0000,SOPORTE TECHNOVALUE,Entity History,accounthistorytrackingon,Enabled Account History Tracking
+2026-08-21T00:36:01.000+0000,Ana Maria Ruiz,Manage Users,changedUserEmailVerifiedStatusVerified,"For user amruiz@maco.com.mx.uat, the User Verified Email status changed to verified"
+2026-08-21T00:22:02.000+0000,Ana Maria Ruiz,Manage Users,changedUserEmailVerifiedStatusVerified,"For user amruiz@maco.com.mx.uat, the User Verified Email status changed to verified"
+2026-08-21T00:20:23.000+0000,Ana Maria Ruiz,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Ana Maria Ruiz
+2026-08-21T00:20:17.000+0000,Ana Maria Ruiz,Manage Users,changedpassword,Set new password for user Ana Maria Ruiz (UserID: [null])
+2026-08-21T00:19:11.000+0000,Abraham Tanus,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Ana Maria Ruiz
+2026-08-20T23:54:57.000+0000,Abraham Tanus,Manage Users,deleteAuthenticatorPairing,"Salesforce Authenticator pairing ""Emparejamiento de Salesforce Authenticator"" removed for amruiz@maco.com.mx"
+2026-08-20T23:27:05.000+0000,Ana Maria Ruiz,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Ana Maria Ruiz
+2026-08-20T23:26:59.000+0000,Abraham Tanus,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Ana Maria Ruiz
+2026-08-20T23:26:33.000+0000,Abraham Tanus,Manage Users,resetpassword,Reset password for user Ana Maria Ruiz (UserID: [null])
+2026-08-20T19:53:43.000+0000,Automated Process,Manage Users,changedUserEmailVerifiedStatusVerified,"For user amruiz@maco.com.mx.uat, the User Verified Email status changed to verified"
+2026-08-20T19:53:30.000+0000,Abraham Tanus,Manage Users,resetpassword,Reset password for user Ana Maria Ruiz (UserID: [null])
+2026-08-20T19:43:29.000+0000,Ana Maria Ruiz,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Ana Maria Ruiz
+2026-08-20T19:43:22.000+0000,Abraham Tanus,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Ana Maria Ruiz
+2026-08-20T19:42:49.000+0000,Abraham Tanus,Manage Users,useremailchangesent,Email change attempted for user Ana Maria Ruiz (UserID: [005al0000037c3d]) from slamaconewnew@gmail.com to amruizmaco@gmail.com
+2026-08-20T19:38:44.000+0000,Automated Process,Manage Users,changedUserEmailVerifiedStatusVerified,"For user amruiz@maco.com.mx.uat, the User Verified Email status changed to verified"
+2026-08-20T19:38:24.000+0000,Abraham Tanus,Manage Users,resetpassword,Reset password for user Ana Maria Ruiz (UserID: [null])
+2026-08-20T19:35:45.000+0000,Ana Maria Ruiz,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Ana Maria Ruiz
+2026-08-20T19:34:40.000+0000,Abraham Tanus,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Ana Maria Ruiz
+2026-08-20T19:33:19.000+0000,Automated Process,Manage Users,changedUserEmailVerifiedStatusVerified,"For user amruiz@maco.com.mx.uat, the User Verified Email status changed to verified"
+2026-08-20T19:32:51.000+0000,Abraham Tanus,Manage Users,resetpassword,Reset password for user Ana Maria Ruiz (UserID: [null])
+2026-08-20T18:44:33.000+0000,Rocio Herrera Vazquez,,insertTwoFactorWebAuthN,"Llave de seguridad credential 0moWD0000003adF with nickname ""Built-In Authenticator #1 2026-08-20T18:43:42Z"" added for rherrera@maco.com.uat.mx"
+2026-08-20T18:43:37.000+0000,Rocio Herrera Vazquez,Manage Users,changedUserEmailVerifiedStatusVerified,"For user rherrera@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-08-20T18:29:54.000+0000,Rocio Herrera Vazquez,Manage Users,changedpassword,Set new password for user Rocio Herrera Vazquez (UserID: [null])
+2026-08-20T18:29:24.000+0000,Rocio Herrera Vazquez,Manage Users,changedUserEmailVerifiedStatusVerified,"For user rherrera@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-08-20T18:28:58.000+0000,Automated Process,Manage Users,changedUserEmailVerifiedStatusVerified,"For user rherrera@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-08-20T18:28:41.000+0000,Abraham Tanus,Manage Users,resetpassword,Reset password for user Rocio Herrera Vazquez (UserID: [null])
+2026-08-20T18:24:10.000+0000,Abraham Tanus,Manage Users,useremailchangesent,Email change attempted for user Rocio Herrera Vazquez (UserID: [005WD00000BHD49]) from soporte@macopuebla.com to rherrera@maco.com.mx
+2026-08-20T18:14:45.000+0000,Gloria Dominguez Maria,,insertTwoFactorWebAuthN,"Autenticador incorporado credential 0moWD0000003aLV with nickname ""Built-In Authenticator #1 2026-08-20T18:05:37Z"" added for ventas9@macopuebla.uat.com"
+2026-08-20T18:03:31.000+0000,Gloria Dominguez Maria,Manage Users,changedpassword,Set new password for user Gloria Dominguez Maria (UserID: [null])
+2026-08-20T18:02:18.000+0000,Gloria Dominguez Maria,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas9@macopuebla.uat.com, the User Verified Email status changed to verified"
+2026-08-20T17:59:13.000+0000,Abraham Tanus,Manage Users,useremailchangesent,Email change attempted for user Gloria Dominguez Maria (UserID: [005WD00000BHCfx]) from soporte@macopuebla.com to ventas9@macopuebla.com
+2026-08-20T17:46:01.000+0000,Abraham Tanus,Manage Users,useremailchangesent,Email change attempted for user Rocio Herrera Vazquez (UserID: [005WD00000BHD49]) from soporte@macopuebla.com to rherrera@maco.com.mx
+2026-08-20T17:45:32.000+0000,Abraham Tanus,Manage Users,useremailchangesent,Email change attempted for user Gloria Dominguez Maria (UserID: [005WD00000BHCfx]) from soporte@macopuebla.com to ventas9@macopuebla.com
+2026-08-20T17:42:10.000+0000,Abraham Tanus,Manage Users,useremailchangesent,Email change attempted for user Rocio Herrera Vazquez (UserID: [005WD00000BHD49]) from soporte@macopuebla.com to rherrera@maco.com.uat.mx
+2026-08-20T17:39:08.000+0000,Abraham Tanus,Manage Users,changedusername,Changed username for 005WD00000BHCfx from ventas8@macopuebla.uat.com to ventas9@macopuebla.uat.com 
+2026-08-20T00:17:56.000+0000,Abraham Tanus,,insertTwoFactorWebAuthN,"Llave de seguridad credential 0moWD0000003YOX with nickname ""Built-In Authenticator #1 2026-08-20T00:14:10Z"" added for sopmaco0524@gmail.com"
+2026-08-20T00:10:42.000+0000,SOPORTE TECHNOVALUE,Manage Users,changedprofileforusercusttostd,Changed profile for user Abraham Tanus (UserID: [Standard User Maco]) from Administrador del sistema to null
+2026-08-20T00:09:14.000+0000,Abraham Tanus,Manage Users,changedpassword,Set new password for user Abraham Tanus (UserID: [null])
+2026-08-20T00:07:22.000+0000,Abraham Tanus,Manage Users,changedUserEmailVerifiedStatusVerified,"For user sopmaco0524@gmail.com, the User Verified Email status changed to verified"
+2026-08-20T00:06:50.000+0000,Automated Process,Manage Users,changedUserEmailVerifiedStatusVerified,"For user sopmaco0524@gmail.com, the User Verified Email status changed to verified"
+2026-08-19T23:38:33.000+0000,SOPORTE TECHNOVALUE,Manage Users,useremailchangesent,Email change attempted for user Ana Maria Ruiz (UserID: [005al0000037c3d]) from slamaconewnew@gmail.com to amruiz@maco.com.mx
+2026-08-19T22:33:59.000+0000,David Vazquez Jimenez,Manage Users,suOrgAdminLogout,Logged out using Login-As access for David Vazquez Jimenez
+2026-08-19T22:32:43.000+0000,Ana Ruiz,Manage Users,suOrgAdminLogin,Logged in using Login-As access for David Vazquez Jimenez
+2026-08-19T22:28:03.000+0000,Ana Ruiz,Manage Users,resetpassword,Reset password for user Abraham Tanus (UserID: [null])
+2026-08-19T22:25:33.000+0000,Ana Ruiz,Manage Users,insertAuthenticatorPairing,"Salesforce Authenticator pairing ""Emparejamiento de Salesforce Authenticator"" added for amruizuat@maco.com.mx"
+2026-08-19T22:23:04.000+0000,Ana Ruiz,Manage Users,changedpassword,Set new password for user Ana Ruiz (UserID: [null])
+2026-08-18T03:30:20.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-08-18T03:30:20.000+0000,,Page,changedApexPage,Changed Page BatchAdmin
+2026-08-18T03:30:20.000+0000,,Page,changedApexPage,Changed Page CustomComponents
+2026-08-18T03:30:11.000+0000,,Page,changedApexPage,Changed Page MileageAdmin
+2026-08-18T03:30:11.000+0000,,Page,changedApexPage,Changed Page CustomComponents
+2026-08-18T03:30:11.000+0000,,Page,changedApexPage,Changed Page BatchAdmin
+2026-08-18T03:30:11.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-08-18T03:29:52.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-08-18T03:29:34.000+0000,,Page,changedApexPage,Changed Page Checkin
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.ArcGISAPITest Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.UtilTest Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.Util Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.TooltipAJAXResourcesTest Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.TooltipAJAXResources Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctionsTest Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctions Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.MapsV2Test Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.MapsLegacyCheck Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.FavoriteLocationsAJAXResourcesTest Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.FavoriteLocationsAJAXResources Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.CheckinTest Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.Checkin Apex Class code
+2026-08-18T03:29:28.000+0000,,Apex Class,changedApexClass,Changed maps.ArcGISAPI Apex Class code
+2026-08-18T03:28:59.000+0000,,Component,changedApexComponent,Changed Component Shared
+2026-08-18T03:28:59.000+0000,,Component,changedApexComponent,Changed Component StaticResources
+2026-08-18T03:28:59.000+0000,,Component,changedApexComponent,Changed Component Desktop
+2026-08-18T03:28:56.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-08-18T03:28:56.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-08-18T03:28:56.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-08-18T03:28:56.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-08-18T03:28:56.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-08-18T03:28:56.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-08-18T03:28:56.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-08-18T03:28:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-08-18T03:28:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-08-18T03:28:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-08-18T03:28:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-08-18T03:28:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-08-18T03:28:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-08-18T03:28:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-08-18T03:28:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-08-18T03:28:55.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-08-18T03:28:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-08-18T03:28:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-08-18T03:28:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-08-18T03:28:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-08-18T03:28:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-08-18T03:28:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-08-18T03:28:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-08-18T03:28:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin
+2026-08-17T19:51:53.000+0000,Ana Ruiz,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODY2NjAzMTIsImV4cCI6MTc4OTI1MjMxMn0.fubChah1B7P1qpztQZM1XVHCNPvRbeem3lhzlsxHlmY to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODY5OTYxNjksImV4cCI6MTc4OTU4ODE2OX0.u0foP83uXWalLh1yr6_fxSkC_NDJFcWvylk7WKbXgJk
+2026-08-17T19:51:53.000+0000,Ana Ruiz,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 17:43:35 to 2026-08-17 13:51:53
+2026-08-17T16:49:16.000+0000,Ana Maria Ruiz,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Ana Maria Ruiz
+2026-08-17T16:48:50.000+0000,Ana Maria Ruiz,Manage Users,insertAuthenticatorPairing,"Salesforce Authenticator pairing ""Emparejamiento de Salesforce Authenticator"" added for amruiz@maco.com.mx"
+2026-08-17T16:47:05.000+0000,Ana Maria Ruiz,Manage Users,changedUserEmailVerifiedStatusVerified,"For user amruiz@maco.com.mx.uat, the User Verified Email status changed to verified"
+2026-08-17T16:46:25.000+0000,Ana Ruiz,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Ana Maria Ruiz
+2026-08-17T16:45:36.000+0000,Ana Maria Ruiz,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Ana Maria Ruiz
+2026-08-17T16:28:51.000+0000,Ana Ruiz,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Ana Maria Ruiz
+2026-08-13T23:43:35.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 17:43:30 to 2026-08-13 17:43:35
+2026-08-13T23:43:30.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 17:43:04 to 2026-08-13 17:43:30
+2026-08-13T23:43:04.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 17:42:55 to 2026-08-13 17:43:04
+2026-08-13T23:42:55.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 17:42:40 to 2026-08-13 17:42:55
+2026-08-13T23:42:41.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 17:42:36 to 2026-08-13 17:42:40
+2026-08-13T23:42:36.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 17:39:10 to 2026-08-13 17:42:36
+2026-08-13T23:39:11.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 16:44:41 to 2026-08-13 17:39:10
+2026-08-13T22:44:41.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 16:39:05 to 2026-08-13 16:44:41
+2026-08-13T22:39:05.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 16:36:05 to 2026-08-13 16:39:05
+2026-08-13T22:36:06.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-13 16:34:15 to 2026-08-13 16:36:05
+2026-08-13T22:34:15.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 13:34:01 to 2026-08-13 16:34:15
+2026-08-13T22:34:15.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODY1NjMwOTksImV4cCI6MTc4OTE1NTA5OX0.2Jb8yp8BjBAa8Gtsdn-aHRIBFB4d1LG0gt_cqQUQU-c to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODY2NjAzMTIsImV4cCI6MTc4OTI1MjMxMn0.fubChah1B7P1qpztQZM1XVHCNPvRbeem3lhzlsxHlmY
+2026-08-13T22:31:05.000+0000,SOPORTE TECHNOVALUE,,insertTwoFactorWebAuthN,"Autenticador incorporado credential 0moWD0000003Jir with nickname ""Built-In Authenticator #1 2026-08-13T22:30:58Z"" added for abner.trujillo@technovalue.com.mx"
+2026-08-12T19:57:24.000+0000,SOPORTE TECHNOVALUE,,deleteTwoFactorWebAuthN,"Autenticador incorporado credential 0moWD0000003C6H with nickname ""Built-In Authenticator #1 2026-08-12T03:33:25Z"" removed for abner.trujillo@technovalue.com.mx"
+2026-08-12T19:34:02.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODY1NTIyNDIsImV4cCI6MTc4OTE0NDI0Mn0.RRlRh9lfCBpoLRUeBZkgxuKsnkuTLJA2pmR034bfmCg to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODY1NjMwOTksImV4cCI6MTc4OTE1NTA5OX0.2Jb8yp8BjBAa8Gtsdn-aHRIBFB4d1LG0gt_cqQUQU-c
+2026-08-12T19:34:02.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 12:08:04 to 2026-08-12 13:34:01
+2026-08-12T18:24:44.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-12T18:24:43.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed ordersMacoLines Lightning Web Component
+2026-08-12T18:24:43.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T18:24:43.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoModalSearch Lightning Web Component
+2026-08-12T18:14:44.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-12T18:14:44.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed ordersMacoLines Lightning Web Component
+2026-08-12T18:08:04.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 12:04:55 to 2026-08-12 12:08:04
+2026-08-12T18:04:56.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 12:04:52 to 2026-08-12 12:04:55
+2026-08-12T18:04:52.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 12:04:33 to 2026-08-12 12:04:52
+2026-08-12T18:04:40.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 12:04:35 to 2026-08-12 12:04:33
+2026-08-12T18:04:36.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:57:06 to 2026-08-12 12:04:35
+2026-08-12T18:03:45.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed ordersMacoLines Lightning Web Component
+2026-08-12T18:03:45.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoModalSearch Lightning Web Component
+2026-08-12T18:03:45.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T18:03:45.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-12T17:57:06.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:56:47 to 2026-08-12 11:57:06
+2026-08-12T17:56:48.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:56:23 to 2026-08-12 11:56:47
+2026-08-12T17:56:23.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:48:00 to 2026-08-12 11:56:23
+2026-08-12T17:55:26.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed SalesMacoSearchController Apex Class code
+2026-08-12T17:55:26.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-12T17:55:25.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoModalSearch Lightning Web Component
+2026-08-12T17:55:25.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T17:55:25.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed ordersMacoLines Lightning Web Component
+2026-08-12T17:48:01.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:41:41 to 2026-08-12 11:48:00
+2026-08-12T17:45:59.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-12T17:45:59.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed QuoteMacoLinesController Apex Class code
+2026-08-12T17:41:41.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:37:58 to 2026-08-12 11:41:41
+2026-08-12T17:40:08.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T17:37:58.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:37:31 to 2026-08-12 11:37:58
+2026-08-12T17:37:31.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:35:37 to 2026-08-12 11:37:31
+2026-08-12T17:35:37.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:35:25 to 2026-08-12 11:35:37
+2026-08-12T17:35:25.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:35:04 to 2026-08-12 11:35:25
+2026-08-12T17:35:04.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:21:58 to 2026-08-12 11:35:04
+2026-08-12T17:26:49.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-12T17:26:48.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed ordersMacoLines Lightning Web Component
+2026-08-12T17:26:48.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed quotesMacoLines Lightning Web Component
+2026-08-12T17:21:58.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:18:44 to 2026-08-12 11:21:58
+2026-08-12T17:18:56.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:08:39 to 2026-08-12 11:18:44
+2026-08-12T17:17:51.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed QuoteMacoLinesController Apex Class code
+2026-08-12T17:17:51.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-12T17:08:39.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 11:08:27 to 2026-08-12 11:08:39
+2026-08-12T17:08:27.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 10:57:01 to 2026-08-12 11:08:27
+2026-08-12T17:06:27.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T16:57:01.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 10:56:40 to 2026-08-12 10:57:01
+2026-08-12T16:56:41.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 10:56:19 to 2026-08-12 10:56:40
+2026-08-12T16:56:19.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2026-08-12 10:32:56 to 2026-08-12 10:56:19
+2026-08-12T16:51:31.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T16:32:57.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Última vez usado has changed from 2025-09-01 14:16:39 to 2026-08-12 10:32:56
+2026-08-12T16:32:57.000+0000,SOPORTE TECHNOVALUE,Zafiro Auths,setupEntityObjectFieldUpdated,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3NTY3NTczMjcsImV4cCI6MTc1OTM0OTMyN30.0Zau8qf6b-RMY6kY91qfeYW-8FxSfbvQPaufEuMqw0c to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODY1NTIyNDIsImV4cCI6MTc4OTE0NDI0Mn0.RRlRh9lfCBpoLRUeBZkgxuKsnkuTLJA2pmR034bfmCg
+2026-08-12T16:31:38.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteQuickFilter Lightning Web Component
+2026-08-12T16:31:38.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T16:25:40.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T16:25:40.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteQuickFilter Lightning Web Component
+2026-08-12T16:25:40.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteDatatable Lightning Web Component
+2026-08-12T16:20:54.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteDatatable Lightning Web Component
+2026-08-12T16:20:54.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T15:50:29.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed pedidosCotizacionesQuickFilter Lightning Web Component
+2026-08-12T15:50:29.000+0000,SOPORTE TECHNOVALUE,Lightning Components,createdLightningWebComponent,Created orderQuoteDatatable Lightning Web Component
+2026-08-12T15:50:29.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteQuickFilter Lightning Web Component
+2026-08-12T06:00:25.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderQuoteQuickFilterController Apex Class code
+2026-08-12T06:00:25.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteQuickFilter Lightning Web Component
+2026-08-12T06:00:25.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderQuoteQuickFilterControllerTest Apex Class code
+2026-08-12T05:40:17.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderQuoteQuickFilterController Apex Class code
+2026-08-12T05:40:17.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteQuickFilter Lightning Web Component
+2026-08-12T05:40:02.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderQuoteQuickFilterController Apex Class code
+2026-08-12T05:40:02.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteQuickFilter Lightning Web Component
+2026-08-12T05:36:30.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderQuoteQuickFilterController Apex Class code
+2026-08-12T05:36:29.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteQuickFilter Lightning Web Component
+2026-08-12T05:29:48.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteQuickFilter Lightning Web Component
+2026-08-12T05:29:03.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed orderQuoteQuickFilter Lightning Web Component
+2026-08-12T05:23:16.000+0000,SOPORTE TECHNOVALUE,Custom Tabs,createdCustomTab,Created custom Componente Lightning tab: Pedidos / Cotizaciones
+2026-08-12T05:19:53.000+0000,SOPORTE TECHNOVALUE,Apex Class,createdApexClass,Created OrderQuoteQuickFilterControllerTest Apex Class code
+2026-08-12T05:19:53.000+0000,SOPORTE TECHNOVALUE,Apex Class,createdApexClass,Created OrderQuoteQuickFilterController Apex Class code
+2026-08-12T05:19:52.000+0000,SOPORTE TECHNOVALUE,Lightning Components,createdLightningWebComponent,Created orderQuoteQuickFilter Lightning Web Component
+2026-08-12T05:19:52.000+0000,SOPORTE TECHNOVALUE,Lightning Components,createdLightningWebComponent,Created pedidosCotizacionesQuickFilter Lightning Web Component
+2026-08-12T04:49:44.000+0000,SOPORTE TECHNOVALUE,Apex Class,createdApexClass,Created CreditoClienteControllerTest Apex Class code
+2026-08-12T04:49:44.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesControllerTest Apex Class code
+2026-08-12T04:49:44.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed QuoteMacoLinesController Apex Class code
+2026-08-12T04:49:44.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed QuoteMacoLinesControllerTest Apex Class code
+2026-08-12T04:49:44.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderMacoLinesController Apex Class code
+2026-08-12T04:49:43.000+0000,SOPORTE TECHNOVALUE,Apex Class,createdApexClass,Created CreditoClienteController Apex Class code
+2026-08-12T04:49:41.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed ordersMacoLines Lightning Web Component
+2026-08-12T04:49:41.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed quotesMacoLines Lightning Web Component
+2026-08-12T04:22:09.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T04:17:12.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed OrderTriggerHandler Apex Class code
+2026-08-12T04:17:12.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed SalesMacoSearchControllerTest Apex Class code
+2026-08-12T04:17:12.000+0000,SOPORTE TECHNOVALUE,Apex Class,createdApexClass,Created WarehouseDefaultHelperTest Apex Class code
+2026-08-12T04:17:12.000+0000,SOPORTE TECHNOVALUE,Apex Class,createdApexClass,Created WarehouseDefaultHelper Apex Class code
+2026-08-12T04:17:12.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed SalesMacoSearchController Apex Class code
+2026-08-12T04:17:12.000+0000,SOPORTE TECHNOVALUE,Apex Class,changedApexClass,Changed QuoteTriggerHandler Apex Class code
+2026-08-12T04:17:11.000+0000,SOPORTE TECHNOVALUE,Warehouse Defaults By Territory,setupEntityObjectCreated,Puebla was created
+2026-08-12T04:17:11.000+0000,SOPORTE TECHNOVALUE,Warehouse Defaults By Territory,setupEntityObjectCreated,Veracruz was created
+2026-08-12T04:17:11.000+0000,SOPORTE TECHNOVALUE,Warehouse Defaults By Territory,setupEntityObjectCreated,Queretaro was created
+2026-08-12T04:17:11.000+0000,SOPORTE TECHNOVALUE,Warehouse Defaults By Territory,setupEntityObjectCreated,Default was created
+2026-08-12T04:17:11.000+0000,SOPORTE TECHNOVALUE,Custom Metadata Types,createdCFCustom,Created custom field Warehouse Code (Text) on Warehouse Defaults By Territory
+2026-08-12T04:17:11.000+0000,SOPORTE TECHNOVALUE,Custom Metadata Types,createdCFCustom,Created custom field Territorio (Text) on Warehouse Defaults By Territory
+2026-08-12T04:17:11.000+0000,SOPORTE TECHNOVALUE,Customize Users,createdPicklistWithColor,Added value Queretaro to Territorio picklist with color Asignado dinámicamente
+2026-08-12T04:17:10.000+0000,SOPORTE TECHNOVALUE,Custom Metadata Types,createdCustMdType,Created custom metadata type: Warehouse Default By Territory
+2026-08-12T04:17:09.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed quotesMacoLines Lightning Web Component
+2026-08-12T04:17:09.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed ordersMacoLines Lightning Web Component
+2026-08-12T04:17:09.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoModalSearch Lightning Web Component
+2026-08-12T04:17:09.000+0000,SOPORTE TECHNOVALUE,Lightning Components,changedLightningWebComponent,Changed salesMacoSearch Lightning Web Component
+2026-08-12T03:33:49.000+0000,SOPORTE TECHNOVALUE,,insertTwoFactorWebAuthN,"Autenticador incorporado credential 0moWD0000003C6H with nickname ""Built-In Authenticator #1 2026-08-12T03:33:25Z"" added for abner.trujillo@technovalue.com.mx"
+2026-08-12T03:33:22.000+0000,SOPORTE TECHNOVALUE,Manage Users,changedUserEmailVerifiedStatusVerified,"For user abner.trujillo@technovalue.com.mx.uat, the User Verified Email status changed to verified"
+2026-08-12T00:14:19.000+0000,SOPORTE TECHNOVALUE,Manage Users,changedpassword,Set new password for user SOPORTE TECHNOVALUE (UserID: [null])
+2026-08-12T00:13:57.000+0000,SOPORTE TECHNOVALUE,Manage Users,changedUserEmailVerifiedStatusVerified,"For user abner.trujillo@technovalue.com.mx.uat, the User Verified Email status changed to verified"
+2026-08-12T00:13:46.000+0000,Automated Process,Manage Users,changedUserEmailVerifiedStatusVerified,"For user abner.trujillo@technovalue.com.mx.uat, the User Verified Email status changed to verified"
+2026-08-12T00:13:33.000+0000,Ana Ruiz,Manage Users,createduser,Created new user SOPORTE TECHNOVALUE (UserID: [null])
+2026-08-12T00:12:17.000+0000,Ana Ruiz,Manage Users,deactivateduser,Deactivated user CAMBALACHE (UserID: [005al000004cwTh])
+2026-08-08T03:18:58.000+0000,,Page,changedApexPage,Changed Page AdvRouteVisitWindowShared
+2026-08-08T03:18:57.000+0000,,Page,changedApexPage,Changed Page AdvRouteTemplateBuilder
+2026-08-08T03:18:57.000+0000,,Page,changedApexPage,Changed Page AdvRouteVisitWindow
+2026-08-08T03:18:57.000+0000,,Page,changedApexPage,Changed Page AdvRouteRep
+2026-08-08T03:18:54.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-08-08T03:18:53.000+0000,,Page,changedApexPage,Changed Page BatchAdmin
+2026-08-08T03:18:53.000+0000,,Page,changedApexPage,Changed Page CustomComponents
+2026-08-08T03:18:40.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-08-08T03:18:17.000+0000,,Page,changedApexPage,Changed Page TerritoryPlanning
+2026-08-08T03:18:16.000+0000,,Page,changedApexPage,Changed Page AlignmentBuilder
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActionsInherited Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.TerritoryQueryProcessor Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.TPUtil Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.TPTests Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActionsSecured Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActions Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.TPPrivateSharingTests Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctionsTest Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctions Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.MapsTestMethods Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.AutoAssignmentTest Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.AutoAssignmentController Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.AdvRouteUnitTests10 Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.AdvRouteRepRemotingUtils Apex Class code
+2026-08-08T03:18:05.000+0000,,Apex Class,changedApexClass,Changed maps.API Apex Class code
+2026-08-08T03:17:37.000+0000,,Page,changedApexPage,Changed Page BatchAdmin
+2026-08-08T03:17:27.000+0000,,Component,changedApexComponent,Changed Component StaticResources
+2026-08-08T03:17:27.000+0000,,Component,changedApexComponent,Changed Component AdvRouteLabels
+2026-08-08T03:17:21.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-08-08T03:17:21.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-08-08T03:17:21.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-08-08T03:17:21.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-08-08T03:17:21.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-08-08T03:17:21.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-08-08T03:17:21.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-08-08T03:17:20.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-08-08T03:17:20.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-08-08T03:17:20.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-08-08T03:17:20.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-08-08T03:17:20.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-08-08T03:17:20.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-08-08T03:17:20.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-08-08T03:17:20.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-08-08T03:17:19.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-08-08T03:17:19.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-08-08T03:17:19.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-08-08T03:17:19.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-08-08T03:17:19.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-08-08T03:17:19.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-08-08T03:17:19.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-08-08T03:17:18.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-08-08T03:17:18.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin
+2026-07-31T16:34:06.000+0000,Ana Ruiz,,insertTwoFactorWebAuthN,"Llave de seguridad credential 0moWD0000002fNF with nickname ""Built-In Authenticator #2 2026-07-31T16:27:40Z"" added for amruizuat@maco.com.mx"
+2026-07-31T16:27:27.000+0000,Ana Ruiz,,insertTwoFactorWebAuthN,"Autenticador incorporado credential 0moWD0000002fK1 with nickname ""Built-In Authenticator #1 2026-07-31T16:26:14Z"" added for amruizuat@maco.com.mx"
+2026-07-31T16:26:13.000+0000,Ana Ruiz,Manage Users,changedUserEmailVerifiedStatusVerified,"For user amruizuat@maco.com.mx, the User Verified Email status changed to verified"
+2026-07-31T16:23:34.000+0000,Ana Ruiz,Manage Users,changedUserEmailVerifiedStatusVerified,"For user amruizuat@maco.com.mx, the User Verified Email status changed to verified"
+2026-07-18T21:33:09.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Security Center Essentials 262 Release Task in Update mode for case Id 000000000000000
+2026-07-15T17:20:36.000+0000,Ana Ruiz,Manage Users,changedUserEmailVerifiedStatusVerified,"For user amruizuat@maco.com.mx, the User Verified Email status changed to verified"
+2026-07-09T03:14:59.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-07-09T03:14:34.000+0000,,Page,changedApexPage,Changed Page TerritoryPlanning
+2026-07-09T03:14:33.000+0000,,Page,changedApexPage,Changed Page AlignmentBuilder
+2026-07-09T03:14:22.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActions Apex Class code
+2026-07-09T03:14:22.000+0000,,Apex Class,createdApexClass,Created maps.ArcGISReprojectionTest Apex Class code
+2026-07-09T03:14:22.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActionsInherited Apex Class code
+2026-07-09T03:14:22.000+0000,,Apex Class,changedApexClass,Changed maps.TPTests Apex Class code
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Aangepaste TP-actie
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to TP 사용자 정의 작업
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to TP カスタムアクション
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Action personnalisée de planification des territoires
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Azione personalizzata
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to TP 自訂動作
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to TP 自定义操作
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to การดำเนินการที่กำหนดเอง TP
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Egen TP-åtgärd
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Настраиваемое действие TP
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Ação personalizada de TP
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Czynność niestandardowa TP
+2026-07-09T03:13:52.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Tilpasset TP-handling
+2026-07-09T03:13:51.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Benutzerdefinierte TP-Aktion
+2026-07-09T03:13:51.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Mukautettu TP-toiminto
+2026-07-09T03:13:51.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Acción personalizada de TP
+2026-07-09T03:13:51.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Acción personalizada de TP
+2026-07-09T03:13:51.000+0000,,Rename Tabs and Labels,renamedtab,TP Custom Action: Changed tab name from {0} to Tilpasset handling for TP
+2026-07-09T03:13:31.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-07-09T03:13:31.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-07-09T03:13:31.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-07-09T03:13:31.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-07-09T03:13:31.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-07-09T03:13:31.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-07-09T03:13:31.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-07-09T03:13:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-07-09T03:13:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-07-09T03:13:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-07-09T03:13:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-07-09T03:13:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-07-09T03:13:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-07-09T03:13:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-07-09T03:13:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-07-09T03:13:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-07-09T03:13:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-07-09T03:13:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-07-09T03:13:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-07-09T03:13:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-07-09T03:13:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-07-09T03:13:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-07-09T03:13:27.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-07-09T03:13:27.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin
+2026-06-25T02:36:35.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-06-25T02:36:16.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-06-25T02:35:48.000+0000,,Page,changedApexPage,Changed Page TerritoryPlanning
+2026-06-25T02:35:47.000+0000,,Page,changedApexPage,Changed Page AlignmentBuilder
+2026-06-25T02:35:31.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActions Apex Class code
+2026-06-25T02:35:31.000+0000,,Apex Class,changedApexClass,Changed maps.TerritoryPlanning Apex Class code
+2026-06-25T02:35:31.000+0000,,Apex Class,changedApexClass,Changed maps.TPTests Apex Class code
+2026-06-25T02:35:31.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActionsInherited Apex Class code
+2026-06-25T02:35:31.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctions Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,createdApexClass,Created maps.ArcGISReprojection Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.MockCoreUtils Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.MapsV2 Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.Functions Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.ComponentCon Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.AutoAssignmentProcessor Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.AutoAssignmentCachingBatch Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.Authorization Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.AuthHyperforceRestResourcesTest Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.ArcGISUtils Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.ArcGISBatchPushTest Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.ArcGISBatchPush Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.AlignmentComparison Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.AdvRouteRoutingUtils Apex Class code
+2026-06-25T02:35:30.000+0000,,Apex Class,changedApexClass,Changed maps.API Apex Class code
+2026-06-25T02:35:01.000+0000,,Custom Objects,createdCFCustom,Created custom field Type (Picklist) on Territory Planning Boundary Sets
+2026-06-25T02:35:01.000+0000,,Custom Objects,createdCFCustom,Created custom field Status (Picklist) on Territory Planning Boundary Sets
+2026-06-25T02:35:00.000+0000,,Custom Objects,createdCFCustom,Created custom field Country (Picklist) on Territory Planning Boundary Sets
+2026-06-25T02:35:00.000+0000,,Custom Objects,createdCFCustom,Created custom field Content Document Id (Text) on Territory Planning Boundary Sets
+2026-06-25T02:34:59.000+0000,,Custom Objects,createdCustEnt,Created custom object: Territory Planning Boundary Set
+2026-06-25T02:34:50.000+0000,,Component,changedApexComponent,Changed Component Admin
+2026-06-25T02:34:47.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-06-25T02:34:47.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-06-25T02:34:47.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-06-25T02:34:47.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-06-25T02:34:47.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-06-25T02:34:47.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-06-25T02:34:47.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-06-25T02:34:47.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-06-25T02:34:47.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-06-25T02:34:47.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-06-25T02:34:46.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-06-25T02:34:46.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-06-25T02:34:46.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-06-25T02:34:46.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-06-25T02:34:46.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-06-25T02:34:46.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-06-25T02:34:46.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-06-25T02:34:45.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-06-25T02:34:45.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-06-25T02:34:45.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-06-25T02:34:45.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-06-25T02:34:45.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-06-25T02:34:45.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-06-25T02:34:44.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin
+2026-06-09T03:10:53.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-06-09T03:10:48.000+0000,,Page,changedApexPage,Changed Page CustomComponents
+2026-06-09T03:10:48.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-06-09T03:10:48.000+0000,,Page,changedApexPage,Changed Page BatchAdmin
+2026-06-09T03:10:47.000+0000,,Page,changedApexPage,Changed Page MileageAdmin
+2026-06-09T03:10:23.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-06-09T03:09:53.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-06-09T03:09:39.000+0000,,Apex Class,changedApexClass,Changed maps.UserAJAXResources Apex Class code
+2026-06-09T03:09:39.000+0000,,Apex Class,changedApexClass,Changed maps.TimesheetSynchronizerTests Apex Class code
+2026-06-09T03:09:39.000+0000,,Apex Class,changedApexClass,Changed maps.TPTests Apex Class code
+2026-06-09T03:09:39.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActions Apex Class code
+2026-06-09T03:09:39.000+0000,,Apex Class,changedApexClass,Changed maps.TPPrivateSharingTests Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.MarkerLayerBuilderController Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,createdApexClass,Created maps.RoutingProfileRemoteActionsTest Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,createdApexClass,Created maps.RoutingProfileRemoteActions Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctions Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.MarkerLayerBuilderControllerTest Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.FolderPermissionsTest Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.FolderPermissions Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.ComponentCon Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.Authorization Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.AdvRouteUnitTests7 Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.AdvRouteRoutingUtils Apex Class code
+2026-06-09T03:09:38.000+0000,,Apex Class,changedApexClass,Changed maps.AbstractTimesheetSynchronizer Apex Class code
+2026-06-09T03:09:12.000+0000,,Custom Objects,createdCFCustom,Created custom field Visit Range (Picklist) on Advanced Routing Profiles
+2026-06-09T03:09:12.000+0000,,Custom Objects,createdCFCustom,Created custom field Visit Gap (Picklist) on Advanced Routing Profiles
+2026-06-09T03:09:12.000+0000,,Custom Objects,createdCFCustom,Created custom field Urgency (Picklist) on Advanced Routing Profiles
+2026-06-09T03:09:11.000+0000,,Custom Objects,createdCFCustom,Created custom field Travel Time (Picklist) on Advanced Routing Profiles
+2026-06-09T03:09:11.000+0000,,Custom Objects,createdCFCustom,Created custom field Standard ID (Text) on Advanced Routing Profiles
+2026-06-09T03:09:11.000+0000,,Custom Objects,createdCFCustom,Created custom field Priority (Picklist) on Advanced Routing Profiles
+2026-06-09T03:09:11.000+0000,,Custom Objects,createdCFCustom,Created custom field Max Segment Time (Picklist) on Advanced Routing Profiles
+2026-06-09T03:09:11.000+0000,,Custom Objects,createdCFCustom,Created custom field Description (Text) on Advanced Routing Profiles
+2026-06-09T03:09:11.000+0000,,Custom Objects,createdCustEnt,Created custom object: Advanced Routing Profile
+2026-06-09T03:09:11.000+0000,,Page,changedApexPage,Changed Page TerritoryPlanning
+2026-06-09T03:09:09.000+0000,,Page,changedApexPage,Changed Page AlignmentBuilder
+2026-06-09T03:09:03.000+0000,,Component,changedApexComponent,Changed Component Shared
+2026-06-09T03:09:02.000+0000,,Component,changedApexComponent,Changed Component Admin
+2026-06-09T03:09:00.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-06-09T03:09:00.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-06-09T03:09:00.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-06-09T03:09:00.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-06-09T03:09:00.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-06-09T03:09:00.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-06-09T03:09:00.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-06-09T03:08:59.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-06-09T03:08:59.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-06-09T03:08:59.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-06-09T03:08:59.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-06-09T03:08:59.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-06-09T03:08:59.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-06-09T03:08:59.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-06-09T03:08:59.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-06-09T03:08:59.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-06-09T03:08:58.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-06-09T03:08:58.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-06-09T03:08:58.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-06-09T03:08:58.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-06-09T03:08:58.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-06-09T03:08:58.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-06-09T03:08:58.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-06-09T03:08:57.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin
+2026-05-28T07:18:21.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-05-28T07:18:20.000+0000,,Page,changedApexPage,Changed Page MileageAdmin
+2026-05-28T07:18:20.000+0000,,Page,changedApexPage,Changed Page BatchAdmin
+2026-05-28T07:18:20.000+0000,,Page,changedApexPage,Changed Page CustomComponents
+2026-05-28T07:18:02.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-05-28T07:17:40.000+0000,,Apex Class,changedApexClass,Changed maps.TPRemoteActions Apex Class code
+2026-05-28T07:17:40.000+0000,,Apex Class,changedApexClass,Changed maps.TPTests Apex Class code
+2026-05-28T07:17:07.000+0000,,Page,changedApexPage,Changed Page Mobile
+2026-05-28T07:16:57.000+0000,,Component,changedApexComponent,Changed Component Shared
+2026-05-28T07:16:55.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-05-28T07:16:55.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-05-28T07:16:55.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-05-28T07:16:55.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-05-28T07:16:55.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-05-28T07:16:55.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-05-28T07:16:55.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-05-28T07:16:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-05-28T07:16:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-05-28T07:16:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-05-28T07:16:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-05-28T07:16:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-05-28T07:16:54.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-05-28T07:16:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-05-28T07:16:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-05-28T07:16:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-05-28T07:16:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-05-28T07:16:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-05-28T07:16:53.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-05-28T07:16:52.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-05-28T07:16:52.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin
+2026-05-28T07:16:52.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-05-28T07:16:52.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-05-28T07:16:52.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-05-25T20:40:49.000+0000,Guillermo Blancas González,Manage Users,changedUserEmailVerifiedStatusVerified,"For user gblancas@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-05-25T20:38:51.000+0000,Guillermo Blancas González,Manage Users,changedpassword,Set new password for user Guillermo Blancas González (UserID: [null])
+2026-05-25T20:37:11.000+0000,Guillermo Blancas González,Manage Users,changedUserEmailVerifiedStatusVerified,"For user gblancas@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-05-23T02:15:53.000+0000,David Vazquez Jimenez,Manage Users,suOrgAdminLogout,Logged out using Login-As access for David Vazquez Jimenez
+2026-05-23T02:10:20.000+0000,Ana Ruiz,Manage Users,suOrgAdminLogin,Logged in using Login-As access for David Vazquez Jimenez
+2026-05-21T22:18:59.000+0000,Ana Ruiz,Manage Users,changedroleforuser,Changed role for user Daniel Alberto Lara from Agente de Ventas Veracruz to Supervisor Matriz Grupo 2
+2026-05-21T21:56:42.000+0000,David Vazquez Jimenez,Manage Users,changedemail,Changed email for user David Vazquez Jimenez (UserID: [005WD00000BH53P]) from ventas.puebla1@maco.com.mx to soporte@macopuebla.com
+2026-05-21T21:56:41.000+0000,David Vazquez Jimenez,Manage Users,changedemail,Changed email for user David Vazquez Jimenez (UserID: [005WD00000BH53P]) from ventas.puebla1@maco.com.mx to soporte@macopuebla.com
+2026-05-21T21:56:41.000+0000,David Vazquez Jimenez,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla1.@maco.uat.com.mx, the User Verified Email status changed to verified"
+2026-05-21T21:56:41.000+0000,David Vazquez Jimenez,Manage Users,changedUserEmailVerifiedStatusUnverified,"For user ventas.puebla1.@maco.uat.com.mx, the User Verified Email status changed to unverified"
+2026-05-21T21:56:37.000+0000,David Vazquez Jimenez,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla1.@maco.uat.com.mx, the User Verified Email status changed to verified"
+2026-05-21T21:54:35.000+0000,David Vazquez Jimenez,Manage Users,useremailchangesent,Email change attempted for user David Vazquez Jimenez (UserID: [005WD00000BH53P]) from ventas.puebla1@maco.com.mx to soporte@macopuebla.com
+2026-05-21T21:53:41.000+0000,David Vazquez Jimenez,Manage Users,changedpassword,Set new password for user David Vazquez Jimenez (UserID: [null])
+2026-05-21T21:52:31.000+0000,David Vazquez Jimenez,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla1.@maco.uat.com.mx, the User Verified Email status changed to verified"
+2026-05-21T21:51:11.000+0000,Ana Ruiz,Manage Users,useremailchangesent,Email change attempted for user David Vazquez Jimenez (UserID: [005WD00000BH53P]) from ventas.puebla1@maco.com.mx to soporte@macopuebla.com
+2026-05-21T21:38:28.000+0000,Gloria Dominguez Maria,Manage Users,changedpassword,Set new password for user Gloria Dominguez Maria (UserID: [null])
+2026-05-21T21:38:10.000+0000,Gloria Dominguez Maria,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas8@macopuebla.uat.com, the User Verified Email status changed to verified"
+2026-05-21T21:35:50.000+0000,Gloria Dominguez Maria,Manage Users,suOrgAdminLogout,Logged out using Login-As access for Gloria Dominguez Maria
+2026-05-21T21:32:40.000+0000,Ana Ruiz,Manage Users,suOrgAdminLogin,Logged in using Login-As access for Gloria Dominguez Maria
+2026-05-21T20:13:49.000+0000,Ana Ruiz,Manage Users,useremailchangesent,Email change attempted for user David Vazquez Jimenez (UserID: [005WD00000BH53P]) from ventas.puebla1@maco.com.mx to soporte@macopuebla.com
+2026-05-21T20:11:20.000+0000,Ana Ruiz,Manage Users,useremailchangesent,Email change attempted for user David Vazquez Jimenez (UserID: [005WD00000BH53P]) from ventas.puebla1@maco.com.mx to soporte@macopuebla.com
+2026-05-21T19:56:44.000+0000,Osvaldo Santos,Manage Users,changedemail,Changed email for user Osvaldo Santos (UserID: [005WD00000BH513]) from ventas.puebla6@maco.com.mx to soporte@macopuebla.com
+2026-05-21T19:56:43.000+0000,Osvaldo Santos,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla6@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-05-21T19:56:43.000+0000,Osvaldo Santos,Manage Users,changedUserEmailVerifiedStatusUnverified,"For user ventas.puebla6@maco.com.uat.mx, the User Verified Email status changed to unverified"
+2026-05-21T19:56:43.000+0000,Osvaldo Santos,Manage Users,changedemail,Changed email for user Osvaldo Santos (UserID: [005WD00000BH513]) from ventas.puebla6@maco.com.mx to soporte@macopuebla.com
+2026-05-21T19:56:39.000+0000,Osvaldo Santos,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla6@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-05-21T19:52:36.000+0000,Ana Ruiz,Manage Users,useremailchangesent,Email change attempted for user Osvaldo Santos (UserID: [005WD00000BH513]) from ventas.puebla6@maco.com.mx to soporte@macopuebla.com
+2026-05-21T19:50:30.000+0000,Osvaldo Santos,Manage Users,changedpassword,Set new password for user Osvaldo Santos (UserID: [null])
+2026-05-21T19:49:13.000+0000,Osvaldo Santos,Manage Users,changedUserEmailVerifiedStatusVerified,"For user ventas.puebla6@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-05-21T19:31:14.000+0000,Ana Ruiz,Manage Users,useremailchangesent,Email change attempted for user Osvaldo Santos (UserID: [005WD00000BH513]) from ventas.puebla6@maco.com.mx to soporte@macopuebla.com
+2026-05-21T19:30:10.000+0000,Ana Ruiz,Manage Users,useremailchangesent,Email change attempted for user David Vazquez Jimenez (UserID: [005WD00000BH53P]) from ventas.puebla1@maco.com.mx to soporte@macopuebla.com
+2026-05-21T19:18:41.000+0000,Daniel Alberto Lara,Manage Users,changedpassword,Set new password for user Daniel Alberto Lara (UserID: [null])
+2026-05-21T19:17:58.000+0000,Daniel Alberto Lara,Manage Users,changedUserEmailVerifiedStatusVerified,"For user dlara@maco.com.uat.mx, the User Verified Email status changed to verified"
+2026-05-21T19:15:45.000+0000,Ana Ruiz,Manage Users,changedroleforuser,Changed role for user Daniel Alberto Lara from Agente de Ventas Matriz to Agente de Ventas Veracruz
+2026-05-21T18:45:33.000+0000,Ana Ruiz,Manage Users,changedpassword,Set new password for user Ana Ruiz (UserID: [null])
+2026-05-15T17:14:14.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Mobile Apps
+2026-05-15T17:14:13.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce_Chatterbox
+2026-05-15T17:14:12.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""Salesforce_Chatterbox"" version ""25.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:14:11.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: S8e_C8x_oauth
+2026-05-15T17:14:09.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""S8e_C8x_oauth"" version ""25.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:14:08.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: SalesforceA
+2026-05-15T17:14:06.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""SalesforceA"" version ""21.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:14:05.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: S9A_oauth
+2026-05-15T17:14:04.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""S9A_oauth"" version ""21.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:14:03.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce1_for_Windows
+2026-05-15T17:14:01.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""Salesforce1_for_Windows"" version ""20.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:14:00.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: S91_for_Windows_oauth
+2026-05-15T17:13:59.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""S91_for_Windows_oauth"" version ""20.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:59.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: S91_for_Windows_oauth_notif
+2026-05-15T17:13:57.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""S91_for_Windows_oauth_notif"" version ""12.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:57.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: S91_for_Windows_oauth_windows
+2026-05-15T17:13:56.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""S91_for_Windows_oauth_windows"" version ""12.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:54.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Chatter_for_iOS
+2026-05-15T17:13:52.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""Chatter_for_iOS"" version ""27.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:51.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: C5r_for_iOS_oauth
+2026-05-15T17:13:50.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""C5r_for_iOS_oauth"" version ""27.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:50.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: C5r_for_iOS_oauth_notif
+2026-05-15T17:13:48.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""C5r_for_iOS_oauth_notif"" version ""15.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:48.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: C5r_for_iOS_oauth_apple
+2026-05-15T17:13:47.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""C5r_for_iOS_oauth_apple"" version ""26.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:45.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Chatter_for_BlackBerry
+2026-05-15T17:13:43.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""Chatter_for_BlackBerry"" version ""27.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:42.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: C5r_for_BlackBerry_oauth
+2026-05-15T17:13:41.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""C5r_for_BlackBerry_oauth"" version ""27.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:39.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Chatter_for_Android
+2026-05-15T17:13:38.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""Chatter_for_Android"" version ""27.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:37.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: C5r_for_Android_oauth
+2026-05-15T17:13:36.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""C5r_for_Android_oauth"" version ""27.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:36.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: C5r_for_Android_oauth_android
+2026-05-15T17:13:34.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: C5r_for_Android_oauth_notif
+2026-05-15T17:13:34.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""C5r_for_Android_oauth_android"" version ""26.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:30.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Chatter_Desktop
+2026-05-15T17:13:29.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""Chatter_Desktop"" version ""27.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-15T17:13:28.000+0000,Automated Process,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: C5r_Desktop_oauth
+2026-05-15T17:13:26.000+0000,Automated Process,,nonSecurityReviewedManagedPackageInstalled,"The managed package ""C5r_Desktop_oauth"" version ""27.0"" has not been security reviewed and was installed by user ""autoproc@00dwd0000010n0r2ae""."
+2026-05-12T03:17:29.000+0000,,Page,changedApexPage,Changed Page Mobile
+2026-05-12T03:17:28.000+0000,,Page,changedApexPage,Changed Page Maps
+2026-05-12T03:17:17.000+0000,,Page,changedApexPage,Changed Page Settings
+2026-05-12T03:16:52.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-05-12T03:15:56.000+0000,,Apex Class,changedApexClass,Changed maps.MockCoreUtils Apex Class code
+2026-05-12T03:15:56.000+0000,,Apex Class,changedApexClass,Changed maps.MapsV2 Apex Class code
+2026-05-12T03:15:56.000+0000,,Apex Class,changedApexClass,Changed maps.ComponentCon Apex Class code
+2026-05-12T03:15:56.000+0000,,Apex Class,changedApexClass,Changed maps.Authorization Apex Class code
+2026-05-12T03:15:56.000+0000,,Apex Class,changedApexClass,Changed maps.AuthHyperforceRestResourcesTest Apex Class code
+2026-05-12T03:15:56.000+0000,,Apex Class,changedApexClass,Changed maps.APITest Apex Class code
+2026-05-12T03:15:56.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctions Apex Class code
+2026-05-12T03:15:56.000+0000,,Apex Class,changedApexClass,Changed maps.RemoteFunctionsTest Apex Class code
+2026-05-12T03:14:56.000+0000,,Page,changedApexPage,Changed Page PrintEmailRoute
+2026-05-12T03:14:49.000+0000,,Component,changedApexComponent,Changed Component MapsV2
+2026-05-12T03:14:48.000+0000,,Component,changedApexComponent,Changed Component Admin
+2026-05-12T03:14:32.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-05-12T03:14:32.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-05-12T03:14:32.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-05-12T03:14:32.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-05-12T03:14:32.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-05-12T03:14:32.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-05-12T03:14:31.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-05-12T03:14:31.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-05-12T03:14:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-05-12T03:14:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-05-12T03:14:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-05-12T03:14:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-05-12T03:14:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-05-12T03:14:30.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-05-12T03:14:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-05-12T03:14:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-05-12T03:14:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-05-12T03:14:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-05-12T03:14:29.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-05-12T03:14:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-05-12T03:14:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-05-12T03:14:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin
+2026-05-12T03:14:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-05-12T03:14:28.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-05-09T03:07:40.000+0000,Automated Process,Lightning Pages,createdFlexiPage,Created Lightning Page: Barra de utilidad de aplicación Advertising Inventory Calendar
+2026-05-09T03:07:08.000+0000,Automated Process,Lightning Pages,createdFlexiPage,Created Lightning Page: Barra de utilidad de aplicación Media Ad Sales Management
+2026-05-09T03:06:59.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Update Web Cart List Views in Update mode for case Id 000000000000000
+2026-05-09T03:06:59.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran sharing Enablement Releasable Action in Update mode for case Id 000000000000000
+2026-05-09T03:06:59.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Update   Standard   Flow   Time   Trigger   Data in Update mode for case Id 000000000000000
+2026-05-09T03:06:58.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Auto Activate Release Updates in Update mode for case Id 000000000000000
+2026-05-09T03:06:57.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Order Summary Orchestration Process Exception Releasable Action in Update mode for case Id 000000000000000
+2026-05-09T03:06:57.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Orchestration Records For Standard Orchestrations Release Task in Create mode for case Id 000000000000000
+2026-05-09T03:06:56.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Opt Out Email For Inactive Web To Case Releasable Action in Update mode for case Id 000000000000000
+2026-05-09T03:06:56.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Media Ad Sales Releasable Action 262 in Update mode for case Id 000000000000000
+2026-05-09T03:06:56.000+0000,Automated Process,,optOutEmailForInactiveWebToCaseOffOn,Organization setup action: optOutEmailForInactiveWebToCaseOffOn has changed.
+2026-05-09T03:06:55.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Add Global Flow Resources Tab to Automation App in Update mode for case Id 000000000000000
+2026-05-09T03:06:53.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Flow Records For Standard Flows Release Task in Create mode for case Id 000000000000000
+2026-05-09T03:06:52.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Evidence Mgmt Releasable Action 262 in Update mode for case Id 000000000000000
+2026-05-09T03:06:52.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Set Flow Element Error Rate release action in Update mode for case Id 000000000000000
+2026-05-09T03:06:51.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran ES Connect Api Versioning Releasable Action in Update mode for case Id 000000000000000
+2026-05-09T03:06:51.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Enable IAPermGuardFixOptInFinal Org Permission in Update mode for case Id 000000000000000
+2026-05-09T03:06:50.000+0000,Automated Process,,multiLocationFeatureOrgPrefOffOn,Organization setup action: multiLocationFeatureOrgPrefOffOn has changed.
+2026-05-09T03:06:50.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Customer Billing License Version Update Release Action in Update mode for case Id 000000000000000
+2026-05-09T03:06:49.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Commerce Search Results Rule Is Active Backfill Releasable Action 262 in Update mode for case Id 000000000000000
+2026-05-09T03:06:49.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Comms Enable Multi Location 262 Releasable Action in Update mode for case Id 000000000000000
+2026-05-09T03:06:49.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Clear   Deprecated   Extended Index   Settings in Delete mode for case Id 000000000000000
+2026-05-09T03:06:48.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran CSS Org Backfill Identification Release Action in Update mode for case Id 000000000000000
+2026-05-09T03:06:47.000+0000,,,BlackTabFrameworkActionRun,A Salesforce employee ran Bots Releasable Action in Update mode for case Id 000000000000000
+2026-05-05T03:29:19.000+0000,,Custom Apps,upgradedpackagingapp,Upgraded AppExchange package: Salesforce Maps
+2026-05-05T03:28:57.000+0000,,Apex Class,changedApexClass,Changed maps.QueryBuilderAPITest Apex Class code
+2026-05-05T03:28:57.000+0000,,Apex Class,changedApexClass,Changed maps.TreeAJAXResourcesTest Apex Class code
+2026-05-05T03:28:57.000+0000,,Apex Class,changedApexClass,Changed maps.TreeAJAXResources Apex Class code
+2026-05-05T03:28:57.000+0000,,Apex Class,createdApexClass,Created maps.TPPrivateSharingTests Apex Class code
+2026-05-05T03:28:57.000+0000,,Apex Class,createdApexClass,Created maps.TPBatchCleanupTests Apex Class code
+2026-05-05T03:28:57.000+0000,,Apex Class,changedApexClass,Changed maps.QueryBuilderAPI Apex Class code
+2026-05-05T03:28:26.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOutApp Aura Component
+2026-05-05T03:28:26.000+0000,,Lightning Components,changedAuraComponent,Changed MapsFlowDisplay Aura Component
+2026-05-05T03:28:26.000+0000,,Lightning Components,changedAuraComponent,Changed MiniMapLightningComponent Aura Component
+2026-05-05T03:28:26.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOutApp Aura Component
+2026-05-05T03:28:26.000+0000,,Lightning Components,changedAuraComponent,Changed MapsLightningOut Aura Component
+2026-05-05T03:28:26.000+0000,,Lightning Components,changedAuraComponent,Changed TPLightningOut Aura Component
+2026-05-05T03:28:26.000+0000,,Lightning Components,changedAuraComponent,Changed TPFlowDisplay Aura Component
+2026-05-05T03:28:26.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VuePrintEmail
+2026-05-05T03:28:26.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueMobile
+2026-05-05T03:28:25.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsStyles
+2026-05-05T03:28:25.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueLive
+2026-05-05T03:28:25.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktopV2
+2026-05-05T03:28:25.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueDesktop
+2026-05-05T03:28:25.000+0000,,Static Resource,changedStaticResource,Changed Static Resource VueAdmin
+2026-05-05T03:28:25.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanningLabs
+2026-05-05T03:28:25.000+0000,,Static Resource,changedStaticResource,Changed Static Resource TerritoryPlanning
+2026-05-05T03:28:24.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentComparison
+2026-05-05T03:28:24.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJSAdvanced
+2026-05-05T03:28:24.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsJS
+2026-05-05T03:28:24.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsIcons
+2026-05-05T03:28:24.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MapsFonts
+2026-05-05T03:28:24.000+0000,,Static Resource,changedStaticResource,Changed Static Resource AlignmentBuilder
+2026-05-05T03:28:24.000+0000,,Static Resource,changedStaticResource,Changed Static Resource Maps3rdPartyPlugins
+2026-05-05T03:28:23.000+0000,,Static Resource,changedStaticResource,Changed Static Resource MileageAdmin

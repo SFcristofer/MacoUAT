@@ -1,0 +1,1 @@
+List<Order> d = new List<Order>(); for (Order o : [SELECT Id, OrderNumber, Description FROM Order WHERE OrderNumber IN ('00000778','00000779','00000780','00000781') AND Status='Draft' AND ZF_Pedido_ID__c=null AND CreatedDate=TODAY]) if (o.Description != null && o.Description.startsWith('PRUEBA #47')) d.add(o); System.debug('DEL|' + d.size()); delete d;

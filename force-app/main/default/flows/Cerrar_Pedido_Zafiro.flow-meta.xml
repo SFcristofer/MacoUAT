@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <environments>Default</environments>
+    
+    <actionCalls>
+        <name>Consultar_Zafiro_Ordenes</name>
+        <label>Consultar Zafiro Ordenes</label>
+        <locationX>182</locationX>
+        <locationY>566</locationY>
+        <actionName>VerificarOrdenesEntregaZafiro</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Tiene_Ordenes_Decision</targetReference>
+        </connector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>almacenId</name>
+            <value>
+                <elementReference>Obtener_Pedido.Warehouse__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>zfPedidoId</name>
+            <value>
+                <elementReference>Obtener_Pedido.ZF_Pedido_ID__c</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+
+    <actionCalls>
+        <name>Recargar_Pagina</name>
+        <label>Recargar Página</label>
+        <locationX>314</locationX>
+        <locationY>998</locationY>
+        <actionName>c:navigateEverywhereLFA</actionName>
+        <actionType>component</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>destinationName</name>
+            <value>
+                <stringValue>Order</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>destinationRecordId</name>
+            <value>
+                <elementReference>recordId.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>destinationType</name>
+            <value>
+                <stringValue>record</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>destinationAction</name>
+            <value>
+                <stringValue>view</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>c:navigateEverywhereLFA</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+
+    <decisions>
+        <name>Esta_Autorizado_Decision</name>
+        <label>¿Está Autorizado?</label>
+        <locationX>380</locationX>
+        <locationY>458</locationY>
+        <defaultConnector>
+            <targetReference>Pantalla_No_Autorizado</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No (Otro Estatus)</defaultConnectorLabel>
+        <rules>
+            <name>Si_Autorizado</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Obtener_Pedido.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Authorized</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Consultar_Zafiro_Ordenes</targetReference>
+            </connector>
+            <label>Sí (Autorizado)</label>
+        </rules>
+    </decisions>
+
+    <decisions>
+        <name>Tiene_Ordenes_Decision</name>
+        <label>¿Tiene Ordenes?</label>
+        <locationX>182</locationX>
+        <locationY>674</locationY>
+        <defaultConnector>
+            <targetReference>Actualizar_Estatus</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No (Permitir Cierre)</defaultConnectorLabel>
+        <rules>
+            <name>Si_Tiene</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Consultar_Zafiro_Ordenes</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pantalla_Error</targetReference>
+            </connector>
+            <label>Sí Tiene</label>
+        </rules>
+    </decisions>
+
+    <decisions>
+        <name>Ya_Esta_Cerrado_Decision</name>
+        <label>¿Ya Está Cerrado?</label>
+        <locationX>611</locationX>
+        <locationY>242</locationY>
+        <defaultConnector>
+            <targetReference>Pantalla_Ya_Cerrado</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Sí (Ya Cerrado)</defaultConnectorLabel>
+        <rules>
+            <name>No_Esta_Cerrado</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Obtener_Pedido.Status</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Esta_Autorizado_Decision</targetReference>
+            </connector>
+            <label>No (Continuar)</label>
+        </rules>
+    </decisions>
+
+    <formulas>
+        <name>ByPass</name>
+        <dataType>Boolean</dataType>
+        <expression>IF({!recordId.ByPassValidation__c} = FALSE, TRUE, FALSE)</expression>
+    </formulas>
+
+    <interviewLabel>Cerrar Pedido Zafiro {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Cerrar Pedido Seguro (Zafiro)</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    
+    <recordLookups>
+        <name>Obtener_Pedido</name>
+        <label>Obtener Pedido</label>
+        <locationX>611</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Ya_Esta_Cerrado_Decision</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Order</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+
+    <recordUpdates>
+        <name>Actualizar_Estatus</name>
+        <label>Actualizar Estatus a Cerrado</label>
+        <locationX>314</locationX>
+        <locationY>782</locationY>
+        <connector>
+            <targetReference>Pantalla_Exito</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>ByPassValidation__c</field>
+            <value>
+                <elementReference>ByPass</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Closed</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Order</object>
+    </recordUpdates>
+    
+    <screens>
+        <name>Pantalla_Error</name>
+        <label>Pantalla de Error</label>
+        <locationX>50</locationX>
+        <locationY>782</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Texto_Error</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;color: rgb(228, 13, 13); font-size: 16px;&quot;&gt;ACCESO DENEGADO&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;color: rgb(0, 0, 0);&quot;&gt;No puedes cerrar ni cancelar este pedido en Salesforce.&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;El departamento de almacén ya ha comenzado a procesarlo y cuenta con órdenes de entrega / embarque en Zafirosoft.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+
+    <screens>
+        <name>Pantalla_Exito</name>
+        <label>Pantalla de Exito</label>
+        <locationX>314</locationX>
+        <locationY>890</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Recargar_Pagina</targetReference>
+        </connector>
+        <fields>
+            <name>Texto_Exito</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;color: rgb(21, 153, 41); font-size: 16px;&quot;&gt;¡PEDIDO CERRADO EXITOSAMENTE!&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;El pedido ha sido cerrado porque no cuenta con órdenes de entrega pendientes en Zafiro.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+
+    <screens>
+        <name>Pantalla_No_Autorizado</name>
+        <label>Pantalla No Autorizado</label>
+        <locationX>578</locationX>
+        <locationY>566</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Texto_No_Autorizado</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;color: rgb(255, 140, 0); font-size: 16px;&quot;&gt;ACCIÓN NO PERMITIDA&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;Este botón es exclusivo para cerrar pedidos que ya han sido &lt;strong&gt;Autorizados&lt;/strong&gt;.&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;El pedido actual se encuentra en estatus: &lt;strong&gt;{!Obtener_Pedido.Status}&lt;/strong&gt;.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+
+    <screens>
+        <name>Pantalla_Ya_Cerrado</name>
+        <label>Pantalla de Ya Cerrado</label>
+        <locationX>842</locationX>
+        <locationY>350</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Texto_Ya_Cerrado</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;color: rgb(255, 140, 0); font-size: 16px;&quot;&gt;AVISO&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;Este pedido ya se encuentra con estatus de Cerrado.&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;No es necesario realizar ninguna acción adicional.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+
+    <start>
+        <locationX>485</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Obtener_Pedido</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Order</objectType>
+    </variables>
+</Flow>

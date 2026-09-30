@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendedor__c</fullName>
+    <label>Vendedor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>027 Corp simec</fullName>
+                <default>false</default>
+                <label>027 Corp simec</label>
+            </value>
+            <value>
+                <fullName>03 Corp Puebla</fullName>
+                <default>false</default>
+                <label>03 Corp Puebla</label>
+            </value>
+            <value>
+                <fullName>022 corp Monterrey</fullName>
+                <default>false</default>
+                <label>022 corp Monterrey</label>
+            </value>
+            <value>
+                <fullName>025 Corp Veracruz</fullName>
+                <default>false</default>
+                <label>025 Corp Veracruz</label>
+            </value>
+            <value>
+                <fullName>033 Mostrdor Veracruz</fullName>
+                <default>false</default>
+                <label>033 Mostrdor Veracruz</label>
+            </value>
+            <value>
+                <fullName>045 Ind Veracruz</fullName>
+                <default>false</default>
+                <label>045 Ind Veracruz</label>
+            </value>
+            <value>
+                <fullName>R-34 Pachuca</fullName>
+                <default>false</default>
+                <label>R-34 Pachuca</label>
+            </value>
+            <value>
+                <fullName>Ruta Bajio</fullName>
+                <default>false</default>
+                <label>Ruta Bajio</label>
+            </value>
+            <value>
+                <fullName>026 Corp Gerdau</fullName>
+                <default>false</default>
+                <label>026 Corp Gerdau</label>
+            </value>
+            <value>
+                <fullName>Ruta Oaxaca-Chiapas</fullName>
+                <default>false</default>
+                <label>Ruta Oaxaca-Chiapas</label>
+            </value>
+            <value>
+                <fullName>Ruta Ver-Tabasco,</fullName>
+                <default>false</default>
+                <label>Ruta Ver-Tabasco,</label>
+            </value>
+            <value>
+                <fullName>Ruta Peninsula</fullName>
+                <default>false</default>
+                <label>Ruta Peninsula</label>
+            </value>
+            <value>
+                <fullName>022 VENTAS CORP MONTERREY</fullName>
+                <default>false</default>
+                <label>022 VENTAS CORP MONTERREY</label>
+            </value>
+            <value>
+                <fullName>025 VENTAS CORP. VERACRUZ</fullName>
+                <default>false</default>
+                <label>025 VENTAS CORP. VERACRUZ</label>
+            </value>
+            <value>
+                <fullName>037 RUTA ZONA DEL NORTE</fullName>
+                <default>false</default>
+                <label>037 RUTA ZONA DEL NORTE</label>
+            </value>
+            <value>
+                <fullName>MOSTRADOR02</fullName>
+                <default>false</default>
+                <label>MOSTRADOR02</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

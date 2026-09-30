@@ -1,0 +1,15 @@
+SiteName,EndpointUrl,IsActive,CreatedDate,LastModifiedDate,LastModifiedBy.Name
+ApiMapBox,https://api.mapbox.com,true,2025-05-20T15:52:40.000+0000,2025-05-20T15:52:40.000+0000,CAMBALACHE
+HereAPI_Isoline,https://isoline.router.hereapi.com,false,2025-07-16T04:33:26.000+0000,2025-07-16T04:33:26.000+0000,
+EsriAPI,https://www.arcgis.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+GoogleMapsAPI,https://maps.googleapis.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+HereAPI_Autosuggest,https://autosuggest.search.hereapi.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+HereAPI_Lookup,https://lookup.search.hereapi.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+HereAPI_ReverseGeocode,https://revgeocode.search.hereapi.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+MapsIO,https://internal.sfmapsapi.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+SFMapsAPI,https://internal.sfmapsapi.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+SFMapsAPI_Europe,https://internal.eu.sfmapsapi.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+SFMapsAPI_NorthAmerica,https://internal.na.sfmapsapi.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+WeatherAPI,https://maps.aerisapi.com,true,2024-08-05T18:23:48.000+0000,2024-08-05T18:23:48.000+0000,Ana Maria Ruiz
+Prod_Login,https://login.salesforce.com,true,2024-10-29T18:55:16.000+0000,2024-10-29T18:55:16.000+0000,CAMBALACHE
+Test_Login,https://test.salesforce.com,true,2024-10-29T18:55:16.000+0000,2024-10-29T18:55:16.000+0000,CAMBALACHE

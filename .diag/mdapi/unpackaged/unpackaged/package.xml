@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Account.Usar_Direccion_de_Facturacion__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Actualizar_Direcci_n_de_Envi</members>
+        <members>Crear_Prospecto</members>
+        <members>Pricebook_por_default_Cuenta_Prospecto</members>
+        <members>Solicitar_Alta_de_Cuenta</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Account.Prospecto</members>
+        <name>RecordType</name>
+    </types>
+    <version>66.0</version>
+</Package>

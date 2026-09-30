@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_Impuesto__c</fullName>
+    <description>Enum: &quot;C&quot; &quot;E&quot; &quot;F&quot; &quot;I&quot; Clave de una letra para identificar el tipo 
+de impuesto del documento.
+Solo se admiten los valores C (Cero), E (Exento), F (Frontera) e I (Interior).</description>
+    <label>Tipo Impuesto</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I</fullName>
+                <default>false</default>
+                <label>I</label>
+            </value>
+            <value>
+                <fullName>C</fullName>
+                <default>false</default>
+                <label>C</label>
+            </value>
+            <value>
+                <fullName>E</fullName>
+                <default>false</default>
+                <label>E</label>
+            </value>
+            <value>
+                <fullName>F</fullName>
+                <default>false</default>
+                <label>F</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

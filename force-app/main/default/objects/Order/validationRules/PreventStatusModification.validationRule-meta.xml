@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventStatusModification</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(
+  AND(
+    ISCHANGED(Status),
+    NOT(ISCHANGED(ByPassValidation__c))
+  ),
+  AND(
+    ISCHANGED(Status),
+    NOT($Permission.ByPassValidationRule)
+  )
+)</errorConditionFormula>
+    <errorMessage>El campo Estado no puede modificarse manualmente.</errorMessage>
+</ValidationRule>

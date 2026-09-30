@@ -1,0 +1,443 @@
+﻿Revisión proceso de captura de pedidos y Cotizaciones - MACO-20260811_171859-Grabación de la reunión
+11 de agosto de 2026, 11:19p.m.
+57m 37s
+621792274320Abner Trujillo inició la transcripción
+576072292608Ana Maria Ruiz   0:03Entrando.
+576072292608Abner Trujillo   0:04Mhm.Ya está grabando.
+576072292608Ana Maria Ruiz   0:08Team.
+576072292608Abner Trujillo   0:09Listo, ya veo tu pantalla.
+576072292608Ana Maria Ruiz   0:11O K, perfecto, mira, acá nosotros tenemos.En el módulo de ventas, por ejemplo, para hacer un pedido.
+576072292608Abner Trujillo   0:20Mhm.
+576072292608Ana Maria Ruiz   0:23Es lo mismo o aplica lo mismo, ya sea para pedido o para cotización. En este caso, como es para un pedido, o sea, aplica lo mismo en ambos casos. Entonces acá yo lo que hago es la búsqueda del artículo. Deme un segundito.
+576072292608Abner Trujillo   0:40Sí.
+576072292608Ana Maria Ruiz   0:42No está, no sé si hayan faltado o algo, no, pues hay que buscarlas. Sí, perdón, perdón, a ver, voy a buscar acá. Yo puedo buscar un nombre.Hermela.Por ejemplo, las búsquedas, no, yo pongo un desde nombres de clientes de más, yo los puedo buscar de esta forma, no, entonces yo encuentro el cliente, pongo un nombre y me despliega ahí todo lo que encuentre en relación a lo que yo ponga. Sale, entonces.
+576072292608Abner Trujillo   1:12Ajá.
+576072292608Ana Maria Ruiz   1:20Acá, cuando yo lo capturo, me jala en automático el agente que tiene, si tiene el cliente crédito o no tiene crédito, su uso de CFDI previamente cargado. Nos dice aquí en la parte de abajo también su lista de precios que tiene asignado este cliente.Y el límite de crédito que tiene disponible, no límite de crédito, crédito disponible o k la captura de pedidos, la captura de pedidos, yo la puedo hacer de 2 formas, una, yo tengo aquí un selector de artículos esta parte.
+576072292608Abner Trujillo   1:43Mhm.Sí.
+576072292608Ana Maria Ruiz   1:56¿Dónde?Bueno, ahí tarda un poquito en jalar todos los artículos.Me despliega todo el.El catálogo de artículos.Alright.
+576072292608Abner Trujillo   2:22A lo mejor todavía está procesando, no la.
+576072292608Ana Maria Ruiz   2:24Sí, lo está procesando.Ahí está, sí, acá está y acá me despliega todos mis artículos. Entonces aquí me aparece la cantidad, la clave, la descripción y por acá me dice la existencia. Yo puedo quitar estos, estos no los puedo quitar.
+576072292608Abner Trujillo   2:28Ajá, sí.
+576072292608Ana Maria Ruiz   2:43Eso me hizo la vez pasada. Perdón, perdón, es que no tengo que quitarlo.Ay.Lo voy a tener que volver a cargar.
+576072292608Abner Trujillo   2:56What?
+576072292608Ana Maria Ruiz   2:57Good.Eso me lo he hecho en otras ocasiones y sí se pueden quitar, pero no sé qué hago. Lo jalo a un lugar más indebido y me hace como que me cambia las columnas. Bueno, aquí está, me da el la clave y me da la existencia. Entonces acá, por ejemplo, yo si quiero los FX cero 3310.
+576072292608Abner Trujillo   3:11Mhm. Mhm.
+576072292608Ana Maria Ruiz   3:20Y lo mismo, me despliega todo lo que encuentre en relación a lo que yo le escriba y me pone todos los artículos. Entonces yo acá puedo poner, por ejemplo, del cuatro a quiero 10, de este no quiero, de este quiero 20, este del 2 quiero 10 y nada más. Sale, no tengo que aceptarlo, me lo deja ahí guardado. Yo acá busco.
+576072292608Abner Trujillo   3:27Mhm.Okay.
+576072292608Ana Maria Ruiz   3:42Con él este a la mejor el 120 by me despliega todo lo que aparece como 120 B, incluso yo aquí todavía los puedo ordenar.
+576072292608Abner Trujillo   3:46Oh.
+576072292608Ana Maria Ruiz   3:55O los puedo ir seccionando, no todo lo que yo pueda, pero me va dando este los artículos. Sí me explico, entonces acá pues yo les puedo ir poniendo las cantidades y puedo seguir así eligiendo todos los productos que yo quiera.
+576072292608Abner Trujillo   4:05Sí.
+576072292608Ana Maria Ruiz   4:13Por ejemplo, TN guión, y me despliega todo lo que relaciona con TN. Entonces, por ejemplo, del 6 quiero 2, del cuatro quiero 3 y a la vez puedo ir checando si tengo existencias o no de estos, sí.
+576072292608Abner Trujillo   4:13Mhm.Okay.Vale.
+576072292608Ana Maria Ruiz   4:29Y así puedo ir descargando o capturando todos los artículos, ya sea que los ordene, no los ordene aquí para visualizar cuáles ya capturé, pero ya que hice toda esa captura, acá yo le doy a aceptar.
+576072292608Abner Trujillo   4:44Uh-huh.
+576072292608Ana Maria Ruiz   4:44Y esos productos me los lleva acá al pedido. ¿Cómo me los pone? Me los pone en una forma alfanumérica, no a como los capturé, sino me los trae aquí en una forma alfanumérica. Entonces esta es una de las capturas que nosotros buscamos para poder facilitarlos a como lo hacemos ahorita en Salesforce.Tenemos que estar producto por producto. La otra forma de cómo poder hacerlo, por ejemplo, aquí si yo ya tengo este y me faltó otro, pues si ya no quiero agregar este, yo acá le digo que me jale un artículo nuevo, le digo nuevo acá yo.
+576072292608Abner Trujillo   5:07Mhm.Mhm, sí.
+576072292608Ana Maria Ruiz   5:26Pongo el, por ejemplo, 2.Por ti del cuatro, ay, perdón.Sí.
+576072292608Abner Trujillo   5:35Mhm.
+576072292608Ana Maria Ruiz   5:37Y me jala el artículo. ¿Cuánto quiero? Pues quiero 100 m. Acá me yo puedo checar todavía la existencia del almacén donde estoy trabajando o puedo ver también existencias de otros almacenes a los que tengo acceso. En el caso de Salesforce tenemos almacenes que el que facturan ya están definidos. es el.El uno, el cuatro, el 7, el 23 y el 29. Sí que son prácticamente también los que tenemos acá, pero es otra forma también de poder visualizar la existencia. Entonces yo pongo la cantidad. Los precios yo ya los tengo previamente definidos porque coinciden con la lista de precios que me dice en la parte de aquí abajo del pedido.
+576072292608Abner Trujillo   6:01Mhm.
+576072292608Ana Maria Ruiz   6:17¿Qué lista de precios tiene asignada? Entonces igual aquí yo le doy capturar.
+576072292608Abner Trujillo   6:22Es la que dice ese subdistribuidor es crédito.
+576072292608Ana Maria Ruiz   6:23Este aceptar.Así es, acá en la parte de acá abajo, precios subdistribuidores, crédito, este es su lista de precios que tiene asignado este cliente previamente.
+576072292608Abner Trujillo   6:29Sí, sí.Mm.Okay.
+576072292608Ana Maria Ruiz   6:36Entonces acá yo también puedo capturar producto por producto. Sí, 48 f, cuatro, cuatro. Por ejemplo, si yo le pongo ahí y le pongo aquí en los 3 puntitos, me despliega igual todo lo relacionado al 48 f, quiero este, sale.
+576072292608Abner Trujillo   6:54Mhm.
+576072292608Ana Maria Ruiz   6:56Lo selecciono y ya le digo que quiero 50 y las existencias que las voy viendo ahí en esa en esa parte.
+576072292608Abner Trujillo   6:56Okay.Nada más tengo una duda, Ana María, el ordenamiento que dices que es alfanumérico está, o sea, bueno, ahí no me quedó claro cómo lo cómo lo estás ordenando aquí tu listado de los productos, porque dices que no es como los vayas capturando, sino como alfanumérico. ¿Pero cuál es la?
+576072292608Ana Maria Ruiz   7:04Entonces, dime, dime, dime.Ajá.Sí.
+576072292608Abner Trujillo   7:24¿Cómo es ese ordenamiento?
+576072292608Ana Maria Ruiz   7:26Pues no lo sé, ves que acá cuando cuando entramos en seleccionar artículos, yo fui capturando x artículos, no en un orden, no este puse a lo mejor primero los CFX, luego los 120 y demás. Entonces yo cuando los jalo el sistema.
+576072292608Abner Trujillo   7:31Mhm.Mhm.
+576072292608Ana Maria Ruiz   7:44El tema me los trae aquí y me los pone alfanuméricos y mira, no me altera ese orden. Lo que yo agregué ahorita, por ejemplo, el 2 Ford y 48 F 48 F me los pone abajo y me lo sigue agregando en la línea de abajo.
+576072292608Abner Trujillo   8:01Mhm, sí, eso sí, por los.
+576072292608Ana Maria Ruiz   8:02No me los No me los ordena con los de arriba, sino que todos los que capturo aquí, cuando los jala, los jala y los pone en una forma alfanumérica.
+576072292608Abner Trujillo   8:06Exacto.
+576072292608Ana Maria Ruiz   8:12Ahora puede ser si no es alfanumérico y que me los ponga a como los voy capturando, eso nos ayudaría mucho más porque sucede mucho que al que el cliente pues va anotando en su listita o te va pasando por correo y hace una lista.
+576072292608Abner Trujillo   8:13Okay.
+576072292608Ana Maria Ruiz   8:34A mano o escrita, no, y te pone la relación de artículos y la cantidad. ¿Entonces, qué hace aquí el compañero de ventas? Pues va capturando 1:1 conforme a esa lista. Sí, entonces, si en esa forma, como tú los capturas, te los pone, pues ayudaría mucho más.
+576072292608Abner Trujillo   8:34No.Okay.De acuerdo.
+576072292608Ana Maria Ruiz   8:53¿Porque llevas ese orden, no?
+576072292608Abner Trujillo   8:53Okay.Mhm.
+576072292608Ana Maria Ruiz   8:57Si te lo forma en forma forma alfanumérica, también es bueno porque pues ya sabemos que va en un orden alfanumérico y de esa forma podemos buscarlo por qué se puede dar, que al final hay, no sé si puse todos los productos, por ejemplo, no, o tengo duda en algún producto, pues yo ya sé si es un TN. a Bueno, pues ya en ese orden pues me voy así.En a la T, no en ese orden alfanumérico, sí podría ser la búsqueda, pero si no me la da, sí me la da conforme la voy este capturando, pues también ya sé a dónde irme, no. Si está después del TM Cuatro está el TN 6 1 * 1 decir, no un código.
+576072292608Abner Trujillo   9:24Yeah.Mhm, Okay.Book.Okay.
+576072292608Ana Maria Ruiz   9:43Pero puedo acá la el despliegue aquí, te digo, puede ser a como yo lo capturo o en un orden alfanumérico, que ya ahí el sistema no sé cómo lo hace. Ajá, sí.
+576072292608Abner Trujillo   9:52O.K. and.
+576072292608Ana Maria Ruiz   10:01Sí.Así es.
+576072292608Abner Trujillo   10:10¿Estarías visualizando en esta mejora?
+576072292608Ana Maria Ruiz   10:13Pues mira, de hecho lo tenemos. Si lo hace, ponemos el artículo en Salesforce, jalamos el artículo y si nos despliega los productos, no sé si quieras, lo abro rápidamente.
+576072292608Abner Trujillo   10:17Mhm.Sí, más bien me refería al cliente, pero igual si quieres le echamos 1 segundo vistazo en Salesforce.
+576072292608Ana Maria Ruiz   10:27¿Qué?Ajá.
+576072292608Abner Trujillo   10:34Para ver cómo debe de quedar.
+576072292608Ana Maria Ruiz   10:37Y es que fíjate que aquí en Salesforce, si yo hago la captura, si yo lo hago artículo por artículo a como lo tenemos, lo tenemos que jalar en un carrito y me lo llevo, pero me lo pone no propiamente en el orden que yo lo capturé. Y si yo jalo un carrito más.
+576072292608Abner Trujillo   10:48Sí.Mhm.
+576072292608Ana Maria Ruiz   10:57Me jala, me lo pone abajo y si yo meto otro carrito más, me lo pone en medio, me los pone, no sé qué orden lleva ahí Salesforce que no, que no me lo genera.
+576072292608Abner Trujillo   11:11Ya, okey.
+576072292608Ana Maria Ruiz   11:13Ajá, Hermel.
+576072292608Abner Trujillo   11:13Debe de ver ahí un ordenamiento ahí medio.
+576072292608Ana Maria Ruiz   11:17Sí, debería de haberlo, pero aquí me los va poniendo arriba. A la mejor los 2 primeros carritos me los pone en esa secuencia, pero ya el tercero me lo intercala, otro más y me lo pone hasta arriba y así los va desordenando acá. Mira, por ejemplo, yo lo que hago jalo al cliente, yo le digo que le quiero generar un pedido, una cotización.
+576072292608Abner Trujillo   11:38Tim.
+576072292608Ana Maria Ruiz   11:39Pongo la fecha de finalización que le voy a poner para mañana. Luego quiero del almacén cero uno, lo selecciono ahora otro tema aquí. No sé si por recurrencia aquí se pueda ver el almacén o por default que nos diera el almacén, no sé.Porque hay que estarlo escribiendo cada vez que entro, tengo que estarlo escribiendo, que eso es también lo que han creado. ajá.
+576072292608Abner Trujillo   12:03Sería que te muestre que te muestre por determinado el almacén general para todos.
+576072292608Ana Maria Ruiz   12:08Ajá, sí, bueno, para es que sabes, ahí almacenes, el almacén uno y el almacén 7 son los que hacen ahorita pedidos y cotizaciones.
+576072292608Abner Trujillo   12:17Mhm.
+576072292608Ana Maria Ruiz   12:18Sí, y el 29 y el 29. Mira, ahí yo ya estoy con el en el pedido. Sí, entonces cuando yo entro acá al pedido, veo detalles acá. Sí, acá veo detalles donde me pone el número bueno de pedido interno, me dice que es un.
+576072292608Abner Trujillo   12:26Sí.Mhm.
+576072292608Ana Maria Ruiz   12:40Una venta de crédito me dice que estén, mira, acá está la me jala la lista de precios, me jala el almacén en el que estoy trabajando. Ahí, ajá, y nada más. Sí, no me dice límite de crédito, datos más igual. y.
+576072292608Abner Trujillo   12:46Okay.Mhm.
+576072292608Ana Maria Ruiz   13:00En este momento lo que sucedió es que cada campo más como que eran más detalles que tenían que hacer, desarrollar y eso. Entonces, honestamente digo, ya sacamos lo más indispensable, que sepan cuál es su lista de precio y su crédito, si es a crédito o es de contado. Sí, y ya no jalamos más campos también por la complicación que.Que pues ahí íbamos teniendo entonces aquí el producto, por ejemplo, si yo tengo este quiero el FX 03310.03310 me despliego.Si bien me aparece, pero tengo qué tengo que hacer, pues yo le digo que acá quiero 10.Le digo que aquí quiero, sí veo la existencia, veo que la existencia del almacén en que estoy trabajando. Acá le digo que quiero 10 acá, por ejemplo, este si yo acá entro y le digo 10, no, ahí no me escribe, le tengo que dar, ahí le digo 10, nada, le tengo que dar justamente en el lapicito, si no me escribe.
+576072292608Abner Trujillo   13:50Mhm.
+576072292608Ana Maria Ruiz   14:06Sí, y luego de ahí le tengo que dar guardar, luego selecciono cada uno de los productos y me le pongo almacenar y me los va poniendo acá en esta parte. Puedo ir visualizando lo que voy capturando. Entonces yo pongo otro 120 v cero 6.
+576072292608Abner Trujillo   14:07Mhm.Sí.
+576072292608Ana Maria Ruiz   14:27Y me despliega todo lo que encuentro en relación a si yo nada más quiero un 120 B, pues le tengo que entrar aquí, lo guardo, lo selecciono, lo alma.Peno y me lo agrega si quiero otro producto y eso vuelta vuelta, lo que tengo que estar haciendo y pues prácticamente se estará haciendo 1:1, ¿no?
+576072292608Abner Trujillo   14:43Okay.Mhm.
+576072292608Ana Maria Ruiz   14:53Acá le digo que 15.Si quisiera algún otro, pero yo lo que he visto es que ya ni siquiera buscan acá porque a veces nos da una lista muy larga. Entonces prefieren mejor poner aquí, capturar todo el producto, lo buscan, lo capturan, todo lo que hacemos aquí, otro producto, aunque sea el cuatro 6 y lo vuelven a capturar completo.La primera forma, pues creo que es más accesible. Entonces aquí ya están almacenados, acá yo le digo guardar.Y miren que orden me los pone, me los pone invertidos.Lo primero que capturo me lo pone abajo y lo último me lo va poniendo arriba.
+576072292608Abner Trujillo   15:32Sí.Okey, sí.
+576072292608Ana Maria Ruiz   15:37Sí, si yo agrego ahorita otro carrito más, porque ese es un carrito, no sé, a la mejor pongo el 2 por ti.El 8, este le digo que 10 y de este le digo que otros 10, le digo guardar, acepto, acepto almacenar, voy a poner otro con el té.N guión.Le digo que en el uno quiero 3 y en el 2 quiero 5 igual.Guardo, capturo, acepto, almaceno. Si yo los veo, los tengo primero, los tiene uno, luego el 12 y luego el 2 sale. Y si yo le digo, llévatelos al pedido, me los pone así, tiene uno, tiene 2.
+576072292608Abner Trujillo   16:29Sí, sí.Yeah.
+576072292608Ana Maria Ruiz   16:38A invertidos ya como los capturé, me lo pone abajo.
+576072292608Abner Trujillo   16:40Ajá, como que te te pone siempre los de los de abajo, te los pone como si fueran primeros y luego ya los otros te los deja ya hasta como es que está en descendente, pero sí, está medio raro, ya sí.
+576072292608Ana Maria Ruiz   16:46Ajá.¿Está raro, no? Sí, así es. Entonces, incluso ahí principalmente los que tienen pedidos grandes, ¿qué hacen? Pues empiezan a capturar los de abajo hacia arriba para que les dé ese orden. Sí, y muchos capturan, hacen pedidos de una a 2 partidas, entonces no tienen mayor problema, pero sí para los que tienen más cantidad.
+576072292608Abner Trujillo   17:05Mhm.Ya entiendo.
+576072292608Ana Maria Ruiz   17:16Pues sí, hacer esto es complicado.
+576072292608Abner Trujillo   17:20¿Es complicado? Tengo una pregunta, ahorita hablabas del tema de los almacenes, entonces, ¿cómo?
+576072292608Ana Maria Ruiz   17:21Mhm.
+576072292608Abner Trujillo   17:28Sería mejor, no sé que a lo mejor en la pantalla te saliera los almacenes disponibles y tú los selecciones o aparezca por predeterminado alguno, no sé y cómo.¿Cómo visualizas que debería de funcionar para que no se esté tecleando? No sé si cada cada cliente tiene su almacén.
+576072292608Ana Maria Ruiz   17:47A ver, mira, ajá.No, cada cliente se puede trabajar en cualquier almacén.
+576072292608Abner Trujillo   17:56Okay.
+576072292608Ana Maria Ruiz   17:57¿Que nosotros acá, por ejemplo, qué tenemos aquí al inicio de la captura de los pedidos? Tenemos el primero eliges el almacén en el que quieres trabajar, que es esta parte, mira.
+576072292608Abner Trujillo   18:11Ver.
+576072292608Ana Maria Ruiz   18:18Y también dependiendo del almacén que elijas, te jala la existencia del almacén que eliges. El cliente, la cartera de clientes como que es universal, la cartera de clientes, la el catálogo de artículos, el catálogo como tal.
+576072292608Abner Trujillo   18:29Okay.
+576072292608Ana Maria Ruiz   18:35También es universal, pero las existencias de cada artículo sí dependen de cada almacén.
+576072292608Abner Trujillo   18:42Okay.
+576072292608Ana Maria Ruiz   18:43Acá, por ejemplo, lo que te mencionaba al capturar el pedido, nosotros inicialmente acá seleccionamos qué almacén queremos trabajar, el uno, el 7.
+576072292608Abner Trujillo   18:52¿Quieres que te aparezcan así?
+576072292608Ana Maria Ruiz   18:57Los del 7 seleccionan el 7, jalan su cliente y todo lo que capturen aquí en artículos que te mostré anteriormente, la forma es la misma, te va jalando existencias del almacén que elijas en la en esta parte.
+576072292608Abner Trujillo   19:01Mhm.O K o K, entonces la pista, o sea, digo un poquito como para poderle explicar a mi equipo.
+576072292608Ana Maria Ruiz   19:15Así es.Mhm.
+576072292608Abner Trujillo   19:22Así como le diste ahorita click en el almacén, quieres que se vea como es el listado completo y ya nada más le den un click y lo selecciono en vez de estarlo tecleando.
+576072292608Ana Maria Ruiz   19:30Estería preferir.
+576072292608Abner Trujillo   19:32Okay.
+576072292608Ana Maria Ruiz   19:33¿Ahora pregunta antes, hay forma de que se pueda hacer de forma predeterminada? Por ejemplo, acá en Puebla, pues ya no tienes que elegir como a como lo tengo acá cuando yo pongo un pedido nuevo por default, a mí me da el almacén uno.
+576072292608Abner Trujillo   19:54Mhm.
+576072292608Ana Maria Ruiz   19:55A estas personas de Veracruz, mire, por default me da el almacén. Si yo, bueno, es que ya ahí, si yo entro al usuario, al usuario, yo le doy permisos, le doy este almacén predeterminado y le digo que, por ejemplo, al de Veracruz, cuando entra, entra su almacén predeterminado, que es el 7.
+576072292608Abner Trujillo   20:17Okey, a ver, necesito ver.
+576072292608Ana Maria Ruiz   20:18¿Ajá, pero igual y eso ya sea otro otro tema, no?
+576072292608Abner Trujillo   20:23O K, necesitaría nada más validar, déjame entrar rápidamente, pues entrar y ver si hay un objeto que tenga esa este catálogo, pues o dónde lo podría encontrar almacén, aquí está.
+576072292608Ana Maria Ruiz   20:34Mhm.Mhm.
+576072292608Abner Trujillo   20:41Aquí están los almacenes, tienda Veracruz, nada más quiero saber si a nivel usuario, como dices tú.Puede que ya estén.Relacionados.
+576072292608Ana Maria Ruiz   20:55Mhm.
+576072292608Abner Trujillo   20:57Y si no, pues tendríamos que hacer justo esa.A esa relación, a ver, tengo aquí el de Puebla.
+576072292608Ana Maria Ruiz   21:03Okay.
+576072292608Abner Trujillo   21:06Pero no se ve.Almacén, no hay nada relacionado, o sea, sí te entiendo. O sea, todos los que son de Puebla, por ejemplo, que desaparezca de forma predeterminada el almacén de Puebla, el general.
+576072292608Ana Maria Ruiz   21:15Mhm.El almacén.Mhm.
+576072292608Abner Trujillo   21:24¿Los que son, por ejemplo, de quién más está, Mako?
+576072292608Ana Maria Ruiz   21:29Veracruz y Querétaro.
+576072292608Abner Trujillo   21:32¿Veracruz, ajá, en el caso de Veracruz, pues tendría que ser el almacén 7 o cuál sería el 7?
+576072292608Ana Maria Ruiz   21:37Así es, sí, el 7 así es.
+576072292608Abner Trujillo   21:39¿Y para Querétaro, cuál sería?
+576072292608Ana Maria Ruiz   21:42El almacén 29.
+576072292608Abner Trujillo   21:44Almacén 29 o ky, por ejemplo, en este caso para el resto de los usuarios, por ejemplo, Guillermo Blancas, el qué almacén tendría.
+576072292608Ana Maria Ruiz   21:46Mhm.Almacén uno.
+576072292608Abner Trujillo   21:56Okey, atención, Puebla, pues Puebla, no.
+576072292608Ana Maria Ruiz   21:59Todos, todos son almacén uno, todos serían almacén uno solamente. Por ejemplo, los de Veracruz es un usuario que se llama Mario Ponce y el otro que es Luis Felipe Moreno, no creo que se llama. Esos son los 2 únicos usuarios que son de Veracruz.
+576072292608Abner Trujillo   22:01Okay.Mhm.Y a ellos les toca el set.
+576072292608Ana Maria Ruiz   22:16De que a él a ellos les toca el 7 de Querétaro, por ejemplo, ahorita tenemos solamente un usuario, creo que aparece como ventas Querétaro.
+576072292608Abner Trujillo   22:25Sí, así está.
+576072292608Ana Maria Ruiz   22:26Ajá, ese es el único usuario ahorita en Salesforce que tiene como o debe o que tuviera como predeterminado el almacén 29. Todos los demás usuarios son predeterminado almacén uno.
+576072292608Abner Trujillo   22:40O K, entiendo.
+576072292608Ana Maria Ruiz   22:41Ahora que eso no nos limite o el poder visualizar en este caso las existencias de los otros almacenes. Lo menciono para no perderlo de vista, ¿no? Y que quedara así de esa fuerte.
+576072292608Abner Trujillo   22:51Mhm.Sí.Sí, de acuerdo o sí, o sea, vaya, nada más es era el tema para poder visualizarlo de forma predeterminada. Haz de cuenta que así como tienes ahorita tu pantalla, como tú eres un usuario de Maco Puebla, bueno, te va a aparecer el almacén predeterminado, el almacén general, pero eso no cambia el que pueda seleccionar.
+576072292608Ana Maria Ruiz   22:57Mhm.Mhm.Es it.
+576072292608Abner Trujillo   23:16El resto de los almacenes y de ahí verificar la disponibilidad en caso de que sea necesario. Sí, eso me queda claro, vale.
+576072292608Ana Maria Ruiz   23:18Mhm.Así es.Okay, perfecto.
+576072292608Abner Trujillo   23:26De acuerdo.
+576072292608Ana Maria Ruiz   23:26Um.La Ay, ¿cuál era la otra búsqueda? Ajá.
+576072292608Abner Trujillo   23:31Otra pregunta antes de pasar a otra cosa, por ejemplo, entonces toda esta información que tienes tú que me estás mostrando aquí en tu en tu RP, ¿qué campos entonces estaríamos utilizando para hacer la búsqueda? Porque ahorita ya ves que en Salesforce está como limitado, solamente son algunos campos. y.
+576072292608Ana Maria Ruiz   23:35Sí.Ajá.
+576072292608Abner Trujillo   23:52Y ya no, en este caso sí estaríamos mostrando el almacén, mostrando el cliente, el vendedor, el tipo de artículo, pues ese no.Vaya, no creo que esté directamente en sistema, bueno, en Salesforce ese dato. ¿Qué otro? ¿Qué otro campo más necesitarías que sí se viera el momento de insertar los productos al los pedidos, Ana María?
+576072292608Ana Maria Ruiz   24:08Mhm.Pues a la mejor esta parte del límite de la lista de precios, la lista de precios, si es el su venta, si es de contado o crédito como parecen. Si se pueden estos campos de límite de crédito, pues estaría fabuloso. Eso está disponible en.
+576072292608Abner Trujillo   24:24Mhm.Ok.
+576072292608Ana Maria Ruiz   24:39Datos maestros de clientes.
+576072292608Abner Trujillo   24:41Okey.
+576072292608Ana Maria Ruiz   24:42Sí, los límites de crédito, entonces ahí podríamos, si se puede considerar, pues también jalar.
+576072292608Abner Trujillo   24:43Up.Nada más déjame validar algo rápido a nivel cliente. Si ese dato ya nos los traemos, pues lo más seguro es que sí.Si se pueda, nomás dame un segundito.
+576072292608Ana Maria Ruiz   24:56Mhm, mhm.
+576072292608Abner Trujillo   25:00A ver, tenemos de este tenemos el vendedor, ajá, el tipo de venta sí lo tenemos, el tipo de cliente lo tenemos, tenemos su lista de precio y si hay un campo de límite de crédito, pero creo que no todos lo tienen.
+576072292608Ana Maria Ruiz   25:07Yes, I can.Mhm.No lo tiene o no sacarlo ese dato, ajá, sí.
+576072292608Abner Trujillo   25:18Lleno.Ajá, sí, hay uno que sí lo tienen como en ceros por lo que estoy viendo.
+576072292608Ana Maria Ruiz   25:26Mhm.
+576072292608Abner Trujillo   25:26Ajá, casi todos lo tienen en cero.
+576072292608Ana Maria Ruiz   25:29A la mejor esa es la parte que sí está el campo, pero ya no se ligó con el campo que corresponde a Zafiro y traerlo a Salesforce.
+576072292608Abner Trujillo   25:38okay, okay.
+576072292608Ana Maria Ruiz   25:38Por lo que te mencionaba, ajá.
+576072292608Abner Trujillo   25:40Ya y todo entonces también faltaría el de tu pantalla en el que veo sería el de tanto, bueno, el límite de crédito sí lo veo y faltaría el de crédito disponible para traérnoslos de este lado.
+576072292608Ana Maria Ruiz   25:49Mhm.Mhm.Así es, y bueno, acá pues ya son temas fiscales, no el uso de CFDI. El cliente pues ya lo tiene previamente en su mantenimiento asignado. Cuando tú jalas al cliente, te jala el dato que tiene registrado ese cliente.
+576072292608Abner Trujillo   25:54De acuerdo.Mhm.Mhm.Hmm.
+576072292608Ana Maria Ruiz   26:13Sin embargo, a veces la gente pide un uso de CFDI diferente, entonces mira acá, por ejemplo, jale este y me da adquisición.
+576072292608Abner Trujillo   26:19Mhm.
+576072292608Ana Maria Ruiz   26:23Al momento, acá en el acá no me deja, por ejemplo, no me deja cambiar lo que se pudiera cambiar el uso de CFDI, que va a ser diferente al que tienen en su mantenimiento, no cambia el mantenimiento.
+576072292608Abner Trujillo   26:23Sí.
+576072292608Ana Maria Ruiz   26:37Y no sería nada más para ese pedido, digamos.
+576072292608Abner Trujillo   26:41A ver, nomás déjame revisar si ese dato lo traemos.
+576072292608Ana Maria Ruiz   26:46Si lo tienen, si no digo, en la facturación se se resuelve.
+576072292608Abner Trujillo   26:51Ajá, porque si no lo tengo, no lo tengo el campo, o sea, ese campo, ese campo no lo tengo, pero me imagino que la integración, digo, ahorita estoy como especulando, pero creo que la integración cuando ya se manda ya es este, digamos, a ver cómo te diré.
+576072292608Ana Maria Ruiz   26:56Ajá, ajá.
+576072292608Abner Trujillo   27:12Se manda por detrás, pues esa información como si fuera un predeterminado. Entonces ya de este lado, pues aparece el valor y me imagino que todavía ustedes pasan por una validación dentro de este sistema para revisarlo. Y si no, pues simplemente ya lo crean, el ya se crea el pedido, ¿no?
+576072292608Ana Maria Ruiz   27:16Ajá.Mhm, mhm.
+576072292608Abner Trujillo   27:31Entonces me parece que así está funcionando, igual podríamos revisarlo y si es un dato que se necesita traer de Zafiro para Salesforce, pues también tomarlo tomarlo en cuenta si es necesario.
+576072292608Ana Maria Ruiz   27:42Mhm.Okay.
+576072292608Abner Trujillo   27:46Okay, okay.
+576072292608Ana Maria Ruiz   27:47De acuerdo.
+576072292608Abner Trujillo   27:49Listo.
+576072292608Ana Maria Ruiz   27:50De acuerdo, mira, tengo también aquí, aprovecho rapidísimo, te comento una petición que me dijo Rodrigo, este me dice coméntaselo a Abner y ya lo vemos, no está contemplado, no contemplado, puede hacer alguna pequeña modificación en el desarrollo que puedas hacer ahorita. ¿A qué me refiero lo que necesitamos? Voy a cerrar esta.
+576072292608Abner Trujillo   28:12Mhm.
+576072292608Ana Maria Ruiz   28:12Los filtros, hacer los filtros aquí en Salesforce, híjolas es bien complicado porque tienes que generar. Por ejemplo, aquí me voy a pedidos y si yo quiero ver pedidos nada más de un agente de, por ejemplo, Rocío Herrera, tengo que venir acá y genero un filtro y hago todos estos pasos para que me filtren y me digan nada más.De acuerdo a lo que yo acá le diga, estamos de acuerdo, es a como se hace. Bueno, me dice Rodrigo, dice, no hay una forma de hacer los filtros más fáciles. Por ejemplo, acá yo tengo pedido.
+576072292608Abner Trujillo   28:38Mhm.
+576072292608Ana Maria Ruiz   28:51Tengo de un periodo de ahorita, por ejemplo, agosto tengo varias columnas que estas yo las puedo quitar, las puedo poner este y demás, pero por ejemplo, yo quiero ver qué pedidos tengo, qué pedidos llevan ahorita, por ejemplo, este la ruta Oaxacachepas y yo le pongo ruta.Oaxaca, Chiapas, y me va filtrando nada más los que coinciden con este y ya veo cuáles son los pedidos, pues son estos pedidos de estos clientes, son estos pedidos de estas fechas, estos clientes. ¿Cuál es su estatus? Que estos estatus los tenemos 100 cells por los pedidos, si está por facturar, por sutir.E incluso yo puedo ver a ay.
+576072292608Abner Trujillo   29:31Mhm.
+576072292608Ana Maria Ruiz   29:36Incluso yo puedo ver aquí hasta totales, sí, cuánto llevo ahorita, quiero este a la mejor de Daniel.
+576072292608Abner Trujillo   29:40Mhm.Ajá.
+576072292608Ana Maria Ruiz   29:46Y tengo de Daniela, tengo este pedido nada más de Daniel Antonio Barrera, este está parcialmente facturado. No quiero por agente, yo quiero al cliente, por ejemplo, ay, se me fue Jesús Adelfo, por ejemplo.
+576072292608Abner Trujillo   30:06Mhm.Mhm.¿Okey, qué campos?
+576072292608Ana Maria Ruiz   30:20Filtros más bien.
+576072292608Abner Trujillo   30:22¿Qué campos se estarían utilizando? Por ejemplo, nombre vendedor. ¿Qué otro campo es el que habitualmente utilizan para filtrar número de cliente?
+576072292608Ana Maria Ruiz   30:30Lo que normalmente Lo que normalmente es son estos 3: número de cliente, nombre del cliente, vendedor, vendedor. Sí, muy rara vez eso también lo que llegamos a utilizar a la mejor ya sabemos el número de pedido y yo acá le pongo el número de pedido. Yo quiero el pedido 116.
+576072292608Abner Trujillo   30:34Okay, okay.Okay.Mhm.
+576072292608Ana Maria Ruiz   30:53800 este 50 en los cincuentas, nada más tengo el uno, en los cuarentas tengo nada más estos. Bueno, porque además aquí yo tengo otros filtros, ya acá ya puse otros filtros adicionales donde le dije, a ver, solamente traeme los autorizados y los.
+576072292608Abner Trujillo   31:00Hmm.
+576072292608Ana Maria Ruiz   31:12Por autorizar, los que ya están cerrados ya no me interesan porque ya tuvieron un proceso. Yo quiero saber los que no han tenido proceso en este estatus de facturación. Le digo, sabes qué, nada más tráeme los que están parcialmente facturados y por facturados. Los facturados, pues ya esos ya se hicieron. Quiero saber lo que no.
+576072292608Abner Trujillo   31:14Nuestra autoriza.Mhm.Okay.Sí, sí.
+576072292608Ana Maria Ruiz   31:32¿A la mejor crédito quiere saber nada más los facturados, verdad? Ahí dependiendo el uso de cada uno. Acá, por ejemplo, en estatus de surtimiento, quiero saber los que están parcialmente surtidos y por surtir lo surtido, pues ya sucedió, ya lo surtieron, a lo mejor ya lo facturaron y van combinados estos estatus.
+576072292608Abner Trujillo   31:42Yeah.
+576072292608Ana Maria Ruiz   31:52Pero estos tipos de filtros, o sea, nos ayuda mucho por facturar, por surtir, por ejemplo. ajá.
+576072292608Abner Trujillo   31:53Hmm.Okay.O KY, por ejemplo, para la parte de las cotizaciones, también aplicaría esta misma funcionalidad por llamarla de esa forma.
+576072292608Ana Maria Ruiz   32:05Sí.
+576072292608Abner Trujillo   32:08Okay.
+576072292608Ana Maria Ruiz   32:08Sí, fíjate que, o sea, cotizaciones, pedidos como que los manejamos de la misma forma y todos tienen este las el mismo aplicativo, digámoslo, sí, las mismas funciones y así nada más. Lo único que cambia, pues es el que uno es cotización y así lo puedes modificar y demás el pedido, el pedido ya está en firma con el cliente, ya no lo puede.
+576072292608Abner Trujillo   32:19Okay.
+576072292608Ana Maria Ruiz   32:31Puedes modificar porque este pedido ya sigue un proceso para el almacén, una orden de entrega y ya lo pasa y ya no lo puedes modificar.
+576072292608Abner Trujillo   32:37O K.One.De acuerdo, una duda más, si nos podemos ir a una cotización, por ejemplo, ahí en Salesforce, si quieres, o no sé, o no sé, acá más bien en sí en Salesforce primero, y ahorita vemos en tu sistema, sí.
+576072292608Ana Maria Ruiz   32:41Ajá, dime.Claro.En Salesforce.En Celso, OK, por eso supuesto.
+576072292608Abner Trujillo   32:55Aquí, por ejemplo, vamos a suponer que cambiemos esta pantalla, no que ya esté muy parecido. ¿Qué campos son los que estaríamos utilizando para filtrar?
+576072292608Ana Maria Ruiz   33:00Ajá.
+576072292608Abner Trujillo   33:04Estos que aparecen aquí.
+576072292608Ana Maria Ruiz   33:06Es número de, pues digamos que a ver.Dime este, Dime si está muy aberrante lo que yo diga acá. Mira, por ejemplo, yo tengo este, se ve que hay filtros porque nada más me da estos y realmente no. Entonces mira, contiene fuerza de ingeniería y yo lo quito, lo quito y me da.
+576072292608Abner Trujillo   33:28Sí.
+576072292608Ana Maria Ruiz   33:31Todos los Todos los filtros, si esta parte que me aparece acá.
+576072292608Abner Trujillo   33:32Bubbles.Tim.
+576072292608Ana Maria Ruiz   33:40De poder filtrar por cualquiera de los campos.
+576072292608Abner Trujillo   33:44Mhm.
+576072292608Ana Maria Ruiz   33:46Lo tuviera yo acá en esta parte, en lugar de que estén acá y hacer toda esa sección, poder tenerlo acá. Entre lo más habitual que buscamos, pues es el número de cotización, porque también depende mucho las columnas que acá tiene cada usuario. Entonces yo, por ejemplo, tengo el nombre del cliente, el número de la cotización.
+576072292608Abner Trujillo   34:02Mhm.
+576072292608Ana Maria Ruiz   34:06Fecha inicio final, los estatus como está en estos son los estados de Salesforce, su método del cliente, si es contado, si es crédito, importes, número de partidas, que ese bueno lo traen el propietario, el creado por y el agente. Acá vienen, mira también las listas de precios.
+576072292608Abner Trujillo   34:13Mhm.Están listas de precio.
+576072292608Ana Maria Ruiz   34:26Entonces hay varios campos acá, igual no tengo todos los campos, tengo determinados, pero podríamos aquí hacer una búsqueda por agente que yo lo jalé el propietario, no jalé el agente, sino jalé el propietario por listas de precios o este por nombre o número de cliente.
+576072292608Abner Trujillo   34:36Mhm.Okey, okey, sí, lo pregunto.
+576072292608Ana Maria Ruiz   34:49Serían como que los más recurrentes.
+576072292608Abner Trujillo   34:52No es más recurrentes justamente porque esa vista que estás planteando ahorita, bueno, que te planteó este Rodrigo, este no es nada nativo de Salesforce, o sea, la vamos a tener que desarrollar, ¿vale?
+576072292608Ana Maria Ruiz   34:54Ajá.Mm.okay, okay, de acuerdo.
+576072292608Abner Trujillo   35:09Sí se puede hacer, pero tiene que desarrollarse. Entonces lo que va a hacer es que cuando entres a la ficha de presupuestos, pues la idea es que ahora, en vez de aparecer esta pantalla, tendría que estarte apareciendo algo similar a lo que me acabas de mostrar, que es lo que también tengo que ver con el equipo. pero.
+576072292608Ana Maria Ruiz   35:12Okay.Mhm.I.
+576072292608Abner Trujillo   35:27Ajá, pero nativamente no lo maneja así los filtros, o sea por columna, porque es lo que quería entender aquí tu sistema lo maneja por columna y aplicas los filtros a la misma tabla sobre esa columna y aplica para toda la tabla en Salesforce, no, en Salesforce lo que haces es hacer diferentes vistas.
+576072292608Ana Maria Ruiz   35:37Mhm.Ajá, así es.
+576072292608Abner Trujillo   35:46Y sobre de eso vas este a como bien dices, vas agregando filtros y ya sobre eso te va mostrando la información que tú necesitas. O sea, eso sí es este, es su función nativa y así en todos los las fichas, todos los las tablas funciona, pero si tú lo quieres de esta manera, sí es algo que se tiene que.
+576072292608Ana Maria Ruiz   35:54Mhm.Okay.
+576072292608Abner Trujillo   36:08Desarrollar, entonces yo lo voy a revisar de este lado con el equipo para que me digan este todo esto que tan viable es, porque tampoco no quiero decirte sí lo hacemos y en la y a la mera hora te te te da información falsa, no, entonces, pero ya entiendo, ya entiendo con esto cómo es que están visualizando justamente esa este.
+576072292608Ana Maria Ruiz   36:10Ah.claro.Sí.sí, no sé.Ajá.
+576072292608Abner Trujillo   36:32Pues esa segmentación de la que hablan. Entonces, si es viable, pues si ya es eso, ya te lo comento el jueves y ya te digo que procede con esto. Solamente quería verlo para podérselo explicar a los chicos y ya creo que ahí en esa parte me queda.
+576072292608Ana Maria Ruiz   36:34Mhm.Sí.Okay.
+576072292608Abner Trujillo   36:53Me queda bastante claro lo que buscan, no sé si hay algo más que nos falte ver. este.
+576072292608Ana Maria Ruiz   36:55Okay, perfecto.
+576072292608Abner Trujillo   37:00De esto.
+576072292608Ana Maria Ruiz   37:00Nada más, nada más, nada más rápidamente. Mira, acá en Salesforce nosotros tenemos un artículo que aquí a ver si me da, por ejemplo, el 1014366 y yo lo pongo acá, hago la búsqueda y acá me aparece y entro y me da el detalle del artículo.
+576072292608Abner Trujillo   37:05Mhm.Sí.Mhm.Sí.Mhm.
+576072292608Ana Maria Ruiz   37:22Nosotros en desafío tenemos un artículo que es el 10.Pero si yo lo busco, no me da un artículo, producto, me da un producto y me da, pero todos los que contienen nos relacionan 10 no me da propiamente ese artículo. Y si yo me vengo aquí a Zafiro, busco, por ejemplo, aquí voy a agregar, no, acá no.
+576072292608Abner Trujillo   37:39Yeah.Mhm.
+576072292608Ana Maria Ruiz   37:49Ahí creo que ya cerré mi pedido.
+576072292608Abner Trujillo   37:49Sí.
+576072292608Ana Maria Ruiz   37:53Sí, cerré el pedido, pero rápidamente.A ver, 377, por ejemplo, si yo lo quiero capturar.Y yo quiero mi artículo 10.
+576072292608Abner Trujillo   38:09Mhm, mhm.
+576072292608Ana Maria Ruiz   38:11Me jala el artículo 10, acá me encuentro, este es el artículo 10, este es su descripción y yo ya jale el artículo.
+576072292608Abner Trujillo   38:18¿Cómo se llama? ¿Se llama FD 40?
+576072292608Ana Maria Ruiz   38:19Sí, así.Su descripción es un FD 40 guión 1014 y así este es su descripción, su descripción del artículo.
+576072292608Abner Trujillo   38:28¿A ver si ese lo copias nada más para validar, si lo copias en Salesforce en el buscador, qué te parece?Okey, vamos a ver.
+576072292608Ana Maria Ruiz   38:43Ahí está.
+576072292608Abner Trujillo   38:44Ajá.
+576072292608Ana Maria Ruiz   38:45Buscarlo por código de producto, bueno, por nombre del producto.Te comento Abner aquí y eso sí, para por.Ay, cómo decirte, cómo bueno.En el momento del desarrollo y demás, y entramos aquí con artículos, algo sucedió ahí con estas personas de Cambalache, que lo que yo entendí y se hizo es que se cambiaron estos o estos campos porque yo, por ejemplo, jalaba o yo.
+576072292608Abner Trujillo   39:16Mhm.
+576072292608Ana Maria Ruiz   39:20Quiero mi artículo para mí, mi nombre del artículo es el 10, pero no me mandaba como nombre del artículo. Me ponían esto, la lo que para mí es descripción.
+576072292608Abner Trujillo   39:24Mhm.Ya.
+576072292608Ana Maria Ruiz   39:33Entonces, lo que hicimos ahí con estas personas de Cambalache es que los invertimos.¿Entonces, para que yo pudiera visualizar acá el producto como yo lo veo y no con la descripción a cómo me lo daba salesforce, qué me daba esto?Si ves aquí en Zafiro, nosotros los productos los tenemos por, ay, a ver.
+576072292608Abner Trujillo   39:50Mhm.
+576072292608Ana Maria Ruiz   40:01Yo no pregunto por un este a ver.Ay, sí, me lo dio, sí me lo dio. Yo no, yo no lo llamo, no lo invoco por la descripción, sino por el código.
+576072292608Abner Trujillo   40:10Then.por el código, ok.Sí.
+576072292608Ana Maria Ruiz   40:30Quiero clave del producto y yo quiero un TN y le digo que lo busque y esto es lo que me da. Y cuando hacíamos eso en Salesforce me daba esto y yo le decía, no es que así no lo conozco, me daba esta descripción, para nosotros es descripción. Entonces lo que hicimos aquí en lo que se determinó en aquel momento es que se invirtieron estos campos.
+576072292608Abner Trujillo   40:45Mhm.Mhm.Yeah.
+576072292608Ana Maria Ruiz   40:54Ahí, por cuando llegues a productos, tenemos, tenemos eso.
+576072292608Abner Trujillo   41:00O K, entonces el real es el 10, pues por así decirlo, es con el que ustedes conocen, y el otro es la descripción del producto que se repite en el código y en la descripción. o K o K.
+576072292608Ana Maria Ruiz   41:00Sí.El 10.Así es.La descripción.Así es, sí.Pero mira, no lo había buscado de esa forma y ahí aparece. Yo creo que en la captura del pedido ya no nos dejaba.
+576072292608Abner Trujillo   41:16Sí.A ver, si quieres, haz una prueba rápida, no te preocupes, yo a ti.
+576072292608Ana Maria Ruiz   41:25Sí, o k, mira, este es el pedido con el que estamos trabajando, yo lo voy a adicionar y yo quiero llamar el 10.
+576072292608Abner Trujillo   41:25Yo aquí tengo chance, sí.Mhm.
+576072292608Ana Maria Ruiz   41:37¿Este no, entonces cómo lo jalaría yo, cómo lo jaló?
+576072292608Abner Trujillo   41:40No.
+576072292608Ana Maria Ruiz   41:44¿Cómo lo llamo? ¿Cómo lo invoco? Si acá lo único que yo tengo para búsqueda es el código del producto, a ver si jalo la descripción.No me va nada.
+576072292608Abner Trujillo   41:58No te lo encontró, o k ya si te lo dejaron nada más por el por el nombre.
+576072292608Ana Maria Ruiz   41:59Así es.Sí.Así es.
+576072292608Abner Trujillo   42:05Mm.
+576072292608Ana Maria Ruiz   42:05Entonces aquí está esta búsqueda, pues este.Es por el por el código, no tenemos otra forma de cómo invocarlo. Ya cuando lo desglosa, nos jala aquí las descripciones que incluso ves acá dice código.
+576072292608Abner Trujillo   42:22Sí, sí, sí.
+576072292608Ana Maria Ruiz   42:23Que para mí sería descripción.
+576072292608Abner Trujillo   42:26Descripción, sí, justamente o K o K, sí, está rarito ahí también.
+576072292608Ana Maria Ruiz   42:27Ajá, así es.Sí.
+576072292608Abner Trujillo   42:34Okay, de acuerdo, sí, perfecto, yo lo creo que entonces con esto ya lo puedo aprovechar también para que le echen un ojo ahí los chicos, ya que estamos haciendo eso, o sea que realmente se basen en el nombre del producto en las búsquedas para que aquí pues obviamente te aparezca este.
+576072292608Ana Maria Ruiz   42:35Así es.Mhm.Mhm.Mhm.
+576072292608Abner Trujillo   42:53O un poco más parecido a la pantalla que tienes de lado de zafiro. O sea, sería, sería como la inspiración que tomaríamos, pues para hacer esa captura. Ya si de ahí falta algún campo o algo que necesitemos, pues bueno, ya nos lo vamos validando en igual en estos en el transcurso, pues sí.
+576072292608Ana Maria Ruiz   42:58Mhm.Mhm.Mhm.En el transcurso, sí.
+576072292608Abner Trujillo   43:13Sí este Ok de acuerdo muy bien Ahora otra cosa que te iba a comentar es el jueves bueno el equipo también está ayudándome a preparar un documento que también le vamos a hacer llegar al ingeniero Abraham y seguramente el jueves ya lo tendré listo que es justo de lo que vamos a necesitar
+576072292608Ana Maria Ruiz   43:14Mhm.Mhm.A.Okay.
+576072292608Abner Trujillo   43:32del lado de Zafiro lo vamos a dejar un poco más definido en el tema de las apis ya ves que ya habíamos platicado en las primeras sesiones que o lo que nos decía el ingeniero Abraham es que había ahí una O sea que ya estaban todas las integraciones en producción y este y obviamente ya con los campos y todo lo que se necesitaba obviamente sin se necesitará algo más pues bueno ya lo
+576072292608Ana Maria Ruiz   43:34Okay.Mhm.Así es.Mhm.
+576072292608Abner Trujillo   43:54Ya lo estaríamos viendo, pero sí le vamos a pasar como esa documentación de las APIs de lo que hay, y si nos falta algún campo, entonces ya empezarlo a gestionar para que este podamos incluirlo en esa actualización de la información en zafiro, como pudiera ser esta parte del crédito, entonces.
+576072292608Ana Maria Ruiz   43:59Stop!Claro.De acuerdo.
+576072292608Abner Trujillo   44:14Vamos a tratar de hacerlo lo más desmenuzado posible para que sea muy sencillo y te digo, si necesitamos algo del lado del ingeniero Abraham, pues ya el jueves lo platicamos, yo ya les traigo todo el resumen de todo eso porque ya estamos, ya tenemos el diagnóstico, ya tenemos este bueno, estamos armando esta parte de la integración, que es lo que les vamos a mostrar.
+576072292608Ana Maria Ruiz   44:18Mhm.Hello.Uh-huh.
+576072292608Abner Trujillo   44:34Y también, pues bueno, el avance que tenemos de la aplicación de Consumer Goods es lo que estaríamos viendo el jueves.
+576072292608Ana Maria Ruiz   44:40El jueves, de acuerdo que.
+576072292608Abner Trujillo   44:41Ajá, y ya también te doy estatus o bueno de esta parte de las búsquedas y todo lo demás, ya te digo cuándo podríamos tener un avance para que lo pueda mostrar y lo podamos validar contigo.
+576072292608Ana Maria Ruiz   44:44Ajá.Claro que sí, sin problema, sin problema. Y Abner, una pregunta y a petición de Rodrigo me lo mandaste un rato, que si podíamos cambiar la sesión de la una a las 4:00 de la tarde el jueves.
+576072292608Abner Trujillo   44:55Mhm.Sí.El jueves, a ver, déjame nada más revisar si no tengo nada, dame un segundito.
+576072292608Ana Maria Ruiz   45:12Podrán.Sí, claro.
+576072292608Abner Trujillo   45:16Jueves, jueves a las 4:00, mira.Tengo agendada yo una demostración que damos para otros clientes este a las cuatro, pero déjame ver si alguien más puede dar esa demostración y muevo la sesión para las cuatro. este.
+576072292608Ana Maria Ruiz   45:32Okay.Ajá.O a las 5:00 y yo veo con Roy si él puede a las 5:00.
+576072292608Abner Trujillo   45:44Si se puede a las 5:00, ajá, este yo no tengo tema.
+576072292608Ana Maria Ruiz   45:47O K, de acuerdo, ahorita ahorita mismo le pregunto y este a ver, espérame, lo tengo en línea, puedes a las 5:00 el jueves.
+576072292608Abner Trujillo   45:48Sí.
+576072292608Ana Maria Ruiz   46:02Este le estoy preguntando si puede el jueves a las 5:00, ahorita que me confirme, si me dices sí, de inmediato te confirmo, te mando mensajito para que ya no le muevas nada. Si me dice que no puede a las 5:00, entonces también te confirmo y ya ves si tú puedes este mover, si no es necesario, pues ya no lo movemos.
+576072292608Abner Trujillo   46:12What?Lo puedo, exacto, sí, sin problema. Así le así le hacemos, digo yo aquí ya la tenía. ¿Cuál era? A las o K, a la.
+576072292608Ana Maria Ruiz   46:21Va.Mhm.Confirmado, confirmado.Confirmado me está diciendo ahorita que sí.
+576072292608Abner Trujillo   46:32Que sí, a las 5:00, perfecto, entonces déjame moverla de una vez para que no tengamos.
+576072292608Ana Maria Ruiz   46:33Ajá.O K, confirmado las confirmado, ajá, sí, por favor.
+576072292608Abner Trujillo   46:39No tenemos tema.De 5 a 6 y sin tema.
+576072292608Ana Maria Ruiz   46:44Confirmado en las 5.Oh.Okey, de acuerdo.
+576072292608Abner Trujillo   46:52Ya la cambió, Ana María, el jueves a las 5:00, entonces nos nos estaremos viendo.
+576072292608Ana Maria Ruiz   46:54Perfecto.Perfecto.Nos coordinamos de acuerdo, sí, ya está confirmado este Roy, ahorita bueno, me acaba de confirmar y pues bueno, ya sí, ya no te movemos y me dice que mejor mejor a las 5:00, digo mejor para él.
+576072292608Abner Trujillo   47:08Mhm.Bueno, sí, sin problema, sin problema. Si nos das un poquito más de tiempo, a ver si podemos mostrarte, aunque sea un boceto o algo de esto de las búsquedas. Espero tenerlo. También te digo, no, pero necesito revisar con los chicos para ver si lo si lo tienen y si lo tienen, pues este mostrarte ese avance para que.
+576072292608Ana Maria Ruiz   47:19Mhm.Hello!
+576072292608Abner Trujillo   47:30No, este, pues ir adelantando ya toda esa parte, pero lo que te platicaba, te les dejo toda esa información ya el próximo jueves y este y si necesitamos algo del ingeniero Brand, pues ahí ya nos nos organizamos para ver qué este qué más necesitamos, si es que lo necesitamos. Otra cosa.
+576072292608Ana Maria Ruiz   47:43Claro.Sí.Mhm.
+576072292608Abner Trujillo   47:51¿Antes de colgar Ana María, tienes acceso al sandbox? ¿Te acuerdas que me decías del acceso de QA?
+576072292608Ana Maria Ruiz   47:54Dime.
+576072292608Abner Trujillo   48:01¿Que lo tenías?No sé si todavía tengas un chancecito, igual generamos un usuario en ese sandbox.
+576072292608Ana Maria Ruiz   48:05Ajá.Uh-huh.A ver, a ver, déjame intentarlo, me voy a salir de acá.
+576072292608Abner Trujillo   48:12Ajá, a ver.Ajá.
+576072292608Ana Maria Ruiz   48:18Y ese seguramente lo tengo, pero lo tengo en mi otro usuario en la otra cuenta. A ver, deja ver si entro en el perfil, este que es acá donde tenían.Y recientemente lo había visto, acá está.
+576072292608Abner Trujillo   48:39Pati.
+576072292608Ana Maria Ruiz   48:43Sí, creo que habíamos activado el usuario, es este.Y que así sean.
+576072292608Abner Trujillo   48:52A sí, tu pide paz aquí también, sí, a ver, no, sí, vale continuar.
+576072292608Ana Maria Ruiz   48:54E.Este no importa, lo paso a la otra sesión.
+576072292608Abner Trujillo   49:01No, este.
+576072292608Ana Maria Ruiz   49:02Huh?
+576072292608Abner Trujillo   49:04No digo de todos modos, ya lo después ya lo podemos quitar, no pasa nada.
+576072292608Ana Maria Ruiz   49:08Mhm.Listo, ya pudimos entrar, o k sí, ya estamos aquí.
+576072292608Abner Trujillo   49:12Okay, súper.Entraste, me ayudas a dar de alta un nuevo usuario, a ver si te a ver si te da chance de hacerme un usuario.
+576072292608Ana Maria Ruiz   49:18Claro.Claro, okay.¿Me ayuda si lo acento se está cargando?
+576072292608Abner Trujillo   49:29Vamos a darle chance. Todavía tengo minutos, no te preocupes, todavía no llega mi cita. Sí, no te preocupes, no, en el en el engrane, ajá, ahí configuración.
+576072292608Ana Maria Ruiz   49:34¿Sí, o k o k en aquí, verdad o acá?Ok, configuración.
+576072292608Abner Trujillo   49:44Sí.
+576072292608Ana Maria Ruiz   49:45Busco swarios.
+576072292608Abner Trujillo   49:47Por favor.Ajá, usuarios, sí.
+576072292608Ana Maria Ruiz   49:53¿Este, verdad?
+576072292608Abner Trujillo   49:57Y ahí vamos a darle clic en un nuevo nuevo usuario.
+576072292608Ana Maria Ruiz   49:58Ok, nuevo.Huh?
+576072292608Abner Trujillo   50:04Ahí le ponemos en permitir, sí, nombre le ponemos soporte.
+576072292608Ana Maria Ruiz   50:06Acá le digo que permitir, sí, nombre.
+576072292608Abner Trujillo   50:13Y en apellidos le pones techno válido abajo, en esa lo puedes dejar en blanco, el siguiente donde dice apellidos.
+576072292608Ana Maria Ruiz   50:13No.Ay, perdón, perdón.
+576072292608Abner Trujillo   50:22Tecno Value.
+576072292608Ana Maria Ruiz   50:25Bye.
+576072292608Abner Trujillo   50:27Value.
+576072292608Ana Maria Ruiz   50:28Luis, ¿verdad? Ajá, sí, okay.
+576072292608Abner Trujillo   50:29Ajá.El correo, ponle mi correo, por favor, Abner, punto Trujillo.Ajá, punto.Trujillo.
+576072292608Ana Maria Ruiz   50:45Trujillo.
+576072292608Abner Trujillo   50:47Arroba techno value.Techno value.punto com.mx
+576072292608Ana Maria Ruiz   50:58Mhm.
+576072292608Abner Trujillo   50:58Ahora en usuario lo vamos a cambiar, si quieres deja ese de déjale todo como está y ponle al final, punto guate.Arriba en el nombre de usuario.
+576072292608Ana Maria Ruiz   51:09nombre acá nombre.
+576072292608Abner Trujillo   51:12Nombre de usuario al que está abajo del correo.
+576072292608Ana Maria Ruiz   51:14Perdón, perdón, perdón, perdón.
+576072292608Abner Trujillo   51:16Ajá, ahí hasta el final nos vamos, le pones punto uate.
+576072292608Ana Maria Ruiz   51:17En.Ajá.Punto UAT, ajá.
+576072292608Abner Trujillo   51:23Ajá, o K, ahora del lado ese de puedo esta, déjalo así, no pasa nada. Del lado derecho, donde dice licencia de usuario, que es la segunda cinta roja, la cambiamos por Salesforce, a ver si hay y no hay ninguna disponible. Podríamos utilizar alguna de las que ya estén.
+576072292608Ana Maria Ruiz   51:29Okay.Licencia, ajá.No.Sí, sin problema, ninguno entra.
+576072292608Abner Trujillo   51:46okay, perfecto, entonces.
+576072292608Ana Maria Ruiz   51:47O incluso o incluso si quieres el mío.
+576072292608Abner Trujillo   51:52Lo que pasa es de que te va a pedir el Pasqui, pero ajá, me va a pedir el Pasqui y vamos a estar ahí batallando. A ver, vamos a darle clic en cancelar. Vamos a ver si podemos dar de baja alguna. Vamos, creo que la que tenías de cambalacha, ¿no?
+576072292608Ana Maria Ruiz   51:55okay, okay, sí.Okay.Cancelina, okey.Operaciones, mira acá, por ejemplo, hay uno de operaciones. Esta creo que ellos lo utilizaban. Esos no los conozco, estos sí los conozco. Este era de Rodrigo.
+576072292608Abner Trujillo   52:11Mhm.No sé, no hay que quitarlo, bajamos un poquito más.
+576072292608Ana Maria Ruiz   52:21Mientras se.
+576072292608Abner Trujillo   52:24Macro Support.Abraham.
+576072292608Ana Maria Ruiz   52:29Hasta mañana son todos los que hay.
+576072292608Abner Trujillo   52:30Moco.Maco, maco soporte maco, ok, creo que vamos a tener que desactivar el de Cambalache.
+576072292608Ana Maria Ruiz   52:39Okay.
+576072292608Abner Trujillo   52:39Nada más hay que darle clic en desactivar.
+576072292608Ana Maria Ruiz   52:43Era este el de operaciones.
+576072292608Abner Trujillo   52:45Ajá, vamos a darle clic en modificar.Del lado izquierdo, sí.
+576072292608Ana Maria Ruiz   52:49Dame un segundito, dame un segundito, puede sí, nada más tengo una 2. Sí, gracias o K acá en cambalache, le digo perdón, modificar.
+576072292608Abner Trujillo   52:58En modificar, modificar.Sí.Vamos a desactivarlo y en el chat que dice activo, nada más desmarcarlo.
+576072292608Ana Maria Ruiz   53:03Ajá.Este.
+576072292608Abner Trujillo   53:09Ese mero vamos a dar clic ahí, aceptar.Y le das guardar.
+576072292608Ana Maria Ruiz   53:13Uh-huh.Aparece guardar.
+576072292608Abner Trujillo   53:16Bueno.Guardar, ajá, OK, ahora sí vamos a generar el usuario, dice eliminar equipos de cuentas, casos predefinidos, sí, guardar.
+576072292608Ana Maria Ruiz   53:23Yeah.Cortana, sin seleccionar.
+576072292608Abner Trujillo   53:28Ajá, sí, seleccionar, no hay que borrarle nada.
+576072292608Ana Maria Ruiz   53:30O K, de acuerdo, ahí está ahora nuevo.
+576072292608Abner Trujillo   53:32Ahora sí, vámonos con el usar, ahora igual.
+576072292608Ana Maria Ruiz   53:35It he must keep a search.
+576072292608Abner Trujillo   53:37Soporte.
+576072292608Ana Maria Ruiz   53:39Doctor Fem.
+576072292608Abner Trujillo   53:40Ajá, te apellidos, Canovalio.
+576072292608Ana Maria Ruiz   53:41Apellidos 3.
+576072292608Abner Trujillo   53:44Mhm.Sí, ya te lo pone ahí, ajá, email el de Abner.Abner punto Trujillo.
+576072292608Ana Maria Ruiz   53:54O poner punto, sí, está bien escrito, sí, verdad? o K en el usuario hasta el final le ponemos punto uat, ahí.
+576072292608Abner Trujillo   53:56sí, ahora el usuario lo cambiamos.O en minúscula.Punto buate.
+576072292608Ana Maria Ruiz   54:08Punto o ky este lo dejamos y aquí en licencias de usuario este salesforce o k el perfil.
+576072292608Abner Trujillo   54:16Le podemos dar de salesforce, sí, y el perfil administrador del sistema.
+576072292608Ana Maria Ruiz   54:21Administrador del sistema este o k.
+576072292608Abner Trujillo   54:23Sí, okey, bajamos, bajamos un poquito más.Ok, bueno, se lo podemos dejar así, listo nada más sale guardar, ahorita me tiene que llegar correo de.De este de que se creó la nueva cuenta, te confirmo en unos segunditos.
+576072292608Ana Maria Ruiz   54:42Sí, sí, okey.
+576072292608Abner Trujillo   54:44Sí, ya me llegó, ya me llegó, no este valido el.
+576072292608Ana Maria Ruiz   54:46Perfecto.
+576072292608Abner Trujillo   54:50El acceso.Dame un segundito.No te quiero seguir quitando tiempo.
+576072292608Ana Maria Ruiz   54:57no te preocupes, no te preocupes.
+576072292608Abner Trujillo   55:00OK, aquí está, OK, perfecto, déjame aquí.No.
+576072292608Ana Maria Ruiz   55:08¿Necesitas este link de acceso o ese ya lo digo, lo puedes tener?
+576072292608Abner Trujillo   55:102026 no, yo ya lo tengo, ya lo tengo y de hecho ya me llegó este el la cuenta, ya nada más le estoy poniendo los datos de la contraseña.
+576072292608Ana Maria Ruiz   55:14Okay.De acuerdo.Mhm.
+576072292608Abner Trujillo   55:23Y ya nada más este.Validó el usuario y ya estuvo con esto es más que suficiente.
+576072292608Ana Maria Ruiz   55:31Mhm.
+576072292608Abner Trujillo   55:34Lo que pasa es que como los chicos me piden justo el las credenciales y todo eso para entrar y validar la información que tenemos, ahí es en donde tengo que pues prácticamente ahí anotar todo esto.
+576072292608Ana Maria Ruiz   55:39Hello.Sí.Pues sí.
+576072292608Abner Trujillo   55:51Pero ya lo tengo, ya lo tengo, ya entreno María, ya con esto ya tenemos acceso a este Sandbox You IT, que es el que nos va a servir para hacer ya las pruebas. Entonces con esto, pues ya este, como ya tiene algunos datos, es los que vamos a utilizar para hacer las búsquedas o para los cambios que hagamos con Zafiro. Ya es que esa era de las cosas que nos.
+576072292608Ana Maria Ruiz   55:55Perfecto.Mhm.Perfect.Okay.De acuerdo.
+576072292608Abner Trujillo   56:13Faltaba, pero ya lo adelantamos.
+576072292608Ana Maria Ruiz   56:15Bueno, nada más, este confirmando esta base de datos tiene información, pues ya muy limitada, que fue lo que utilizamos de pruebas de hace un año, ¿no?
+576072292608Abner Trujillo   56:23Sí.Mhm.
+576072292608Ana Maria Ruiz   56:27Ajá.
+576072292608Abner Trujillo   56:28No hay problema, o sea, lo que queremos es que como tiene más datos, es justamente hacer búsqueda basados en esa información. Al final del día, las consultas van a ser a los mismos campos, o sea que los campos no cambian en sus nombres de sistema, aunque la información sea viejita, este ya una vez que tengamos.
+576072292608Ana Maria Ruiz   56:29Okay.Sí.Ajá.Okay.Perfect.
+576072292608Abner Trujillo   56:49Validado por ustedes el funcionamiento, como les decía al final, ya podemos hacer una actualización de este sandbox de copia parcial.
+576072292608Ana Maria Ruiz   56:51Mhm.Mhm.Perfecto, okey, me aparece de acuerdo.
+576072292608Abner Trujillo   57:00Ya con los últimos datos lo podemos hacer, pero ahorita no es necesario. Ahorita lo que queremos es aprovechar los datos que ya tiene y revisar la parte de la integración, si es que está todavía conectado aquí, no moverle justamente a eso, vale.
+576072292608Ana Maria Ruiz   57:08Mhm.O K, de acuerdo, Abner.
+576072292608Abner Trujillo   57:16Perfecto, Ana María, pues muchísimas gracias, ahí estamos.
+576072292608Ana Maria Ruiz   57:18De acuerdo, al contrario, muchas gracias a ti por tu tiempo. Cualquier duda, cualquier aclaración, cualquier repetición, pues adelante, igual me dijiste, sale.
+576072292608Abner Trujillo   57:22No te preocupes, aquí estamos.Sin problema, sin problema, gracias.
+576072292608Ana Maria Ruiz   57:30Perfecto, gracias a Tierner, que estés bien.
+576072292608Abner Trujillo   57:33Igualmente, fue bonita tarde, nos vemos.
+576072292608Ana Maria Ruiz   57:35Hasta luego, igualmente, bye.
+576072292608Abner Trujillo   57:36Wait.
+621792274320Abner Trujillo detuvo la transcripción

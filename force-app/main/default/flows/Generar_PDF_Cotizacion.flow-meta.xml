@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <actionCalls>
+        <name>Generar_PDF_Apex</name>
+        <label>Generar PDF Apex</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <actionName>GenerateQuotePDFDocument</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Pantalla_Exito</targetReference>
+        </connector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>quoteIds</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <interviewLabel>Generar PDF Cotizacion {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Generar PDF Cotización</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Pantalla_Confirmacion</name>
+        <label>Pantalla de Confirmacion</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Generar_PDF_Apex</targetReference>
+        </connector>
+        <fields>
+            <name>TextoConfirmacion</name>
+            <fieldText>&lt;p style="text-align: center;"&gt;&lt;strong style="font-size: 16px;"&gt;¿Deseas generar el PDF de esta Cotización?&lt;/strong&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;El archivo se guardará automáticamente en la sección de Archivos (Files) con el número de la cotización.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+        <nextOrFinishButtonLabel>Generar PDF</nextOrFinishButtonLabel>
+    </screens>
+    <screens>
+        <name>Pantalla_Exito</name>
+        <label>Pantalla de Exito</label>
+        <locationX>176</locationX>
+        <locationY>398</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>TextoExito</name>
+            <fieldText>&lt;p style="text-align: center;"&gt;&lt;strong style="color: rgb(26, 127, 55); font-size: 16px;"&gt;¡PDF Generado con Éxito!&lt;/strong&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Puedes cerrar esta ventana y revisar la sección de Archivos (Files).&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Pantalla_Confirmacion</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

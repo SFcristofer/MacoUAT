@@ -1,0 +1,51 @@
+﻿Section,CreatedDate,Display
+Manage Users,2026-09-25T15:54:40.000+0000,Permission set C2CMcpServicePermSet: assigned to user Platform Integration User (UserID: [005al0000037QsG])
+Custom Apps,2026-09-23T04:25:28.000+0000,Upgraded AppExchange package: Salesforce Maps
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.WeatherAJAXResource Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.TPTests Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.TPRemoteActions Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.RemoteFunctionsTest Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.RemoteFunctions Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Created maps.ContentRestTest Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.ContentRest Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.AutoAssignmentTest Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.AutoAssignmentController Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.AdminAJAXResourcesTest Apex Class code
+Apex Class,2026-09-23T04:25:03.000+0000,Changed maps.AdminAJAXResources Apex Class code
+Component,2026-09-23T04:22:58.000+0000,Changed Component Desktop
+Lightning Components,2026-09-23T04:22:56.000+0000,Changed MapsFlowDisplay Aura Component
+Lightning Components,2026-09-23T04:22:56.000+0000,Changed MiniMapLightningComponent Aura Component
+Lightning Components,2026-09-23T04:22:56.000+0000,Changed MapsLightningOutApp Aura Component
+Lightning Components,2026-09-23T04:22:56.000+0000,Changed MapsLightningOut Aura Component
+Lightning Components,2026-09-23T04:22:56.000+0000,Changed TPLightningOut Aura Component
+Lightning Components,2026-09-23T04:22:56.000+0000,Changed TPLightningOutApp Aura Component
+Lightning Components,2026-09-23T04:22:56.000+0000,Changed TPFlowDisplay Aura Component
+Static Resource,2026-09-23T04:22:55.000+0000,Changed Static Resource VuePrintEmail
+Static Resource,2026-09-23T04:22:55.000+0000,Changed Static Resource VueMobile
+Static Resource,2026-09-23T04:22:55.000+0000,Changed Static Resource VueLive
+Static Resource,2026-09-23T04:22:55.000+0000,Changed Static Resource VueDesktopV2
+Static Resource,2026-09-23T04:22:55.000+0000,Changed Static Resource VueDesktop
+Static Resource,2026-09-23T04:22:55.000+0000,Changed Static Resource VueAdmin
+Static Resource,2026-09-23T04:22:54.000+0000,Changed Static Resource TerritoryPlanningLabs
+Static Resource,2026-09-23T04:22:54.000+0000,Changed Static Resource TerritoryPlanning
+Static Resource,2026-09-23T04:22:54.000+0000,Changed Static Resource MapsStyles
+Static Resource,2026-09-23T04:22:54.000+0000,Changed Static Resource MapsJSAdvanced
+Static Resource,2026-09-23T04:22:54.000+0000,Changed Static Resource MapsJS
+Static Resource,2026-09-23T04:22:54.000+0000,Changed Static Resource MapsIcons
+Static Resource,2026-09-23T04:22:54.000+0000,Changed Static Resource MapsFonts
+Static Resource,2026-09-23T04:22:53.000+0000,Changed Static Resource Maps3rdPartyPlugins
+Static Resource,2026-09-23T04:22:53.000+0000,Changed Static Resource AlignmentComparison
+Static Resource,2026-09-23T04:22:53.000+0000,Changed Static Resource AlignmentBuilder
+Static Resource,2026-09-23T04:22:53.000+0000,Changed Static Resource MileageAdmin
+Flows,2026-09-21T17:15:19.000+0000,"Activated flow with Name ""Format Quote Name"" and Unique Name ""Format_Quote_Name"""
+Flows,2026-09-21T17:15:18.000+0000,"Created flow with Name ""Format Quote Name"" and Unique Name ""Format_Quote_Name"""
+Zafiro Auths,2026-09-21T16:56:37.000+0000,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3OTAwMDk2NDYsImV4cCI6MTc5MjYwMTY0Nn0.kj-KPU3J93sMhZaBfF_IC1OoVUpcp7kOG86frMTyBw8 to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3OTAwMDk2NDAsImV4cCI6MTc5MjYwMTY0MH0.TIj2TadgvBvrspKnV0HIux6o44XpY2yDzHAB5Q01n-k
+Zafiro Auths,2026-09-21T16:56:36.000+0000,Cambalache: ├Ültima vez usado has changed from 2026-09-18 13:08:19 to 2026-09-21 10:56:36
+Zafiro Auths,2026-09-21T16:56:36.000+0000,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk3NTgzNTQsImV4cCI6MTc5MjM1MDM1NH0.j21xGhpn29UYqd8ZY7llrDaVnTm1jdOo-syV-5-wEDA to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3OTAwMDk2NDYsImV4cCI6MTc5MjYwMTY0Nn0.kj-KPU3J93sMhZaBfF_IC1OoVUpcp7kOG86frMTyBw8
+Zafiro Auths,2026-09-18T19:08:20.000+0000,Cambalache: ├Ültima vez usado has changed from 2026-09-17 14:51:14 to 2026-09-18 13:08:19
+Zafiro Auths,2026-09-18T19:08:20.000+0000,Cambalache: Token has changed from eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk2NzgxMzAsImV4cCI6MTc5MjI3MDEzMH0.-x62dIWWs1fFwdXlwr5hHlh-l707iED7yqzxOiYL94A to eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJzYWxlc2ZvcmNlIiwiTmFtZSI6InNhbGVzZm9yY2UiLCJFbXByZXNhSUQiOjEsIlRpcG9DdWVudGEiOiJVIiwiQ2xpZW50ZUlEIjowLCJQcm92ZWVkb3JJRCI6MCwiUGVyc29uYWxJRCI6LTEsIkVtcHJlc2FOb21icmUiOiJFU0NVRUxBIEtFTVBFUiBVUkdBVEUiLCJpYXQiOjE3ODk3NTgzNTQsImV4cCI6MTc5MjM1MDM1NH0.j21xGhpn29UYqd8ZY7llrDaVnTm1jdOo-syV-5-wEDA
+,2026-09-17T23:12:51.000+0000,"Autenticador incorporado credential 0moWD0000004SSL with nickname ""Built-In Authenticator #1 2026-09-17T23:12:07Z"" added for ventas.puebla2@maco.com.uat.mx"
+Manage Users,2026-09-17T23:09:31.000+0000,Set new password for user Auscencio Salazar V├ízquez (UserID: [005WD00000Aql28])
+Manage Users,2026-09-17T23:09:16.000+0000,"For user ventas.puebla2@maco.com.uat.mx, the User Verified Email status changed to verified"
+Manage Users,2026-09-17T23:08:54.000+0000,"For user ventas.puebla2@maco.com.uat.mx, the User Verified Email status changed to verified"
+Manage Users,2026-09-17T23:08:27.000+0000,Reset password for user Auscencio Salazar V├ízquez (UserID: [005WD00000Aql28])

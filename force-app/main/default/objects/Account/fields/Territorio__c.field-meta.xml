@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territorio__c</fullName>
+    <label>Territorio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Monterrey</fullName>
+                <default>false</default>
+                <label>Monterrey</label>
+            </value>
+            <value>
+                <fullName>Puebla</fullName>
+                <default>false</default>
+                <label>Puebla</label>
+            </value>
+            <value>
+                <fullName>Veracruz</fullName>
+                <default>false</default>
+                <label>Veracruz</label>
+            </value>
+            <value>
+                <fullName>Veracruz Sucursal</fullName>
+                <default>false</default>
+                <label>Veracruz Sucursal</label>
+            </value>
+            <value>
+                <fullName>Tepeaca</fullName>
+                <default>false</default>
+                <label>Tepeaca</label>
+            </value>
+            <value>
+                <fullName>Chignahuapan</fullName>
+                <default>false</default>
+                <label>Chignahuapan</label>
+            </value>
+            <value>
+                <fullName>Atlixco</fullName>
+                <default>false</default>
+                <label>Atlixco</label>
+            </value>
+            <value>
+                <fullName>Estado de Mexico</fullName>
+                <default>false</default>
+                <label>Estado de Mexico</label>
+            </value>
+            <value>
+                <fullName>Pachuca</fullName>
+                <default>false</default>
+                <label>Pachuca</label>
+            </value>
+            <value>
+                <fullName>Tulancingo</fullName>
+                <default>false</default>
+                <label>Tulancingo</label>
+            </value>
+            <value>
+                <fullName>Poza Rica</fullName>
+                <default>false</default>
+                <label>Poza Rica</label>
+            </value>
+            <value>
+                <fullName>Cuernavaca</fullName>
+                <default>false</default>
+                <label>Cuernavaca</label>
+            </value>
+            <value>
+                <fullName>Acapulco</fullName>
+                <default>false</default>
+                <label>Acapulco</label>
+            </value>
+            <value>
+                <fullName>Oaxaca</fullName>
+                <default>false</default>
+                <label>Oaxaca</label>
+            </value>
+            <value>
+                <fullName>Villahermosa</fullName>
+                <default>false</default>
+                <label>Villahermosa</label>
+            </value>
+            <value>
+                <fullName>Tlaxcala</fullName>
+                <default>false</default>
+                <label>Tlaxcala</label>
+            </value>
+            <value>
+                <fullName>Cd. Sahagun</fullName>
+                <default>false</default>
+                <label>Cd. Sahagun</label>
+            </value>
+            <value>
+                <fullName>Queretaro</fullName>
+                <default>false</default>
+                <label>Queretaro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

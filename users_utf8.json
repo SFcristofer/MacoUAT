@@ -1,0 +1,332 @@
+﻿{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD000007HOt7YAG"
+        },
+        "Name": "Ana Ruiz",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000XtXBYA0"
+          },
+          "Name": "System Administrator Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD000007Tj4DYAS"
+        },
+        "Name": "Francisco Montiel",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000XtXBYA0"
+          },
+          "Name": "System Administrator Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD000007To3pYAC"
+        },
+        "Name": "Rodrigo Fernandez",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000XtXBYA0"
+          },
+          "Name": "System Administrator Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD0000089onNYAQ"
+        },
+        "Name": "IntegrationMaco User",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eal000003beoKAAQ"
+          },
+          "Name": "Salesforce API Only System Integrations"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD000008Vr0DYAS"
+        },
+        "Name": "Isabel Rosas Cocolotl",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eal000003beo0AAA"
+          },
+          "Name": "System Administrator"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD000008m0XNYAY"
+        },
+        "Name": "Integration User",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eal000003beoMAAQ"
+          },
+          "Name": "Analytics Cloud Integration User"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD000008m0XOYAY"
+        },
+        "Name": "Security User",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eal000003beoNAAQ"
+          },
+          "Name": "Analytics Cloud Security User"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000Aql28YAB"
+        },
+        "Name": "Auscencio Salazar V├ízquez",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000Ar52DYAR"
+        },
+        "Name": "Antonio Salamanca Gonzalez",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000ArHOiYAN"
+        },
+        "Name": "Daniel Alberto Lara",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000BH513YAD"
+        },
+        "Name": "Osvaldo Santos",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000BH53PYAT"
+        },
+        "Name": "David Vazquez Jimenez",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000BHCfxYAH"
+        },
+        "Name": "Gloria Dominguez Maria",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000BHD49YAH"
+        },
+        "Name": "Rocio Herrera Vazquez",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000BHD7NYAX"
+        },
+        "Name": "Abraham Tanus",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eal000003beo0AAA"
+          },
+          "Name": "System Administrator"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000BHDp0YAH"
+        },
+        "Name": "Raul Garcia",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000BHPpAYAX"
+        },
+        "Name": "Armando Pacheco Jauregui",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000BHS9nYAH"
+        },
+        "Name": "Mario Ponce",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000XtXBYA0"
+          },
+          "Name": "System Administrator Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000BHUY1YAP"
+        },
+        "Name": "Guillermo Blancas Gonz├ílez",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000adyvYAA"
+          },
+          "Name": "Standard User Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000O1pHNYAZ"
+        },
+        "Name": "soporte mac",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eal000003beoOAAQ"
+          },
+          "Name": "Minimum Access - API Only Integrations"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005WD00000YZuC0YAL"
+        },
+        "Name": "SOPORTE TECHNOVALUE",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eal000003beo0AAA"
+          },
+          "Name": "System Administrator"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005al0000037c3dAAA"
+        },
+        "Name": "Ana Maria Ruiz",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eWD000000XtXBYA0"
+          },
+          "Name": "System Administrator Maco"
+        }
+      },
+      {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v68.0/sobjects/User/005al000003uqgXAAQ"
+        },
+        "Name": "Insights Integration",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v68.0/sobjects/Profile/00eal000004CalNAAS"
+          },
+          "Name": "Sales Insights Integration User"
+        }
+      }
+    ],
+    "totalSize": 23,
+    "done": true
+  },
+  "warnings": []
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_RFC_Mayuscula</fullName>
+    <active>true</active>
+    <description>Validacion para que el campo solo permita valores en mayúsculas.</description>
+    <errorConditionFormula>RFC__c &lt;&gt; UPPER(RFC__c)</errorConditionFormula>
+    <errorMessage>El campo solo permite valores en mayúsculas.</errorMessage>
+</ValidationRule>

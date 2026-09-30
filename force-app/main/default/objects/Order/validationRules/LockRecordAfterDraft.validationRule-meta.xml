@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LockRecordAfterDraft</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  
+  NOT(
+    OR(
+      ISPICKVAL(Status, &quot;Draft&quot;), 
+      AND(                         
+        ISPICKVAL(PRIORVALUE(Status), &quot;Draft&quot;),
+        ISPICKVAL(Status, &quot;Closed&quot;)
+      ),
+      $Permission.ByPassValidationRule, 
+      ISCHANGED(ByPassValidation__c)     
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>Solo puedes modificar los campos cuando el pedido está en &quot;Borrador&quot;</errorMessage>
+</ValidationRule>
