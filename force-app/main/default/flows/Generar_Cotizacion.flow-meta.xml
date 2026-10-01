@@ -92,11 +92,32 @@
         </value>
     </processMetadataValues>
     <processType>Flow</processType>
+    <recordLookups>
+        <name>Obtener_Cuenta</name>
+        <label>Obtener Cuenta</label>
+        <locationX>176</locationX>
+        <locationY>242</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Crear_Registro_de_Oportunidad</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Account.recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <recordCreates>
         <name>Crear_Registro_de_Cotizacion</name>
         <label>Crear Registro de Cotización</label>
         <locationX>176</locationX>
-        <locationY>350</locationY>
+        <locationY>458</locationY>
         <assignRecordIdToReference>recordId</assignRecordIdToReference>
         <connector>
             <targetReference>Navegar_a_la_Cotizacion</targetReference>
@@ -111,6 +132,18 @@
             <field>End_Date__c</field>
             <value>
                 <elementReference>EndDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Method_of_Payment__c</field>
+            <value>
+                <elementReference>Obtener_Cuenta.TipoVenta__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Pricebook2Id</field>
+            <value>
+                <elementReference>Obtener_Cuenta.ListadePrecio__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -143,7 +176,7 @@
         <name>Crear_Registro_de_Oportunidad</name>
         <label>Crear Registro de Oportunidad</label>
         <locationX>176</locationX>
-        <locationY>242</locationY>
+        <locationY>350</locationY>
         <assignRecordIdToReference>Var_Oportunidad_Id</assignRecordIdToReference>
         <connector>
             <targetReference>Crear_Registro_de_Cotizacion</targetReference>
@@ -167,6 +200,12 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Pricebook2Id</field>
+            <value>
+                <elementReference>Obtener_Cuenta.ListadePrecio__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>StageName</field>
             <value>
                 <stringValue>Quote</stringValue>
@@ -179,7 +218,7 @@
         <name>Navegar_a_la_Cotizacion</name>
         <label>Navegar a la Cotizacion</label>
         <locationX>176</locationX>
-        <locationY>458</locationY>
+        <locationY>566</locationY>
         <allowBack>true</allowBack>
         <allowFinish>false</allowFinish>
         <allowPause>true</allowPause>
@@ -208,7 +247,7 @@
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <connector>
-            <targetReference>Crear_Registro_de_Oportunidad</targetReference>
+            <targetReference>Obtener_Cuenta</targetReference>
         </connector>
         <fields>
             <name>Account</name>
