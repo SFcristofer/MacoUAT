@@ -66,3 +66,5 @@ Registro de Modificaciones y Nuevos Componentes (Para Migraciones)
    Dependen de Zafiro: #61 (sincronización de estatus, pedido 786 / Zafiro 97001), #67 (alias de usuario), #68 (permisos del batch de crédito).
    Decisiones sin cambio: #63 (se queda "Listo para envío") y #64 (re-cotización igual que en PROD). Informativos: #55 y #69.
    Próxima sesión: jueves 1-Oct.
+
+9. 2026-10-01 - HTML Pendientes: puntos #53, #56 y #59 marcados como Completado. Sin cambios en la org.
