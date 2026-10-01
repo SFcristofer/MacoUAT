@@ -68,3 +68,5 @@ Registro de Modificaciones y Nuevos Componentes (Para Migraciones)
    Próxima sesión: jueves 1-Oct.
 
 9. 2026-10-01 - HTML Pendientes: puntos #53, #56 y #59 marcados como Completado. Sin cambios en la org.
+
+10. 2026-10-01 - HTML Pendientes: agregada fila "Propuesta #54 (para junta)" debajo del punto 54 (almacén por territorio). Sin cambios en la org.
