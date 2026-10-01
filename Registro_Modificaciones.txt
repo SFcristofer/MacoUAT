@@ -59,3 +59,10 @@ Registro de Modificaciones y Nuevos Componentes (Para Migraciones)
    #37 Resuelto sin cambios (ver #49 y el punto 4). #38 Resuelto por el punto 5 (timeout) y el punto 6 (#47).
    #39 Causa: entrevistas de Check In/Out fallidas en Callout_for_Address_data (8 en UAT: 00000261-00000268). Se corrigió en el punto 3. Falta probar en el celular. Borrar esas entrevistas requiere aprobación.
    #40-#44 son tareas de TV/MACO fuera de Salesforce (fecha, tableta, Excel, invitaciones, reportes por definir). No se enviaron correos ni invitaciones.
+
+8. Nombre: Puntos de la reunión de pruebas 29/30-Sep-2026 (Ana, Abner, Marlon, Cris) agregados al HTML - SIN CAMBIOS EN LA ORG
+   Se agregó al HTML la sección I con las filas #51 a #69, sacadas del transcript de la reunión.
+   TV por hacer: #51 (bug: cotización desde Home sin Lista de precios ni Método de pago), #52-#53 (pestaña Pedidos/Cotizaciones), #54, #56-#60, #62, #65-#66.
+   Dependen de Zafiro: #61 (sincronización de estatus, pedido 786 / Zafiro 97001), #67 (alias de usuario), #68 (permisos del batch de crédito).
+   Decisiones sin cambio: #63 (se queda "Listo para envío") y #64 (re-cotización igual que en PROD). Informativos: #55 y #69.
+   Próxima sesión: jueves 1-Oct.
