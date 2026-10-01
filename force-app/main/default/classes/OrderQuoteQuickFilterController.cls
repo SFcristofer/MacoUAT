@@ -46,6 +46,7 @@ public with sharing class OrderQuoteQuickFilterController {
         if (objectApiName == 'Order') {
             return new Map<String, String>{
                 'ownerName' => 'Owner.Name',
+                'agentName' => 'Account.Vendedor__c',
                 'estatusFacturacion' => 'Estatus_Facturacion__c',
                 'estatusSurtimiento' => 'Estatus_Surtimiento__c',
                 'warehouseName' => 'Warehouse__r.Name'
@@ -53,7 +54,8 @@ public with sharing class OrderQuoteQuickFilterController {
         }
         if (objectApiName == 'Quote') {
             return new Map<String, String>{
-                'ownerName' => 'Owner.Name'
+                'ownerName' => 'Owner.Name',
+                'agentName' => 'Account.Vendedor__c'
             };
         }
         return new Map<String, String>();
@@ -75,13 +77,13 @@ public with sharing class OrderQuoteQuickFilterController {
     private static List<String> getSelectFields(String objectApiName) {
         if (objectApiName == 'Order') {
             return new List<String>{
-                'Id', 'OrderNumber', 'ZF_Pedido_ID__c', 'Account.AccountNumber', 'Account.Name', 'Owner.Name',
+                'Id', 'OrderNumber', 'ZF_Pedido_ID__c', 'Account.AccountNumber', 'Account.Name', 'Account.Vendedor__c', 'Owner.Name',
                 'EffectiveDate', 'Status', 'Method_of_Payment__c', 'Estatus_Facturacion__c',
                 'Estatus_Surtimiento__c', 'Warehouse__r.Name', 'SubTotal__c', 'Total_Order_Amount__c'
             };
         }
         return new List<String>{
-            'Id', 'Name', 'Account.Name', 'Owner.Name', 'Start_Date__c', 'ExpirationDate',
+            'Id', 'Name', 'Account.Name', 'Account.Vendedor__c', 'Owner.Name', 'Start_Date__c', 'ExpirationDate',
             'Status', 'Method_of_Payment__c', 'Subtotal', 'Total__c', 'LineItemCount'
         };
     }
@@ -148,6 +150,10 @@ public with sharing class OrderQuoteQuickFilterController {
         String fieldPath = groupableFields.get(logicalFieldKey);
 
         String whereClause = fieldPath + ' != null';
+        if (logicalFieldKey == 'ownerName') {
+            whereClause += ' AND (NOT ' + fieldPath + ' LIKE \'%Soporte%\') AND (NOT ' + fieldPath + ' LIKE \'%Integraci%\') AND (NOT ' + fieldPath + ' LIKE \'%Integration%\') AND (NOT ' + fieldPath + ' LIKE \'%Cambalache%\')';
+        }
+
         if (String.isNotBlank(searchTerm)) {
             whereClause += ' AND ' + fieldPath + ' LIKE \'%' + String.escapeSingleQuotes(searchTerm.trim()) + '%\'';
         }
@@ -253,6 +259,7 @@ public with sharing class OrderQuoteQuickFilterController {
             row.status = (String) record.get('Status');
             row.methodOfPayment = (String) record.get('Method_of_Payment__c');
             row.ownerName = getRelatedField(record, 'Owner', 'Name');
+            row.agentName = getRelatedField(record, 'Account', 'Vendedor__c');
 
             if (objectApiName == 'Order') {
                 row.recordNumber = (String) record.get('OrderNumber');
@@ -329,6 +336,7 @@ public with sharing class OrderQuoteQuickFilterController {
         @AuraEnabled public String accountName;
         @AuraEnabled public String accountNumber;
         @AuraEnabled public String ownerName;
+        @AuraEnabled public String agentName;
         @AuraEnabled public Date recordDate;
         @AuraEnabled public Date secondDate;
         @AuraEnabled public String status;

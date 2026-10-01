@@ -1,0 +1,179 @@
+<template>
+    <div class="slds-box slds-box_x-small slds-m-bottom_x-small">
+
+        <!-- //////////////// -->
+        <!-- Barra superior   -->
+        <!-- //////////////// -->
+        <div class="slds-grid slds-gutters slds-wrap slds-grid_vertical-align-end slds-m-bottom_x-small">
+            <div class="slds-col slds-size_1-of-6">
+                <lightning-input type="date" label="Desde" data-filter-input value={dateFrom} onchange={handleDateFromChange}></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-6">
+                <lightning-input type="date" label="Hasta" data-filter-input value={dateTo} onchange={handleDateToChange}></lightning-input>
+            </div>
+            <div class="slds-col slds-grow"></div>
+            <div class="slds-col slds-no-flex">
+                <lightning-button label="Limpiar filtros" onclick={handleClearFilters} class="slds-m-right_x-small"></lightning-button>
+                <lightning-button-icon icon-name="utility:refresh" alternative-text="Refrescar" title="Refrescar" onclick={handleRefresh} class="slds-m-right_x-small"></lightning-button-icon>
+                <lightning-button-icon icon-name="utility:table_settings" alternative-text="Columnas" title="Columnas" onclick={toggleColumnPicker}></lightning-button-icon>
+            </div>
+        </div>
+
+        <!-- //////////////// -->
+        <!-- Selector columnas -->
+        <!-- //////////////// -->
+        <template lwc:if={showColumnPicker}>
+            <div class="slds-box slds-box_x-small slds-theme_shade slds-m-bottom_x-small">
+                <p class="slds-text-title_caps slds-m-bottom_xx-small">Columnas visibles</p>
+                <div class="slds-grid slds-wrap">
+                    <template for:each={columnDefs} for:item="col">
+                        <div key={col.key} class="slds-col slds-size_1-of-4 slds-p-vertical_xx-small">
+                            <lightning-input type="checkbox" label={col.label} data-key={col.key} checked={col.visible} onchange={handleColumnToggle}></lightning-input>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </template>
+
+        <!-- //////////////// -->
+        <!-- Renglón de filtros (estilo Excel/Zafiro) -->
+        <!-- //////////////// -->
+        <div class="filter-row slds-m-bottom_xx-small">
+            <template for:each={renderableFilterDefs} for:item="filterDef">
+                <div key={filterDef.key} class="filter-cell">
+                    <template lwc:if={filterDef.isText}>
+                        <lightning-input
+                            type="text"
+                            label={filterDef.label}
+                            variant="label-hidden"
+                            placeholder={filterDef.label}
+                            data-filter-input
+                            data-key={filterDef.key}
+                            onchange={handleTextFilterChange}>
+                        </lightning-input>
+                    </template>
+                    <template lwc:elseif={filterDef.isMultiselect}>
+                        <div class="filter-multiselect-container">
+                            <lightning-button
+                                label={filterDef.buttonLabel}
+                                icon-name="utility:down"
+                                icon-position="right"
+                                variant="neutral"
+                                data-key={filterDef.key}
+                                onclick={toggleDropdown}
+                                class="filter-dropdown-button">
+                            </lightning-button>
+                            <template lwc:if={filterDef.isOpen}>
+                                <div class="filter-dropdown-panel">
+                                    <template for:each={filterDef.options} for:item="opt">
+                                        <div key={opt.value} class="slds-p-vertical_xx-small">
+                                            <lightning-input
+                                                type="checkbox"
+                                                label={opt.label}
+                                                checked={opt.checked}
+                                                data-key={filterDef.key}
+                                                data-value={opt.value}
+                                                onchange={handleOptionCheckboxChange}>
+                                            </lightning-input>
+                                        </div>
+                                    </template>
+                                    <template lwc:if={filterDef.hasNoOptions}>
+                                        <p class="slds-text-color_weak slds-p-vertical_x-small">Sin opciones disponibles</p>
+                                    </template>
+                                    <div class="slds-p-top_x-small slds-text-align_right filter-dropdown-actions">
+                                        <lightning-button label="Cancelar" data-key={filterDef.key} onclick={handleCancelDropdown} class="slds-m-right_xx-small"></lightning-button>
+                                        <lightning-button label="Aceptar" variant="brand" onclick={handleApplyDropdown}></lightning-button>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+                    <template lwc:elseif={filterDef.isSearchSelect}>
+                        <div class="filter-search-select">
+                            <lightning-input
+                                type="text"
+                                label={filterDef.label}
+                                variant="label-hidden"
+                                placeholder={filterDef.label}
+                                value={filterDef.searchTerm}
+                                data-key={filterDef.key}
+                                onchange={handleSearchSelectInputChange}>
+                            </lightning-input>
+                            <template lwc:if={filterDef.hasSuggestions}>
+                                <div class="filter-suggestions-list">
+                                    <template for:each={filterDef.suggestions} for:item="sug">
+                                        <div
+                                            key={sug.value}
+                                            class="filter-suggestion-item"
+                                            data-key={filterDef.key}
+                                            data-value={sug.value}
+                                            onclick={handleAddSearchSelectValue}>
+                                            {sug.value}
+                                        </div>
+                                    </template>
+                                </div>
+                            </template>
+                            <template lwc:if={filterDef.hasSelectedPills}>
+                                <lightning-pill-container
+                                    items={filterDef.selectedPills}
+                                    data-key={filterDef.key}
+                                    onitemremove={handleRemoveSearchSelectValue}
+                                    class="slds-m-top_xx-small">
+                                </lightning-pill-container>
+                            </template>
+                        </div>
+                    </template>
+                </div>
+            </template>
+        </div>
+
+        <!-- //////////////// -->
+        <!-- Chips de filtros activos -->
+        <!-- //////////////// -->
+        <template lwc:if={hasActiveFilters}>
+            <div class="slds-m-bottom_xx-small">
+                <template for:each={activeFilterChips} for:item="chip">
+                    <lightning-badge key={chip.key} label={chip.label} class="slds-m-right_xx-small"></lightning-badge>
+                </template>
+            </div>
+        </template>
+
+        <!-- //////////////// -->
+        <!-- Datatable con lazy scroll server-side -->
+        <!-- //////////////// -->
+        <div class="table-scroll-wrapper slds-is-relative">
+            <template lwc:if={isLoading}>
+                <lightning-spinner alternative-text="Cargando" size="medium"></lightning-spinner>
+            </template>
+            <template lwc:else>
+                <lightning-datatable
+                    key-field="id"
+                    data={records}
+                    columns={visibleColumns}
+                    enable-infinite-loading={enableInfiniteLoading}
+                    onloadmore={handleLoadMore}
+                    is-loading={isLoadingMore}
+                    onrowaction={handleRowAction}>
+                </lightning-datatable>
+            </template>
+        </div>
+
+        <!-- //////////////// -->
+        <!-- Totales (stat tiles) -->
+        <!-- //////////////// -->
+        <div class="stat-tiles">
+            <div class="stat-tile stat-tile-neutral">
+                <div class="stat-value">{totals.recordCount}</div>
+                <div class="stat-label">Registros</div>
+            </div>
+            <div class="stat-tile stat-tile-info">
+                <div class="stat-value"><lightning-formatted-number value={totals.subTotalSum} format-style="currency"></lightning-formatted-number></div>
+                <div class="stat-label">Subtotal</div>
+            </div>
+            <div class="stat-tile stat-tile-success">
+                <div class="stat-value"><lightning-formatted-number value={totals.totalSum} format-style="currency"></lightning-formatted-number></div>
+                <div class="stat-label">Total</div>
+            </div>
+        </div>
+    </div>
+</template>
