@@ -7,8 +7,6 @@ public class GenerateQuotePDFDocument {
 
     @future(callout=true)
     public static void createQuoteFutureMethod(List<Id> quoteIds) {
-        String quoteUrl = '/quote/quoteTemplateDataViewer.apexp?';
-        String quoteTemplateId = Label.quoteTemplateId;
         List<ContentVersion> lstContentVersions = new List<ContentVersion>();
 
         if (!quoteIds.isEmpty()) {
@@ -21,8 +19,9 @@ public class GenerateQuotePDFDocument {
             for (Id quoteId : quoteIds) {
                 if (!quoteNumbers.containsKey(quoteId)) continue;
 
-                String fullQuoteUrl = quoteUrl + 'id=' + quoteId + '&headerHeight=180&footerHeight=10&summlid=' + quoteTemplateId;
-                PageReference pageRef = new PageReference(fullQuoteUrl);
+                // Formato nuevo (#58): misma página que el PDF de pedido, adaptada a cotización
+                PageReference pageRef = Page.QuotePDF;
+                pageRef.getParameters().put('id', quoteId);
                 Blob quoteBlob = Test.isRunningTest() ? Blob.valueOf('Generate Pdf') : pageRef.getContentAsPDF();
 
                 // Contar cuántos archivos de cotización ya existen para poner el _VX

@@ -72,4 +72,21 @@ public class WarehouseDefaultHelperTest {
         Order inserted = [SELECT Warehouse__c FROM Order WHERE Id = :ord.Id];
         System.assertEquals(veracruzWh.Id, inserted.Warehouse__c, 'Usuario con Territorio__c=Veracruz debe resolver al almacén 007');
     }
+
+    @IsTest
+    static void testResolveWarehouseByAccountRegion() {
+        WarehouseDefaultHelper.resetCache();
+        Account veracruz = [SELECT Id FROM Account LIMIT 1];
+        veracruz.Region__c = '12';
+        update veracruz;
+        Account sinRegion = new Account(Name = 'Cliente Sin Region Test', RFC__c = 'XAXX010101000');
+        insert sinRegion;
+
+        Test.startTest();
+        List<Id> result = WarehouseDefaultHelper.resolveWarehouseIdForAccounts(new List<Id>{ veracruz.Id, sinRegion.Id });
+        Test.stopTest();
+
+        System.assertEquals([SELECT Id FROM Warehouse__c WHERE Code__c = '007'].Id, result[0], 'Región 12 (Veracruz) debe resolver al almacén 007');
+        System.assertEquals([SELECT Id FROM Warehouse__c WHERE Code__c = '001'].Id, result[1], 'Sin región debe caer al almacén default (001)');
+    }
 }

@@ -1,0 +1,13 @@
+<template>
+    <lightning-modal-header label="Carrito"></lightning-modal-header>
+    <lightning-modal-body>
+        <div style="margin:15px;">
+            <lightning-datatable
+                hide-checkbox-column="true"
+                key-field="Id"
+                data={data}
+                columns={columns}>
+            </lightning-datatable>
+        </div>
+    </lightning-modal-body>
+</template>

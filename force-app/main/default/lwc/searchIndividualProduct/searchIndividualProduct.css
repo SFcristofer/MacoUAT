@@ -1,0 +1,135 @@
+.ct-input-wrapper {
+    display: flex; 
+    width: 100%; 
+}
+
+.ct-button {
+    margin-left: 15px;
+}
+.ct-input {
+    width: 100%;
+}
+.ct-checkbox-wrapper {
+    border-top: 1px solid rgb(153, 153, 153);
+    margin-top: 5px;
+    padding-top: 5px;
+    display: flex; 
+}
+.ct-spinner{
+
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+}
+.ct-possible-records{
+    margin-top: 15px;
+}
+
+.ct-no-records{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    color: #4d4d4d;
+    font-style: italic;
+}
+
+:host ::ng-deep .slds-table tbody tr {
+    height: 14px; /* or another smaller value */
+    line-height: .8;
+    padding: 0;
+}
+
+/* ----------------- */
+/* Product Container */
+/* ----------------- */
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.field-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.field-label {
+    width: 15%;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.compact-input {
+    padding: 0;
+    width: 85%;
+}
+
+.compact-button {
+    align-self: flex-start;
+    padding-top: 4px;
+}
+
+.product-actions{
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(187, 187, 187);
+}
+
+.product-actions .compact-button{
+    margin-right: 5px;
+}
+
+.ct-datatable-existencias {
+    border: 1px solid #5f5f5f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ct-existencias-error{
+    color: #000000;
+    background-color: #dddddd;
+    border-top: 1px solid #5f5f5f;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #5f5f5f;
+    font-style: italic;
+}
+
+/* Row double */
+
+.field-row-double {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem; /* Space between the two fields */
+}
+
+.field-half {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.field-half .field-label {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.field-half .compact-input {
+    padding: 0;
+    width: 70%;
+}

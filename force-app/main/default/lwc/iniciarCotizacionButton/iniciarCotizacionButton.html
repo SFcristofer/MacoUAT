@@ -1,0 +1,30 @@
+<template>
+    <lightning-card title="Acciones Disponibles" icon-name="utility:display_text">
+        <div class="slds-p-around_medium slds-box">
+            
+            <!-- Botón 1: Crear Visita -->
+            <lightning-button 
+                variant="neutral" 
+                label="Crear Visita" 
+                onclick={handleVisita}>
+            </lightning-button>
+
+            <!-- Botón 2: Iniciar Cotización -->
+            <lightning-button 
+                variant="brand" 
+                label="Iniciar Cotización" 
+                onclick={handleCotizacion} 
+                class="slds-m-left_small">
+            </lightning-button>
+
+            <!-- Botón 3: Generar Pedido de Home -->
+            <lightning-button 
+                variant="neutral" 
+                label="Generar Pedido" 
+                onclick={handlePedidoHome} 
+                class="slds-m-left_small">
+            </lightning-button>
+
+        </div>
+    </lightning-card>
+</template>

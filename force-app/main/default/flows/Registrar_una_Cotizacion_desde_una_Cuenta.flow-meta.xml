@@ -90,7 +90,7 @@
         <locationY>242</locationY>
         <assignRecordIdToReference>Var_OportunidadId</assignRecordIdToReference>
         <connector>
-            <targetReference>QuoteFieldDefinition</targetReference>
+            <targetReference>Obtener_Almacen_General</targetReference>
         </connector>
         <inputAssignments>
             <field>AccountId</field>
@@ -178,6 +178,27 @@
         <object>Quote</object>
     </recordCreates>
     <recordLookups>
+        <name>Obtener_Almacen_General</name>
+        <label>Obtener Almacén General</label>
+        <locationX>176</locationX>
+        <locationY>296</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>QuoteFieldDefinition</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Code__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>001</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Warehouse__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>Obtener_Cuenta</name>
         <label>Obtener Cuenta</label>
         <locationX>176</locationX>
@@ -252,6 +273,12 @@
                 <name>required</name>
                 <value>
                     <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>recordId</name>
+                <value>
+                    <elementReference>Obtener_Almacen_General.Id</elementReference>
                 </value>
             </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>

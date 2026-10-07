@@ -1,0 +1,20 @@
+<template>
+    <lightning-modal-header label="Stock"></lightning-modal-header>
+    <lightning-modal-body>
+        <div>
+            <lightning-datatable
+                hide-checkbox-column="true"
+                key-field="AlmacenID"
+                data={data}
+                columns={columns}> 
+            </lightning-datatable>
+        </div>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button 
+            variant="neutral" 
+            label="Cerrar" 
+            onclick={handleClose}>
+        </lightning-button>
+    </lightning-modal-footer>
+</template>

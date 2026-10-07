@@ -1,0 +1,476 @@
+/* Custom positioning */
+.ct-movedup {
+    transform: translate(0, -17px);
+}
+
+/* Encabezado del pedido */
+.ct-order-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.1rem;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    padding: 10px 14px;
+    background: linear-gradient(135deg, #f2edff 0%, #eef4ff 100%);
+    border: 1px solid #e3d9ff;
+    border-left: 4px solid #4338ca;
+    border-radius: 0.5rem;
+}
+
+.ct-order-header-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: #372f6b;
+}
+
+.ct-order-header-edit {
+    align-items: center;
+}
+
+.ct-header-combobox {
+    width: 10rem;
+}
+
+.ct-header-date {
+    width: 9rem;
+}
+
+/* Header styling: Lista / Almacén */
+.ct-pricebook-name {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 15px;
+    font-size: 0.8125rem;
+    padding: 10px 14px;
+    background: linear-gradient(135deg, #f8f9fb 0%, #f3effc 100%);
+    border-radius: 0.5rem;
+    border-left: 4px solid #6d28d9;
+}
+
+.ct-info-item {
+    color: #2d2d2d;
+}
+
+.ct-warehouse-select {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.ct-warehouse-combobox {
+    width: 12rem;
+}
+
+.ct-info-label {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.6875rem;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    color: #6b6b6b;
+    margin-right: 0.4rem;
+}
+
+/* Botones de acción, cada uno con su propio acento */
+.ct-button-search {
+    --slds-c-button-radius-border: 0.5rem;
+    --slds-c-button-brand-color-background: #6d28d9;
+    --slds-c-button-brand-color-background-hover: #5b21b6;
+    --slds-c-button-brand-color-background-active: #4c1d95;
+    --slds-c-button-brand-color-border: #6d28d9;
+}
+
+.ct-button-almacenar {
+    --slds-c-button-radius-border: 0.5rem;
+    --slds-c-button-brand-color-background: #0891b2;
+    --slds-c-button-brand-color-background-hover: #0e7490;
+    --slds-c-button-brand-color-background-active: #155e75;
+    --slds-c-button-brand-color-border: #0891b2;
+}
+
+.ct-button-guardar {
+    --slds-c-button-radius-border: 0.5rem;
+    --slds-c-button-brand-color-background: #0f9d58;
+    --slds-c-button-brand-color-background-hover: #0c7a44;
+    --slds-c-button-brand-color-background-active: #0a5e35;
+    --slds-c-button-brand-color-border: #0f9d58;
+}
+
+/* Hint de búsqueda */
+.ct-search-hint {
+    font-size: 0.75rem;
+    color: #6b6b6b;
+    margin: 0.35rem 0 0.75rem 0;
+}
+
+/* Carrito: pill de color */
+.ct-carrito {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #372f6b;
+    font-size: 0.8125rem;
+}
+
+.ct-carrito-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.4rem;
+    height: 1.4rem;
+    padding: 0 0.35rem;
+    border-radius: 999px;
+    background-color: #6d28d9;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.ct-carrito-a {
+    color: #0857a6;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.15s ease;
+}
+
+.ct-carrito-a:hover {
+    color: #063f7a;
+    text-decoration: underline;
+}
+
+.ct-carrito-save {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    background-color: #0f9d58;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+}
+
+.ct-carrito-save:hover {
+    background-color: #0c7a44;
+    color: #ffffff;
+}
+
+/* Tabla de resultados: HTML propio, no lightning-datatable. Al ser 100% nuestra
+   (mismo shadow DOM que el resto del componente), estas clases sí aplican
+   siempre — a diferencia de intentar estilizar celdas dentro de un componente
+   base como lightning-datatable. */
+.ct-table-scroll {
+    max-height: 420px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.ct-custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+}
+
+.ct-custom-table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fb;
+    color: #495057;
+    font-weight: 700;
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 2px solid #6d28d9;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.ct-custom-table thead th:hover {
+    color: #6d28d9;
+    background-color: #f3effc;
+}
+
+.ct-custom-table tbody td {
+    padding: 6px 10px;
+    border-top: 1px solid #eef0f3;
+    vertical-align: middle;
+}
+
+.ct-custom-table tbody tr:hover td {
+    background-color: #f8f7fd;
+}
+
+.ct-col-check,
+.ct-col-action {
+    width: 2.5rem;
+    text-align: center;
+}
+
+/* Cantidad: input siempre editable, sin lápiz ni modo de edición */
+.ct-qty-input {
+    width: 4.5rem;
+    padding: 5px 7px;
+    border: 1px solid #c9c9c9;
+    border-radius: 0.35rem;
+    font-size: 0.8125rem;
+    text-align: right;
+}
+
+.ct-qty-input:focus {
+    border-color: #6d28d9;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(109, 40, 217, 0.15);
+}
+
+/* Existencias, como pill de semáforo */
+.ct-stock {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.25rem;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.ct-stock-ok {
+    background-color: #d6f5e3;
+    color: #0f7a45;
+}
+
+.ct-stock-low {
+    background-color: #fdecc8;
+    color: #8a5b00;
+}
+
+.ct-stock-none {
+    background-color: #fbdcda;
+    color: #b3231c;
+}
+
+.ct-stock-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #6d28d9;
+}
+
+.ct-stock-btn:hover {
+    background-color: #f3effc;
+}
+/* =========================================================
+   Panel de seleccionados
+   Sustituye al carrito: el producto aparece aqui al capturar
+   cantidad, sin paso intermedio de "Almacenar".
+   ========================================================= */
+
+.ct-workarea {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+
+.ct-selected-panel {
+    flex: 0 0 17rem;
+    max-height: 420px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e3d9ff;
+    border-radius: 0.5rem;
+    background: #fdfcff;
+    overflow: hidden;
+}
+
+.ct-selected-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.75rem;
+    background: linear-gradient(135deg, #f2edff 0%, #eef4ff 100%);
+    border-bottom: 1px solid #e3d9ff;
+}
+
+.ct-selected-title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #4c1d95;
+}
+
+.ct-selected-count {
+    min-width: 1.5rem;
+    padding: 0.05rem 0.4rem;
+    border-radius: 999px;
+    background: #6d28d9;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ct-selected-body {
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+.ct-selected-row {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.5rem 0.4rem 0.75rem;
+}
+
+.ct-selected-item { border-bottom: 1px solid #f0ecfa; }
+
+.ct-selected-item:last-child { border-bottom: none; }
+
+.ct-selected-info {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ct-selected-code {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #2d2d2d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ct-selected-desc {
+    font-size: 0.68rem;
+    color: #6b6b6b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ct-selected-qty {
+    flex: 0 0 auto;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #4c1d95;
+}
+
+.ct-selected-remove {
+    flex: 0 0 auto;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0.1rem;
+    line-height: 1;
+    opacity: 0.45;
+}
+
+.ct-selected-remove:hover { opacity: 1; }
+
+.ct-selected-empty {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+}
+
+.ct-selected-empty p {
+    font-size: 0.72rem;
+    color: #8a8a8a;
+    line-height: 1.35;
+}
+
+.ct-selected-foot {
+    padding: 0.4rem 0.75rem;
+    border-top: 1px solid #e3d9ff;
+    text-align: right;
+}
+
+.ct-selected-clear {
+    font-size: 0.72rem;
+    color: #6d28d9;
+    text-decoration: none;
+}
+
+.ct-selected-clear:hover { text-decoration: underline; }
+
+/* En pantallas angostas (tablet vertical) el panel pasa abajo */
+@media (max-width: 1024px) {
+    .ct-workarea { flex-direction: column; }
+    .ct-selected-panel {
+        flex: 1 1 auto;
+        width: 100%;
+        max-height: 12rem;
+    }
+}
+
+/* Aviso de producto repetido */
+
+.ct-selected-warn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.35rem;
+    margin: 0 0.5rem 0.4rem 0.75rem;
+    padding: 0.3rem 0.4rem;
+    background: #fff8e6;
+    border: 1px solid #f5d98a;
+    border-radius: 0.25rem;
+}
+
+.ct-warn-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.66rem;
+    color: #7a5b00;
+    white-space: nowrap;
+}
+
+.ct-merge-group {
+    display: inline-flex;
+    flex: 0 0 auto;
+    border: 1px solid #d8c48a;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.ct-merge-opt {
+    border: none;
+    background: #fffdf7;
+    color: #7a5b00;
+    font-size: 0.64rem;
+    padding: 0.12rem 0.4rem;
+    cursor: pointer;
+    line-height: 1.3;
+}
+
+.ct-merge-opt + .ct-merge-opt { border-left: 1px solid #d8c48a; }
+
+.ct-merge-opt:hover { background: #fdf3d8; }
+
+.ct-merge-on {
+    background: #6d28d9;
+    color: #fff;
+    font-weight: 700;
+}
+
+.ct-merge-on:hover { background: #5b21b6; }

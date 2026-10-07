@@ -92,7 +92,10 @@ public with sharing class OrderPDFController {
 
     public static String formatDecimal(Decimal value) {
         if (value == null) return '$ 0.00';
-        return '$ ' + value.setScale(2).format();
+        // format() quita los ceros finales (491.90 salía 491.9): entero con miles + 2 decimales fijos
+        Decimal v = value.setScale(2, System.RoundingMode.HALF_UP);
+        String cents = String.valueOf(Math.mod(Math.abs((v * 100).longValue()), 100)).leftPad(2, '0');
+        return (v < 0 ? '-' : '') + '$ ' + Math.abs(v.longValue()).format() + '.' + cents;
     }
 
     public class FormattedOrderItem {

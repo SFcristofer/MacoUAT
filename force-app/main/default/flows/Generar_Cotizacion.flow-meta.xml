@@ -93,6 +93,27 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <recordLookups>
+        <name>Obtener_Almacen_General</name>
+        <label>Obtener Almacén General</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>QuoteFieldDefinition</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Code__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>001</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Warehouse__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>Obtener_Cuenta</name>
         <label>Obtener Cuenta</label>
         <locationX>176</locationX>
@@ -327,6 +348,12 @@
                     <booleanValue>true</booleanValue>
                 </value>
             </inputParameters>
+            <inputParameters>
+                <name>recordId</name>
+                <value>
+                    <elementReference>Obtener_Almacen_General.Id</elementReference>
+                </value>
+            </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -347,7 +374,7 @@
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>QuoteFieldDefinition</targetReference>
+            <targetReference>Obtener_Almacen_General</targetReference>
         </connector>
     </start>
     <status>Active</status>

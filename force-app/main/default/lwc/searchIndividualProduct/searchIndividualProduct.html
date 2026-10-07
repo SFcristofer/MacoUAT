@@ -1,0 +1,196 @@
+<template>
+    <!-- Search Input -->
+    <div class="ct-input-wrapper">
+        <lightning-input
+            class="ct-input"
+            type="text"
+            placeholder="Search..."
+            value={searchKey}
+            onchange={handleSearchKeyChange}
+            variant="label-hidden">
+        </lightning-input>
+        <lightning-button
+            class="ct-button"
+            label="Search"
+            onclick={handleSearchClick}>
+        </lightning-button>
+    </div>
+
+    <!-- Configurations -->
+    <div class="ct-checkbox-wrapper">
+        <lightning-input 
+            type="checkbox" 
+            label="Search by Product Code" 
+            checked={isProductCode}
+            onchange={handleCheckboxChange}
+            data-key="code">
+        </lightning-input>
+        <lightning-input 
+            type="checkbox" 
+            label="Search by Product Name" 
+            checked={isProductName}
+            onchange={handleCheckboxChange}
+            data-key="name">
+        </lightning-input>
+    </div>
+
+    <!-- Spinner -->
+    <div lwc:if={showSpinner} class="ct-spinner">
+        <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+    </div>
+
+    <!-- Product Result -->
+    <div lwc:if={showSingleProduct} class="product-container">
+        <!-- Name and code -->
+        <div class="field-row-double">
+            <div class="field-half">
+                <label class="field-label">Name</label>
+                <lightning-input
+                    disabled
+                    value={singleProduct.productName}
+                    variant="label-hidden"
+                    class="compact-input"
+                    data-field="productName"
+                    onchange={handleInputChange}>
+                </lightning-input>    
+            </div>
+            <div class="field-half">
+                <label class="field-label">Code</label>
+                <lightning-input
+                    disabled
+                    value={singleProduct.productCode}
+                    variant="label-hidden"
+                    class="compact-input"
+                    data-field="productCode"
+                    onchange={handleInputChange}>
+                </lightning-input>    
+            </div>
+        </div>
+        <!-- Clasificacion and Ubicacion -->
+        <div class="field-row-double">
+            <div class="field-half">
+                <label class="field-label">Clasificación</label>
+                <lightning-input
+                    disabled
+                    value={singleProduct.clasificacion}
+                    variant="label-hidden"
+                    class="compact-input"
+                    data-field="clasificacion"
+                    onchange={handleInputChange}>
+                </lightning-input>
+            </div>
+            <div class="field-half">
+                <label class="field-label">Ubicación</label>
+                <lightning-input
+                    disabled
+                    value={singleProduct.ubicacion}
+                    variant="label-hidden"
+                    class="compact-input"
+                    data-field="ubicacion"
+                    onchange={handleInputChange}>
+                </lightning-input>
+            </div>
+        </div>
+        <!-- Comprometido and Unidad de Medida -->
+        <div class="field-row-double">
+            <div class="field-half">
+                <label class="field-label">Comprometido</label>
+                <lightning-input
+                    disabled
+                    value={singleProduct.comprometido}
+                    variant="label-hidden"
+                    class="compact-input"
+                    data-field="comprometido"
+                    onchange={handleInputChange}>
+                </lightning-input>
+            </div>
+            <div class="field-half">
+                <label class="field-label">Unidad de Medida</label>
+                <lightning-input
+                    disabled
+                    value={singleProduct.unidadMedida}
+                    variant="label-hidden"
+                    class="compact-input"
+                    data-field="unidadMedida"
+                    onchange={handleInputChange}>
+                </lightning-input>
+            </div>
+        </div>
+        <!-- Cantidad and Price -->
+        <div class="field-row-double">
+            <div class="field-half">
+                <label class="field-label">Cantidad</label>
+                <lightning-input
+                    type="number"
+                    step="0.01"
+                    min="0"
+                    value={singleProduct.quantity}
+                    variant="label-hidden"
+                    class="compact-input"
+                    data-field="quantity"
+                    onchange={handleInputQuantity}>
+                </lightning-input>
+            </div>
+            <div class="field-half">
+                <label class="field-label">Precio</label>
+                <lightning-input
+                    type="number"
+                    value={singleProduct.price}
+                    variant="label-hidden"
+                    class="compact-input"
+                    data-field="price"
+                    onchange={handleInputPrice}>
+                </lightning-input>
+            </div>
+        </div>
+        <div class="product-actions">
+            <lightning-button
+                label="Agregar"
+                onclick={handleUpdate}
+                class="compact-button">
+            </lightning-button>
+            <lightning-button
+                label="Existencias"
+                onclick={handleVerExistencias}
+                class="compact-button">
+            </lightning-button>
+        </div>
+    </div>
+
+    <div lwc:if={showExistencias}>
+        <div lwc:if={showExistenciasTable} class="ct-datatable-existencias">
+            <lightning-datatable
+                key-field="entryId"
+                hide-checkbox-column
+                data={data_existencias}
+                columns={columns_existencias}
+                onrowaction={handleRowAction}>
+            </lightning-datatable>
+        </div>
+        <div lwc:if={showExistenciasError} class="ct-existencias-error">
+            <p>{existenciasErrorMessage}</p>
+        </div>
+        <lightning-button
+            label="Product Info"
+            onclick={handleVerProductInfo}
+            class="compact-button">
+        </lightning-button>
+    </div>
+
+    <!-- Possible records -->
+    <div lwc:if={showDataPossible} class="ct-possible-records">
+        <lightning-datatable
+            id="datatable-possible"
+            key-field="entryId"
+            max-row-selection="1"
+            onrowselection={handlePossibleRowSelection}
+            data={data_possible}
+            columns={columns_posibble}>
+        </lightning-datatable>
+    </div>
+
+    <!-- No records found -->
+    <div lwc:if={showNoRecords} class="ct-no-records">
+        <p>No records found</p>
+    </div>
+</template>

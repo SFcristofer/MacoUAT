@@ -70,3 +70,33 @@ Registro de Modificaciones y Nuevos Componentes (Para Migraciones)
 9. 2026-10-01 - HTML Pendientes: puntos #53, #56 y #59 marcados como Completado. Sin cambios en la org.
 
 10. 2026-10-01 - HTML Pendientes: agregada fila "Propuesta #54 (para junta)" debajo del punto 54 (almacén por territorio). Sin cambios en la org.
+
+11. 2026-10-01 - #58 El PDF de cotización ahora usa el formato nuevo del PDF de pedido (UAT, Deploy 0AfWD00000H6PBf0AN, 3/3 pruebas OK)
+   Nuevos: la página VF QuotePDF (clonada de OrderPDF, con título Cotización, Número de Cotización, Fecha de Creación y Vigencia = End_Date__c o ExpirationDate) y la clase QuotePDFController (partidas con ubicación por almacén, igual que en el pedido).
+   GenerateQuotePDFDocument ahora genera Page.QuotePDF en lugar de la plantilla nativa 0EHal0000020Tk0. Siguen igual el nombre QuoteNumber_V{n}.pdf y los flows CreatePDF y Generar_PDF_Cotizacion. La plantilla nativa no se borró. Para volver atrás basta con revertir esa línea.
+   OrderPDFController.formatDecimal ahora muestra siempre 2 decimales ($ 491.90 en lugar de $ 491.9). Esto también aplica al PDF de pedido.
+   Pruebas: se actualizó GenerateQuotePDFDocumentTest (título _V1.pdf) y se agregó testQuotePDFController.
+   Producción: desplegar QuotePDF.page, QuotePDFController, GenerateQuotePDFDocument, OrderPDFController y GenerateQuotePDFDocumentTest.
+
+12. 2026-10-01 - #54 El almacén aparece preseleccionado según Account.Region__c en los flows de cotización (UAT, 23 componentes, 4/4 pruebas OK)
+   Warehouse_Default_By_Territory__mdt: nuevo campo Region__c y 18 registros Region_1..Region_18. Las regiones 2 (Veracruz Sucursal) y 12 (Veracruz) van a 007 y el resto a 001. Poza Rica, Villahermosa y Oaxaca quedan en 001 hasta que MACO decida.
+   WarehouseDefaultHelper: nuevo invocable resolveWarehouseIdForAccounts. El mapa por territorio ignora los registros con Region__c. El trigger sigue resolviendo por User.Territorio__c, así que pedidos y Zafiro no cambian.
+   Flow Generar_Cotizacion: ahora el almacén se elige en una 2a pantalla "Seleccionar_Almacen", que ya viene precargada. Flow Registrar_una_Cotizacion_desde_una_Cuenta: el lookup Almacén ya viene precargado. En ambos el usuario lo puede cambiar.
+   Producción: desplegar el campo, los registros mdt, WarehouseDefaultHelper(+Test) y los 2 flows.
+
+13. 2026-10-01 - #54 (revisión) Todos los usuarios tienen el Almacén General (001) preseleccionado al cotizar, y el campo está en la primera pantalla (UAT, 2 flows, 4/4 pruebas OK)
+   Generar_Cotizacion: se quitó la 2a pantalla Seleccionar_Almacen. El campo Almacén regresa a QuoteFieldDefinition (junto con Cuenta y Fecha) y viene precargado con un Get Records "Obtener_Almacen_General" (Warehouse__c donde Code__c = '001'). No se usa un Id fijo, así que funciona igual en PROD.
+   Registrar_una_Cotizacion_desde_una_Cuenta: mismo Get Records, que reemplaza la acción por región. En los dos flows el usuario puede cambiar el almacén.
+   Esto sustituye la preselección por región del #12 en los flows. El campo Region__c, los registros mdt y el invocable resolveWarehouseIdForAccounts siguen desplegados pero ya no los usa ningún flow. El trigger de pedidos no cambia.
+   Producción: desplegar solo los 2 flows. Lo del #12 se puede omitir.
+
+14. 2026-10-01 - El PDF de cotización ahora muestra Descripción y Observaciones (UAT, 2 componentes, 2/2 pruebas OK)
+   QuotePDFController: el query de Quote ahora también trae Description y Observaciones__c.
+   QuotePDF.page: debajo de los totales hay una sección "Descripción" y otra "Observaciones", cada una en un recuadro con borde azul corporativo. Solo aparecen si el campo tiene contenido y respetan los saltos de línea.
+   Producción: desplegar QuotePDF.page y QuotePDFController (se suma a lo pendiente del #57).
+
+15. 2026-10-01 - Quote.Observaciones__c tiene un valor predeterminado (UAT)
+   Texto: "EXISTENCIA DE MATERIAL SALVO PREVIA VENTA. PRECIOS SUJETO A CAMBIOS SIN PREVIO AVISO. NO SE ACEPTAN RECLAMACIONES NI DEVOLUCIONES DE MATERIAL"
+   Queda en una sola línea porque la fórmula de valor predeterminado no admite saltos de línea: se probaron "\n", UNICHAR(10) y entidades XML, y todas fallaron. Solo se aplica a cotizaciones nuevas.
+   Producción: desplegar objects/Quote/fields/Observaciones__c.field-meta.xml.
+   Datos (solo UAT): las 10 cotizaciones de hoy con Observaciones vacío (00000702-709, 711 y 712) se llenaron con el texto, una frase por renglón. La 00000710 ya tenía el texto y no se tocó.

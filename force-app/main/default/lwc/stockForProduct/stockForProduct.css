@@ -1,0 +1,14 @@
+.ct-spinner{
+    width: 100%;
+    position: relative;
+    height: 80px;
+}
+.ct-margin-top{
+    margin-top: 5px;
+}
+.ct-no-data{
+    background-color: rgb(223, 223, 223);
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

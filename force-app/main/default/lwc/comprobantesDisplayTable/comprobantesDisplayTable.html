@@ -1,0 +1,95 @@
+<template>
+    <div class="slds-box">
+        <div lwc:if={showSpinner} class="ct-spinner">
+            <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+        </div>
+        <div lwc:if={showTable}>
+            <lightning-button 
+                class="ct-button-table"
+                label="Recargar" 
+                title="Non-primary action" 
+                onclick={renderTable}>
+            </lightning-button>
+            <lightning-button 
+                class="ct-button-table"
+                label="Open in window" 
+                title="Non-primary action" 
+                onclick={openTableInModal}>
+            </lightning-button>
+            <div class="slds-m-around_medium table-container">
+                <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+                    <thead>
+                        <tr>
+                            <th>Segmento</th>
+                            <th>Grupo</th>
+                            <th>Cliente</th>
+                            <th>Plazo Pago</th>
+                            <th>Documento</th>
+                            <th>Fecha</th>
+                            <th>Fecha Vencimiento</th>
+                            <th>Saldo Actual</th>
+                            <th>Saldo Por Vencer</th>
+                            <th>Saldo Vencido</th>
+                            <th>Saldo a Favor</th>
+                            <th>Rango 1-30</th>
+                            <th>Rango 31-60</th>
+                            <th>Rango 61-90</th>
+                            <th>Rango 91-120</th>
+                            <th>Rango Más de 120</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template for:each={dataFormatted} for:item="item">
+                            <tr key={item.Documento}>
+                                <td>{item.Segmento}</td>
+                                <td>{item.Grupo}</td>
+                                <td>{item.ClienteNombre}</td>
+                                <td>{item.PlazoPago}</td>
+                                <td>{item.Documento}</td>
+                                <td>{item.formattedFecha}</td>
+                                <td>{item.formattedFechaVencimiento}</td>
+                                <td>{item.SaldoActual}</td>
+                                <td>{item.SaldoPorVencer}</td>
+                                <td>{item.SaldoVencido}</td>
+                                <td>{item.SaldoFavor}</td>
+                                <td>{item.Rango1Value}</td>
+                                <td>{item.Rango2Value}</td>
+                                <td>{item.Rango3Value}</td>
+                                <td>{item.Rango4Value}</td>
+                                <td>{item.Rango5Value}</td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ct-box">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr><th colspan="2" style="font-weight: bold;">Totales</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Rango 1-30</td><td>{dataTotals.Rango1Value}</td></tr>
+                        <tr><td>Rango 31-60</td><td>{dataTotals.Rango2Value}</td></tr>
+                        <tr><td>Rango 61-90</td><td>{dataTotals.Rango3Value}</td></tr>
+                        <tr><td>Rango 91-120</td><td>{dataTotals.Rango4Value}</td></tr>
+                        <tr><td>Rango Más de 120</td><td>{dataTotals.Rango5Value}</td></tr>
+                        <tr><td colspan="2" style="font-weight: bold;">Saldos</td></tr>
+                        <tr><td>Actual</td><td>{dataTotals.SaldoActual}</td></tr>
+                        <tr><td>Por vencer</td><td>{dataTotals.SaldoPorVencer}</td></tr>
+                        <tr><td>Vencido</td><td>{dataTotals.SaldoVencido}</td></tr>
+                        <tr><td>A favor</td><td>{dataTotals.SaldoFavor}</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div lwc:if={showMessage} class="error-msj-container">
+            <p class="p-msj">{displayMessage} <span class="error-msj">{apexError}</span></p>
+            <lightning-button 
+                lwc:if={showMessage}
+                label="Recargar" 
+                title="Non-primary action" 
+                onclick={renderTable}>
+            </lightning-button>
+        </div>
+    </div>
+</template>

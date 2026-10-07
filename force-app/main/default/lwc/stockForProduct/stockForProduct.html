@@ -1,0 +1,20 @@
+<template>
+    <!-- Not working with it should reload -->
+    <div lwc:if={showSpinner} class="ct-spinner">
+        <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+    </div>
+    <div lwc:else>
+        <lightning-datatable
+            hide-checkbox-column="true"
+            key-field="AlmacenID"
+            data={data}
+            columns={columns}> 
+        </lightning-datatable>
+        <div lwc:if={emptyData} class="ct-no-data">
+            <p>Este producto no tiene stock disponible</p>
+        </div>
+        <div class="ct-margin-top">
+            <lightning-button label="Refresh" title="Non-primary action" onclick={handleClick}></lightning-button>
+        </div>
+    </div>
+</template>

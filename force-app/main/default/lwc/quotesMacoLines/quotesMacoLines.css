@@ -1,0 +1,26 @@
+.ct-empty-products{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #4d4d4d;
+    font-style: italic;
+}
+
+.ct-quote-header-info{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ct-margin-top {
+    margin-top: 15px;
+}
+
+.ct-button-margin-right {
+    margin-right: 5px;
+}
+
+.ct-spinner{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}

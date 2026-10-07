@@ -1,0 +1,67 @@
+.table-container {
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+.ct-spinner{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.error-msj{
+    font-style: italic;
+    color: rgb(46, 46, 46);
+}
+
+.ct-reload {
+    margin-top: 10px;
+    background-color: red;
+}
+.p-msj {
+    margin-bottom: 20px;
+}
+
+.ct-button-table{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.ct-box {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #cecece;
+}
+
+.ct-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.ct-box table th,
+.ct-box table td {
+    margin: 0;
+    padding: 2px 4px;
+    text-align: left;
+    vertical-align: top;
+}

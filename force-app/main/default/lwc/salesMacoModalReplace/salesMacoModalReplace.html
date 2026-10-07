@@ -1,0 +1,12 @@
+<template>
+    <lightning-modal-header label="Reemplazar Producto"></lightning-modal-header>
+    <lightning-modal-body>
+        <div class="slds-box slds-theme_default">
+            <c-sales-maco-search
+                onaddproducts={sendProductsToWrapper}
+                pricebookid={pricebookid}
+                searchpurpose="replace"
+            ></c-sales-maco-search>
+        </div>
+    </lightning-modal-body>
+</template>

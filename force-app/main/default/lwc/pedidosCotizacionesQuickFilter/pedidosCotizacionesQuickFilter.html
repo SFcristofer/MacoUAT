@@ -1,0 +1,21 @@
+<template>
+    <div class="pcf-shell">
+        <div class="pcf-header">
+            <span class="pcf-header-icon">
+                <lightning-icon icon-name="standard:orders" size="small" variant="inverse"></lightning-icon>
+            </span>
+            <div class="pcf-header-text">
+                <h1 class="pcf-title">Pedidos / Cotizaciones</h1>
+                <p class="pcf-subtitle">Filtros rápidos, scroll infinito y columnas configurables</p>
+            </div>
+        </div>
+        <lightning-tabset variant="scoped" class="pcf-tabset slds-p-horizontal_small">
+            <lightning-tab label="Pedidos" icon-name="standard:orders">
+                <c-order-quote-quick-filter object-api-name="Order"></c-order-quote-quick-filter>
+            </lightning-tab>
+            <lightning-tab label="Cotizaciones" icon-name="standard:quotes">
+                <c-order-quote-quick-filter object-api-name="Quote"></c-order-quote-quick-filter>
+            </lightning-tab>
+        </lightning-tabset>
+    </div>
+</template>

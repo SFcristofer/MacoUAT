@@ -1,0 +1,62 @@
+<template>
+    <div lwc:if={showSpinner} class="ct-spinner">
+        <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+    </div>
+    <div lwc:if={showComponent}>
+        <div class="ct-quote-header-info">
+            <p>Lista: {pricebookName}</p>
+            <template lwc:if={creditoInfo}>
+                <p>Límite de crédito: <lightning-formatted-number value={creditoInfo.limiteCredito} format-style="currency"></lightning-formatted-number></p>
+                <p lwc:if={showCreditoDisponible}>Crédito disponible: <lightning-formatted-number value={creditoInfo.creditoDisponible} format-style="currency"></lightning-formatted-number></p>
+                <p lwc:if={creditoNoDisponible}>Crédito disponible: No disponible</p>
+            </template>
+        </div>
+        <div lwc:if={orderIsLocked} class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_warning ct-locked-banner" role="alert">
+            <span>Este pedido no está en Borrador, por lo que no se puede modificar (agregar, editar o eliminar productos).</span>
+        </div>
+
+        <!-- ///////////////// -->
+        <!-- Datatable Section -->
+        <!-- ///////////////// -->
+        <div>
+            <lightning-datatable
+                key-field="id"
+                data={data}
+                columns={columns}
+                onsave={handleSaveEdit}
+                onrowselection={handleRowSelection}
+                onrowaction={handleRowAction}> 
+            </lightning-datatable>
+            <div lwc:if={productsEmpty} class="ct-empty-products">
+                <p>No hay productos todavia</p>
+            </div>
+        </div>
+    
+        <!-- /////////////// -->
+        <!-- Buttons Section -->
+        <!-- /////////////// -->
+        <div class="slds-box ct-margin-top">
+            <lightning-button 
+                lwc:if={showButtonProducts}
+                label="Add Products" 
+                title="Non-primary action" 
+                onclick={openModalProducts} 
+                class="slds-m-top_x-small ct-button-margin-right">
+            </lightning-button>
+            <lightning-button 
+                lwc:if={showButtonEnsamble}
+                label="Ensamblar" 
+                title="Non-primary action" 
+                onclick={openModalEnsamble} 
+                class="slds-m-top_x-small ct-button-margin-right">
+            </lightning-button>
+            <lightning-button 
+                lwc:if={showButtonDelete}
+                label="Delete multiple" 
+                title="Non-primary action" 
+                onclick={deleteMultipleProducts} 
+                class="slds-m-top_x-small ct-button-margin-right">
+            </lightning-button>
+        </div> 
+    </div>
+</template>

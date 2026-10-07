@@ -1,0 +1,51 @@
+<template>
+    <lightning-modal-header label="Comprobantes"></lightning-modal-header>
+    <lightning-modal-body>
+        <div class="slds-m-around_medium table-container">
+            <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+                <thead>
+                    <tr>
+                        <th>Segmento</th>
+                        <th>Grupo</th>
+                        <th>Cliente</th>
+                        <th>Plazo Pago</th>
+                        <th>Documento</th>
+                        <th>Fecha</th>
+                        <th>Fecha Vencimiento</th>
+                        <th>Saldo Actual</th>
+                        <th>Saldo Por Vencer</th>
+                        <th>Saldo Vencido</th>
+                        <th>Saldo a Favor</th>
+                        <th>Rango 1-30</th>
+                        <th>Rango 31-60</th>
+                        <th>Rango 61-90</th>
+                        <th>Rango 91-120</th>
+                        <th>Rango Más de 120</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={recordsdata} for:item="item">
+                        <tr key={item.Documento}>
+                            <td>{item.Segmento}</td>
+                            <td>{item.Grupo}</td>
+                            <td>{item.ClienteNombre}</td>
+                            <td>{item.PlazoPago}</td>
+                            <td>{item.Documento}</td>
+                            <td>{item.formattedFecha}</td>
+                            <td>{item.formattedFechaVencimiento}</td>
+                            <td>{item.SaldoActual}</td>
+                            <td>{item.SaldoPorVencer}</td>
+                            <td>{item.SaldoVencido}</td>
+                            <td>{item.SaldoFavor}</td>
+                            <td>{item.Rango1Value}</td>
+                            <td>{item.Rango2Value}</td>
+                            <td>{item.Rango3Value}</td>
+                            <td>{item.Rango4Value}</td>
+                            <td>{item.Rango5Value}</td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+    </lightning-modal-body>
+</template>

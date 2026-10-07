@@ -1,0 +1,52 @@
+<template>
+    <div lwc:if={showSpinner} class="ct-spinner">
+        <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+    </div>
+    <div lwc:if={showComponent}>
+        <div class="ct-quote-header-info">
+            <p>Lista: {pricebookName}</p>
+            <template lwc:if={creditoInfo}>
+                <p>Límite de crédito: <lightning-formatted-number value={creditoInfo.limiteCredito} format-style="currency"></lightning-formatted-number></p>
+                <p lwc:if={showCreditoDisponible}>Crédito disponible: <lightning-formatted-number value={creditoInfo.creditoDisponible} format-style="currency"></lightning-formatted-number></p>
+                <p lwc:if={creditoNoDisponible}>Crédito disponible: No disponible</p>
+            </template>
+        </div>
+    
+        <!-- ///////////////// -->
+        <!-- Datatable Section -->
+        <!-- ///////////////// -->
+        <div>
+            <lightning-datatable
+                key-field="id"
+                data={data}
+                columns={columns}
+                onsave={handleSaveEdit}
+                onrowselection={handleRowSelection}
+                onrowaction={handleRowAction}> 
+            </lightning-datatable>
+            <div lwc:if={productsEmpty} class="ct-empty-products">
+                <p>No hay productos todavia</p>
+            </div>
+        </div>
+    
+        <!-- /////////////// -->
+        <!-- Buttons Section -->
+        <!-- /////////////// -->
+        <div class="slds-box ct-margin-top">
+            <lightning-button 
+                label="Add Products" 
+                title="Non-primary action" 
+                onclick={openModalProducts} 
+                class="slds-m-top_x-small ct-button-margin-right">
+            </lightning-button>
+            <lightning-button 
+                lwc:if={showDeleteButton}
+                label="Delete multiple" 
+                title="Non-primary action" 
+                onclick={deleteMultipleProducts} 
+                class="slds-m-top_x-small ct-button-margin-right">
+            </lightning-button>
+        </div> 
+    </div>
+    
+</template>

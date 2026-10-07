@@ -1,0 +1,184 @@
+<template>
+
+    <!-- ############################# -->
+    <!--   Encabezado del Pedido        -->
+    <!-- ############################# -->
+    <div lwc:if={showOrderHeader} class="ct-order-header">
+        <span class="ct-order-header-item"><span class="ct-info-label">Pedido</span>{orderheader.pedido}</span>
+        <span class="ct-order-header-item"><span class="ct-info-label">Cliente</span>{orderheader.cliente}</span>
+        <span class="ct-order-header-item"><span class="ct-info-label">Vendedor</span>{orderheader.vendedor}</span>
+
+        <span lwc:if={allowheaderedit} class="ct-order-header-item ct-order-header-edit">
+            <span class="ct-info-label">Tipo de Venta</span>
+            <lightning-combobox variant="label-hidden" value={headerTipoVenta} options={saleTypeOptions} onchange={handleHeaderTipoVentaChange} class="ct-header-combobox"></lightning-combobox>
+        </span>
+        <span lwc:else class="ct-order-header-item"><span class="ct-info-label">Tipo de Venta</span>{orderheader.tipoVenta}</span>
+
+        <span lwc:if={allowheaderedit} class="ct-order-header-item ct-order-header-edit">
+            <span class="ct-info-label">Fecha</span>
+            <lightning-input variant="label-hidden" type="date" value={headerFecha} onchange={handleHeaderFechaChange} class="ct-header-date"></lightning-input>
+        </span>
+        <span lwc:else class="ct-order-header-item"><span class="ct-info-label">Fecha</span><lightning-formatted-date-time value={orderheader.fecha} year="numeric" month="2-digit" day="2-digit"></lightning-formatted-date-time></span>
+
+        <span lwc:if={allowheaderedit} class="ct-order-header-item ct-order-header-edit">
+            <span class="ct-info-label">Tipo de Entrega</span>
+            <lightning-combobox variant="label-hidden" value={headerTipoEntregaCode} options={deliveryTypeOptions} onchange={handleHeaderTipoEntregaChange} class="ct-header-combobox"></lightning-combobox>
+        </span>
+        <span lwc:else class="ct-order-header-item"><span class="ct-info-label">Tipo de Entrega</span>{orderheader.tipoEntrega}</span>
+    </div>
+
+    <!-- ############################# -->
+    <!-- Lista / Almacen (Information) -->
+    <!-- ############################# -->
+    <div class="ct-pricebook-name">
+        <span class="ct-info-item"><span class="ct-info-label">Lista</span>{pricebookName}</span>
+        <span lwc:if={allowwarehousechange} class="ct-info-item ct-warehouse-select">
+            <span class="ct-info-label">Almacén</span>
+            <lightning-combobox
+                variant="label-hidden"
+                value={almacenid}
+                options={warehouseOptions}
+                onchange={handleWarehouseChange}
+                class="ct-warehouse-combobox">
+            </lightning-combobox>
+        </span>
+        <span lwc:else class="ct-info-item"><span class="ct-info-label">Almacén</span>{almacenData.Name}</span>
+    </div>
+
+    <!-- ############################# -->
+    <!--       Input and buttons       -->
+    <!-- ############################# -->
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col slds-size_3-of-6">
+            <lightning-input class="ct-movedup" name="Product Name" type="text" value={productName} onchange={handleInputChange} ></lightning-input>
+        </div>
+        <lightning-button
+            variant="brand"
+            label="Buscar"
+            title="Non-primary action"
+            onclick={searchProducts}
+            class="slds-col slds-size_1-of-6 ct-button-search">
+        </lightning-button>
+        <lightning-button
+            variant="brand"
+            lwc:if={showAddProductButton}
+            label="Guardar"
+            title="Non-primary action"
+            onclick={addProducts}
+            class="slds-col slds-size_1-of-6 ct-button-guardar">
+        </lightning-button>
+    </div>
+    <p class="ct-search-hint">Busca por código o por nombre del producto.</p>
+
+    <!-- ############################# -->
+    <!--       Tabla de resultados     -->
+    <!-- ############################# -->
+    <div class="ct-workarea">
+      <div lwc:if={showProductList} class="ct-table-scroll">
+        <table class="ct-custom-table">
+            <thead>
+                <tr>
+                    <th class="ct-col-check">
+                        <input lwc:if={datatableAdd} type="checkbox" checked={isAllSelected} onchange={handleSelectAllChange} title="Seleccionar todos" />
+                    </th>
+                    <th data-field="productName" onclick={handleSortByColumn}>Código</th>
+                    <th data-field="productCode" onclick={handleSortByColumn}>Descripción</th>
+                    <th data-field="unitPrice" onclick={handleSortByColumn}>Precio</th>
+                    <th>Cantidad</th>
+                    <th data-field="stock" onclick={handleSortByColumn}>Existencias</th>
+                    <th data-field="toBeDelivered" onclick={handleSortByColumn}>Comprometido</th>
+                    <th data-field="unity" onclick={handleSortByColumn}>Unidad de Medida</th>
+                    <th data-field="classification" onclick={handleSortByColumn}>Clasificación</th>
+                    <th data-field="location" onclick={handleSortByColumn}>Ubicación</th>
+                    <th class="ct-col-action"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={data} for:item="row">
+                    <tr key={row.Id}>
+                        <td class="ct-col-check">
+                            <input type="checkbox" checked={row.isSelected} data-id={row.Id} onchange={handleRowCheckboxChange} />
+                        </td>
+                        <td>{row.productName}</td>
+                        <td>{row.productCode}</td>
+                        <td><lightning-formatted-number value={row.unitPrice} format-style="currency"></lightning-formatted-number></td>
+                        <td>
+                            <input type="number" min="0" step="0.01" inputmode="decimal" class="ct-qty-input"
+                                   value={row.Quantity} data-id={row.Id}
+                                   oninput={handleQuantityInput} onchange={handleQuantityCommit} onblur={handleQuantityCommit} />
+                        </td>
+                        <td><span class={row.stockClass}>{row.stock}</span></td>
+                        <td>{row.toBeDelivered}</td>
+                        <td>{row.unity}</td>
+                        <td>{row.classification}</td>
+                        <td>{row.location}</td>
+                        <td class="ct-col-action">
+                            <button class="ct-stock-btn" data-productid={row.productId} onclick={handleStockButtonClick} title="Ver stock en otros almacenes">
+                                <lightning-icon icon-name="utility:preview" size="x-small"></lightning-icon>
+                            </button>
+                        </td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+      </div>
+
+      <!-- ############################# -->
+      <!--   Panel de seleccionados      -->
+      <!-- ############################# -->
+      <aside lwc:if={showSelectionPanel} class="ct-selected-panel">
+        <div class="ct-selected-head">
+            <span class="ct-selected-title">Seleccionados</span>
+            <span class="ct-selected-count">{selectedCount}</span>
+        </div>
+
+        <div lwc:if={hasSelection} class="ct-selected-body">
+            <template for:each={selectedList} for:item="sel">
+                <div key={sel.Id} class="ct-selected-item">
+                    <div class="ct-selected-row">
+                        <div class="ct-selected-info">
+                            <span class="ct-selected-code">{sel.productName}</span>
+                            <span class="ct-selected-desc" title={sel.productCode}>{sel.productCode}</span>
+                        </div>
+                        <span class="ct-selected-qty">{sel.Quantity}</span>
+                        <button class="ct-selected-remove" data-id={sel.Id} onclick={handleRemoveSelected} title="Quitar">
+                            <lightning-icon icon-name="utility:close" size="xx-small"></lightning-icon>
+                        </button>
+                    </div>
+
+                    <!-- Aviso de producto repetido: ya existe una partida con
+                         este articulo. El usuario decide si suma o va aparte. -->
+                    <div lwc:if={sel.hasExisting} class="ct-selected-warn">
+                        <span class="ct-warn-text">
+                            <lightning-icon icon-name="utility:warning" size="xx-small" variant="warning"></lightning-icon>
+                            Ya en el pedido: {sel.existingQty}
+                        </span>
+                        <span class="ct-merge-group">
+                            <button class={sel.claseSumar} data-id={sel.Id} data-mode="sumar" onclick={handleToggleMerge}>Sumar</button>
+                            <button class={sel.claseAparte} data-id={sel.Id} data-mode="aparte" onclick={handleToggleMerge}>Aparte</button>
+                        </span>
+                    </div>
+                </div>
+            </template>
+        </div>
+
+        <div lwc:else class="ct-selected-empty">
+            <p>Captura una cantidad y el producto aparecerá aquí.</p>
+        </div>
+
+        <div lwc:if={hasSelection} class="ct-selected-foot">
+            <a href="#" onclick={handleClearSelection} class="ct-selected-clear">Limpiar</a>
+        </div>
+      </aside>
+    </div>
+
+    <!-- ############################# -->
+    <!--       Spinner & Message       -->
+    <!-- ############################# -->
+    <div lwc:if={showSpinnerBlock}>
+        <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+    </div>
+    <div lwc:if={showEmptyResponse}>
+        <p>No se encontraron productos</p>
+    </div>
+</template>
